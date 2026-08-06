@@ -1,0 +1,29 @@
+{
+  "name": "portable-planner",
+  "version": "0.1.0-beta.1",
+  "description": "Turn vague ideas into approved durable plans, visual routes, and build-ready execution tickets.",
+  "author": {
+    "name": "Drew Pullen",
+    "url": "https://github.com/Pu11en"
+  },
+  "homepage": "https://github.com/Pu11en/portable-planner",
+  "repository": "https://github.com/Pu11en/portable-planner",
+  "license": "MIT",
+  "keywords": ["planning", "agent-skill", "project-management", "visual-plan", "handoff"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Portable Planner",
+    "shortDescription": "Plan any idea without walls of text.",
+    "longDescription": "Uses one worthwhile recommendation-first question at a time to create a durable visual plan, exact fresh-session handoffs, and session-sized execution tickets.",
+    "developerName": "Drew Pullen",
+    "category": "Productivity",
+    "capabilities": ["Planning", "Write"],
+    "websiteURL": "https://github.com/Pu11en/portable-planner",
+    "defaultPrompt": [
+      "Plan this idea with me.",
+      "Continue my existing plan.",
+      "Show my visual plan."
+    ],
+    "brandColor": "#5B5CE2"
+  }
+}

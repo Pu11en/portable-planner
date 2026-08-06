@@ -1,0 +1,15 @@
+{
+  "name": "portable-planner",
+  "owner": {
+    "name": "Drew Pullen"
+  },
+  "description": "Portable Planner public preview plugins.",
+  "plugins": [
+    {
+      "name": "portable-planner",
+      "source": "./plugins/portable-planner",
+      "description": "Turn vague ideas into durable visual plans and execution tickets.",
+      "version": "0.1.0-beta.1"
+    }
+  ]
+}

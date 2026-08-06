@@ -1,0 +1,20 @@
+{
+  "name": "portable-planner",
+  "interface": {
+    "displayName": "Portable Planner"
+  },
+  "plugins": [
+    {
+      "name": "portable-planner",
+      "source": {
+        "source": "local",
+        "path": "./plugins/portable-planner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "portable-planner",
+  "version": "0.1.0-beta.1",
+  "description": "Turn vague ideas into approved durable plans, visual routes, and build-ready execution tickets.",
+  "author": {
+    "name": "Drew Pullen",
+    "url": "https://github.com/Pu11en"
+  },
+  "homepage": "https://github.com/Pu11en/portable-planner",
+  "repository": "https://github.com/Pu11en/portable-planner",
+  "license": "MIT",
+  "keywords": ["planning", "agent-skill", "visual-plan", "handoff"],
+  "skills": "./skills/"
+}

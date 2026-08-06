@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portable Planner"
+  short_description: "Turn vague ideas into durable executable plans"
+  default_prompt: "Use $portable-planner to plan this idea from one sentence to a durable plan and execution tickets."
