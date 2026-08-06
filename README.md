@@ -6,6 +6,20 @@ Tell your AI to install it. Then plan naturally.
 
 Portable Planner turns a rough idea into a clear, durable plan by asking one worthwhile question at a time. It recommends the strongest answer first, keeps replies short, saves the plan inside the project, and shows a visual route when the plan is coherent enough to review.
 
+## Project source of truth
+
+This repository now contains the complete Portable Planner project, not only its installable package:
+
+- [Product goal](docs/GOAL.md)
+- [Confirmed product contract](docs/PRODUCT-CONTRACT.md)
+- [MVP plan](docs/MVP-PLAN.md)
+- [Acceptance checklist](docs/ACCEPTANCE.md)
+- [Remaining-work map](project-map/map.md)
+- [Validation evidence](validation/)
+- [Live pilot evidence](pilots/)
+
+The one canonical installable skill remains under `plugins/portable-planner/skills/portable-planner/`. Validation fixtures and historical evidence are not alternate skill sources.
+
 ## Install
 
 Paste this into Codex, Claude Code, ZCode, Hermes, Zed, or another local coding agent:
