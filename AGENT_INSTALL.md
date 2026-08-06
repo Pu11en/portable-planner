@@ -118,11 +118,18 @@ its skill catalog mid-turn.
 
 ## Hermes Agent
 
-Use Hermes's direct public GitHub skill installation:
+Read `hermes skills list`. For a missing skill, use Hermes's direct public
+GitHub skill installation:
 
 ```text
 hermes skills inspect Pu11en/portable-planner/plugins/portable-planner/skills/portable-planner
 hermes skills install Pu11en/portable-planner/plugins/portable-planner/skills/portable-planner
+```
+
+For an existing Portable Planner installation from this repository, refresh it:
+
+```text
+hermes skills update portable-planner
 ```
 
 Require the security inspection to identify `portable-planner`, then confirm it

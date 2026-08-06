@@ -50,10 +50,10 @@ Portable Planner has one canonical [Agent Skill](plugins/portable-planner/skills
 
 | Harness | Install path | Preview status |
 | --- | --- | --- |
-| Codex | Native plugin marketplace | Live-tested |
-| Claude Code | Native plugin marketplace | Packaged; public install test pending |
-| ZCode | User plugin directory | Packaged; public install test pending |
-| Hermes Agent | Direct GitHub skill install | Cross-harness skill test passed; public install test pending |
+| Codex | Native plugin marketplace | Public marketplace install passed |
+| Claude Code | Native plugin marketplace | Public marketplace install passed |
+| ZCode | User plugin directory | Isolated installer test passed; live client test pending |
+| Hermes Agent | Direct GitHub skill install | Public install and security scan passed |
 | Zed | Global Agent Skills directory | Standards-compatible; public install test pending |
 | Other Agent Skills clients | Client's documented user skill directory | Best effort |
 
