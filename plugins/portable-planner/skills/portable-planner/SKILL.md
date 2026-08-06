@@ -14,7 +14,11 @@ Move from one vague idea to a complete route without making the user manage the 
 - Read [artifact-contract.md](references/artifact-contract.md) before creating or changing planning files.
 - Read [visual-contract.md](references/visual-contract.md) before creating, refreshing, or displaying a plan view.
 - Read [validation-rubric.md](references/validation-rubric.md) before completing a planning ticket or declaring planning finished.
-- Copy structures from `templates/`; do not invent parallel state files.
+- Copy the canonical structures from [PLAN.md](templates/PLAN.md),
+  [NEXT.md](templates/NEXT.md), [PLAN-VIEW.md](templates/PLAN-VIEW.md),
+  [planning-ticket.md](templates/planning-ticket.md), and
+  [execution-ticket.md](templates/execution-ticket.md). Do not invent parallel
+  state files.
 
 ## Start or resume
 
