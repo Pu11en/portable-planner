@@ -9,8 +9,9 @@ Do not ask the user to identify the client, choose an installation method, copy
 commands, or restart an application. Detect the current client and use user
 scope unless the user explicitly requests project scope.
 
-Portable Planner is a file-only Agent Skill. It has no MCP server, runtime,
-account, API key, database, or package dependency.
+Portable Planner is a file-only Agent Skill. It has no MCP server, persistent
+runtime, account, API key, database, or package dependency. Installation must
+not make the user add a runtime; use the agent's existing file and shell tools.
 
 ## Required outcome
 
@@ -42,6 +43,7 @@ SKILL.md
 references/artifact-contract.md
 references/conversation-contract.md
 references/question-engine.md
+references/session-chaining.md
 references/validation-rubric.md
 references/visual-contract.md
 templates/NEXT.md
@@ -102,13 +104,27 @@ future sessions.
 
 ## ZCode
 
-From the repository root, run:
+Install the bundled `plugins/portable-planner/` directory at user scope:
+
+```text
+~/.zcode/plugins/portable-planner/
+```
+
+Then atomically merge that absolute directory into
+`~/.zcode/cli/config.json`: preserve every existing key and unrelated plugin,
+set `plugins.enabled` to `true`, and append the path to `plugins.dirs` only when
+it is absent. Use the current agent's supported file-editing tools; the user
+must not install Python, Node, `uv`, or another runtime for this operation.
+
+When Python 3 is already available to the agent, this repository provides a
+tested convenience adapter that performs the same guarded copy and merge:
 
 ```text
 python3 scripts/install_zcode_plugin.py
 ```
 
-Then validate `~/.zcode/cli/config.json` as JSON. Require
+Do not install Python merely to run it. In either path, validate
+`~/.zcode/cli/config.json` as JSON. Require
 `plugins.enabled` to be `true` and `plugins.dirs` to contain the absolute
 `~/.zcode/plugins/portable-planner` path. The installer atomically merges that
 supported directory and preserves unrelated configuration.

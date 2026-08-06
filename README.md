@@ -33,7 +33,7 @@ Other natural requests work too:
 - `Show me the visual plan.`
 - `Turn the approved plan into execution tickets.`
 
-The planner creates plain project-local Markdown under `planning/`. A fresh agent session can resume from those files without the original chat.
+The planner creates plain project-local Markdown under `planning/`. A fresh agent session can resume from those files without the original chat. In Codex, a plan that genuinely outgrows the current task can create one compact successor task after the user authorizes automatic continuation for that plan; small plans stay in the current task.
 
 ## What the experience is designed to do
 
@@ -42,6 +42,7 @@ The planner creates plain project-local Markdown under `planning/`. A fresh agen
 - Research or infer agent-owned decisions instead of grilling the user about implementation details.
 - Show an ordered visual route automatically at the approval point.
 - Produce dependency-ordered, session-sized execution tickets.
+- Cross real Codex context boundaries with a short local-state pointer instead of making the next task rediscover the project.
 - Stop at an approved plan; the host agent keeps its normal build workflow.
 
 ## Compatibility

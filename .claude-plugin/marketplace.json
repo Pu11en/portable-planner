@@ -9,7 +9,7 @@
       "name": "portable-planner",
       "source": "./plugins/portable-planner",
       "description": "Turn vague ideas into durable visual plans and execution tickets.",
-      "version": "0.1.0-beta.1"
+      "version": "0.1.0-beta.2"
     }
   ]
 }

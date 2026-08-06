@@ -41,3 +41,16 @@ After a targeted revision request, return to `planning`, reopen only the affecte
 ## Before a handoff
 
 Simulate a context reset: ignore chat memory, follow `NEXT.md`, load the named files, and verify that the current outcome and completion test are unambiguous. Compare the current ticket's unresolved decision with `PLAN.md` current/next, `PLAN-VIEW.md` now/next, and `NEXT.md` work/session/completion lines. They must name the same frontier, and none may describe the decision just settled. Fix the artifacts if the simulation requires guessing.
+
+## Before automatic task continuation
+
+All must pass:
+
+- `PLAN.md` records explicit plan-scoped authorization for automatic continuation.
+- A concrete boundary from `session-chaining.md` exists; a small reliable plan remains in the current task.
+- Canonical state and compact `NEXT.md` are saved before task creation.
+- `NEXT.md` names exactly one action and only the files required for it.
+- The successor prompt is only `Use $portable-planner. Follow /absolute/path/to/planning/NEXT.md.`
+- Exactly one successor is requested, its returned identifier is recorded after success, and creation is not retried after success or an uncertain result.
+- The successor can continue from local files unchanged and does not require GitHub, a worktree, a service, or chat history.
+- If native creation is unsupported or fails, the same short prompt is shown as the single recovery action.

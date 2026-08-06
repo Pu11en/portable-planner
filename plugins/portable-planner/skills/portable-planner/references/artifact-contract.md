@@ -19,7 +19,7 @@ Create only directories that are needed, but always use these paths and stable I
 
 `PLAN.md`, planning tickets, evidence, and execution tickets are canonical. `PLAN-VIEW.md` and any host-native interactive presentation are generated views of that state and must never contain a decision that is absent from canonical files.
 
-`PLAN.md` has one lifecycle status: `planning`, `awaiting approval`, or `approved for build`. Only the user's explicit approval of the finished visual plan may create `approved for build`. The plugin never performs the execution work.
+`PLAN.md` has one lifecycle status: `planning`, `awaiting approval`, or `approved for build`. It also records continuation mode as `manual` or `automatic — authorized`, the reason for the latest task boundary, and the last successfully created successor task when one exists. Only the user's explicit approval of the finished visual plan may create `approved for build`. The plugin never performs the execution work.
 
 ## `PLAN-VIEW.md`
 
@@ -54,11 +54,13 @@ Create `evidence/P-NNN-evidence.md` only when external facts affect a decision. 
 
 ## `NEXT.md`
 
-During planning, name exactly one current unblocked planning ticket. Include the resolved absolute path to the `planning/` folder, essential context only, files to load, the required session outcome, and the ticket completion test. Do not rely on chat history or the original working directory.
+During planning, name exactly one current unblocked planning ticket. Include the resolved absolute path to the `planning/` folder, lifecycle state, the minimum files to load, the required session outcome, and the ticket completion test. Do not rely on chat history or the original working directory. Keep it compact: it is an index into canonical state, not a second plan or a conversation transcript.
 
 When status is `awaiting approval`, name the visual review as the one next action. When status is `approved for build`, name exactly one first eligible execution ticket and tell the harness to use its normal build workflow. Never authorize build while major planning work remains.
 
 Regenerate a missing or stale `NEXT.md` from `PLAN.md` and the current ticket. The plan must remain complete without `NEXT.md`.
+
+When an authorized successor is created, record its returned identifier and boundary reason in `PLAN.md`. Do not retry after success. If creation is unavailable or fails, leave `NEXT.md` valid and expose its exact short pointer as the recovery action.
 
 ## Execution tickets
 

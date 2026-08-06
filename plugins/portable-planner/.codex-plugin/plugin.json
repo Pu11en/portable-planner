@@ -1,6 +1,6 @@
 {
   "name": "portable-planner",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "description": "Turn vague ideas into approved durable plans, visual routes, and build-ready execution tickets.",
   "author": {
     "name": "Drew Pullen",
@@ -14,7 +14,7 @@
   "interface": {
     "displayName": "Portable Planner",
     "shortDescription": "Plan any idea without walls of text.",
-    "longDescription": "Uses one worthwhile recommendation-first question at a time to create a durable visual plan, exact fresh-session handoffs, and session-sized execution tickets.",
+    "longDescription": "Uses one worthwhile recommendation-first question at a time to create a durable visual plan, compact adaptive task continuations, and session-sized execution tickets.",
     "developerName": "Drew Pullen",
     "category": "Productivity",
     "capabilities": ["Planning", "Write"],

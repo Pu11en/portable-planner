@@ -28,6 +28,8 @@ The full route is defensible when destination and observable success are clear; 
 
 Treat a natural-language `continue` or `resume` request as the fresh-session trigger. Its first user-facing reply must contain the visible graph or complete compact text route when a coherent route exists; generating or linking `PLAN-VIEW.md` alone does not satisfy the trigger.
 
+An automatic successor prompt that only points to `NEXT.md` is a machine handoff, not a natural-language `continue` or `resume` request. Do not force the full visual in every chained task. The requested-draft, useful-draft, material-change, and automatic-final-review triggers still apply.
+
 Do not interrupt every ordinary question with the full view.
 
 ## Keep the first view compact

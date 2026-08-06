@@ -1,6 +1,6 @@
 ---
 name: portable-planner
-description: Turn a vague idea into a cohesive, durable plan and ordered session-sized execution tickets using plain project-local Markdown. Use when a person naturally asks to plan an idea or project, continue or resume a plan, show the plan map, prepare the next planning session, settle planning decisions, or create execution tickets from a finished plan. Work across software, business, course, creative, event, operational, and personal projects without requiring project-management knowledge or command syntax.
+description: Turn a vague idea into a cohesive, durable plan and ordered session-sized execution tickets using plain project-local Markdown. Use when a person naturally asks to plan an idea or project, continue or resume a plan, show the plan map, prepare or automatically create the next planning task, settle planning decisions, or create execution tickets from a finished plan. Work across software, business, course, creative, event, operational, and personal projects without requiring project-management knowledge or command syntax.
 ---
 
 # Portable Planner
@@ -12,6 +12,7 @@ Move from one vague idea to a complete route without making the user manage the 
 - Read [conversation-contract.md](references/conversation-contract.md) before replying to a planning request.
 - Read [question-engine.md](references/question-engine.md) before selecting or writing a planning question.
 - Read [artifact-contract.md](references/artifact-contract.md) before creating or changing planning files.
+- Read [session-chaining.md](references/session-chaining.md) when a plan may cross tasks, the user asks about task/session behavior, or a fresh-task boundary is near.
 - Read [visual-contract.md](references/visual-contract.md) before creating, refreshing, or displaying a plan view.
 - Read [validation-rubric.md](references/validation-rubric.md) before completing a planning ticket or declaring planning finished.
 - Copy the canonical structures from [PLAN.md](templates/PLAN.md),
@@ -31,6 +32,7 @@ Move from one vague idea to a complete route without making the user manage the 
 7. Default a new plan to one planning ticket containing the unresolved planning work. Do not pre-create one ticket per anticipated question.
 8. Split into a multi-ticket map only after a concrete current-session limit appears: an independent research or prototype blocker, unresolved work too large to settle reliably now, or a dependency that cannot yet be resolved. Record the reason for escalation in `PLAN.md`.
 9. Create the minimum canonical artifacts before relying on chat context. Never create planning files outside `planning/`.
+10. If the user explicitly authorizes automatic continuation across tasks, record that permission in `PLAN.md`. Do not treat a natural planning request alone as task-creation permission.
 
 ## Route the current uncertainty
 
@@ -58,6 +60,7 @@ Maintain the prerequisite-aware candidate frontier in [question-engine.md](refer
 9. Complete a ticket only when its decision and effects are explicit, evidence is linked when used, its completion check passes, no unresolved issue blocks the next ticket, and `NEXT.md` is exact.
 10. Before replying after a write-through, compare the current unresolved decision in its ticket with `PLAN.md` current/next, `NEXT.md` work/session/completion lines, and `PLAN-VIEW.md` now/next. Repair every stale reference to the just-settled decision.
 11. End the turn with the compact state and the one next action. Do not narrate routine file writes.
+12. When the current ticket can still be completed reliably, stay in this task. At a demonstrated context boundary, follow [session-chaining.md](references/session-chaining.md): save first, then create at most one authorized successor or provide the exact compact fallback prompt.
 
 If the user says they are confused, stop the planning sequence. Explain what this session is doing, what it is not doing, and the current step in plain language. Do not ask another planning decision in that reply. Resume only after the user understands or redirects the work.
 
@@ -76,7 +79,7 @@ If a file, tool, display, research step, or handoff fails, preserve every confir
 
 ## Prepare a handoff
 
-Write `NEXT.md` as a paste-ready starter that includes the resolved absolute path to `planning/`, tells a fresh agent to load canonical files, names exactly one current planning ticket, supplies essential context only, states the required outcome, and includes its objective completion test. A fresh agent must be able to resume without prior chat or the original working directory.
+Write compact `NEXT.md` with the resolved absolute path to `planning/`, lifecycle state, exactly one current action, the minimum files to read, the required outcome, and its objective completion test. A fresh agent must resume without prior chat or the original working directory. When an authorized real boundary exists, use [session-chaining.md](references/session-chaining.md) to create one successor with only the short pointer to this file.
 
 ## Show the map
 

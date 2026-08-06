@@ -29,6 +29,8 @@ Use `2/5` only after a reliable multi-ticket map exists. For a one-ticket plan o
 
 Aim for roughly 60 words when that stays natural. Ordinary replies under 100 words are acceptable; do not remove useful orientation, a concrete example, or meaningful tradeoffs merely to hit a word count. Evidence summaries and explicitly requested artifacts may be longer.
 
+In an automatically created successor task, do not repeat the new-plan explanation or recap the whole project. Load the compact handoff and begin with the same plan/now/later shape. The saved current action supplies the orientation.
+
 ## Questions
 
 1. Ask no more than one question per turn.

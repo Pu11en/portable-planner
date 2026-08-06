@@ -2,6 +2,12 @@
 
 **Status:** {{planning | awaiting approval | approved for build}}
 
+## Continuation
+
+- Mode: {{manual | automatic — authorized}}
+- Latest boundary: {{none | concise reason}}
+- Successor task: {{none | returned task identifier}}
+
 ## Destination
 
 {{one unambiguous final result}}
