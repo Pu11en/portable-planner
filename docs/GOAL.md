@@ -2,7 +2,7 @@
 
 ## Goal
 
-Deliver one portable planning plugin that a person can give to an AI agent as a single link, install through one natural-language request, and use in that same session to turn a vague idea into:
+Deliver one portable planning plugin that a person can give to an AI agent as a single link, install through one natural-language request, and use in that same session to turn no idea, a thin idea, or a vague idea into:
 
 1. a complete, durable plan;
 2. short worthwhile planning questions instead of walls of text;
@@ -29,7 +29,10 @@ The person installs no runtime, renderer, MCP server, database, web app, package
 
 ## Planning experience
 
-- Start from one sentence.
+- Start from one sentence, or from one real-world problem, audience, workflow, frustration, asset, or area of access when the person has no product idea yet.
+- For a new software or AI idea that is still absent or thin, ask once whether the person wants a short possibility scan before ordinary planning. A decline immediately returns to ordinary planning and is not asked again.
+- With permission, form a privacy-safe one-sentence search brief, inspect a small set of current public repositories without cloning or running them, and show only one provisional recommendation plus at most two materially different alternatives.
+- Describe repository evidence precisely—what exists, is documented, appears usable or maintained, has documented adoption, and permits reuse—without calling an idea "proven." The person, not repository popularity, confirms the direction before it enters the plan.
 - Orient the user before the first question.
 - Ask at most one question per turn and only when multiple good answers depend on human preference.
 - Label every offered answer `A/B/C`, adding `D` only when a genuinely distinct fourth choice is needed, so a one-character reply works.
@@ -37,6 +40,8 @@ The person installs no runtime, renderer, MCP server, database, web app, package
 - Keep ordinary replies near 60 words.
 - Preserve confirmed decisions before continuing.
 - Finish a simple route in one session; expand only when demonstrated uncertainty requires it.
+
+The idea-stage scan is a public-preview behavior until its scenario checks and Drew's natural fresh-session use pass the acceptance checklist. It adds no required GitHub account, API client, MCP server, database, cloud service, or build mode.
 
 ## Visual experience
 

@@ -4,7 +4,7 @@
 
 ## Destination
 
-Create an extremely easy planning plugin that lets a person begin with one vague idea and finish with:
+Create an extremely easy planning plugin that lets a person begin with no product idea, a thin idea, or one vague idea and finish with:
 
 1. one cohesive plan reaching the intended final result;
 2. every important decision settled or explicitly researched;
@@ -15,12 +15,12 @@ The plugin is for any project type or size. It assumes no technical or project-m
 
 ## MVP user
 
-A person who has an idea but does not know how to turn it into a complete plan or how to manage planning across fresh AI-agent sessions.
+A person who has either a rough idea or one real-world problem, audience, workflow, frustration, asset, or area of access, but does not yet know which software direction is feasible or how to turn it into a complete plan across fresh AI-agent sessions.
 
 They should need only:
 
 - access to a capable AI harness;
-- one sentence describing the idea; and
+- one sentence describing the idea or real-world starting point; and
 - a local folder where the planning files can live.
 
 No GitHub account, issue tracker, database, web app, or terminal knowledge is required.
@@ -36,6 +36,8 @@ Plan this idea: ...
 ```
 
 The plugin restates the destination briefly, identifies the first meaningful uncertainty, and begins.
+
+For a new software or AI project with no idea or only a thin idea, the first meaningful uncertainty is whether to run a short possibility scan. The plugin asks permission once, recommends the scan, and offers an immediate ordinary-planning route. With consent, it grounds a directionless start in one real-world anchor, forms a privacy-safe one-sentence brief, and performs the bounded repository-first flow in the [product contract](PRODUCT-CONTRACT.md#idea-stage-possibility-scan). The result is one provisional recommendation plus at most two materially different alternatives; the person confirms, combines, or redirects it before canonical planning adopts a direction.
 
 ### Decide whether a map is needed
 
@@ -216,6 +218,8 @@ Oversized execution tickets are split before planning is declared complete.
 
 ### Included
 
+- an optional, consented idea-stage possibility scan for new software or AI projects with no idea or a thin idea;
+- bounded public-repository discovery, evidence-tier claims, licensing and untrusted-content safeguards, and a no-account ordinary-planning fallback;
 - idea intake and destination clarification;
 - conditional one-session or multi-session planning;
 - adaptive planning map;

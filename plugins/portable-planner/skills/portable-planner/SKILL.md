@@ -1,16 +1,17 @@
 ---
 name: portable-planner
-description: Turn a vague idea into a cohesive, durable plan and ordered session-sized execution tickets using plain project-local Markdown. Use when a person naturally asks to plan an idea or project, continue or resume a plan, show the plan map, prepare or automatically create the next planning task, settle planning decisions, or create execution tickets from a finished plan. Work across software, business, course, creative, event, operational, and personal projects without requiring project-management knowledge or command syntax.
+description: Turn no idea, a thin idea, or a vague idea into a cohesive, durable plan and ordered session-sized execution tickets using plain project-local Markdown. Use when a person naturally asks to explore or plan an idea or project, continue or resume a plan, show the plan map, prepare or automatically create the next planning task, settle planning decisions, or create execution tickets from a finished plan. Work across software, business, course, creative, event, operational, and personal projects without requiring project-management knowledge or command syntax.
 ---
 
 # Portable Planner
 
-Move from one vague idea to a complete route without making the user manage the planning process.
+Move from no idea, a thin idea, or a vague idea to a complete route without making the user manage the planning process.
 
 ## Load the right guidance
 
 - Read [conversation-contract.md](references/conversation-contract.md) before replying to a planning request.
 - Read [question-engine.md](references/question-engine.md) before selecting or writing a planning question.
+- Read [idea-discovery.md](references/idea-discovery.md) before the first reply when a new software or AI project may have no product idea or only a thin one. Do not load or apply it to resumed plans, existing-project changes, detailed specifications, direct build requests, or ordinary research later in a plan.
 - Read [artifact-contract.md](references/artifact-contract.md) before creating or changing planning files.
 - Read [session-chaining.md](references/session-chaining.md) when a plan may cross tasks, the user asks about task/session behavior, or a fresh-task boundary is near.
 - Read [visual-contract.md](references/visual-contract.md) before creating, refreshing, or displaying a plan view.
@@ -28,7 +29,7 @@ Move from one vague idea to a complete route without making the user manage the 
 3. If `planning/PLAN.md` exists, read it, `planning/NEXT.md`, the current planning ticket, and only the linked decisions or evidence needed now. Trust files over chat memory.
 4. If `NEXT.md` is missing or stale, regenerate it from `PLAN.md` and the one current unblocked ticket before continuing.
 5. Treat every natural-language `continue` or `resume` invocation as a fresh-resume visual trigger. When a coherent route exists, refresh `PLAN-VIEW.md` and include its rendered graph or complete compact text route in that invocation's first user-facing reply, even when the same reply also asks the next question.
-6. For a new idea, orient the user before asking: name what is being planned, state that this flow creates the plan rather than performing the final work, and identify the highest-leverage unresolved decision in plain language.
+6. For a new idea, orient the user before asking: name what is being planned, state that this flow creates the plan rather than performing the final work, and identify the highest-leverage unresolved decision in plain language. For an eligible no-idea or thin-idea software/AI start, that first decision is the one-time scan permission gate in [idea-discovery.md](references/idea-discovery.md); explicit requests to research or scan repositories already supply consent.
 7. Default a new plan to one planning ticket containing the unresolved planning work. Do not pre-create one ticket per anticipated question.
 8. Split into a multi-ticket map only after a concrete current-session limit appears: an independent research or prototype blocker, unresolved work too large to settle reliably now, or a dependency that cannot yet be resolved. Record the reason for escalation in `PLAN.md`.
 9. Create the minimum canonical artifacts before relying on chat context. Never create planning files outside `planning/`.
@@ -44,6 +45,8 @@ Choose the route yourself:
 - **Ask** only when multiple viable answers depend on human preference or direction.
 
 Never ask the user to select an internal workflow, tool, architecture, research method, ticket order, or other technical/process choice the agent can derive. If research tools are unavailable, record the exact factual blocker and recovery step; do not ask the user to guess.
+
+The idea-stage scan is a special, consented form of the Research route. It expands the person's understanding of plausible directions before the plan adopts one; it does not choose the product, perform broad market research, clone or execute discovered code, or change ordinary research behavior. Follow its eligibility, privacy, search, inspection, evidence, output, state, and fallback limits exactly.
 
 Maintain the prerequisite-aware candidate frontier in [question-engine.md](references/question-engine.md). Expose only its single most consequential ready human-owned decision. The recommendation is always the first option, `A`.
 

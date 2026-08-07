@@ -4,7 +4,7 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns a rough idea into a clear, durable plan by asking one worthwhile question at a time. It recommends the strongest answer first, keeps replies short, saves the plan inside the project, and shows a visual route when the plan is coherent enough to review.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan by asking one worthwhile question at a time. At the beginning of a rough software or AI idea, the local `beta.3` candidate can optionally scan current public repositories to show plausible directions and a fast MVP path before ordinary planning. This new scan remains unproven until the linked acceptance checks pass.
 
 ## Project source of truth
 
@@ -42,6 +42,8 @@ I want to plan marketing for this course.
 
 Other natural requests work too:
 
+- `I want to make some kind of software, but I do not have an idea yet.`
+- `Explore what is possible for this rough app idea.`
 - `Plan this idea with me.`
 - `Continue my plan.`
 - `Show me the visual plan.`
@@ -54,6 +56,7 @@ The planner creates plain project-local Markdown under `planning/`. A fresh agen
 - Ask one recommendation-first A/B/C question at a time.
 - Keep normal conversational output compact—usually under 100 words when a question is enough.
 - Research or infer agent-owned decisions instead of grilling the user about implementation details.
+- With permission at the start of a thin software/AI idea, run a privacy-safe, bounded public-repository scan and keep its recommendation provisional until the user confirms the direction.
 - Show an ordered visual route automatically at the approval point.
 - Produce dependency-ordered, session-sized execution tickets.
 - Cross real Codex context boundaries with a short local-state pointer instead of making the next task rediscover the project.
@@ -74,7 +77,7 @@ Portable Planner has one canonical [Agent Skill](plugins/portable-planner/skills
 
 ## Privacy and project state
 
-The planner works on local files only. It writes planning state under the active project's `planning/` directory and does not require telemetry or a remote service. Installers must preserve unrelated plugins, settings, and project files.
+Planning state stays in local files under the active project's `planning/` directory and requires no telemetry or remote storage service. The optional idea-stage scan sends only a sanitized search brief to the host's existing public research surface after permission; it must remove or generalize private names, credentials, paths, proprietary text, and sensitive details. It never clones or executes discovered repositories. Installers must preserve unrelated plugins, settings, and project files.
 
 ## Preview feedback
 

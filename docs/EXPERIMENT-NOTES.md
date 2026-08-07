@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Test whether one portable Agent Skill can turn a vague idea into a cohesive plan, durable fresh-session handoffs, and session-sized execution tickets with less friction than Drew's current planning experience.
+Test whether one portable Agent Skill can optionally expand a no-idea or thin software/AI start through bounded public-repository evidence, then turn that starting point into a cohesive plan, durable fresh-session handoffs, and session-sized execution tickets with less friction than Drew's current planning experience.
 
 ## Boundaries
 
@@ -13,6 +13,7 @@ Test whether one portable Agent Skill can turn a vague idea into a cohesive plan
 - Forward-test state lives under `../validation/`; old pilot fixtures remain historical evidence only.
 - Human evidence comes from Drew naturally using the installed plugin for any real plan in a fresh task without test coaching. Later, one naturally complex real plan must also exercise dependencies, gates, revision, recovery, and execution tickets. Canned examples and implementation forward tests do not count as Drew's acceptance.
 - The MVP uses project-local Markdown, including a generated Mermaid plan view with a compact text fallback. It has no MCP server, database, web app, cloud account, GitHub dependency, renderer dependency, or domain pack.
+- The optional idea-stage scan is consented, privacy-sanitized, public-repository-first, and unproven until `I-01` through `I-05` pass; synthetic repository prototypes do not count as Drew's acceptance.
 - This repository is the project source. Harness installation copies the same canonical skill; it must not fork the planning logic.
 
 ## Acceptance source

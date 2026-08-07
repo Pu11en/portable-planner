@@ -14,6 +14,8 @@ After reading canonical state, identify unresolved decisions and their prerequis
 
 Discard obvious, repeated, ceremonial, template-driven, factual, technical, architecture, tool, and workflow questions. Route facts to research and derivable mechanics to synthesis.
 
+For a new no-idea or thin-idea software/AI start, run the eligibility and permission gate in [idea-discovery.md](idea-discovery.md) before building the ordinary frontier. The permission is a human-owned choice about whether public possibility research should happen. Once granted, ask for a real-world anchor only if the user's existing words cannot support a privacy-safe one-sentence search brief; ask no preferred stack, architecture, search term, or repository question.
+
 ## Select one
 
 From the ready human-owned frontier, select the question whose answer removes the most downstream uncertainty. Break ties by choosing the question that most affects the person's visible result. Ask exactly that one question and stop.
@@ -37,5 +39,7 @@ If the person has explicitly delegated the remaining decisions to the agent's re
 When the person replies with one letter, resolve it against the most recent displayed choice set. Before asking anything else, write the full selected meaning, rationale when given, and every affected route, proof, scope, dependency, or ticket into canonical state. Never ask the person to repeat the option text.
 
 If the answer contradicts earlier state, point out the exact conflict briefly and ask one consequential reconciliation question. Do not silently preserve both answers.
+
+An idea-stage research recommendation is provisional, even when the person delegated routine choices to the agent. Before ordinary planning adopts it, ask one grounded direction question whose viable answers are confirm, combine with a materially different surfaced alternative, or redirect. Omit any alternative unsupported by the evidence; never manufacture three choices. Save the selected direction and its evidence before continuing.
 
 When a message introduces work that does not support the current destination, preserve current state and ask whether to switch plans or keep the new idea separate. Never merge unrelated destinations merely because they appeared in one conversation.

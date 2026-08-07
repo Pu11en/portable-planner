@@ -21,10 +21,12 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - [Portability baseline](../validation/PORTABLE-VIEW-TEST.md) — canonical state and planning logic remain unchanged across Codex and Hermes; each host shows its richest supported view with a complete text fallback.
 - [Objective MVP evidence](../docs/ACCEPTANCE.md) — conversation, state, ticket, install, cross-project, and Codex/Hermes checks are already evidenced; human live experience remains the final authority.
 - [Adaptive review gate](issues/01-decide-adaptive-review-gate.md) — the visual is always available, may be offered once as a useful draft, and opens automatically only when the complete route is defensible; approval, targeted revision, continued planning, and confusion each return to an explicit lifecycle path without a question-count threshold.
+- [Idea-stage possibility scan](issues/05-prove-idea-stage-possibility-scan.md) — a new no-idea or thin-idea software/AI start may opt into bounded repository-first discovery, but the result remains provisional and unproven until objective scenario checks and Drew's fresh-session use pass.
 
 ## Not yet specified
 
 - Exact implementation corrections exposed by the first real plan and the first naturally complex real plan.
+- Exact corrections exposed by the idea-stage scenario matrix and Drew's first natural fresh-session scan.
 - Whether naturally complex use exposes a genuinely new planning behavior after the first real-use flow is clean.
 - The final wording Drew uses to judge speed, worthwhile questions, boundary clarity, usable plans, and executable handoff after both real-use proofs.
 
@@ -32,5 +34,6 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 
 - A new build mode, implementation agent, or replacement for each harness's normal build behavior.
 - MCP, database-backed state, hosted web app, cloud account, GitHub dependency, domain pack, or mandatory renderer.
+- A repository-cloning pipeline, required GitHub account, automatic dependency installation, or claim that repository popularity proves a product idea.
 - A graphical popup guarantee in terminal-only or text-only harnesses.
 - Publishing the plugin repository before the verified local experiment and Drew's final acceptance pass.

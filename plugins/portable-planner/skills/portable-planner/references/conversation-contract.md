@@ -15,6 +15,23 @@ If the surrounding task is explicitly a simulation or test drive, say so before 
 
 Never assume the user understands terms such as map, ticket, contract, route, artifact, dependency, or handoff. Keep those terms in files; use ordinary project words in conversation unless the user asks about the machinery.
 
+For an eligible no-idea or thin-idea software/AI start, combine orientation with the one-time permission question:
+
+```text
+Planning: early software idea
+Now: See what is already possible
+Later: Shape the strongest direction
+
+I can first do a short public-repository scan to show useful existing approaches and a fast MVP path.
+
+A. Scan first — Recommended; a brief evidence check before we choose a direction.
+B. Skip the scan — Start ordinary planning now.
+
+Or tell me a different preference. Reply A or B.
+```
+
+Do not ask this question for a detailed specification, existing-project change, resumed plan, direct build request, or non-software project. Do not repeat it after a decline. If the user already asked for repository research, treat that as consent and proceed without a ceremonial permission question.
+
 ## Ordinary reply shape
 
 ```text
@@ -72,6 +89,7 @@ When the user says they are confused or asks what the session, step, or term mea
 - Briefly challenge scope or contradictions that threaten the destination.
 - Never describe the user by an intelligence label. Use plain words and assume no project-management or technical vocabulary.
 - If a new idea appears mid-plan, decide whether it directly supports the current destination. If it does, reconcile it into the route. If it does not, preserve the current plan and ask one plain-language switch-or-separate decision instead of silently mixing projects.
+- During a consented idea-stage scan, keep repository details subordinate to the decision: explain what each surviving candidate changes about the plausible product or MVP, then ask the person to confirm, combine, or redirect the provisional direction. Do not present a link list as the result.
 
 ## Failure recovery
 

@@ -26,6 +26,14 @@
 - [x] **C-05 — Natural language:** `Plan this idea: ...`, `Continue my plan`, `Show my full plan map`, and `Prepare the next session` work without command memorization. [Evidence](../validation/NATURAL-INVOCATION-TEST.md)
 - [x] **C-06 — Orientation and recovery:** The opening makes the planned result and planning-only boundary obvious; ordinary replies avoid unexplained process jargon; numeric progress is shown only for a reliable map; and any “I’m confused” turn pauses questions and restores orientation before planning resumes. [Evidence](../validation/ORIENTATION-TEST.md)
 
+## Idea-stage possibility scan
+
+- [ ] **I-01 — Correct gate and consent:** An uncoached fresh task with no product idea or a thin software/AI idea receives one concise scan-or-skip choice; detailed specifications, existing-project changes, resumed plans, and direct build requests do not. A decline continues ordinary planning and is not asked again.
+- [ ] **I-02 — Grounded, bounded discovery:** With consent, the planner reuses the user's words, asks only search-critical real-world grounding one question at a time, sanitizes the public brief, uses no more than three query angles, ranks at most fifteen deduplicated candidates, and deeply inspects at most three without cloning, installing, or executing code.
+- [ ] **I-03 — Decision-useful result:** The result uses evidence-tier language, distinguishes candidate roles, handles unclear or incompatible licenses conservatively, and contains one provisional recommendation plus at most two materially different alternatives only when each changes what seems possible or the fastest credible MVP route. Repository popularity does not choose the product, and the user confirms, combines, or redirects the direction before it enters the plan.
+- [ ] **I-04 — Honest safety and fallback:** Private or sensitive details do not enter public queries; repository content is treated as untrusted; non-repository research stays within the narrow direct-source boundary; and an unavailable, rate-limited, or unsuccessful search names the limitation and returns to ordinary planning without requiring an account, API client, MCP server, database, cloud dependency, or new runtime.
+- [ ] **I-05 — Varied and live proof:** At least three materially different public-repository decision prototypes—including a directionless start, a thin outcome-led idea, and a constrained or no-useful-match case—pass the objective checks, then Drew uses the flow naturally in a fresh task and says it improved his understanding of what was possible and the credible MVP route. Synthetic or authored transcripts do not count as Drew's human evidence.
+
 ## Durable state and handoffs
 
 - [x] **S-01 — Canonical local state:** Each plan uses project-local `planning/PLAN.md`, `PLAN-VIEW.md`, `NEXT.md`, `decisions/`, and `execution/`, plus `evidence/` when external facts affect decisions; `PLAN.md` stays a short linked overview. [Evidence](../validation/OBJECTIVE-EVIDENCE-AUDIT.md)
@@ -58,4 +66,4 @@
 
 ## Final result
 
-**Current status: READY FOR REAL USE.** The objective product, conversation, state, installation, portability, resumption, handoff, adaptive-route, and cross-domain foundations have passing evidence, and the current package passed a fresh installed-plugin preflight. The complex visual proof remains open. The MVP still requires Drew's first ordinary and naturally complex real-use proofs, V-05, H-01 through H-05, and the final completion audit.
+**Current status: READY FOR REAL USE OF THE EXISTING PLANNING FLOW; IDEA-STAGE SCANNING IS NOT YET PROVEN.** The objective product, conversation, state, installation, portability, resumption, handoff, adaptive-route, and cross-domain foundations have passing evidence, and the current package passed a fresh installed-plugin preflight. The complex visual proof remains open. The MVP still requires I-01 through I-05, Drew's first ordinary and naturally complex real-use proofs, V-05, H-01 through H-05, and the final completion audit.
