@@ -1,4 +1,4 @@
-# Plan: Add repo-assisted idea discovery
+# Plan: Make Portable Planner decisive and brief
 
 **Status:** approved for build
 
@@ -10,36 +10,33 @@
 
 ## Destination
 
-Portable Planner offers a quick related-repository scan at the beginning of qualifying idea-stage software or AI-product planning, gathers only enough context to search effectively after permission, and uses evidenced existing possibilities to help the user confirm a stronger direction before ordinary planning—without making GitHub a requirement or slowing declined or unrelated plans.
+Portable Planner stops low-value grilling, acts on explicitly delegated reversible decisions, uses bounded example trials when words cannot settle behavior, keeps ordinary replies short, and proactively moves finished work into approval and live testing without crossing protected human gates.
 
 ## Success
 
-- In fresh-session tests, the planner gives no-idea or thin-idea software planning an immediate, understandable research choice; detailed plans and existing work skip it. After consent it gathers only missing search-critical context, surfaces one provisional evidence-backed direction plus at most two materially different alternatives, explains reuse limits, and waits for human confirmation before ordinary planning adopts a direction.
-- The flow has explicit search, inspection, output, privacy, and stopping bounds so irrelevant repositories, sensitive query content, and token use remain controlled.
-- Declined scans, non-software ideas, unavailable research, and searches with no useful result continue through the current planning experience without delay or a false blocker.
+- Fresh cross-project sessions show concise, action-oriented replies; explicit delegation removes redundant preference questions; dynamic uncertainty triggers preserved three-case trials; completed planning automatically asks for approval; validated builds proactively invite the correct live test; and protected decisions remain human-owned.
 
 ## Boundaries
 
-- In: an idea-stage permission gate; one real-world grounding clue when directionless; privacy-safe minimum search briefs; bounded repository-first discovery with narrow direct-source verification; evidence-tiered possibility assessment; extraction of reusable patterns or components; a provisional human-confirmed direction; graceful decline, no-result, and unavailable-research behavior; varied real-repository scenario trials; updates to the canonical skill, product contract, fixtures, and live acceptance checks.
-- Out: a second skill or mode, mandatory GitHub account or API, cloning or executing untrusted repositories during planning, guaranteed legal clearance, bulk indexing, a database or MCP service, automatic code assembly, and repository research for every project type.
+- In: the canonical skill, product contract, question and conversation guidance, planning evidence rules, cross-project fixtures, packaging checks, and live acceptance.
+- Out: a second skill or state tree, production prototypes, inferred delegation, a fixed question quota, new infrastructure, or architecture expansion without a recorded live failure.
 
 ## Map
 
 `1/1`
 
-- ✓ [P-001 — Define the idea-evidence flow](decisions/P-001-define-idea-evidence-flow.md) — depends on: none
+- ✓ [P-001 — Define decisive planning behavior](decisions/P-001-define-decisive-planning.md) — depends on: none
 
 ## Confirmed decisions
 
-- [P-001](decisions/P-001-define-idea-evidence-flow.md): Only new no-idea or thin-idea software planning receives the optional scan; directionless research starts from one privacy-safe real-world anchor, returns one to three provisional evidence-tiered possibilities only when they improve the plan, and requires human confirmation before adopting a direction.
+- [P-001](decisions/P-001-define-decisive-planning.md): Explicit scoped delegation covers remaining reversible decisions; settled or experiential uncertainty is not re-asked; bounded trials replace exhausted discussion; replies stay short, take the next safe action, and proactively move finished work to approval and live testing; protected gates remain explicit.
 
 ## Execution
 
-- ✓ [E-001 — Lock the product contract](execution/E-001-lock-product-contract.md)
-- ✓ [E-002 — Add the flow to the canonical skill](execution/E-002-add-canonical-skill-flow.md)
-- ▶ [E-003 — Prove bounded research behavior](execution/E-003-prove-bounded-research.md)
-- [E-004 — Revalidate installation and portability](execution/E-004-revalidate-portability.md)
-- [E-005 — Run live idea-stage acceptance](execution/E-005-live-idea-stage-acceptance.md)
+- ▶ [E-001 — Lock the behavior contract](execution/E-001-lock-behavior-contract.md)
+- ○ [E-002 — Update the canonical skill](execution/E-002-update-canonical-skill.md)
+- ○ [E-003 — Prove varied planning behavior](execution/E-003-prove-varied-behavior.md)
+- ○ [E-004 — Run fresh live acceptance](execution/E-004-run-live-acceptance.md)
 
 ## Approval
 
@@ -48,5 +45,5 @@ Portable Planner offers a quick related-repository scan at the beginning of qual
 
 ## Now
 
-- Current: E-003 — Run the fresh Codex behavior check and Drew review; the static matrix and public-repository prototypes pass.
-- Next: E-004 — Complete fresh Codex and non-Codex behavior after the current runner and Claude authentication limitations are cleared.
+- Current: E-001 — Lock the behavior contract.
+- Next: E-002 — Update the canonical skill.

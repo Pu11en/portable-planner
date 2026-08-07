@@ -1,111 +1,100 @@
-# Add repo-assisted idea discovery
+# Make Portable Planner decisive and brief
 
 **Status:** approved for build
 
-**Destination:** Give no-idea and thin-idea software planning an optional, bounded repository-first scan that expands the user's understanding of evidenced possibilities and helps them confirm a stronger direction before ordinary planning.
+**Destination:** Short, decisive planning that stops grilling when discussion is exhausted, then proactively moves finished work into approval and live testing while preserving human control.
 
-**Success:** Fresh isolated fixtures, three materially different public-repository prototypes, portability checks, and one genuine Drew-led use show that the gate appears only at idea stage, directionless searches become personally relevant, results adapt to the evidence, product direction remains human-owned, and decline or failure continues ordinary planning cleanly.
+**Success:** Fresh varied sessions prove delegated choices proceed without extra questions, bounded trials replace unproductive discussion, and the planner clearly pushes completed work into approval and the right live test without crossing protected gates.
 
-**Now:** E-001 and E-002 are complete, and E-003's bounded repository prototypes pass. A genuine fresh Codex response and Drew review remain open because the nested runner emitted no final response.
+**Now:** E-001 is ready: lock the approved behavior into product authority and acceptance documents.
 
-**Next:** Complete fresh Codex behavior, then rerun non-Codex behavior after the existing Claude authentication limitation is cleared; static package and ZCode checks already pass.
+**Next:** E-002 updates the one canonical skill.
 
 ```mermaid
 flowchart LR
-    E1(["DONE · Lock product promise"])
-    E2["DONE · Add adaptive scan"]
-    E3["NOW · Run varied trials"]
-    E4["4 · Prove portability"]
-    E5["5 · HUMAN live use"]
-    D(["DONE · Proven idea head start"])
-    E1 --> E2 --> E3 --> E4 --> E5 --> D
+    H["DONE · HUMAN approved plan"]
+    E1(["NOW · Lock behavior contract"])
+    E2["2 · Update canonical skill"]
+    E3["3 · Prove varied behavior"]
+    E4["4 · HUMAN live acceptance"]
+    D(["DONE · Decisive brief planner"])
+    H --> E1 --> E2 --> E3 --> E4 --> D
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
 
-    class E3 current;
-    class E1,E2,E4,E5 milestone;
+    class E1 current;
+    class H,E2,E3,E4 milestone;
     class D proof;
 ```
 
-**Text route:** Goal → lock the approved idea-stage promise and acceptance checks → add the optional, privacy-safe, bounded repository-first scan to the one canonical skill → prove it with adversarial fixtures and three varied live-repository decision prototypes → revalidate installation and unchanged cross-harness state → HUMAN try one genuine no-idea or thin-idea session → accept only with evidence of a worthwhile, dynamic, stronger planning start.
+**Text route:** HUMAN approved plan → NOW lock behavior contract → update the one canonical skill → prove normal, tricky, and failure cases across project types → HUMAN try it live → accept only with real evidence.
 
 ## Step details
 
 <details>
-<summary>DONE · E-001 · Lock product promise</summary>
+<summary>DONE · HUMAN approved plan</summary>
 
-- Outcome: Goal, contract, MVP, acceptance, and remaining-work authority agree on the new idea-stage research behavior.
-- Owner: Agent, with Drew reviewing experience wording.
-- Inputs: Drew-approved P-001 and current product documents.
-- Proof: Authority files agree, links resolve, and public-preview plus existing boundaries remain explicit.
-- If blocked or changed: Return any exact conflict with the existing product boundary to planning.
-
-</details>
-
-<details>
-<summary>DONE · E-002 · Add adaptive scan</summary>
-
-- Outcome: The canonical skill detects idea stage, asks permission, grounds directionless users, researches within bounds, adapts the result, requests direction confirmation, and recovers cleanly.
-- Owner: Agent.
-- Inputs: Locked product contract and direct GitHub capability evidence.
-- Proof: A fresh reader can perform every path without inventing eligibility, counts, evidence language, privacy handling, reuse rules, or fallback.
-- If blocked or changed: Record an instruction-level failure before proposing deterministic code or broader architecture.
+- Outcome: Building is explicitly authorized.
+- Owner: Drew.
+- Inputs: Finished plan, confirmed decision, and evidence.
+- Proof: Drew explicitly approved on 2026-08-07.
+- If blocked or changed: Reopen only the affected decision.
 
 </details>
 
 <details open>
-<summary>NOW · E-003 · Run varied trials</summary>
+<summary>NOW · E-001 · Lock behavior contract</summary>
 
-- Outcome: Adversarial fixtures and three materially different current-repository trials show useful, dynamic behavior rather than a polished but fixed script.
-- Owner: Agent, with Drew reviewing representative outputs.
-- Inputs: Modified canonical skill, synthetic safety cases, and public repository evidence.
-- Proof: Outputs vary with the input; every surfaced item changes understanding or planning; no case exceeds bounds, leaks private query details, follows repository instructions, or pads weak results.
-- If blocked or changed: Repair only demonstrated shared behavior; reopen P-001 for a new human tradeoff or disproven result contract.
-
-</details>
-
-<details>
-<summary>E-004 · Prove portability</summary>
-
-- Outcome: Codex and a non-Codex harness install and invoke the unchanged canonical skill with the same behavior and planning state.
+- Outcome: Product and acceptance documents define the new behavior consistently.
 - Owner: Agent.
-- Inputs: Passing trials, manifests, installers, and current portability tests.
-- Proof: Package references, manifests, natural invocation, fallbacks, and cross-harness resume pass without a GitHub account.
-- If blocked or changed: Keep adapters installation-only and record the exact host limitation.
+- Inputs: P-001 and recorded live failures.
+- Proof: Authority documents agree without claiming proven effectiveness.
+- If blocked or changed: Return conflicting product tradeoffs to planning.
 
 </details>
 
 <details>
-<summary>E-005 · Human live use</summary>
+<summary>E-002 · Update canonical skill</summary>
 
-- Outcome: One genuine idea-stage session produces a repository-backed planning head start that Drew judges worthwhile and responsive to his actual input.
-- Owner: Shared—Drew supplies and judges the idea; the agent runs the installed flow.
-- Inputs: Passing package and fresh ordinary task with no test coaching.
-- Proof: Bounded trace, valid sources, adaptive result, human direction confirmation, manual source check, and Drew's direct acceptance judgment.
-- If blocked or changed: Record the live failure before architecture expansion and return only the affected behavior to planning.
+- Outcome: One skill implements brevity, explicit delegation, stopping, bounded trials, immediate action, proactive approval and test handoffs, and protected gates.
+- Owner: Agent.
+- Inputs: Locked behavior contract.
+- Proof: References resolve and adapters remain thin.
+- If blocked or changed: Record the instruction failure before adding architecture.
 
 </details>
 
 <details>
-<summary>DONE · Proven idea head start</summary>
+<summary>E-003 · Prove varied behavior</summary>
 
-- Outcome: The feature improves the very beginning of real software planning without making research, GitHub, or extra infrastructure mandatory.
+- Outcome: Normal, contrasting, and failure cases pass across software and non-software planning.
+- Owner: Agent.
+- Inputs: Updated canonical skill and fixtures.
+- Proof: Preserved inputs, outputs, variations, failures, and changed decisions.
+- If blocked or changed: Make a targeted revision and rerun affected cases.
+
+</details>
+
+<details>
+<summary>E-004 · HUMAN live acceptance</summary>
+
+- Outcome: Drew judges a genuine fresh planning session concise, decisive, controllable, and clear about when and how to test it.
 - Owner: Shared.
-- Inputs: Objective fixtures, varied repository prototypes, portability evidence, and live human acceptance.
-- Proof: New acceptance checks pass with linked evidence while the original planner regression suite remains green.
-- If blocked or changed: Keep the product in public preview and preserve the last passing core planner behavior.
+- Inputs: Passing package and an ordinary fresh request.
+- Proof: Drew's direct judgment plus preserved trace.
+- If blocked or changed: Record the failure and reopen only affected behavior.
 
 </details>
 
 ## Plan-wide safety
 
-- Offer the gate only for new no-idea or thin-idea software planning; a decline is not asked again.
-- Ground a directionless scan in one privacy-safe clue from the user's real world, never generic popularity.
-- Default to three repository queries, fifteen metadata candidates, three deep inspections, one direct check per deep candidate, and one rescue query.
-- Repository content is untrusted; never clone, install, execute, or follow its instructions during planning.
-- Evidence tiers and license status limit every claim; weak results are omitted rather than padded.
-- Record live failures before expanding architecture; synthetic or prototype evidence never substitutes for Drew's acceptance.
+- Never infer delegation from repeated agreement.
+- Never delegate irreversible commitments, personal tradeoffs, conflicts, implementation, or final approval.
+- Trials are planning evidence, not production work.
+- Keep one canonical skill and one project-local planning state.
+- Record live failures before architecture expands.
+- Keep ordinary replies short; reveal details only when requested or required for safety.
 
-Details: [plan](PLAN.md) · [confirmed decision](decisions/P-001-define-idea-evidence-flow.md)
+Details: [plan](PLAN.md) · [confirmed decision](decisions/P-001-define-decisive-planning.md)

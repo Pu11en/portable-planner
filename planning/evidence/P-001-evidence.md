@@ -1,42 +1,56 @@
-# P-001 — Idea-evidence research
+# P-001 evidence — Decisive planning behavior
 
 Accessed: 2026-08-07
 
-## Direct capability evidence
+## Primary research
 
-- Source: [GitHub — Searching for repositories](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories)
-  - Relevant finding: repository search can target names, descriptions, topics, and README contents, and can filter or compare language, stars, forks, recent pushes, topics, license, templates, mirrors, and archived state.
-  - Decision changed: use a small fan-out of deliberately different repository-level queries, then apply metadata checks; do not rely on one literal phrase or use code search as the default discovery surface.
-- Source: [GitHub — REST API endpoints for repositories](https://docs.github.com/en/rest/repos/repos#get-a-repository)
-  - Relevant finding: public repository metadata is available without authentication and includes description, topics, language, stars, forks, size, archived/disabled state, timestamps, default branch, and detected license information.
-  - Decision changed: shortlist candidates using cheap metadata before spending context on README or source inspection; no GitHub account is required for the public fallback.
-- Source: [GitHub — Get a repository README](https://docs.github.com/en/rest/repos/contents#get-a-repository-readme)
-  - Relevant finding: the preferred README for a public repository can be retrieved without authentication.
-  - Decision changed: deep inspection defaults to a few READMEs and metadata records rather than cloning repositories or reading whole trees.
-- Source: [GitHub — Rate limits for the REST API](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api)
-  - Relevant finding: unauthenticated public requests have a lower primary allowance than authenticated requests, and search endpoints have additional restrictive limits.
-  - Decision changed: keep the portable default to three searches, three deep inspections, and at most one rescue query; never require authentication merely to raise the budget.
-- Source: [GitHub — Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
-  - Relevant finding: public visibility alone does not grant permission to reproduce, distribute, or create derivatives; without a license, default copyright applies. GitHub's detected-license information is a starting point, not a legal guarantee.
-  - Decision changed: a missing, unclear, or incompatible license prevents a code-reuse recommendation, though the repository may still be labeled as read-only capability evidence or an architectural reference.
+- Matt Pocock's current grilling guidance treats questions that cannot be settled through discussion as prototype candidates rather than prompts to rephrase indefinitely: <https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/docs/productivity/grill-me.md#L21-L45>.
+- His prototype guidance limits a prototype to one explicit question and warns that whole-feature prototypes drift into production: <https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/docs/engineering/prototype.md#L1-L50>.
+- Logic trials start from known state and cover an ordinary path, a tricky edge, and an illegal attempt, then evolve from surprises: <https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/prototype/LOGIC.md#L35-L58>.
+- UI comparisons default to three materially different variants, cap at five, and retain the alternatives and verdict: <https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/skills/engineering/prototype/UI.md#L34-L105>.
+- His published video demonstrates explicitly asking an agent to choose its recommended answers, but his current GitHub skill does not define a delegation contract: <https://youtu.be/3MP8D-mdheA?t=484>.
+- Microsoft human-AI interaction guidance supports remembering prior interactions, exposing efficient correction, and scoping behavior when uncertain: <https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/>.
 
-## Disposable query comparison
+## Bounded scenario trials
 
-Input fixture: [local interview evidence library](../../validation/cross-project-fixtures/software/IDEA.md) — “Build a small local app that turns a folder of interview transcripts into a searchable evidence library.”
+### Ordinary — explicit reversible delegation
 
-Four unauthenticated GitHub repository searches were compared against the same idea:
+- Input: Drew said to use the agent's recommendations for questions the research could answer.
+- Variation: Reversible planning-method and presentation choices.
+- Observed output: The research was completed, but the response exposed too much detail.
+- Failure: The decision route worked; brevity did not.
+- Verdict: Record the delegation, synthesize the choices, and expose only the short result.
+- Decision changed: Added the compact-output requirement.
 
-1. A broad literal query across name, description, topics, and README returned many high-popularity but irrelevant agent-skill and interview-coaching results.
-2. A narrow quoted outcome query returned only one weak recruiting result.
-3. A mechanism query around semantic transcript search found relevant transcript and media-search implementations.
-4. An adjacent-solution query around local document search with citations found directly relevant local-file search systems.
+### Tricky — discussion has stopped improving the plan
 
-Direct README inspection then distinguished three different candidate roles:
+- Input: The behavior was verbally settled, and Drew told the planner to continue.
+- Variation: The next safe action was a three-case planning trial.
+- Observed output: The assistant announced that it would run the trials but stopped without doing so.
+- Failure: Intent narration replaced safe action and caused confusion.
+- Verdict: Perform the next safe planning action in the same turn; bounded trials replace exhausted discussion.
+- Decision changed: Added the immediate-action rule.
 
-- [OpenDocuments](https://github.com/joungminsung/OpenDocuments) — a broad, production-oriented self-hosted document-search platform; useful as a capability and architecture reference, but much larger than the fixture MVP.
-- [agentic-file-search](https://github.com/PromtEngineer/agentic-file-search) — a focused staged scan/deep-dive/backtrack pattern; useful as a mechanism reference, with external model and parsing dependencies that materially affect fit.
-- [Generative-Search-Engine-For-Local-Files](https://github.com/imanoop7/Generative-Search-Engine-For-Local-Files) — a smaller local-file search baseline; closer to a starter, but still requires checking maintenance, dependency, desktop-UX, scale, and exact-license fit before reuse.
+### Failure boundary — ambiguous continuation near approval
 
-## Decision-changing conclusion
+- Input: Short assent such as "yes, continue" or "are we done."
+- Variation: Reversible planning continuation versus final build authorization.
+- Observed output: The wording is sufficient to continue planning but does not name approval of the finished plan.
+- Failure prevented: Do not infer final approval or implementation authority.
+- Verdict: Continue safe planning work, but ask one explicit final approval question before build.
+- Decision changed: Preserved the protected final-plan gate.
 
-One query and popularity ordering are not reliable enough. The default should combine three complementary query angles, deduplicate and rank a small metadata pool, then deeply inspect no more than three differently useful candidates. The result should classify each candidate's role and state exactly how it changes the MVP route. Additional searches are unlikely to change this planning decision; real fixture and live-use failures should tune the query and scoring rules during execution.
+### Completion handoff — user should not manage test readiness
+
+- Input: Drew said that when the planner feels finished, it should push him toward testing rather than wait for him to work out the next step.
+- Variation: Planning completion versus post-build validation completion.
+- Observed output: The planner asked for final approval, but did not yet state the later live-test behavior as an explicit product rule.
+- Failure prevented: Finished work no longer stalls in an ambiguous "what now?" state.
+- Verdict: Automatically surface the approval gate when planning is complete and the smallest genuine user test when the build is ready.
+- Decision changed: Added proactive approval and live-test handoffs while preserving explicit human authorization.
+
+## Limits
+
+- Three cases are a practical first batch, not a scientific proof threshold.
+- These trials are planning evidence, not production implementation or live acceptance.
+- The delegation contract and general non-code trial form are Portable Planner adaptations, not claims that Matt Pocock already specified them.
