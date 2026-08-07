@@ -5,7 +5,7 @@
 Deliver one portable planning plugin that a person can give to an AI agent as a single link, install through one natural-language request, and use in that same session to turn no idea, a thin idea, or a vague idea into:
 
 1. a complete, durable plan;
-2. short worthwhile planning questions instead of walls of text;
+2. short, decisive planning turns instead of walls of text, repeated questions, or intention-only pauses;
 3. an automatically generated visual plan that makes a detailed project easy to comprehend;
 4. exact fresh-session continuation; and
 5. ordered execution tickets another agent can perform.
@@ -35,11 +35,16 @@ The person installs no runtime, renderer, MCP server, database, web app, package
 - Describe repository evidence precisely—what exists, is documented, appears usable or maintained, has documented adoption, and permits reuse—without calling an idea "proven." The person, not repository popularity, confirms the direction before it enters the plan.
 - Orient the user before the first question.
 - Ask at most one question per turn and only when multiple good answers depend on human preference.
+- Record explicit delegation of reversible decisions and use the agent's recommendations within that scope without more preference questions.
+- Stop verbal grilling when facts, prior answers, or delegation already settle the issue; use a bounded planning trial when behavior must be judged from concrete cases.
 - Label every offered answer `A/B/C`, adding `D` only when a genuinely distinct fourth choice is needed, so a one-character reply works.
 - Derive mechanics and research facts without transferring them to the user.
-- Keep ordinary replies near 60 words.
+- Keep ordinary replies to a few short lines, normally around 40 words and under 80 unless requested evidence or a required approval view needs more.
+- Perform the next safe planning action in the same turn instead of stopping after saying what will happen next.
 - Preserve confirmed decisions before continuing.
 - Finish a simple route in one session; expand only when demonstrated uncertainty requires it.
+- At a real session boundary, start the one authorized successor or give a clearly labeled exact prompt the person can paste; never leave them with only a vague next-step announcement.
+- When a direct approval question receives `yes`, treat it as explicit authorization: update state and immediately enter the harness's normal build workflow when safe. After agent checks pass, proactively present the smallest genuine user test.
 
 The idea-stage scan is a public-preview behavior until its scenario checks and Drew's natural fresh-session use pass the acceptance checklist. It adds no required GitHub account, API client, MCP server, database, cloud service, or build mode.
 
@@ -70,6 +75,8 @@ The plugin passes only when:
 - installation and natural-language use work in the same session;
 - Drew understands the session, current step, and next step without explanation;
 - every question is worth answering;
+- explicit delegated choices advance without ceremony, and exhausted discussion becomes concrete evidence rather than more questions;
+- direct approval begins the normal build without a second permission request, and validated work clearly tells Drew what to test;
 - simple and complex plans are complete without feeling slow;
 - a complex project such as Hanoi Picks is easy to understand visually without losing important detail;
 - the visual and detailed local artifacts stay synchronized after changes;

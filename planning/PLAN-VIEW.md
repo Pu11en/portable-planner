@@ -6,17 +6,17 @@
 
 **Success:** Fresh varied sessions prove delegated choices proceed without extra questions, bounded trials replace unproductive discussion, and the planner clearly pushes completed work into approval and the right live test without crossing protected gates.
 
-**Now:** E-001 is ready: lock the approved behavior into product authority and acceptance documents.
+**Now:** E-001 through E-003 are complete. E-004 is ready for Drew's fresh live test.
 
-**Next:** E-002 updates the one canonical skill.
+**Next:** E-004 gives Drew the smallest genuine live test.
 
 ```mermaid
 flowchart LR
     H["DONE · HUMAN approved plan"]
-    E1(["NOW · Lock behavior contract"])
-    E2["2 · Update canonical skill"]
-    E3["3 · Prove varied behavior"]
-    E4["4 · HUMAN live acceptance"]
+    E1["DONE · Lock behavior contract"]
+    E2["DONE · Update canonical skill"]
+    E3["DONE · Prove varied behavior"]
+    E4(["NOW · HUMAN live acceptance"])
     D(["DONE · Decisive brief planner"])
     H --> E1 --> E2 --> E3 --> E4 --> D
 
@@ -24,12 +24,12 @@ flowchart LR
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
 
-    class E1 current;
-    class H,E2,E3,E4 milestone;
+    class E4 current;
+    class H,E1,E2,E3 milestone;
     class D proof;
 ```
 
-**Text route:** HUMAN approved plan → NOW lock behavior contract → update the one canonical skill → prove normal, tricky, and failure cases across project types → HUMAN try it live → accept only with real evidence.
+**Text route:** HUMAN approved plan → DONE lock behavior contract → DONE update the one canonical skill → NOW prove normal, tricky, and failure cases across project types → HUMAN try it live → accept only with real evidence.
 
 ## Step details
 
@@ -44,8 +44,8 @@ flowchart LR
 
 </details>
 
-<details open>
-<summary>NOW · E-001 · Lock behavior contract</summary>
+<details>
+<summary>DONE · E-001 · Lock behavior contract</summary>
 
 - Outcome: Product and acceptance documents define the new behavior consistently.
 - Owner: Agent.
@@ -56,7 +56,7 @@ flowchart LR
 </details>
 
 <details>
-<summary>E-002 · Update canonical skill</summary>
+<summary>DONE · E-002 · Update canonical skill</summary>
 
 - Outcome: One skill implements brevity, explicit delegation, stopping, bounded trials, immediate action, proactive approval and test handoffs, and protected gates.
 - Owner: Agent.
@@ -67,7 +67,7 @@ flowchart LR
 </details>
 
 <details>
-<summary>E-003 · Prove varied behavior</summary>
+<summary>DONE · E-003 · Prove varied behavior</summary>
 
 - Outcome: Normal, contrasting, and failure cases pass across software and non-software planning.
 - Owner: Agent.
@@ -77,8 +77,8 @@ flowchart LR
 
 </details>
 
-<details>
-<summary>E-004 · HUMAN live acceptance</summary>
+<details open>
+<summary>NOW · E-004 · HUMAN live acceptance</summary>
 
 - Outcome: Drew judges a genuine fresh planning session concise, decisive, controllable, and clear about when and how to test it.
 - Owner: Shared.

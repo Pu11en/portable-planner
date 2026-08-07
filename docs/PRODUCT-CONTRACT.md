@@ -22,19 +22,21 @@ Portable Planner is a planning plugin, not a replacement build system. It takes 
 - Repository evidence is the default source boundary. At most one direct non-repository source may be checked per deep candidate, and only when it changes a claim about capability, maturity, maintenance, adoption, or reuse. This is not a broad market scan.
 - The scan requires no account, API client, MCP server, database, cloud dependency, or new runtime. If public search is unavailable, rate-limited, or unproductive, state the exact limitation and continue ordinary planning.
 
-This behavior is provisional until its scenario evidence and Drew's uncoached fresh-session acceptance pass. The approved decision and its research basis live in [P-001](../planning/decisions/P-001-define-idea-evidence-flow.md) and [its evidence record](../planning/evidence/P-001-evidence.md).
+This behavior is provisional until its scenario evidence and Drew's uncoached fresh-session acceptance pass. Its remaining proof is tracked in the [idea-stage project issue](../project-map/issues/05-prove-idea-stage-possibility-scan.md) and [validation records](../validation/idea-discovery/).
 
 ## Conversation
 
 - Work on one planning decision at a time.
-- Keep ordinary replies short and make the current step obvious.
+- Keep ordinary replies to a few short lines and make the current result and next action obvious. Do not recap settled context unless it changed.
 - Ask only decisions that require human judgment about the desired inputs, outputs, experience, boundaries, priorities, or proof of success.
 - Discover facts from the project and research external uncertainty instead of asking the person to guess.
 - Infer internal workflow, architecture, tools, and implementation mechanics unless they materially change the person's result.
 - When choices help, use stable `A/B/C` labels; add `D` only for a genuinely distinct fourth route.
 - Every listed route must be viable. Always put the agent's recommended route first as `A` and state its main tradeoff.
 - Accept a custom answer and preserve every confirmed answer before continuing.
-- When the user explicitly delegates a defined set of choices to the agent's recommendations, record that delegation and stop asking within its scope. Still pause for irreversible commitments, uncovered material personal tradeoffs, or conflicts.
+- When the user explicitly delegates a defined set of reversible choices to the agent's recommendations, record the exact words and scope, then stop asking within it. The delegation lasts for that plan until exhausted, revoked, contradicted, or blocked by a protected gate.
+- Repeated agreement alone never creates delegation. Still pause for irreversible commitments, uncovered material personal tradeoffs, conflicts, implementation authorization, and final-plan approval.
+- When the agent asks a direct yes/no approval question, an immediate `yes` is explicit approval. Resolve it against that question; never demand a second phrase or magic wording.
 - Ask no question merely because a template contains a field.
 
 ## Planning logic
@@ -42,12 +44,17 @@ This behavior is provisional until its scenario evidence and Drew's uncoached fr
 - Begin from natural language; no command name is required.
 - Start with the smallest reliable planning path and expand only when uncertainty, dependencies, research, or project size demonstrates the need.
 - Use research or a cheap decision prototype when evidence is needed; do not turn planning into production work.
+- Classify live uncertainty before acting: research facts, synthesize settled or delegated reversible choices, ask only unresolved human-owned tradeoffs, and use a bounded trial for experiential behavior that discussion cannot discriminate.
+- Stop asking when another verbal answer is unlikely to alter the plan. A trial answers one named decision question and normally compares ordinary, materially contrasting, and failure or prohibited-action cases.
+- Preserve each trial's inputs or starting state, variation, observed output, surprise or failure, verdict, and decision changed. A failed case gets a targeted planning revision and affected rerun before broader architecture is considered.
 - Maintain one cohesive route to the complete intended result, not a diagram of the planner's own internal phases.
 - Store the canonical plan, decisions, evidence, continuation state, and execution tickets as plain project-local files.
 - Produce tickets that a fresh harness session can execute and objectively verify without reopening major planning decisions.
+- At a real task boundary, either create the one authorized successor task or show a clearly labeled exact next-session prompt. A ticket name or statement that another session is next is not a handoff.
 - Preserve the current plan when an unrelated idea appears; deliberately switch or separate it rather than silently mixing destinations.
 - Use no fixed question count. Attempt final review when the complete route is defensible: destination, observable success, boundaries, major human decisions, order, dependencies, gates, risks, recovery, tickets, and canonical artifacts are coherent.
 - Show the finished visual plan automatically as an explicit approval gate. Do not hand anything to the harness's normal build workflow until the person clearly approves it.
+- When the next safe action is clear, perform it in the same turn instead of ending with an intention statement.
 
 ## Visual plan
 
@@ -64,10 +71,11 @@ This behavior is provisional until its scenario evidence and Drew's uncoached fr
 
 ## Review outcomes
 
-- Explicit approval changes lifecycle status to `approved for build` and points to the first eligible execution ticket.
+- Explicit approval changes lifecycle status to `approved for build` and points to the first eligible execution ticket. If the current harness can safely build it, immediately leave planning behavior and begin the harness's normal build workflow in the same turn; do not ask for permission again.
 - A targeted change returns to `planning`, reopens only the affected human decision, reconciles downstream state, and refreshes the visual.
 - “Keep planning” returns to `planning` and continues with one highest-value human decision at a time.
 - Confusion pauses questions and triggers a plain-language explanation of the current state.
+- After the approved build passes agent-run checks, proactively present the smallest genuine user test and request live acceptance instead of leaving the person to infer test readiness.
 
 ## Failure behavior
 
@@ -85,7 +93,7 @@ This behavior is provisional until its scenario evidence and Drew's uncoached fr
 
 ## Evidence policy
 
-The interaction logic combines expert-supported mechanics rather than copying one system wholesale: decision-tree interviewing, facts-versus-decisions separation, explicit plan/build handoff, adaptive decision maps, primary-source research, durable local artifacts, and session-sized execution tickets. Drew's one-question rhythm, low reading load, stable lettered answers, and route-first visual are intentional product requirements even when an expert source uses a different interaction pattern.
+The interaction logic combines expert-supported mechanics rather than copying one system wholesale: decision-tree interviewing, facts-versus-decisions separation, discussion-to-prototype switching, explicit plan/build handoff, adaptive decision maps, primary-source research, durable local artifacts, and session-sized execution tickets. Drew's scoped delegation, immediate action after direct approval, low reading load, stable lettered answers, proactive test readiness, and route-first visual are intentional Portable Planner requirements even when an expert source uses a different interaction pattern. The current normative decision is [P-001](../planning/decisions/P-001-define-decisive-planning.md), with [research and scenario evidence](../planning/evidence/P-001-evidence.md).
 
 ## Acceptance boundary
 

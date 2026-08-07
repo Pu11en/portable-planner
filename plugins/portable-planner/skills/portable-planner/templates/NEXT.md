@@ -8,4 +8,4 @@ Context: {{minimum fact not obvious from those files}}
 Outcome: {{one decision, review, or build-ticket result}}
 Done when: {{objective completion check}}
 
-Use canonical files, not chat memory. Do not build before approval.
+Use canonical files, not chat memory. Do not build before approval; after explicit approval, begin the named build ticket through the harness's normal workflow without asking again when safe.

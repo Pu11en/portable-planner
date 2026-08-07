@@ -7,7 +7,7 @@
 - [x] **R-01 — Vague idea to cohesive plan:** The final plan reaches an unambiguous destination with success, boundaries, decisions, dependencies, and no major unresolved choice. [Evidence](../validation/OBJECTIVE-EVIDENCE-AUDIT.md)
 - [x] **R-02 — Adaptive route:** A small idea can finish in one session; meaningful uncertainty produces a compact ordered planning map that can split, merge, add, remove, or reorder tickets. [Evidence](../validation/ADAPTIVE-MAP-TEST.md)
 - [x] **R-03 — Useful execution:** Ordered execution tickets cover the complete route, each fits one fresh agent session, and each has scope, exclusions, dependencies, proof, review, and next eligibility. [Evidence](../validation/OBJECTIVE-EVIDENCE-AUDIT.md)
-- [x] **R-04 — Planning boundary:** The planner stops before final execution work, displays the finished visual plan, waits for explicit human approval, and only then hands its artifacts to the harness's normal build behavior without adding a competing build system or excluded MVP architecture. [Evidence](../validation/OBJECTIVE-EVIDENCE-AUDIT.md)
+- [x] **R-04 — Approval starts normal build:** The planner stops before execution, displays the finished plan, and waits for explicit approval. A direct `yes` then updates canonical state and immediately starts the first safe ticket through the harness's normal build behavior without another permission request or competing build system. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
 
 ## Visual plan
 
@@ -21,10 +21,15 @@
 
 - [x] **C-01 — One worthwhile question:** At most one question per turn; no obvious, repeated, factual, or technical-routing question is transferred to the user. [Evidence](../validation/OBJECTIVE-EVIDENCE-AUDIT.md)
 - [x] **C-02 — Good choices:** A real preference choice uses two or three viable options, or four only when necessary, and accepts a custom answer. Every option has a stable `A/B/C/D` label, the recommendation is always first as `A` with one brief tradeoff, and no choice set uses numbers or unlabeled bullets. A reply containing only the choice key resolves to and saves the full decision without repetition. [Evidence](../validation/KEYED-CHOICE-TEST.md)
-- [x] **C-03 — Concrete and compact:** Abstract choices get a concrete example first; ordinary replies aim near 60 words, remain under 100 words, preserve useful context, and show current progress plus what happens next. [Evidence](../validation/COMPACT-CONVERSATION-TEST.md) · [Drew's calibration](../validation/WORD-LENGTH-CALIBRATION.md)
+- [x] **C-03 — Concrete and compact:** Abstract choices get a concrete example first; ordinary replies use a few short lines, aim around 40 words, remain under 80 words, avoid unnecessary recap, and show the current result plus next action. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
 - [x] **C-04 — Research and challenge:** The planner researches external facts from primary/direct sources, saves decision-relevant evidence, and briefly challenges contradictions or unnecessary scope. [Evidence](../validation/OBJECTIVE-EVIDENCE-AUDIT.md)
 - [x] **C-05 — Natural language:** `Plan this idea: ...`, `Continue my plan`, `Show my full plan map`, and `Prepare the next session` work without command memorization. [Evidence](../validation/NATURAL-INVOCATION-TEST.md)
 - [x] **C-06 — Orientation and recovery:** The opening makes the planned result and planning-only boundary obvious; ordinary replies avoid unexplained process jargon; numeric progress is shown only for a reliable map; and any “I’m confused” turn pauses questions and restores orientation before planning resumes. [Evidence](../validation/ORIENTATION-TEST.md)
+- [x] **C-07 — Explicit delegation:** A recorded, scoped request to use recommendations synthesizes reversible choices without more preference questions; repeated agreement alone never creates authority; revocation, conflict, irreversible commitments, uncovered personal tradeoffs, implementation, and final approval remain protected. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
+- [x] **C-08 — Stop and trial:** Facts and already-settled choices are not re-asked. When discussion cannot change a dynamic decision, one bounded planning trial preserves ordinary, contrasting, and failure cases with their inputs, outputs, surprises, verdict, and changed decision. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
+- [x] **C-09 — Immediate action:** When a safe next planning action is clear, the agent performs it in the same turn rather than stopping after an intention statement. A direct `yes` resolves against the approval question that immediately preceded it. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
+- [x] **C-10 — Proactive test readiness:** After agent-run checks pass, the harness clearly presents the smallest genuine user test and requests live acceptance without making Drew determine whether the change is ready. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
+- [x] **C-11 — Complete handoff:** At a real boundary, the planner either starts one authorized successor and identifies it or shows one clearly labeled exact next-session prompt. It never stops after only naming a ticket, path, or future session. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
 
 ## Idea-stage possibility scan
 
@@ -48,6 +53,7 @@
 - [ ] **T-01 — First real-use plan:** Drew starts any real plan naturally in a fresh Codex task with no test coaching. Every confusion, weak or repeated question, wall of text, state loss, visual failure, bad recovery, and incomplete handoff is recorded, fixed, and rerun. Canned examples and implementation simulations never count as Drew's human evidence.
 - [ ] **T-02 — Naturally complex plan:** Drew later uses the planner for a real plan complex enough to exercise dependencies, human gates, revision, recovery, and execution-ticket generation; concrete failures are recorded, fixed, and rerun.
 - [x] **T-03 — Cross-project fixtures:** The same core skill passes software, creative/content, operational/event, and personal-project adversarial fixtures without a domain pack. [Evidence](../validation/CROSS-PROJECT-FIXTURE-TEST.md)
+- [x] **T-04 — Decisive-flow scenarios:** Normal, materially contrasting, and failure-boundary scenarios pass for software and non-software planning, including delegated recommendations, exhausted discussion, direct approval, immediate build transition, revocation/conflict, protected gates, and proactive test readiness. [Evidence](../validation/DECISIVE-FLOW-TEST.md)
 
 ## Portability and installation
 
@@ -66,4 +72,4 @@
 
 ## Final result
 
-**Current status: READY FOR REAL USE OF THE EXISTING PLANNING FLOW; IDEA-STAGE SCANNING IS NOT YET PROVEN.** The objective product, conversation, state, installation, portability, resumption, handoff, adaptive-route, and cross-domain foundations have passing evidence, and the current package passed a fresh installed-plugin preflight. The complex visual proof remains open. The MVP still requires I-01 through I-05, Drew's first ordinary and naturally complex real-use proofs, V-05, H-01 through H-05, and the final completion audit.
+**Current status: DECISIVE-FLOW CANDIDATE READY FOR LIVE ACCEPTANCE; IDEA-STAGE SCANNING IS NOT YET PROVEN.** Synthetic and package evidence passes C-03, C-07 through C-11, R-04, and T-04. Drew's fresh live judgment is still required before the decisive flow is treated as accepted. The complex visual proof, idea-stage checks, real-use proofs, H-01 through H-05, and final audit remain open.

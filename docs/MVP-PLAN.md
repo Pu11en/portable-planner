@@ -117,7 +117,7 @@ Planning stops when:
 - remaining work is execution; and
 - execution tickets cover the complete route to the intended result.
 
-The user reviews the short final overview before execution begins.
+The user reviews the short final overview before execution begins. A direct `yes` to the approval question authorizes the harness to begin the first eligible execution ticket immediately when safe; the agent does not stop merely to ask whether it should build.
 
 ## Conversation contract
 
@@ -133,14 +133,20 @@ The plugin must:
 8. Show a small concrete example before asking about an abstract concept.
 9. Remember and apply previous answers instead of asking disguised repeats.
 10. Challenge unnecessary scope and contradictions directly but briefly.
-11. Aim for roughly 60 words when natural and keep ordinary planning replies under 100 words; do not cut useful context merely to hit the target. Evidence or a requested artifact may genuinely need more.
+11. Default to a few short lines, aim around 40 words, and keep ordinary planning replies under 80 words; requested evidence or a required approval view may genuinely need more.
 12. Never describe users by intelligence labels; optimize for low reading load and no assumed expertise.
 
 The plugin must not offer an option that clearly contradicts an already confirmed preference merely to manufacture a choice.
 
-If the user explicitly delegates a defined group of decisions to the plugin's recommendations, the plugin records that delegation and applies the recommended routes without continuing to ask inside that scope. It still pauses for irreversible commitments, material personal tradeoffs the delegation did not clearly cover, or conflicts with a confirmed boundary.
+If the user explicitly delegates a defined group of reversible decisions to the plugin's recommendations, the plugin records the exact scope and applies the recommended routes without continuing to ask inside it. Repeated agreement alone is not delegation. The plugin still pauses for irreversible commitments, material personal tradeoffs the delegation did not clearly cover, conflicts, implementation authorization, and final-plan approval.
+
+The plugin stops asking when facts, prior words, or delegation already settle the issue, or when another verbal answer is unlikely to change the plan. Experiential uncertainty becomes one bounded decision trial, normally using an ordinary case, a materially contrasting case, and a failure or prohibited-action case. Inputs, outputs, variations, failures, verdict, and the changed decision remain durable planning evidence; prototype work never becomes production implementation.
+
+When the next safe planning action is clear, the agent performs it in the same turn rather than ending with an intention statement. An immediate `yes` to a direct approval question counts as explicit authorization and transitions into the normal harness build without a second permission question. After agent checks pass, the smallest genuine user test is presented proactively.
 
 If an unrelated idea appears during planning, the plugin preserves the current plan and resolves whether to switch or separate it instead of silently combining destinations. If a tool, file, display, research step, or handoff fails, it names the failure, preserves trustworthy state, gives one recovery action, and continues through a supported fallback when possible.
+
+At a demonstrated session boundary, the plugin saves state first, then either creates one successor when the person authorized automatic continuation or shows a clearly labeled exact next-session prompt. Merely naming the next ticket or saying another session is needed is not a completed handoff.
 
 ## Durable output contract
 
@@ -309,7 +315,11 @@ Harness-specific commands may exist as conveniences, not as the core experience.
 - two or three real options only when multiple good routes exist, with a fourth only when genuinely distinct;
 - stable `A/B/C(/D)` labels, with the recommendation always first as `A`;
 - concrete example before abstract UX choices;
-- ordinary replies aim near 60 words, remain under 100 words, and preserve useful context; and
+- ordinary replies default to a few short lines, aim around 40 words, remain under 80 words, and preserve useful context;
+- settled or delegated choices are synthesized without ceremonial questions;
+- experiential uncertainty switches to a preserved three-case decision trial instead of more verbal grilling;
+- direct approval starts the normal harness build without another permission request; and
+- validated work proactively tells the user the smallest genuine test;
 - the user always knows current progress and what happens next.
 
 ### State and handoff checks
@@ -401,6 +411,11 @@ No new architecture or feature should be added unless a failed test demonstrates
 19. Approval, targeted revision, continued planning, and confusion each return the plan to a defined lifecycle path.
 20. Scoped “use your recommendations” delegation advances without repeated questions while preserving human control over uncovered irreversible or personal decisions.
 21. Scope drift and operational failures preserve trustworthy state, remain honest, and have one clear recovery path.
+22. Repeated agreement never implies delegation; explicit scoped delegation lasts until exhausted, revoked, contradicted, or blocked by a protected gate.
+23. When discussion cannot further reduce meaningful uncertainty, one bounded normal/contrasting/failure trial supplies planning evidence instead of more questions.
+24. The next safe action happens in the same turn; a direct `yes` to the final approval question begins normal-harness execution without a second authorization pause.
+25. After agent-run validation passes, the planner or harness proactively presents the smallest genuine user test and asks for live acceptance.
+26. A real session boundary produces either one successfully created authorized successor or one visible, labeled, paste-ready prompt—never a vague handoff announcement.
 
 ## Research input
 

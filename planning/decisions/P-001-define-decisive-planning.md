@@ -27,6 +27,7 @@ A — It matches Drew's explicit delegation, Matt Pocock's discussion-to-prototy
 - A failed case receives one targeted planning revision and affected cases are rerun. Persistent failure or a new human tradeoff returns to Drew.
 - Ordinary replies contain only the current result, next action, and at most one worthwhile question. When the next safe planning action is clear, perform it in the same turn instead of ending with an intention statement.
 - When the finish audit passes, proactively say planning is complete, show the compact route, and ask for explicit build approval. After the approved build passes agent-run checks, proactively present the smallest genuine user test and request live acceptance; do not leave Drew to guess whether or how to test.
+- At a real context boundary, create one successor only when authorized; otherwise show a clearly labeled exact next-session prompt. Never treat a ticket name or vague future-action statement as a completed handoff.
 - Stop for irreversible commitments, uncovered material personal tradeoffs, conflicts, implementation authorization, and explicit final-plan approval.
 - Apply the behavior across software, business, creative, operational, event, and personal planning without creating another mode or skill.
 

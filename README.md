@@ -4,7 +4,7 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan by asking one worthwhile question at a time. At the beginning of a rough software or AI idea, the local `beta.3` candidate can optionally scan current public repositories to show plausible directions and a fast MVP path before ordinary planning. This new scan remains unproven until the linked acceptance checks pass.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The local `beta.4` candidate can use explicitly delegated recommendations, switch exhausted discussion to bounded planning trials, begin normal-harness execution after direct approval, and proactively present the smallest live test. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked acceptance checks pass.
 
 ## Project source of truth
 
@@ -54,7 +54,7 @@ The planner creates plain project-local Markdown under `planning/`. A fresh agen
 ## What the experience is designed to do
 
 - Ask one recommendation-first A/B/C question at a time.
-- Keep normal conversational output compact—usually under 100 words when a question is enough.
+- Keep normal conversational output to a few short lines—aim around 40 words and stay under 80 when a question is enough.
 - Research or infer agent-owned decisions instead of grilling the user about implementation details.
 - With permission at the start of a thin software/AI idea, run a privacy-safe, bounded public-repository scan and keep its recommendation provisional until the user confirms the direction.
 - Show an ordered visual route automatically at the approval point.

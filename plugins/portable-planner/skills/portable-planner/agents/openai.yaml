@@ -1,4 +1,4 @@
 interface:
   display_name: "Portable Planner"
-  short_description: "Explore rough ideas and build durable plans"
-  default_prompt: "Use $portable-planner to explore or plan this idea and create a durable route with execution tickets."
+  short_description: "Plan decisively without walls of text"
+  default_prompt: "Use $portable-planner to explore or plan this idea, make delegated reversible choices, and create a durable route that moves into build and testing after approval."

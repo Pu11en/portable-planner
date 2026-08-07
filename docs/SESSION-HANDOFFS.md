@@ -23,7 +23,7 @@ Follow the conversation contract exactly:
 - never ask about an obvious, already answered, factual, or technical choice;
 - when a real choice exists, give 2–3 short viable options, recommend one, and allow a custom answer;
 - show a concrete example before asking about anything abstract;
-- keep ordinary replies under roughly 60 words;
+- keep ordinary replies to a few short lines, normally under 80 words;
 - research factual unknowns yourself from primary/direct sources;
 - update durable local planning artifacts after each confirmed decision;
 - generate an exact next-session starter whenever a planning ticket ends.

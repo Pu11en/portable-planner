@@ -1,5 +1,10 @@
 # Ordinary Reply Length — Drew Calibration
 
+> Historical calibration: superseded for ordinary replies on 2026-08-07 by
+> Drew's request for consistently shorter outputs. The current target is a few
+> short lines, around 40 words and under 80; evidence and required approval
+> artifacts may be longer when necessary.
+
 **Date:** 2026-08-05
 
 While preparing the real simple pilot, an opening containing orientation, one literal example comment, and one complete `A/B/C` choice set measured 86 words. The implementation task initially treated that as a failure and proposed a strict 80-word ceiling.
@@ -16,4 +21,3 @@ Confirmed product interpretation:
 - requested visuals, evidence, and explicit artifacts may be longer.
 
 The proposed F-012 failure was retracted. The 86-word clean pilot opening remains valid.
-

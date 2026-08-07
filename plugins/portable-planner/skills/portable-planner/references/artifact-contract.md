@@ -46,11 +46,13 @@ Start a new plan with one planning ticket. Add or split tickets only when a demo
 
 Use `P-NNN-short-title.md`. Record the decision and why it matters, status, dependencies, viable options and tradeoffs when applicable, recommendation, confirmed decision, evidence links, effects on the map, and an objective completion check.
 
-A confirmed decision has one authoritative planning ticket. Summaries elsewhere link back to it.
+A confirmed decision has one authoritative planning ticket. Summaries elsewhere link back to it. Record explicit delegation in the affected ticket using the person's exact words, its reversible-decision scope, when it began, and any later revocation, conflict, or exhaustion.
 
 ## Evidence
 
-Create `evidence/P-NNN-evidence.md` only when external facts affect a decision. Use primary sources or direct providers for every decision-changing claim. Record source, access date, relevant finding, and which choice it changes. If no primary/direct source can answer the narrow fact, label secondary evidence provisional, corroborate it independently, and put a direct recheck before any irreversible commitment in the relevant execution ticket. An uncorroborated secondary claim cannot settle a decision or pass the finish audit. Stop when additional sources are unlikely to change the decision.
+Create `evidence/P-NNN-evidence.md` when external facts or a bounded planning trial affect a decision. For research, use primary sources or direct providers for every decision-changing claim. Record source, access date, relevant finding, and which choice it changes. If no primary/direct source can answer the narrow fact, label secondary evidence provisional, corroborate it independently, and put a direct recheck before any irreversible commitment in the relevant execution ticket. An uncorroborated secondary claim cannot settle a decision or pass the finish audit. Stop when additional sources are unlikely to change the decision.
+
+For each trial, preserve the exact decision question, input and context or starting state, expected behavior when useful, materially different case or variant, observed output or state, surprise or failure, limitation, verdict, and decision changed. Keep losing variants and failures. A trial is planning evidence only; never let its artifact authorize production implementation.
 
 For a consented idea-stage possibility scan, create the normal minimum plan with one current planning ticket for the initial direction before relying on chat context. Record consent, the sanitized one-sentence brief, the selected query angles, candidate counts, deep-inspection reasons, access dates, direct repository links, evidence-tier findings, license status, omissions, and any search limitation in that ticket's ordinary `evidence/P-NNN-evidence.md`. Do not create a separate discovery state tree, repository database, or transcript log. The eventual human-confirmed direction belongs in the same planning ticket; repository results remain evidence, not confirmed product decisions.
 
@@ -58,7 +60,7 @@ For a consented idea-stage possibility scan, create the normal minimum plan with
 
 During planning, name exactly one current unblocked planning ticket. Include the resolved absolute path to the `planning/` folder, lifecycle state, the minimum files to load, the required session outcome, and the ticket completion test. Do not rely on chat history or the original working directory. Keep it compact: it is an index into canonical state, not a second plan or a conversation transcript.
 
-When status is `awaiting approval`, name the visual review as the one next action. When status is `approved for build`, name exactly one first eligible execution ticket and tell the harness to use its normal build workflow. Never authorize build while major planning work remains.
+When status is `awaiting approval`, name the visual review as the one next action. When status is `approved for build`, name exactly one first eligible execution ticket and tell the harness to use its normal build workflow. In the same task, the agent should begin that work immediately when safe rather than pause for a second authorization. Never authorize build while major planning work remains.
 
 Regenerate a missing or stale `NEXT.md` from `PLAN.md` and the current ticket. The plan must remain complete without `NEXT.md`.
 

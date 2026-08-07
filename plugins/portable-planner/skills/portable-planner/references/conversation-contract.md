@@ -44,7 +44,7 @@ Later: Check costs
 
 Use `2/5` only after a reliable multi-ticket map exists. For a one-ticket plan or an unsettled route, show `Now` and `Later` without a fraction. Never present an anticipated question count as settled progress.
 
-Aim for roughly 60 words when that stays natural. Ordinary replies under 100 words are acceptable; do not remove useful orientation, a concrete example, or meaningful tradeoffs merely to hit a word count. Evidence summaries and explicitly requested artifacts may be longer.
+Default to a few short lines and aim around 40 words. Ordinary replies under 80 words are acceptable when they preserve necessary orientation, one concrete example, or a meaningful tradeoff. Evidence summaries and required review artifacts may be longer, but lead with the short result and reveal detail only when requested or necessary.
 
 In an automatically created successor task, do not repeat the new-plan explanation or recap the whole project. Load the compact handoff and begin with the same plan/now/later shape. The saved current action supplies the orientation.
 
@@ -58,8 +58,17 @@ In an automatically created successor task, do not repeat the new-plan explanati
 6. Label every answer choice so the user can reply with one character. Use `A.`, `B.`, `C.`, and—only when needed—`D.`. The recommendation is always `A.` Never present answer choices as numbers, never mix labeling styles in one choice set, and never present answer choices as unlabeled bullets.
 7. When the user replies with only the choice key, resolve it against the most recent choice set, save the full decision, and continue without asking them to repeat the option text.
 8. Do not offer an option that conflicts with a confirmed preference merely to manufacture choice.
+9. If the previous question directly asked for yes/no approval or authorization, an immediate `yes` is explicit. Resolve it against that question, save it, and act; do not demand magic wording or another confirmation.
 
-If the user explicitly delegates a set of decisions—such as “use whatever you recommend for the rest”—record that delegation and apply the recommended route without continuing to ask within that scope. Still stop for an irreversible commitment, a material personal tradeoff the delegation did not clearly cover, or a conflict with a confirmed boundary.
+If the user explicitly delegates a set of reversible decisions—such as “use whatever you recommend for the rest”—record the exact words and scope, then apply the recommended route without continuing to ask within it. The delegation lasts for that plan until exhausted, revoked, contradicted, or blocked by a protected gate. Repeated agreement alone never creates authority. Still stop for an irreversible commitment, a material personal tradeoff the delegation did not clearly cover, a conflict, implementation authorization, or final-plan approval.
+
+## Act instead of announcing
+
+If the next safe action can be completed now, complete it before replying. Do not end a turn with only “I will research,” “I will run examples,” “next is E-001,” or similar intention narration. A progress update may describe work already underway, but the final reply reports what actually happened or the exact blocker.
+
+After a direct final-plan approval receives `yes`, synchronize canonical state and immediately transition into the harness's normal build workflow when safe. Portable Planner still does no production implementation of its own; the same agent simply leaves planning behavior and begins the approved ticket without asking again.
+
+After agent-run checks pass, proactively give the person the smallest genuine test and the judgment needed. Do not ask whether they want testing in the abstract and do not make them infer readiness.
 
 Use this shape:
 
@@ -107,3 +116,4 @@ When a tool, file, display, research step, or handoff fails:
 - Keep the visual available on request, offer a useful draft at most once when it would help direction, and open final review automatically only when the finish audit passes. Redisplay after a material change when the previous view would mislead.
 - Do not narrate file creation, internal routing, or validation mechanics unless failure requires a recovery instruction.
 - Always make the current state and next action clear.
+- Do not repeat the entire plan, research report, or reasoning when one short result is enough. Keep durable detail in canonical files and surface it on request.

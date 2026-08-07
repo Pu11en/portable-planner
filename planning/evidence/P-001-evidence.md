@@ -54,3 +54,11 @@ Accessed: 2026-08-07
 - Three cases are a practical first batch, not a scientific proof threshold.
 - These trials are planning evidence, not production implementation or live acceptance.
 - The delegation contract and general non-code trial form are Portable Planner adaptations, not claims that Matt Pocock already specified them.
+
+## Candidate validation
+
+The completed [decisive-flow test](../../validation/DECISIVE-FLOW-TEST.md)
+compares the revised skill with the prior behavior across explicit delegation,
+an exhausted-discussion trial, natural approval-to-build, handoff, proactive
+testing, revocation, and protected commitments. Synthetic and package checks
+pass; Drew's fresh live judgment remains open.

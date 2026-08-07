@@ -1,5 +1,7 @@
 # E-003 — Prove varied planning behavior
 
+- Status: complete
+
 - Outcome: Reproducible scenarios demonstrate the new behavior across materially different project types and failure boundaries.
 - Depends on: P-001, E-002
 
@@ -11,7 +13,7 @@
 ## In scope
 
 - Add or update fixtures for software, creative or business, and personal or operational planning.
-- Test ordinary delegation, reduced-value questioning, dynamic trial switching, short output, immediate action, proactive approval and test readiness, revocation or conflict, irreversible choice, and final approval.
+- Test ordinary delegation, reduced-value questioning, dynamic trial switching, short output, immediate action, proactive approval and test readiness, complete successor-or-prompt handoff, revocation or conflict, irreversible choice, and final approval.
 - Preserve inputs, outputs, materially different variations, failures, targeted revisions, reruns, and decisions changed.
 - Revalidate the canonical skill, plugin manifest, references, templates, natural invocation, and unchanged project-local resumption.
 
@@ -25,7 +27,7 @@
 
 ## Proof
 
-- The scenario matrix and package checks pass, outputs vary appropriately, protected gates never leak, and any failed case passes after a targeted revision and affected rerun.
+- The [decisive-flow candidate test](../../validation/DECISIVE-FLOW-TEST.md) preserves the scenario matrix, baseline comparison, failure, targeted revision, rerun, and passing package checks. Outputs vary appropriately and protected gates remain intact.
 
 ## If blocked or disproven
 

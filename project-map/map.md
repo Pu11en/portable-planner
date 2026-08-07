@@ -22,11 +22,13 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - [Objective MVP evidence](../docs/ACCEPTANCE.md) — conversation, state, ticket, install, cross-project, and Codex/Hermes checks are already evidenced; human live experience remains the final authority.
 - [Adaptive review gate](issues/01-decide-adaptive-review-gate.md) — the visual is always available, may be offered once as a useful draft, and opens automatically only when the complete route is defensible; approval, targeted revision, continued planning, and confusion each return to an explicit lifecycle path without a question-count threshold.
 - [Idea-stage possibility scan](issues/05-prove-idea-stage-possibility-scan.md) — a new no-idea or thin-idea software/AI start may opt into bounded repository-first discovery, but the result remains provisional and unproven until objective scenario checks and Drew's fresh-session use pass.
+- [Decisive planning flow](issues/06-prove-decisive-planning-flow.md) — explicit delegation removes reversible preference questions, exhausted discussion becomes bounded evidence, direct approval starts normal execution, and validated work proactively asks Drew to test.
 
 ## Not yet specified
 
 - Exact implementation corrections exposed by the first real plan and the first naturally complex real plan.
 - Exact corrections exposed by the idea-stage scenario matrix and Drew's first natural fresh-session scan.
+- Exact corrections exposed by the decisive-flow scenario matrix and Drew's fresh live test.
 - Whether naturally complex use exposes a genuinely new planning behavior after the first real-use flow is clean.
 - The final wording Drew uses to judge speed, worthwhile questions, boundary clarity, usable plans, and executable handoff after both real-use proofs.
 

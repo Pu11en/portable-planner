@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Test whether one portable Agent Skill can optionally expand a no-idea or thin software/AI start through bounded public-repository evidence, then turn that starting point into a cohesive plan, durable fresh-session handoffs, and session-sized execution tickets with less friction than Drew's current planning experience.
+Test whether one portable Agent Skill can optionally expand a no-idea or thin software/AI start through bounded public-repository evidence, then turn that starting point into a cohesive plan, durable fresh-session handoffs, and session-sized execution tickets with less friction than Drew's current planning experience. The current revision specifically tests whether explicit delegation, bounded decision trials, immediate action after direct approval, and proactive test readiness eliminate repeated grilling and ambiguous handoff pauses.
 
 ## Boundaries
 
@@ -15,6 +15,7 @@ Test whether one portable Agent Skill can optionally expand a no-idea or thin so
 - The MVP uses project-local Markdown, including a generated Mermaid plan view with a compact text fallback. It has no MCP server, database, web app, cloud account, GitHub dependency, renderer dependency, or domain pack.
 - The optional idea-stage scan is consented, privacy-sanitized, public-repository-first, and unproven until `I-01` through `I-05` pass; synthetic repository prototypes do not count as Drew's acceptance.
 - This repository is the project source. Harness installation copies the same canonical skill; it must not fork the planning logic.
+- A direct `yes` to the planner's explicit approval question authorizes the harness's normal build workflow to begin immediately when safe; the planner must not insert another "should I build?" stop.
 
 ## Acceptance source
 

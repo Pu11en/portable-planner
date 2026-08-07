@@ -1,6 +1,6 @@
 ---
 name: portable-planner
-description: Turn no idea, a thin idea, or a vague idea into a cohesive, durable plan and ordered session-sized execution tickets using plain project-local Markdown. Use when a person naturally asks to explore or plan an idea or project, continue or resume a plan, show the plan map, prepare or automatically create the next planning task, settle planning decisions, or create execution tickets from a finished plan. Work across software, business, course, creative, event, operational, and personal projects without requiring project-management knowledge or command syntax.
+description: Turn no idea, a thin idea, or a vague idea into a cohesive, durable plan and ordered session-sized execution tickets using plain project-local Markdown. Use when a person naturally asks to explore or plan an idea or project, continue or resume a plan, show the plan map, prepare or automatically create the next planning task, settle planning decisions, create execution tickets, or move an explicitly approved plan into the harness's normal build and live-test flow. Work across software, business, course, creative, event, operational, and personal projects without requiring project-management knowledge or command syntax.
 ---
 
 # Portable Planner
@@ -44,6 +44,16 @@ Choose the route yourself:
 - **Prototype** only when a cheap, disposable comparison is necessary to settle a decision. Do not perform production work.
 - **Ask** only when multiple viable answers depend on human preference or direction.
 
+Before acting, classify the live uncertainty:
+
+- **Fact:** research it.
+- **Settled or delegated reversible decision:** synthesize and continue.
+- **Human-reserved decision:** ask one question.
+- **Grillable uncertainty:** discuss only while another answer can materially change the plan.
+- **Trial-needed uncertainty:** run one bounded planning trial when concrete behavior, feel, or interaction is the only useful evidence.
+
+Do not ask because uncertainty still exists in the abstract. Stop verbal grilling when facts, prior words, explicit delegation, or diminishing decision value have reduced it as far as discussion can. A trial normally compares an ordinary case, a materially contrasting case, and a failure or prohibited-action case. It produces planning evidence, never production implementation.
+
 Never ask the user to select an internal workflow, tool, architecture, research method, ticket order, or other technical/process choice the agent can derive. If research tools are unavailable, record the exact factual blocker and recovery step; do not ask the user to guess.
 
 The idea-stage scan is a special, consented form of the Research route. It expands the person's understanding of plausible directions before the plan adopts one; it does not choose the product, perform broad market research, clone or execute discovered code, or change ordinary research behavior. Follow its eligibility, privacy, search, inspection, evidence, output, state, and fallback limits exactly.
@@ -58,12 +68,13 @@ Maintain the prerequisite-aware candidate frontier in [question-engine.md](refer
 4. Refresh `PLAN-VIEW.md` whenever destination, success, route, ownership, current state, blocker, next action, dependency, or plan-wide safety changes.
 5. Reconcile contradictions and downstream effects immediately. Add, remove, split, merge, or reorder tickets only when new understanding requires it.
 6. Challenge unnecessary scope briefly and tie the challenge to the destination.
-7. Honor an explicit request to use the agent's recommendations for a defined set of decisions: record the delegation and synthesize those choices without more questions. Stop only for an irreversible commitment, an uncovered material personal tradeoff, or a conflict.
+7. Honor an explicit request to use the agent's recommendations for a defined set of reversible decisions: record the user's exact words and scope, then synthesize those choices without more questions. The delegation lasts for that plan until exhausted, revoked, contradicted, or blocked by an irreversible commitment, uncovered material personal tradeoff, conflict, implementation authorization, or final-plan approval. Repeated agreement alone never creates delegation.
 8. If an unrelated idea appears, preserve the current plan and separate or switch it deliberately; never silently mix destinations.
 9. Complete a ticket only when its decision and effects are explicit, evidence is linked when used, its completion check passes, no unresolved issue blocks the next ticket, and `NEXT.md` is exact.
 10. Before replying after a write-through, compare the current unresolved decision in its ticket with `PLAN.md` current/next, `NEXT.md` work/session/completion lines, and `PLAN-VIEW.md` now/next. Repair every stale reference to the just-settled decision.
-11. End the turn with the compact state and the one next action. Do not narrate routine file writes.
-12. When the current ticket can still be completed reliably, stay in this task. At a demonstrated context boundary, follow [session-chaining.md](references/session-chaining.md): save first, then create at most one authorized successor or provide the exact compact fallback prompt.
+11. Keep ordinary replies to a few short lines: current result, next action, and at most one worthwhile question. Do not recap settled context unless it changed. Evidence or a required final review may be longer, but summarize first.
+12. When the next safe planning action is clear, perform it in the same turn. Never end after merely announcing research, synthesis, a trial, a file update, approval processing, or another safe action that can be completed now.
+13. When the current ticket can still be completed reliably, stay in this task. At a demonstrated context boundary, follow [session-chaining.md](references/session-chaining.md): save first, then create at most one authorized successor or visibly label and provide the exact compact next-session prompt. Never stop at a vague handoff announcement.
 
 If the user says they are confused, stop the planning sequence. Explain what this session is doing, what it is not doing, and the current step in plain language. Do not ask another planning decision in that reply. Resume only after the user understands or redirects the work.
 
@@ -76,9 +87,16 @@ If a file, tool, display, research step, or handoff fails, preserve every confir
 3. Generate dependency-ordered `execution/E-*` tickets covering the complete route. Size each for one fresh agent session.
 4. Keep `PLAN.md` a short linked overview rather than duplicating ticket detail.
 5. When the audit passes, set plan status to `awaiting approval` and automatically present the finished interactive visual plan without first asking whether the user wants to see it. The same turn asks one explicit approval question.
-6. After approval, record `approved for build` in `PLAN.md`, regenerate the view and handoff, and point the harness to the first eligible execution ticket.
+6. After a direct approval question, treat an immediate `yes`, `approved`, or the displayed approval choice as explicit approval. Record `approved for build`, regenerate the view and handoff, and point the harness to the first eligible execution ticket.
 7. If the user requests a targeted change, return to `planning`, reopen only the affected human decision, reconcile downstream state, and refresh the view. If they want to keep planning, return to `planning` and select the highest-value unresolved human decision. If they are confused, pause questions and explain the state.
-8. Do not execute the final plan or replace the harness's normal build workflow while using this skill.
+8. Portable Planner does not implement the final project itself or replace the harness's build system. However, approval is not a reason to stop the agent: after planning state is synchronized, immediately leave planning behavior and begin the first eligible ticket through the harness's normal build workflow when it is safe and fits the current task. Do not ask for a second "build it" confirmation. Stop only for an explicit planning-only request, a real task boundary, a protected decision, or an operational blocker.
+
+## Move finished work into testing
+
+1. Agent-run checks come before human testing. Complete the ticket's objective proof and record failures before expanding architecture.
+2. When the candidate is genuinely ready for human judgment, proactively present the smallest real test that can confirm or disprove the changed behavior. Do not leave the person to guess whether the work is ready or what to try.
+3. Keep the invitation short: state what is ready, give one natural test action, and say what judgment is needed.
+4. Synthetic trials and authored examples are planning or implementation evidence, not live acceptance. Record the person's actual result separately.
 
 ## Prepare a handoff
 

@@ -16,7 +16,7 @@ The planner is effective only when it improves the human experience and produces
 
 ## 3. Low reading load
 
-**Pass:** Ordinary replies aim near 60 words and remain under 100, ask at most one question, use one concrete example for abstract choices, and show only the current and next step. Do not cut useful context merely to hit the target.
+**Pass:** Ordinary replies use a few short lines, aim around 40 words, remain under 80, ask at most one question, use one concrete example for abstract choices, and show only the current result and next action. Requested evidence and required approval views may be longer, but lead with the short result.
 
 **Fail signals:** wall of text, multiple questions, long option explanations, repeated file/status narration, or abstract labels without an example.
 

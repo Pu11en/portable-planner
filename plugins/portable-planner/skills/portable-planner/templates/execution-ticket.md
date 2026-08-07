@@ -29,7 +29,7 @@
 
 ## Human review
 
-- {{Required review or “None.”}}
+- {{Required review, including the smallest genuine user test to present proactively when ready, or “None.”}}
 
 ## Next eligible ticket
 
