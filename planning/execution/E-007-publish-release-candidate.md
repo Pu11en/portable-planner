@@ -1,5 +1,7 @@
 # E-007 — Integrate and publish the release candidate
 
+Status: complete — 2026-08-10
+
 - Outcome: Every reviewed project change is committed, merged to `main`, tagged, and published as the next honest public-preview release candidate with its remaining human acceptance gates stated.
 - Depends on: E-006
 
@@ -41,3 +43,10 @@
 ## Next eligible ticket
 
 - Plan complete after the remaining human acceptance is recorded; otherwise reopen only the failed behavior.
+
+## Result
+
+- Pull request #1 merged the complete reviewed candidate to remote `main`.
+- Tag `v0.1.0-beta.5` and its matching GitHub prerelease publish the final release-state commit without claiming general availability.
+- The installed Codex plugin is restored to the public `Pu11en/portable-planner` marketplace at `0.1.0-beta.5`.
+- The only current action is Drew's fresh beta-5 human acceptance.

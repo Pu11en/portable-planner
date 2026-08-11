@@ -6,9 +6,9 @@
 
 **Success:** Fresh varied sessions prove delegated choices proceed without extra questions, bounded trials replace unproductive discussion, and the planner clearly pushes completed work into approval and the right live test without crossing protected gates.
 
-**Now:** E-001 through E-006 are complete. The beta.4 failures are repaired and the unchanged beta.5 candidate passes affected behavior, package, install, and fresh natural-invocation checks; E-007 is integrating the prerelease.
+**Now:** E-001 through E-007 are complete. Beta 5 is integrated and published as an honest public-preview prerelease; objective repaired-interaction, package, install, and fresh natural-invocation checks pass.
 
-**Next:** Publish beta 5 from remote `main`, then Drew reruns the remaining human acceptance in a new task.
+**Next:** Drew reruns the remaining human acceptance in a new task.
 
 ```mermaid
 flowchart LR
@@ -19,20 +19,19 @@ flowchart LR
     E4["DONE · Live failures captured"]
     E5["DONE · Repair shared behavior"]
     E6["DONE · Rerun release checks"]
-    E7(["NOW · Integrate prerelease"])
-    D(["DONE · Repaired candidate published"])
+    E7["DONE · Integrate prerelease"]
+    D(["NOW · HUMAN beta-5 acceptance"])
     H --> E1 --> E2 --> E3 --> E4 --> E5 --> E6 --> E7 --> D
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
 
-    class E7 current;
-    class H,E1,E2,E3,E4,E5,E6 milestone;
-    class D proof;
+    class D current;
+    class H,E1,E2,E3,E4,E5,E6,E7 milestone;
 ```
 
-**Text route:** HUMAN approved plan → DONE lock behavior contract → DONE update the one canonical skill → DONE synthetic proof → DONE capture beta.4 live failures → DONE repair only demonstrated shared behavior → DONE affected and package checks → NOW integrate and publish an honest prerelease → HUMAN rerun remaining acceptance.
+**Text route:** HUMAN approved plan → DONE lock behavior contract → DONE update the one canonical skill → DONE synthetic proof → DONE capture beta.4 live failures → DONE repair only demonstrated shared behavior → DONE affected and package checks → DONE integrate and publish an honest prerelease → NOW HUMAN rerun remaining acceptance.
 
 ## Step details
 
@@ -113,14 +112,25 @@ flowchart LR
 
 </details>
 
-<details open>
-<summary>NOW · E-007 · Integrate prerelease</summary>
+<details>
+<summary>DONE · E-007 · Integrate prerelease</summary>
 
 - Outcome: Reviewed changes reach remote `main`, a matching tag, and a GitHub prerelease.
 - Owner: Agent; Drew supplies remaining post-install human acceptance.
 - Inputs: Passing E-006 candidate.
 - Proof: Remote hashes, merged PR, tag, release, clean worktree, and explicit remaining gates.
 - If blocked or changed: Push the branch and record the exact release blocker without a false production claim.
+
+</details>
+
+<details open>
+<summary>NOW · HUMAN beta-5 acceptance</summary>
+
+- Outcome: Direct judgment of the repaired interaction, current-state refresh, and supported visual fallback in a fresh task.
+- Owner: Drew.
+- Inputs: Installed public beta 5 and an ordinary real planning request.
+- Proof: Remaining checks in `docs/ACCEPTANCE.md` are updated from the actual run.
+- If blocked or changed: Record the exact failure and reopen only its shared behavior.
 
 </details>
 
