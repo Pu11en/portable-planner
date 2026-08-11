@@ -22,6 +22,10 @@ A — {{Recommended route and main tradeoff.}}
 
 {{Explicit decision or “Not confirmed.”}}
 
+## Delegation
+
+{{Exact user words, reversible-decision scope, and start/end condition, or “None.”}}
+
 ## Evidence
 
 - {{Relative link or “No external evidence needed.”}}

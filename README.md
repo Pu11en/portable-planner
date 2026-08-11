@@ -4,7 +4,21 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns a rough idea into a clear, durable plan by asking one worthwhile question at a time. It recommends the strongest answer first, keeps replies short, saves the plan inside the project, and shows a visual route when the plan is coherent enough to review.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.5` release candidate can offer explicit delegation after a repeated recommendation pattern without assuming authority, recover the one-letter path after a digression, keep research-led product changes provisional, begin normal-harness execution after direct approval, and proactively present a small live test from refreshed state. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked human acceptance checks pass.
+
+## Project source of truth
+
+This repository now contains the complete Portable Planner project, not only its installable package:
+
+- [Product goal](docs/GOAL.md)
+- [Confirmed product contract](docs/PRODUCT-CONTRACT.md)
+- [MVP plan](docs/MVP-PLAN.md)
+- [Acceptance checklist](docs/ACCEPTANCE.md)
+- [Remaining-work map](project-map/map.md)
+- [Validation evidence](validation/)
+- [Live pilot evidence](pilots/)
+
+The one canonical installable skill remains under `plugins/portable-planner/skills/portable-planner/`. Validation fixtures and historical evidence are not alternate skill sources.
 
 ## Install
 
@@ -28,6 +42,8 @@ I want to plan marketing for this course.
 
 Other natural requests work too:
 
+- `I want to make some kind of software, but I do not have an idea yet.`
+- `Explore what is possible for this rough app idea.`
 - `Plan this idea with me.`
 - `Continue my plan.`
 - `Show me the visual plan.`
@@ -38,8 +54,11 @@ The planner creates plain project-local Markdown under `planning/`. A fresh agen
 ## What the experience is designed to do
 
 - Ask one recommendation-first A/B/C question at a time.
-- Keep normal conversational output compact—usually under 100 words when a question is enough.
+- Keep normal conversational output to a few short lines—aim around 40 words and stay under 80 when a question is enough.
 - Research or infer agent-owned decisions instead of grilling the user about implementation details.
+- With permission at the start of a thin software/AI idea, run a privacy-safe, bounded public-repository scan and keep its recommendation provisional until the user confirms the direction.
+- After three consecutive recommended reversible choices, offer scoped delegation once when it would meaningfully reduce the remaining questions; never infer permission from the pattern.
+- After a side question or long mixed message, answer it first and restore the refreshed choice set at the bottom when a human decision remains.
 - Show an ordered visual route automatically at the approval point.
 - Produce dependency-ordered, session-sized execution tickets.
 - Cross real Codex context boundaries with a short local-state pointer instead of making the next task rediscover the project.
@@ -51,7 +70,7 @@ Portable Planner has one canonical [Agent Skill](plugins/portable-planner/skills
 
 | Harness | Install path | Preview status |
 | --- | --- | --- |
-| Codex | Native plugin marketplace | Public marketplace install passed |
+| Codex | Native plugin marketplace | Public marketplace install passed; Windows Desktop + WSL uses Mermaid/native Markdown in-task rather than file-backed inline HTML |
 | Claude Code | Native plugin marketplace | Public marketplace install passed |
 | ZCode | User plugin directory | Isolated installer test passed; live client test pending |
 | Hermes Agent | Direct GitHub skill install | Public install and security scan passed |
@@ -60,7 +79,7 @@ Portable Planner has one canonical [Agent Skill](plugins/portable-planner/skills
 
 ## Privacy and project state
 
-The planner works on local files only. It writes planning state under the active project's `planning/` directory and does not require telemetry or a remote service. Installers must preserve unrelated plugins, settings, and project files.
+Planning state stays in local files under the active project's `planning/` directory and requires no telemetry or remote storage service. The optional idea-stage scan sends only a sanitized search brief to the host's existing public research surface after permission; it must remove or generalize private names, credentials, paths, proprietary text, and sensitive details. It never clones or executes discovered repositories. Installers must preserve unrelated plugins, settings, and project files.
 
 ## Preview feedback
 

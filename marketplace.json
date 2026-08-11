@@ -5,8 +5,8 @@
     {
       "name": "portable-planner",
       "source": "./plugins/portable-planner",
-      "description": "Turn vague ideas into durable visual plans and execution tickets.",
-      "version": "0.1.0-beta.2",
+      "description": "Explore rough ideas, then turn them into durable visual plans and execution tickets.",
+      "version": "0.1.0-beta.5",
       "category": "Productivity",
       "tags": ["planning", "agent-skill", "visual-plan", "handoff"],
       "strict": true

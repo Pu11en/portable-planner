@@ -19,6 +19,7 @@ Planning is finished only if all pass:
 - Destination and success are unambiguous.
 - Boundaries and exclusions are explicit.
 - No major choice, contradiction, or factual blocker remains.
+- Every explicit delegation has a recorded scope, and no protected decision was absorbed into it.
 - Every decision-changing factual claim uses a primary source or direct provider; any unavoidable secondary fallback is explicitly provisional, independently corroborated, and has a direct recheck before irreversible commitment.
 - The map, decision tickets, evidence, and execution tickets agree.
 - Remaining work is execution rather than planning.
@@ -34,7 +35,27 @@ Run this audit adaptively rather than after a fixed number of questions. A reque
 
 If any check fails, keep planning open and resolve the demonstrated gap. Do not add new storage, services, roles, commands, or domain packs unless a concrete validation failure cannot be fixed within the existing skill, references, and templates.
 
-After explicit approval, verify that `PLAN.md`, `PLAN-VIEW.md`, and `NEXT.md` all say `approved for build`, name the same first eligible execution ticket, and leave implementation to the harness's normal build workflow.
+After explicit approval, verify that `PLAN.md`, `PLAN-VIEW.md`, and `NEXT.md` all say `approved for build` and name the same first eligible execution ticket. Then immediately enter the harness's normal build workflow when safe; do not end on a handoff announcement or ask for permission again.
+
+## Decisive-flow audit
+
+Before claiming this behavior passes, use materially different software and non-software cases to verify:
+
+- ordinary replies are a few short lines and avoid settled-context recap;
+- explicit reversible delegation synthesizes decisions, while repeated agreement does not create authority;
+- after three consecutive recommended reversible selections with at least two such decisions remaining, one explicit delegation-or-continue invitation appears without inferring authority;
+- every choice uses literal `A.`, `B.`, `C.`, or `D.` prefixes, and a digression restores the recomputed current choice set at the bottom when a human decision remains;
+- facts and settled choices are not re-asked;
+- research-derived changes to destination, output, or the role of a value-bearing source remain provisional until human confirmation;
+- dynamic uncertainty becomes one preserved ordinary/contrasting/failure trial;
+- a failed case causes a targeted revision and affected rerun before architecture expands;
+- the next safe action happens in the same turn rather than being merely announced;
+- `yes` to the direct final approval question updates state and begins normal harness execution without another authorization step;
+- irreversible commitments, uncovered personal tradeoffs, conflicts, implementation authorization, and final approval remain protected; and
+- after agent-run checks, the smallest genuine user test is presented proactively from refreshed state, reuses known context, and asks at most one truly blocking input question; and
+- a rich-presentation failure preserves the verified source, is reported separately from plan validity, and falls back to a supported readable view in the same turn.
+
+Synthetic scenarios prove instruction behavior only. They never replace the person's live acceptance judgment.
 
 After a targeted revision request, return to `planning`, reopen only the affected human decision, reconcile every downstream artifact, and refresh the view. After “keep planning,” return to `planning` and select the highest-value unresolved human decision. After confusion, pause the sequence and explain current state before asking anything else.
 

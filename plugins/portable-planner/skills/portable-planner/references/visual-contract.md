@@ -15,7 +15,7 @@ For multi-row routes, every row reads left to right. Continue from the end of on
 
 ## Decide when to show it
 
-Create `planning/PLAN-VIEW.md` as soon as destination, success, current state, next action, and a coherent route are known, or immediately when the user asks to see the plan. Refresh it after a meaningful route or state change.
+Create `planning/PLAN-VIEW.md` as soon as destination, success, current state, next action, and a coherent route are known, or immediately when the user asks to see the plan. Refresh it after a meaningful route or state change, including material execution progress. Immediately before any human test or display trigger, compare it with canonical state and regenerate it if completed/current status, blockers, or next action changed.
 
 Use an adaptive hybrid gate; never count questions:
 
@@ -60,6 +60,8 @@ Show lifecycle status as `planning`, `awaiting approval`, or `approved for build
 
 ## Display without dependencies
 
+First detect the actual host boundary. A built-in interactive visualization is preferred only when that surface can read and display the generated source. Windows Codex Desktop backed by WSL cannot read file-backed inline HTML through the cross-environment bridge: do not emit such a reference or repeatedly rename, rewrite, relocate, or regenerate a valid source to work around `Invalid visualization read request`. Use rendered Mermaid or native expandable Markdown for an in-task view. When real interaction is required, show verified HTML through a browser/Site; a true inline interactive view requires a supported normal ChatGPT chat with `@Visualize` selected.
+
 Use this fallback order without asking the user to install anything:
 
 1. In Codex or another capable host, use its available built-in visualization capability to create an in-session interactive view with destination/current/next summary cards, a clickable ordered route, one selected-step detail surface, compact support connections, and a short plan-wide safety line. Follow that host capability's required writable path and display reference, verify the view actually appears, and require no separate renderer, app, runtime, or user download. If no such capability is available, continue immediately to the portable fallback.
@@ -68,7 +70,7 @@ Use this fallback order without asking the user to install anything:
 4. Otherwise open or show the local Markdown file using an available built-in file preview.
 5. If no graphical surface exists, paste the compact text route and current-step detail from the same file in the session.
 
-Never claim the visual was shown until it is visible. If a richer display errors, immediately fall back in the same turn and record the harness limitation. A terminal-only or text-only custom harness cannot produce a graphical popup; the text route is the guaranteed universal fallback.
+Never claim the visual was shown until it is visible. If a richer display errors, preserve any verified source, report the presentation failure separately from plan validity, immediately fall back in the same turn, and record the harness limitation. Do not move or regenerate valid plan content merely to repair a preview bridge. A terminal-only or text-only custom harness cannot produce a graphical popup; the text route is the guaranteed universal fallback.
 
 A local-file link, attachment name, or statement such as “review the plan” is only navigation; it never proves display. At every automatic display trigger, the user-facing turn itself must contain either the visible rich view, rendered Mermaid, or the complete compact text route. At planning completion, show that view and ask one explicit approval question in the same turn while status remains `awaiting approval`.
 

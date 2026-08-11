@@ -1,7 +1,7 @@
 {
   "name": "portable-planner",
-  "version": "0.1.0-beta.2",
-  "description": "Turn vague ideas into approved durable plans, visual routes, and build-ready execution tickets.",
+  "version": "0.1.0-beta.5",
+  "description": "Explore rough ideas, then turn them into approved durable plans, visual routes, and build-ready execution tickets.",
   "author": {
     "name": "Drew Pullen",
     "url": "https://github.com/Pu11en"
@@ -13,16 +13,16 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Portable Planner",
-    "shortDescription": "Plan any idea without walls of text.",
-    "longDescription": "Uses one worthwhile recommendation-first question at a time to create a durable visual plan, compact adaptive task continuations, and session-sized execution tickets.",
+    "shortDescription": "Explore or plan any idea without walls of text.",
+    "longDescription": "Can optionally scan current public repositories at the start of a rough software idea, then uses brief recommendation-first planning, explicit reversible-decision delegation, bounded decision trials, durable visual plans, and session-sized execution tickets that begin through the normal harness workflow after approval.",
     "developerName": "Drew Pullen",
     "category": "Productivity",
     "capabilities": ["Planning", "Write"],
     "websiteURL": "https://github.com/Pu11en/portable-planner",
     "defaultPrompt": [
       "Plan this idea with me.",
-      "Continue my existing plan.",
-      "Show my visual plan."
+      "Explore what is possible for this rough software idea.",
+      "Continue my existing plan."
     ],
     "brandColor": "#5B5CE2"
   }
