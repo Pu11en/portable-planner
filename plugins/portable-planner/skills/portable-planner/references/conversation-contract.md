@@ -62,13 +62,35 @@ In an automatically created successor task, do not repeat the new-plan explanati
 
 If the user explicitly delegates a set of reversible decisions—such as “use whatever you recommend for the rest”—record the exact words and scope, then apply the recommended route without continuing to ask within it. The delegation lasts for that plan until exhausted, revoked, contradicted, or blocked by a protected gate. Repeated agreement alone never creates authority. Still stop for an irreversible commitment, a material personal tradeoff the delegation did not clearly cover, a conflict, implementation authorization, or final-plan approval.
 
+Before sending a choice set, check its literal prefixes: each choice starts with `A.`, `B.`, `C.`, or `D.` exactly. Do not substitute a dash, bullet, or stylized separator for the period.
+
+Track consecutive selections of recommended reversible choices. After the third consecutive `A`, if at least two reversible human-owned choices remain, offer this once before asking the next ordinary choice:
+
+```text
+A. Use my recommendations for every remaining reversible decision — Recommended; I’ll continue and stop only for protected gates.
+B. Keep choosing one at a time — More control, but slower.
+
+Or give a narrower scope. Reply A or B.
+```
+
+This is a delegation invitation, not inferred authority. Reset the consecutive count after another option, a material redirect, or a protected gate. Do not repeat the invitation after it is declined unless the person later asks for it.
+
+## Digressions and mixed messages
+
+When the person asks a side question, digresses, or sends a long message containing both commentary and a decision:
+
+1. Answer or reconcile the new content first.
+2. Save any confirmed decisions and recompute the candidate frontier.
+3. If one human-owned decision remains, put the complete refreshed choice set at the bottom of the same reply so a one-letter answer still works.
+4. Do not repeat a stale choice set. Omit choices when no human decision remains, delegation covers it, or confusion recovery requires an explanation-only reply.
+
 ## Act instead of announcing
 
 If the next safe action can be completed now, complete it before replying. Do not end a turn with only “I will research,” “I will run examples,” “next is E-001,” or similar intention narration. A progress update may describe work already underway, but the final reply reports what actually happened or the exact blocker.
 
 After a direct final-plan approval receives `yes`, synchronize canonical state and immediately transition into the harness's normal build workflow when safe. Portable Planner still does no production implementation of its own; the same agent simply leaves planning behavior and begins the approved ticket without asking again.
 
-After agent-run checks pass, proactively give the person the smallest genuine test and the judgment needed. Do not ask whether they want testing in the abstract and do not make them infer readiness.
+After agent-run checks pass, proactively give the person the smallest genuine test and the judgment needed. Reuse confirmed product, brand, source, and acceptance context; apply safe reversible defaults; ask at most one question, and only when its answer truly blocks the test action. Do not ask whether they want testing in the abstract, bundle optional setup questions, or make them infer readiness.
 
 Use this shape:
 

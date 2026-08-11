@@ -6,9 +6,9 @@
 
 **Success:** Fresh varied sessions prove delegated choices proceed without extra questions, bounded trials replace unproductive discussion, and the planner clearly pushes completed work into approval and the right live test without crossing protected gates.
 
-**Now:** E-001 through E-003 are complete. E-004 is ready for Drew's fresh live test.
+**Now:** E-001 through E-006 are complete. The beta.4 failures are repaired and the unchanged beta.5 candidate passes affected behavior, package, install, and fresh natural-invocation checks; E-007 is integrating the prerelease.
 
-**Next:** E-004 gives Drew the smallest genuine live test.
+**Next:** Publish beta 5 from remote `main`, then Drew reruns the remaining human acceptance in a new task.
 
 ```mermaid
 flowchart LR
@@ -16,20 +16,23 @@ flowchart LR
     E1["DONE · Lock behavior contract"]
     E2["DONE · Update canonical skill"]
     E3["DONE · Prove varied behavior"]
-    E4(["NOW · HUMAN live acceptance"])
-    D(["DONE · Decisive brief planner"])
-    H --> E1 --> E2 --> E3 --> E4 --> D
+    E4["DONE · Live failures captured"]
+    E5["DONE · Repair shared behavior"]
+    E6["DONE · Rerun release checks"]
+    E7(["NOW · Integrate prerelease"])
+    D(["DONE · Repaired candidate published"])
+    H --> E1 --> E2 --> E3 --> E4 --> E5 --> E6 --> E7 --> D
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
 
-    class E4 current;
-    class H,E1,E2,E3 milestone;
+    class E7 current;
+    class H,E1,E2,E3,E4,E5,E6 milestone;
     class D proof;
 ```
 
-**Text route:** HUMAN approved plan → DONE lock behavior contract → DONE update the one canonical skill → NOW prove normal, tricky, and failure cases across project types → HUMAN try it live → accept only with real evidence.
+**Text route:** HUMAN approved plan → DONE lock behavior contract → DONE update the one canonical skill → DONE synthetic proof → DONE capture beta.4 live failures → DONE repair only demonstrated shared behavior → DONE affected and package checks → NOW integrate and publish an honest prerelease → HUMAN rerun remaining acceptance.
 
 ## Step details
 
@@ -77,14 +80,47 @@ flowchart LR
 
 </details>
 
-<details open>
-<summary>NOW · E-004 · HUMAN live acceptance</summary>
+<details>
+<summary>DONE · E-004 · HUMAN live acceptance</summary>
 
-- Outcome: Drew judges a genuine fresh planning session concise, decisive, controllable, and clear about when and how to test it.
+- Outcome: A genuine fresh session preserved both passing behavior and concrete failures.
 - Owner: Shared.
 - Inputs: Passing package and an ordinary fresh request.
-- Proof: Drew's direct judgment plus preserved trace.
-- If blocked or changed: Record the failure and reopen only affected behavior.
+- Proof: Drew's direct judgments and the preserved beta.4 trace.
+- If blocked or changed: Reopen only the affected shared behavior.
+
+</details>
+
+<details>
+<summary>DONE · E-005 · Repair shared behavior</summary>
+
+- Outcome: Fix delegation invitation, digression choices, provisional research direction, test intake, visual freshness, and fallback behavior in the one canonical skill.
+- Owner: Agent.
+- Inputs: Recorded beta.4 failures and Drew's confirmed corrections.
+- Proof: Product and skill contracts agree without domain-specific instructions or new architecture.
+- If blocked or changed: Return only a genuinely new product tradeoff to planning.
+
+</details>
+
+<details>
+<summary>DONE · E-006 · Rerun release checks</summary>
+
+- Outcome: Fresh affected cases and full package checks pass on the unchanged repaired candidate.
+- Owner: Agent.
+- Inputs: E-005 candidate and preserved failure assertions.
+- Proof: Raw outputs, package validation, link/state audits, installer proof, and honest acceptance reconciliation.
+- If blocked or changed: Repair only the failed shared instruction and rerun affected cases.
+
+</details>
+
+<details open>
+<summary>NOW · E-007 · Integrate prerelease</summary>
+
+- Outcome: Reviewed changes reach remote `main`, a matching tag, and a GitHub prerelease.
+- Owner: Agent; Drew supplies remaining post-install human acceptance.
+- Inputs: Passing E-006 candidate.
+- Proof: Remote hashes, merged PR, tag, release, clean worktree, and explicit remaining gates.
+- If blocked or changed: Push the branch and record the exact release blocker without a false production claim.
 
 </details>
 

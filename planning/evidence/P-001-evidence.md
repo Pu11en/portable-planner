@@ -2,6 +2,11 @@
 
 Accessed: 2026-08-07
 
+## Live evidence
+
+- The [beta.4 live acceptance trace](../../validation/DECISIVE-FLOW-LIVE-ACCEPTANCE.md) confirms the successful natural start, research, durable state, approval-to-build, and proactive test transition while preserving the exact failures that require the release-candidate repairs in E-005.
+- The [beta.5 affected rerun](../../validation/BETA5-RELEASE-CANDIDATE-TEST.md) passes the repaired instruction, package, isolated-install, and fresh natural-invocation checks while keeping V-03, V-04, and final human acceptance open.
+
 ## Primary research
 
 - Matt Pocock's current grilling guidance treats questions that cannot be settled through discussion as prototype candidates rather than prompts to rephrase indefinitely: <https://github.com/mattpocock/skills/blob/84fdeffd12f2ee307994d1eb6feb48173b6e0502/docs/productivity/grill-me.md#L21-L45>.
@@ -61,4 +66,5 @@ The completed [decisive-flow test](../../validation/DECISIVE-FLOW-TEST.md)
 compares the revised skill with the prior behavior across explicit delegation,
 an exhausted-discussion trial, natural approval-to-build, handoff, proactive
 testing, revocation, and protected commitments. Synthetic and package checks
-pass; Drew's fresh live judgment remains open.
+pass. The beta-5 affected rerun also passes the newly repaired cases; Drew's
+fresh direct beta-5 judgment remains open.

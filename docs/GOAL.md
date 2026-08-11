@@ -43,6 +43,9 @@ The person installs no runtime, renderer, MCP server, database, web app, package
 - Perform the next safe planning action in the same turn instead of stopping after saying what will happen next.
 - Preserve confirmed decisions before continuing.
 - Finish a simple route in one session; expand only when demonstrated uncertainty requires it.
+- After three consecutive recommended reversible choices, offer one explicit delegation shortcut when more reversible choices remain; never infer that authority from repeated agreement.
+- After a digression, preserve the one-letter path by ending with the refreshed complete choice set whenever a worthwhile human decision remains.
+- Keep research-derived changes to the product provisional until the person confirms them, and make live-test handoffs reuse known context rather than reopening intake.
 - At a real session boundary, start the one authorized successor or give a clearly labeled exact prompt the person can paste; never leave them with only a vague next-step announcement.
 - When a direct approval question receives `yes`, treat it as explicit authorization: update state and immediately enter the harness's normal build workflow when safe. After agent checks pass, proactively present the smallest genuine user test.
 
@@ -64,7 +67,7 @@ Use a route-first graph as the default hierarchy. Keep the destination, current 
 
 Selecting a route step reveals its outcome, owner, inputs, proof, and failure or change behavior. Detail stays available without forcing it into the overview. The visual is a view of the durable plan, never a second competing source of truth.
 
-The plugin carries its own zero-dependency visual template. Every harness generates the same project-local `planning/PLAN-VIEW.md` with a Mermaid graph plus a compact text route. The visual is always available on request, may be offered once as a useful draft, and opens automatically for final review only when the complete route passes the finish audit. It refreshes after a misleading major change and appears after a fresh resume when a coherent route exists. In Codex it prefers the approved built-in interactive presentation; otherwise it uses Mermaid, the harness's preview or local-file surface, and finally the compact text route. No separate visual download is required.
+The plugin carries its own zero-dependency visual template. Every harness generates the same project-local `planning/PLAN-VIEW.md` with a Mermaid graph plus a compact text route. The visual is always available on request, may be offered once as a useful draft, and opens automatically for final review only when the complete route passes the finish audit. It refreshes after a misleading planning or execution-state change, before human testing, and after a fresh resume when a coherent route exists. A genuinely supported rich host may use the approved interactive presentation; Windows Codex Desktop tasks running through WSL use rendered Mermaid or native expandable Markdown rather than unsupported file-backed inline HTML. Browser/Site and normal ChatGPT `@Visualize` remain interactive routes when available. No separate visual download is required.
 
 A text-only custom harness cannot create a graphical popup, but it must still show the complete compact route in the same session. The agent must never claim a visual was displayed when the display surface errored.
 

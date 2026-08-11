@@ -43,13 +43,17 @@ Before claiming this behavior passes, use materially different software and non-
 
 - ordinary replies are a few short lines and avoid settled-context recap;
 - explicit reversible delegation synthesizes decisions, while repeated agreement does not create authority;
+- after three consecutive recommended reversible selections with at least two such decisions remaining, one explicit delegation-or-continue invitation appears without inferring authority;
+- every choice uses literal `A.`, `B.`, `C.`, or `D.` prefixes, and a digression restores the recomputed current choice set at the bottom when a human decision remains;
 - facts and settled choices are not re-asked;
+- research-derived changes to destination, output, or the role of a value-bearing source remain provisional until human confirmation;
 - dynamic uncertainty becomes one preserved ordinary/contrasting/failure trial;
 - a failed case causes a targeted revision and affected rerun before architecture expands;
 - the next safe action happens in the same turn rather than being merely announced;
 - `yes` to the direct final approval question updates state and begins normal harness execution without another authorization step;
 - irreversible commitments, uncovered personal tradeoffs, conflicts, implementation authorization, and final approval remain protected; and
-- after agent-run checks, the smallest genuine user test is presented proactively.
+- after agent-run checks, the smallest genuine user test is presented proactively from refreshed state, reuses known context, and asks at most one truly blocking input question; and
+- a rich-presentation failure preserves the verified source, is reported separately from plan validity, and falls back to a supported readable view in the same turn.
 
 Synthetic scenarios prove instruction behavior only. They never replace the person's live acceptance judgment.
 

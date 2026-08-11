@@ -4,7 +4,7 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The local `beta.4` candidate can use explicitly delegated recommendations, switch exhausted discussion to bounded planning trials, begin normal-harness execution after direct approval, and proactively present the smallest live test. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked acceptance checks pass.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.5` release candidate can offer explicit delegation after a repeated recommendation pattern without assuming authority, recover the one-letter path after a digression, keep research-led product changes provisional, begin normal-harness execution after direct approval, and proactively present a small live test from refreshed state. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked human acceptance checks pass.
 
 ## Project source of truth
 
@@ -57,6 +57,8 @@ The planner creates plain project-local Markdown under `planning/`. A fresh agen
 - Keep normal conversational output to a few short lines—aim around 40 words and stay under 80 when a question is enough.
 - Research or infer agent-owned decisions instead of grilling the user about implementation details.
 - With permission at the start of a thin software/AI idea, run a privacy-safe, bounded public-repository scan and keep its recommendation provisional until the user confirms the direction.
+- After three consecutive recommended reversible choices, offer scoped delegation once when it would meaningfully reduce the remaining questions; never infer permission from the pattern.
+- After a side question or long mixed message, answer it first and restore the refreshed choice set at the bottom when a human decision remains.
 - Show an ordered visual route automatically at the approval point.
 - Produce dependency-ordered, session-sized execution tickets.
 - Cross real Codex context boundaries with a short local-state pointer instead of making the next task rediscover the project.
@@ -68,7 +70,7 @@ Portable Planner has one canonical [Agent Skill](plugins/portable-planner/skills
 
 | Harness | Install path | Preview status |
 | --- | --- | --- |
-| Codex | Native plugin marketplace | Public marketplace install passed |
+| Codex | Native plugin marketplace | Public marketplace install passed; Windows Desktop + WSL uses Mermaid/native Markdown in-task rather than file-backed inline HTML |
 | Claude Code | Native plugin marketplace | Public marketplace install passed |
 | ZCode | User plugin directory | Isolated installer test passed; live client test pending |
 | Hermes Agent | Direct GitHub skill install | Public install and security scan passed |

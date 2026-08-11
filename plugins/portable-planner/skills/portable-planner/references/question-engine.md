@@ -26,6 +26,8 @@ If no human-owned question is ready, research or synthesize the blocker without 
 
 If the person has explicitly delegated the remaining reversible decisions to the agent's recommendations, treat ready decisions inside that recorded scope as synthesis: save the recommended choice and reconcile its effects without asking. Repeated acceptance is convergence evidence, not delegation. Do not extend authority to irreversible commitments, materially personal tradeoffs, conflicts, implementation authorization, or final approval.
 
+Track consecutive acceptances of recommended reversible choices. After three consecutive acceptances, if the recomputed frontier still contains at least two reversible human-owned decisions, make the next question the one-time delegation-or-continue invitation from [conversation-contract.md](conversation-contract.md). This pattern never changes ownership by itself. Reset the count after a non-recommended answer, material redirect, or protected gate; do not re-offer after a decline unless requested.
+
 If the remaining uncertainty concerns dynamic behavior, look and feel, interaction, or effectiveness that words cannot discriminate, stop asking and run one bounded planning trial. Name one decision question; use an ordinary case, a materially contrasting case, and a failure or prohibited-action case by default. Preserve every input or starting state, variation, observed output, surprise or failure, verdict, and decision changed. Make one targeted planning revision after failure and rerun affected cases; return persistent tradeoffs to the person.
 
 ## Write the choices
@@ -37,6 +39,7 @@ If the remaining uncertainty concerns dynamic behavior, look and feel, interacti
 - Give each option one short consequence or tradeoff.
 - End with a visible custom-answer path and the valid reply letters.
 - Do not expose expert names, framework jargon, or internal planning logic unless the person asks.
+- Verify literal choice prefixes before replying: `A.`, `B.`, `C.`, and `D.` only.
 
 ## Resolve the answer
 
@@ -46,6 +49,8 @@ When the person replies `yes`, `no`, `approved`, or equivalent to the most recen
 
 If the answer contradicts earlier state, point out the exact conflict briefly and ask one consequential reconciliation question. Do not silently preserve both answers.
 
-An idea-stage research recommendation is provisional, even when the person delegated routine choices to the agent. Before ordinary planning adopts it, ask one grounded direction question whose viable answers are confirm, combine with a materially different surfaced alternative, or redirect. Omit any alternative unsupported by the evidence; never manufacture three choices. Save the selected direction and its evidence before continuing.
+An idea-stage research recommendation is provisional, even when the person delegated routine choices to the agent. The same rule applies whenever research or reused project evidence suggests changing the destination, intended output, or role of a value-bearing source asset. Before ordinary planning adopts it, ask one grounded direction question whose viable answers are confirm, combine with a materially different surfaced alternative, or redirect. Omit any alternative unsupported by the evidence; never manufacture three choices. Save the selected direction and its evidence before continuing.
+
+After a digression, side question, or long mixed message, first save and reconcile the new content, then rebuild the frontier. If one human-owned decision remains, put its complete refreshed choices at the bottom of the same reply. Never preserve a stale question merely to keep a one-letter interaction available.
 
 When a message introduces work that does not support the current destination, preserve current state and ask whether to switch plans or keep the new idea separate. Never merge unrelated destinations merely because they appeared in one conversation.

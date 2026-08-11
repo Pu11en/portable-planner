@@ -58,6 +58,8 @@ Never ask the user to select an internal workflow, tool, architecture, research 
 
 The idea-stage scan is a special, consented form of the Research route. It expands the person's understanding of plausible directions before the plan adopts one; it does not choose the product, perform broad market research, clone or execute discovered code, or change ordinary research behavior. Follow its eligibility, privacy, search, inspection, evidence, output, state, and fallback limits exactly.
 
+Research and reused project evidence may reveal a better direction, but they cannot silently redefine the destination, intended output, or role of an important source asset. Treat such a change as a provisional recommendation and put the grounded product choice back in the human-owned frontier before optimizing downstream work around it.
+
 Maintain the prerequisite-aware candidate frontier in [question-engine.md](references/question-engine.md). Expose only its single most consequential ready human-owned decision. The recommendation is always the first option, `A`.
 
 ## Work one ticket
@@ -69,12 +71,14 @@ Maintain the prerequisite-aware candidate frontier in [question-engine.md](refer
 5. Reconcile contradictions and downstream effects immediately. Add, remove, split, merge, or reorder tickets only when new understanding requires it.
 6. Challenge unnecessary scope briefly and tie the challenge to the destination.
 7. Honor an explicit request to use the agent's recommendations for a defined set of reversible decisions: record the user's exact words and scope, then synthesize those choices without more questions. The delegation lasts for that plan until exhausted, revoked, contradicted, or blocked by an irreversible commitment, uncovered material personal tradeoff, conflict, implementation authorization, or final-plan approval. Repeated agreement alone never creates delegation.
-8. If an unrelated idea appears, preserve the current plan and separate or switch it deliberately; never silently mix destinations.
-9. Complete a ticket only when its decision and effects are explicit, evidence is linked when used, its completion check passes, no unresolved issue blocks the next ticket, and `NEXT.md` is exact.
-10. Before replying after a write-through, compare the current unresolved decision in its ticket with `PLAN.md` current/next, `NEXT.md` work/session/completion lines, and `PLAN-VIEW.md` now/next. Repair every stale reference to the just-settled decision.
-11. Keep ordinary replies to a few short lines: current result, next action, and at most one worthwhile question. Do not recap settled context unless it changed. Evidence or a required final review may be longer, but summarize first.
-12. When the next safe planning action is clear, perform it in the same turn. Never end after merely announcing research, synthesis, a trial, a file update, approval processing, or another safe action that can be completed now.
-13. When the current ticket can still be completed reliably, stay in this task. At a demonstrated context boundary, follow [session-chaining.md](references/session-chaining.md): save first, then create at most one authorized successor or visibly label and provide the exact compact next-session prompt. Never stop at a vague handoff announcement.
+8. Track consecutive acceptances of recommended reversible choices. After three such acceptances, when at least two reversible human-owned choices still remain, offer once to delegate that remaining scope or keep choosing one at a time. The pattern is only a reason to ask; it never grants authority. A custom answer may narrow the scope.
+9. If the user digresses, asks a side question, or supplies a long mixed message, answer or reconcile it first, recompute the frontier, and—if one human-owned decision remains—put the complete refreshed `A./B./C.(/D.)` choice set at the bottom of the same reply. Never repeat a stale choice set merely to preserve the one-letter path.
+10. If an unrelated idea appears, preserve the current plan and separate or switch it deliberately; never silently mix destinations.
+11. Complete a ticket only when its decision and effects are explicit, evidence is linked when used, its completion check passes, no unresolved issue blocks the next ticket, and `NEXT.md` is exact.
+12. Before replying after a write-through, compare the current unresolved decision in its ticket with `PLAN.md` current/next, `NEXT.md` work/session/completion lines, and `PLAN-VIEW.md` now/next. Repair every stale reference to the just-settled decision.
+13. Keep ordinary replies to a few short lines: current result, next action, and at most one worthwhile question. Do not recap settled context unless it changed. Evidence or a required final review may be longer, but summarize first.
+14. When the next safe planning action is clear, perform it in the same turn. Never end after merely announcing research, synthesis, a trial, a file update, approval processing, or another safe action that can be completed now.
+15. When the current ticket can still be completed reliably, stay in this task. At a demonstrated context boundary, follow [session-chaining.md](references/session-chaining.md): save first, then create at most one authorized successor or visibly label and provide the exact compact next-session prompt. Never stop at a vague handoff announcement.
 
 If the user says they are confused, stop the planning sequence. Explain what this session is doing, what it is not doing, and the current step in plain language. Do not ask another planning decision in that reply. Resume only after the user understands or redirects the work.
 
@@ -94,9 +98,10 @@ If a file, tool, display, research step, or handoff fails, preserve every confir
 ## Move finished work into testing
 
 1. Agent-run checks come before human testing. Complete the ticket's objective proof and record failures before expanding architecture.
-2. When the candidate is genuinely ready for human judgment, proactively present the smallest real test that can confirm or disprove the changed behavior. Do not leave the person to guess whether the work is ready or what to try.
-3. Keep the invitation short: state what is ready, give one natural test action, and say what judgment is needed.
-4. Synthetic trials and authored examples are planning or implementation evidence, not live acceptance. Record the person's actual result separately.
+2. Before presenting a test, reconcile `PLAN.md`, the active ticket, `PLAN-VIEW.md`, and `NEXT.md` so completed work is not shown as current. Reuse confirmed product, brand, source, and acceptance context rather than asking the person to restate it.
+3. When the candidate is genuinely ready for human judgment, proactively present the smallest real test that can confirm or disprove the changed behavior. Do not leave the person to guess whether the work is ready or what to try.
+4. Keep the invitation short: state what is ready, give one natural test action, and say what judgment is needed. Apply safe reversible defaults and ask at most one question, only when its answer truly blocks the test action.
+5. Synthetic trials and authored examples are planning or implementation evidence, not live acceptance. Record the person's actual result separately.
 
 ## Prepare a handoff
 
@@ -104,4 +109,4 @@ Write compact `NEXT.md` with the resolved absolute path to `planning/`, lifecycl
 
 ## Show the map
 
-When asked, when a useful draft would materially aid direction, or when an automatic trigger in [visual-contract.md](references/visual-contract.md) fires, show the route-first view generated from canonical state. In Codex, prefer the approved interactive presentation: destination/current/next cards, a clickable ordered route, one selected-step detail surface, compact support connections, and a short safety line. If that surface fails or is unavailable, immediately use Mermaid, Markdown preview, or the complete compact text route; never make the user install a renderer or troubleshoot the visual. A file link by itself does not count as showing the plan. At the approval gate, the same user-facing turn must contain the visible view or complete text route and ask one explicit approval question. Otherwise show only progress, current step, and next step. Never dump every linked artifact into the conversation.
+When asked, when a useful draft would materially aid direction, or when an automatic trigger in [visual-contract.md](references/visual-contract.md) fires, refresh and show the route-first view generated from canonical state. Prefer the approved interactive presentation only on a host that actually supports it. In Windows Codex Desktop backed by WSL, do not emit a file-backed inline HTML visualization: use rendered Mermaid or native expandable Markdown, or show interactive HTML through a browser/Site. If a richer surface fails or is unavailable, preserve any verified source, report the presentation failure separately, and immediately show Mermaid, Markdown, or the complete compact text route; never regenerate valid plan content merely to work around the display or make the user troubleshoot it. A file link by itself does not count as showing the plan. At the approval gate, the same user-facing turn must contain the visible view or complete text route and ask one explicit approval question. Otherwise show only progress, current step, and next step. Never dump every linked artifact into the conversation.

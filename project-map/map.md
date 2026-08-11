@@ -8,8 +8,8 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 
 - This map decides the remaining product behavior; it does not replace the active MVP acceptance checklist or perform final-plan execution.
 - Use the confirmed planning-only boundary, plain project-local state, one consequential human question per turn, recommendation-first `A/B/C(/D)` choices, and no rigid question count.
-- The approved Codex presentation is the earlier interactive Hanoi style: destination/current/next summary, clickable ordered route, one selected-step detail surface, compact supporting-system connections, and short plan-wide safety rules.
-- Automatically display that review surface when the agent can defend a coherent end-to-end plan. Keep Mermaid/Markdown/text as portability fallbacks rather than the preferred Codex experience.
+- The preferred rich-host presentation is the earlier interactive Hanoi style: destination/current/next summary, clickable ordered route, one selected-step detail surface, compact supporting-system connections, and short plan-wide safety rules.
+- Automatically display the richest supported review surface when the agent can defend a coherent end-to-end plan. In Windows Codex Desktop backed by WSL, do not attempt file-backed inline HTML; use rendered Mermaid or native expandable Markdown, or a browser/Site when interaction is required.
 - Keep all implementation isolated in this repository; do not add MCP, a database, web app, cloud account, GitHub requirement, domain pack, or competing build workflow.
 - Human evidence must come from Drew's ordinary plans in fresh tasks. An implementation simulation or canned example cannot stand in for him.
 
@@ -22,13 +22,13 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - [Objective MVP evidence](../docs/ACCEPTANCE.md) — conversation, state, ticket, install, cross-project, and Codex/Hermes checks are already evidenced; human live experience remains the final authority.
 - [Adaptive review gate](issues/01-decide-adaptive-review-gate.md) — the visual is always available, may be offered once as a useful draft, and opens automatically only when the complete route is defensible; approval, targeted revision, continued planning, and confusion each return to an explicit lifecycle path without a question-count threshold.
 - [Idea-stage possibility scan](issues/05-prove-idea-stage-possibility-scan.md) — a new no-idea or thin-idea software/AI start may opt into bounded repository-first discovery, but the result remains provisional and unproven until objective scenario checks and Drew's fresh-session use pass.
-- [Decisive planning flow](issues/06-prove-decisive-planning-flow.md) — explicit delegation removes reversible preference questions, exhausted discussion becomes bounded evidence, direct approval starts normal execution, and validated work proactively asks Drew to test.
+- [Decisive planning flow](issues/06-prove-decisive-planning-flow.md) — explicit delegation removes reversible preference questions, repeated recommendation acceptance triggers an explicit delegation offer without granting authority, exhausted discussion becomes bounded evidence, direct approval starts normal execution, and validated work proactively asks Drew to test from refreshed state.
 
 ## Not yet specified
 
 - Exact implementation corrections exposed by the first real plan and the first naturally complex real plan.
 - Exact corrections exposed by the idea-stage scenario matrix and Drew's first natural fresh-session scan.
-- Exact corrections exposed by the decisive-flow scenario matrix and Drew's fresh live test.
+- Whether the beta-5 repairs fully resolve the decisive-flow failures in Drew's next fresh live test.
 - Whether naturally complex use exposes a genuinely new planning behavior after the first real-use flow is clean.
 - The final wording Drew uses to judge speed, worthwhile questions, boundary clarity, usable plans, and executable handoff after both real-use proofs.
 
@@ -38,4 +38,4 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - MCP, database-backed state, hosted web app, cloud account, GitHub dependency, domain pack, or mandatory renderer.
 - A repository-cloning pipeline, required GitHub account, automatic dependency installation, or claim that repository popularity proves a product idea.
 - A graphical popup guarantee in terminal-only or text-only harnesses.
-- Publishing the plugin repository before the verified local experiment and Drew's final acceptance pass.
+- Calling the public-preview plugin proven or generally available before Drew's final acceptance pass.

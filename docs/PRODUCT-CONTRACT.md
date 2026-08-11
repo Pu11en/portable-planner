@@ -35,7 +35,9 @@ This behavior is provisional until its scenario evidence and Drew's uncoached fr
 - Every listed route must be viable. Always put the agent's recommended route first as `A` and state its main tradeoff.
 - Accept a custom answer and preserve every confirmed answer before continuing.
 - When the user explicitly delegates a defined set of reversible choices to the agent's recommendations, record the exact words and scope, then stop asking within it. The delegation lasts for that plan until exhausted, revoked, contradicted, or blocked by a protected gate.
-- Repeated agreement alone never creates delegation. Still pause for irreversible commitments, uncovered material personal tradeoffs, conflicts, implementation authorization, and final-plan approval.
+- Repeated agreement alone never creates delegation. After three consecutive acceptances of the recommended reversible option, when at least two reversible choices remain, offer one explicit `A/B` choice: delegate the remaining reversible recommendations or keep choosing one at a time. Accept a narrower custom scope. Only the answer—not the pattern—grants authority.
+- After a side question, challenge, or context-rich paragraph, answer or reconcile it, recompute the current decision, and end with the complete refreshed `A/B/C(/D)` choice set whenever one worthwhile human decision remains. Do not repeat a stale choice or end with an open prompt merely because the reply required explanation.
+- Still pause for irreversible commitments, uncovered material personal tradeoffs, conflicts, implementation authorization, and final-plan approval.
 - When the agent asks a direct yes/no approval question, an immediate `yes` is explicit approval. Resolve it against that question; never demand a second phrase or magic wording.
 - Ask no question merely because a template contains a field.
 
@@ -52,6 +54,7 @@ This behavior is provisional until its scenario evidence and Drew's uncoached fr
 - Produce tickets that a fresh harness session can execute and objectively verify without reopening major planning decisions.
 - At a real task boundary, either create the one authorized successor task or show a clearly labeled exact next-session prompt. A ticket name or statement that another session is next is not a handoff.
 - Preserve the current plan when an unrelated idea appears; deliberately switch or separate it rather than silently mixing destinations.
+- Treat research and reused-project evidence as evidence, not authority to redefine the product. Any new destination, audience, deliverable, success proof, or removal of value-bearing source material remains provisional until the person confirms it or a bounded trial settles it.
 - Use no fixed question count. Attempt final review when the complete route is defensible: destination, observable success, boundaries, major human decisions, order, dependencies, gates, risks, recovery, tickets, and canonical artifacts are coherent.
 - Show the finished visual plan automatically as an explicit approval gate. Do not hand anything to the harness's normal build workflow until the person clearly approves it.
 - When the next safe action is clear, perform it in the same turn instead of ending with an intention statement.
@@ -66,8 +69,10 @@ This behavior is provisional until its scenario evidence and Drew's uncoached fr
 - Keep architecture, support systems, owners, inputs, proof detail, and failure behavior in the selected milestone's details rather than mixing multiple diagrams into the overview.
 - Keep the overview easy to scan while allowing a selected step to reveal outcome, owner, inputs, proof, and failure/change behavior.
 - Generate the view from canonical project state; it is never a second source of truth.
-- In Codex, prefer the approved interactive presentation: destination/current/next summary cards, a clickable ordered route, one selected-step detail surface, compact support connections, and a short safety line. Do not replace it with a PNG or screenshot. Retain Mermaid/Markdown/text fallbacks for other harnesses and require no renderer or separate user download.
-- Never claim the visual displayed when the surface failed.
+- Regenerate the view after every material planning or execution-state change and immediately before displaying final review, resumption, completion, or human-test readiness. A stale view is a failed display even when its Markdown renders.
+- In a host that genuinely supports the approved interactive presentation, prefer destination/current/next summary cards, a clickable ordered route, one selected-step detail surface, compact support connections, and a short safety line. In Windows Codex Desktop tasks running through WSL, do not use file-backed inline HTML because the desktop bridge rejects it; use rendered Mermaid or native expandable Markdown in-task, or a browser/Site when interaction is required. A normal ChatGPT chat with `@Visualize` remains the supported inline interactive route when available.
+- Do not replace the normal plan with a PNG or screenshot. Retain Mermaid/Markdown/text fallbacks and require no renderer or separate user download.
+- Never claim the visual displayed when the surface failed. Report the presentation failure separately from the valid plan, preserve the verified source, and fall back in the same turn without regenerating trustworthy state.
 
 ## Review outcomes
 
@@ -75,7 +80,7 @@ This behavior is provisional until its scenario evidence and Drew's uncoached fr
 - A targeted change returns to `planning`, reopens only the affected human decision, reconciles downstream state, and refreshes the visual.
 - “Keep planning” returns to `planning` and continues with one highest-value human decision at a time.
 - Confusion pauses questions and triggers a plain-language explanation of the current state.
-- After the approved build passes agent-run checks, proactively present the smallest genuine user test and request live acceptance instead of leaving the person to infer test readiness.
+- After the approved build passes agent-run checks, reconcile canonical status, `PLAN-VIEW.md`, and `NEXT.md`, then proactively present the smallest genuine user test and request live acceptance instead of leaving the person to infer test readiness. Reuse known project context, separate the concrete test action from missing human decisions, apply safe defaults, and ask at most one genuinely blocking human question; never turn readiness into a bundled intake form.
 
 ## Failure behavior
 

@@ -36,7 +36,10 @@ Portable Planner stops low-value grilling, acts on explicitly delegated reversib
 - ✓ [E-001 — Lock the behavior contract](execution/E-001-lock-behavior-contract.md)
 - ✓ [E-002 — Update the canonical skill](execution/E-002-update-canonical-skill.md)
 - ✓ [E-003 — Prove varied planning behavior](execution/E-003-prove-varied-behavior.md)
-- ▶ [E-004 — Run fresh live acceptance](execution/E-004-run-live-acceptance.md)
+- ✓ [E-004 — Run fresh live acceptance](execution/E-004-run-live-acceptance.md) — completed with recorded failures
+- ✓ [E-005 — Repair the live interaction failures](execution/E-005-repair-live-failures.md)
+- ✓ [E-006 — Rerun affected behavior and package checks](execution/E-006-rerun-release-candidate.md)
+- ▶ [E-007 — Integrate and publish the release candidate](execution/E-007-publish-release-candidate.md)
 
 ## Approval
 
@@ -45,5 +48,5 @@ Portable Planner stops low-value grilling, acts on explicitly delegated reversib
 
 ## Now
 
-- Current: E-004 — Run fresh live acceptance.
-- Next: Plan complete after Drew's direct judgment, or reopen only the failed behavior.
+- Current: E-007 — Integrate and publish beta 5 as an honest public-preview prerelease.
+- Next: Drew runs the remaining fresh human acceptance from a new task.

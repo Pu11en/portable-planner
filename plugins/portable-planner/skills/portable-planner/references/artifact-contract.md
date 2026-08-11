@@ -56,6 +56,8 @@ For each trial, preserve the exact decision question, input and context or start
 
 For a consented idea-stage possibility scan, create the normal minimum plan with one current planning ticket for the initial direction before relying on chat context. Record consent, the sanitized one-sentence brief, the selected query angles, candidate counts, deep-inspection reasons, access dates, direct repository links, evidence-tier findings, license status, omissions, and any search limitation in that ticket's ordinary `evidence/P-NNN-evidence.md`. Do not create a separate discovery state tree, repository database, or transcript log. The eventual human-confirmed direction belongs in the same planning ticket; repository results remain evidence, not confirmed product decisions.
 
+If research or reused project evidence suggests a different destination, intended output, or role for a value-bearing source asset, record it as a provisional recommendation with its evidence and affected choice. Do not rewrite downstream tickets as though the change were confirmed until the person settles that human-owned product decision.
+
 ## `NEXT.md`
 
 During planning, name exactly one current unblocked planning ticket. Include the resolved absolute path to the `planning/` folder, lifecycle state, the minimum files to load, the required session outcome, and the ticket completion test. Do not rely on chat history or the original working directory. Keep it compact: it is an index into canonical state, not a second plan or a conversation transcript.
@@ -83,3 +85,5 @@ After a confirmed decision:
 5. regenerate `PLAN-VIEW.md`;
 6. regenerate `NEXT.md`;
 7. compare the current ticket's unresolved decision with `PLAN.md` current/next, `PLAN-VIEW.md` now/next, and the work/session/completion lines in `NEXT.md`; update any line that still describes the decision just settled.
+
+Before any human test invitation or plan display, repeat the comparison even when no new planning answer arrived. Material execution progress can make a generated view or handoff stale. Reconcile completed/current status and the actual next action first; then regenerate `PLAN-VIEW.md` and `NEXT.md` from canonical state.

@@ -138,13 +138,19 @@ The plugin must:
 
 The plugin must not offer an option that clearly contradicts an already confirmed preference merely to manufacture a choice.
 
-If the user explicitly delegates a defined group of reversible decisions to the plugin's recommendations, the plugin records the exact scope and applies the recommended routes without continuing to ask inside it. Repeated agreement alone is not delegation. The plugin still pauses for irreversible commitments, material personal tradeoffs the delegation did not clearly cover, conflicts, implementation authorization, and final-plan approval.
+If the user explicitly delegates a defined group of reversible decisions to the plugin's recommendations, the plugin records the exact scope and applies the recommended routes without continuing to ask inside it. Repeated agreement alone is not delegation. After three consecutive recommended reversible choices, when at least two reversible choices remain, the plugin offers one explicit delegation-or-continue choice and accepts a narrower custom scope. The plugin still pauses for irreversible commitments, material personal tradeoffs the delegation did not clearly cover, conflicts, implementation authorization, and final-plan approval.
+
+After a side question, challenge, or context-rich paragraph, the planner answers or reconciles first, recomputes the frontier, and restores the complete lettered choice at the bottom whenever a worthwhile human decision remains.
 
 The plugin stops asking when facts, prior words, or delegation already settle the issue, or when another verbal answer is unlikely to change the plan. Experiential uncertainty becomes one bounded decision trial, normally using an ordinary case, a materially contrasting case, and a failure or prohibited-action case. Inputs, outputs, variations, failures, verdict, and the changed decision remain durable planning evidence; prototype work never becomes production implementation.
+
+Research or reused-project evidence cannot silently redefine the destination, audience, deliverable, success proof, or value-bearing source material. Such a change remains provisional until the person confirms it or a bounded planning trial settles it.
 
 When the next safe planning action is clear, the agent performs it in the same turn rather than ending with an intention statement. An immediate `yes` to a direct approval question counts as explicit authorization and transitions into the normal harness build without a second permission question. After agent checks pass, the smallest genuine user test is presented proactively.
 
 If an unrelated idea appears during planning, the plugin preserves the current plan and resolves whether to switch or separate it instead of silently combining destinations. If a tool, file, display, research step, or handoff fails, it names the failure, preserves trustworthy state, gives one recovery action, and continues through a supported fallback when possible.
+
+After agent-run build checks, the plugin refreshes canonical status, the visual view, and the handoff before presenting a live test. It reuses known context, gives the smallest concrete action, applies safe defaults, and asks no more than one genuinely blocking human question.
 
 At a demonstrated session boundary, the plugin saves state first, then either creates one successor when the person authorized automatic continuation or shows a clearly labeled exact next-session prompt. Merely naming the next ticket or saying another session is needed is not a completed handoff.
 
