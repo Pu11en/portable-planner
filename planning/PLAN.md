@@ -1,6 +1,6 @@
-# Plan: Make Portable Planner decisive and brief
+# Plan: Make Portable Planner measurably better
 
-**Status:** approved for build
+**Status:** awaiting approval
 
 ## Continuation
 
@@ -10,26 +10,28 @@
 
 ## Destination
 
-Portable Planner stops low-value grilling, acts on explicitly delegated reversible decisions, uses bounded example trials when words cannot settle behavior, keeps ordinary replies short, and proactively moves finished work into approval and live testing without crossing protected human gates.
+Portable Planner reliably chooses the right next planning action with less user effort, preserves human authority and durable state, and proves each improvement repeatably before it ships.
 
 ## Success
 
-- Fresh cross-project sessions show concise, action-oriented replies; explicit delegation removes redundant preference questions; dynamic uncertainty triggers preserved three-case trials; completed planning automatically asks for approval; validated builds proactively invite the correct live test; and protected decisions remain human-owned.
+- Against a fixed beta-6 baseline, a later candidate keeps every protected and state-safety gate perfect, improves consequential-question yield and time to a defensible plan across repeated varied runs, and earns Drew's uncoached judgment that planning is faster and more useful without increased context bloat.
 
 ## Boundaries
 
-- In: the canonical skill, product contract, question and conversation guidance, planning evidence rules, cross-project fixtures, packaging checks, and live acceptance.
-- Out: a second skill or state tree, production prototypes, inferred delegation, a fixed question quota, new infrastructure, or architecture expansion without a recorded live failure.
+- In: the existing canonical skill and planning state, a normative decision-kernel contract, a bounded trace corpus, objective invariant validation, repeated behavioral comparison, and fresh human acceptance.
+- Out: copying another creator's interface, a second skill or state tree, a database or service, an autonomous prompt optimizer, production UI, a fixed question quota, or changes justified only by expert opinion.
 
 ## Map
 
-`1/1`
+`2/2`
 
 - ✓ [P-001 — Define decisive planning behavior](decisions/P-001-define-decisive-planning.md) — depends on: none
+- ✓ [P-002 — Engineer the next improvement loop](decisions/P-002-engineer-the-improvement-loop.md) — depends on: P-001
 
 ## Confirmed decisions
 
 - [P-001](decisions/P-001-define-decisive-planning.md): Explicit scoped delegation covers remaining reversible decisions; settled or experiential uncertainty is not re-asked; bounded trials replace exhausted discussion; replies stay short, take the next safe action, and proactively move finished work to approval and live testing; protected gates remain explicit.
+- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Preserve immutable beta 6, formalize the hidden decision kernel, measure a frozen baseline before one targeted revision, cap the first experiment at 24 automated runs, and reject or restore any candidate that is worse or inconclusive.
 
 ## Execution
 
@@ -42,13 +44,20 @@ Portable Planner stops low-value grilling, acts on explicitly delegated reversib
 - ✓ [E-007 — Integrate and publish the release candidate](execution/E-007-publish-release-candidate.md)
 - ✓ [E-008 — Implement the exact option-B delegation shortcut](execution/E-008-implement-exact-delegation-shortcut.md)
 - ✓ [E-009 — Validate and publish beta 6](execution/E-009-validate-publish-beta6.md)
+- ○ [E-010 — Lock the decision-kernel contract](execution/E-010-lock-decision-kernel.md)
+- ○ [E-011 — Build the bounded evaluation harness](execution/E-011-build-bounded-evaluation-harness.md)
+- ○ [E-012 — Measure the immutable beta-6 baseline](execution/E-012-measure-beta6-baseline.md)
+- ○ [E-013 — Implement one evidence-backed candidate change](execution/E-013-implement-one-candidate-change.md)
+- ○ [E-014 — Compare, keep, or reject the candidate](execution/E-014-compare-keep-or-reject-candidate.md)
+- ○ [E-015 — Run the controlled human acceptance](execution/E-015-run-controlled-human-acceptance.md)
+- ○ [E-016 — Publish the proven prerelease](execution/E-016-publish-proven-prerelease.md)
 
 ## Approval
 
-- Visual review: approved
-- Build handoff: approved by Drew on 2026-08-07
+- Prior beta-6 route: approved and released
+- Current improvement revision: awaiting Drew's visual approval
 
 ## Now
 
-- Current: Drew opens the dedicated empty test folder and runs the exact beta-6 human acceptance sequence.
-- Next: Record the first uncoached result; reopen only the shared behavior behind a demonstrated failure.
+- Current: HUMAN — Review the complete evidence-led improvement and rollback route.
+- Next: After explicit approval, begin E-010 through the harness's normal build workflow.

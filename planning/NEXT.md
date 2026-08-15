@@ -1,11 +1,11 @@
 # Next
 
 Plan: `/home/drewp/main-projects/portable-planner/planning/`
-State: `approved for build`
-Work: **HUMAN — Run the exact beta-6 acceptance test**
-Read: `PLAN.md`, `../validation/BETA6-HUMAN-TEST.md`, and `../docs/ACCEPTANCE.md` only.
-Context: E-009 published and installed the objectively passing beta-6 prerelease. The remaining gate is Drew's uncoached fresh-task proof; synthetic checks do not replace it.
-Outcome: Confirm that three bare recommended-key replies expose option `B` in the next real reversible question, and that bare `B` completes reversible choices but stops at final approval.
-Done when: The visible fresh-task turns and Drew's pass/fail verdict are preserved; any failure reopens only the shared behavior that caused it.
+State: `awaiting approval`
+Work: **HUMAN — Review the evidence-led improvement plan**
+Read: `PLAN.md`, `PLAN-VIEW.md`, `decisions/P-002-engineer-the-improvement-loop.md`, and `execution/E-010-lock-decision-kernel.md` through `execution/E-016-publish-proven-prerelease.md` only.
+Context: Drew selected option A. The finished route preserves immutable beta 6, caps automated evidence at 24 fresh runs, changes one demonstrated failure class at a time, rejects a worse or inconclusive candidate before merge, and restores public beta 6 after any temporary-install human failure.
+Outcome: Drew either explicitly approves this finished route for build or names one targeted revision.
+Done when: Direct approval changes lifecycle state to `approved for build` and makes E-010 eligible, or a requested revision reopens only P-002.
 
-Open `/home/drewp/main-projects/portable-planner-beta6-acceptance` as a new Codex Desktop folder and follow the human runbook exactly. Do not test inside this repository or another project that already has `planning/` state.
+Do not begin E-010 before explicit approval. After approval, preserve `v0.1.0-beta.6` as the immutable baseline and use the harness's normal build workflow.
