@@ -1,5 +1,7 @@
 # E-010 — Lock the decision-kernel contract
 
+Status: superseded draft — blocked by reopened P-002; do not execute until the automatic planning boundary and evidence-derived test contracts produce a replacement route.
+
 - Outcome: One normative reference and one compact ticket ledger make Portable Planner's next-action logic inspectable without replacing model judgment.
 - Depends on: P-002
 

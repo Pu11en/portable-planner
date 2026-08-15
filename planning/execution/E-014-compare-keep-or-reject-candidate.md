@@ -1,5 +1,7 @@
 # E-014 — Compare, keep, or reject the candidate
 
+Status: superseded draft — blocked by reopened P-002. Every scenario and numerical allocation below is withdrawn and non-authoritative.
+
 - Outcome: The remaining twelve-run budget decides objectively whether the isolated candidate may proceed or the winning beta-5/beta-6 reference must remain the product.
 - Depends on: E-013
 

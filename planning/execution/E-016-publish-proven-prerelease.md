@@ -1,5 +1,7 @@
 # E-016 — Publish the proven prerelease
 
+Status: superseded draft — blocked by reopened P-002; no candidate may publish from the withdrawn route.
+
 - Outcome: Only a candidate that passed objective comparison and Drew's fresh acceptance reaches `main`, a matching prerelease, and the public installed plugin.
 - Depends on: E-015
 

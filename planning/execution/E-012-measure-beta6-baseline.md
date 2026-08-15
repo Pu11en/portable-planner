@@ -1,5 +1,7 @@
 # E-012 — Compare beta 5 and beta 6
 
+Status: superseded draft — blocked by reopened P-002. Every scenario and numerical allocation below is withdrawn and non-authoritative.
+
 - Outcome: Eighteen unchanged fresh-task runs determine whether beta 6 preserved beta 5's shared behavior and establish the better proven version as the reference before any candidate change.
 - Depends on: E-011
 

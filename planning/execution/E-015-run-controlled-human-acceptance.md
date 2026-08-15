@@ -1,5 +1,7 @@
 # E-015 — Run the controlled human acceptance
 
+Status: superseded draft — blocked by reopened P-002; the exact human test must follow the replacement evidence-derived route.
+
 - Outcome: Drew experiences the objectively passing candidate in one fresh uncoached task, with automatic restoration to the winning beta-5/beta-6 reference after a failure.
 - Depends on: E-014, or E-012 when no candidate was justified
 

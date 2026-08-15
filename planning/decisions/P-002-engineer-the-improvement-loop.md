@@ -1,11 +1,17 @@
 # P-002 — Engineer the next improvement loop
 
-- Status: complete — 2026-08-15
+- Status: current — reopened 2026-08-15 after the test-design and default-routing gap
 - Depends on: P-001
 
 ## Decision
 
-Choose how Portable Planner should become more reliable and effective after beta 6 without cargo-culting expert workflows, increasing question burden, or bloating the skill with unmeasured instructions.
+Choose how Portable Planner should become more reliable and effective after beta 6 without cargo-culting expert workflows, increasing question burden, or treating an arbitrary run count as a test design.
+
+## Reopened gap
+
+Drew rejected the 30-run route because the plan selected a quantity before the exact conversations, starting states, failure claims, expected behavior, and human judgments were shaped. He also clarified the larger product intent: during project work, when the agent and user are still discussing what the outcome should be rather than executing an already-understood route, Portable Planner should normally recognize that planning is happening without requiring a command.
+
+The previous approval surface was therefore premature. No automated-run budget is currently approved. The next route must first derive a small test inventory from real Codex/ZCode sessions and saved live failures, state what each case can prove, and ask only the human-owned questions that materially change that inventory.
 
 ## Viable options
 
@@ -13,17 +19,23 @@ Choose how Portable Planner should become more reliable and effective after beta
 - B. Tighten the canonical instructions directly from the expert patterns — Faster, but another prose-only revision may improve one case while silently harming others.
 - C. Wait for more uncoached beta-6 use and repair only observed failures — Lowest immediate cost, but it leaves frontier quality and run-to-run variance largely unmeasured.
 
+## Current unresolved decision — automatic planning boundary
+
+- A. Default Portable Planner for unresolved project/product work — Recommended; automatically start or resume planning when destination, scope, success, or proof is still being negotiated, while leaving direct builds, narrow facts/status, and diagnosis-only requests in their normal workflows.
+- B. Use Portable Planner for every project conversation that is not already building — Maximum planning coverage, but status questions, explanations, and narrow research would create unnecessary planning state.
+- C. Keep explicit or phrase-matched invocation — Least intrusive, but repeats the current failure where planning behavior depends on the user knowing when to request it.
+
 ## Recommendation
 
-A — Keep the current user-facing experience, formalize the hidden decision and state-transition contract, first compare beta 5 with beta 6 on frozen shared scenarios, then make only evidence-backed changes. Use scripts for objective invariants and preserve human judgment for whether questions and plans are actually good. Cap the first experiment at 30 fresh automated scenario runs, stop early on any hard failure, and reserve one separate uncoached run for Drew.
+A — Preserve the selected evidence-led improvement direction, but replace the preselected 30-run ceiling with evidence-first test design. Mine real saved failures and relevant task traces, convert each material behavior claim into a test contract, then choose the minimum ordinary, contrasting, and prohibited-action cases needed to discriminate beta 5, beta 6, and any later candidate. Use scripts for objective invariants and preserve human judgment for whether the planner understood the person and asked worthwhile questions.
 
 ## Confirmed decision
 
-A — Build the decision-kernel and repeatable evaluation loop. Immutable beta-5 and beta-6 tags are paired controls before another change. If beta 6 regressed shared behavior, restore public beta 5 and make that regression the only candidate target. Otherwise beta 6 remains the reference. Any later candidate remains isolated and cannot merge, release, or replace the reference installation unless it has zero hard-gate failures, fixes its target consistently, avoids material regression, and passes Drew's uncoached test. Worse or inconclusive always keeps or restores the better proven reference.
+A remains confirmed as the improvement method: build a small decision-kernel and repeatable evaluation loop, compare immutable beta 5 and beta 6 before another behavior change, and restore the better proven reference after any regression. The former 30-run allocation and its derived execution route are withdrawn. Test count, prompts, starting states, and scoring remain unconfirmed until the evidence-derived test contracts and automatic planning boundary are settled.
 
 ## Delegation
 
-None. Drew selected option A but has not yet approved the finished execution plan for build.
+None. Drew selected the evidence-led method but has not approved a replacement execution plan or delegated the current product boundary.
 
 ## Interaction state
 
@@ -35,16 +47,17 @@ None. Drew selected option A but has not yet approved the finished execution pla
 - [Current repository and Channel Brains evidence](../evidence/P-002-expert-engineering-evidence.md)
 - [Earlier fixed-commit expert-skill pass](../../research/PORTABLE-PLANNER-EXPERT-SKILLS.md)
 - [Beta-6 objective evidence](../../validation/BETA6-RELEASE-CANDIDATE-TEST.md)
+- [Real beta-4 planning and test-handoff failures](../../validation/DECISIVE-FLOW-LIVE-ACCEPTANCE.md)
 
 ## Effects
 
-- Returns lifecycle state to `planning`; the beta-6 human test remains valid but no longer stands in for approving this new improvement program.
-- If A is confirmed, execution planning will cover the normative decision kernel, trace corpus, objective validator, beta-5/beta-6 control comparison, one-change experiment, held-out regression run, and fresh human acceptance.
-- The first experiment may use at most 30 automated fresh-task runs; it cannot spend the cap to tune repeatedly against the same visible cases.
-- The first eighteen runs compare all six visible scenarios once on beta 5 and beta 6, then repeat the three highest-risk shared scenarios once on both versions. The remaining twelve are reserved for affected, regression, and held-out candidate proof.
+- Returns lifecycle state to `planning`; E-010 through E-016 are draft-only and ineligible until the replacement test design passes review.
+- The replacement route must inventory real failures before writing synthetic cases. Every retained case needs an exact starting state, exact natural user message, behavior claim, expected routing/decision, prohibited behavior, preserved output, and human-quality judgment.
+- No run count may be selected before duplicate claims are collapsed and the minimum discriminating case set is visible. Repetition is justified only for observed model variance or a high-risk behavior that a single pass cannot distinguish.
+- The automatic planning boundary must be settled before testing natural invocation; otherwise a test cannot tell a missed trigger from an intentionally excluded request.
 - A beta-6 hard or material shared-behavior regression restores public beta 5 before candidate work. The candidate is developed and tested away from `main`; a worse or inconclusive result is never merged, and a failed temporary human-test installation restores the proven reference immediately.
 - No database, service, MCP server, second skill, second canonical state tree, autonomous prompt optimizer, or production UI is justified by this research.
 
 ## Complete when
 
-Drew's A decision, beta-5/beta-6 control comparison, success metrics, 30-run ceiling, rollback rule, architecture boundary, and human gate are explicit; E-010 through E-016 cover the complete experiment; and canonical state is ready for final approval without treating expert opinion as proof.
+Drew settles the automatic planning boundary; the real-failure inventory and minimum test contracts are visible and individually justified; run count follows from those contracts rather than precedes them; rollback, architecture, and human gates are explicit; and revised execution tickets cover the complete route without treating expert opinion or authored prompts as proof.

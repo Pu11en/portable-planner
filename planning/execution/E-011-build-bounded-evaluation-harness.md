@@ -1,5 +1,7 @@
 # E-011 — Build the bounded evaluation harness
 
+Status: superseded draft — blocked by reopened P-002; do not execute or infer a corpus size from this ticket.
+
 - Outcome: A local, repeatable harness runs frozen planning scenarios from fresh state and separates deterministic failures from judgment scores.
 - Depends on: E-010
 

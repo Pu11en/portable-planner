@@ -1,5 +1,7 @@
 # E-013 — Implement one evidence-backed candidate change
 
+Status: superseded draft — blocked by reopened P-002; no candidate is eligible before the replacement comparison route is approved.
+
 - Outcome: One isolated candidate makes the smallest plausible correction to the single failure class selected from the beta-5/beta-6 control comparison.
 - Depends on: E-012
 
