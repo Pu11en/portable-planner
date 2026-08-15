@@ -127,8 +127,8 @@ The plugin must:
 2. Ask only about meaningful preferences or direction choices with multiple viable answers.
 3. Derive obvious process and technical choices itself.
 4. Research external facts instead of asking the user to guess.
-5. Offer two or three short, genuinely viable choices when choices help; add a fourth only when it is meaningfully distinct.
-6. Label choices `A/B/C`, adding `D` only when needed, and always place the concise recommendation first as `A` with its main tradeoff.
+5. Offer two or three short, genuinely viable choices when choices help; add more only when each is meaningfully distinct and never exceed seven.
+6. Label choices consecutively from `A` through at most `G`, and always place the concise recommendation first as `A` with its main tradeoff.
 7. Always accept a custom answer.
 8. Show a small concrete example before asking about an abstract concept.
 9. Remember and apply previous answers instead of asking disguised repeats.
@@ -138,7 +138,7 @@ The plugin must:
 
 The plugin must not offer an option that clearly contradicts an already confirmed preference merely to manufacture a choice.
 
-If the user explicitly delegates a defined group of reversible decisions to the plugin's recommendations, the plugin records the exact scope and applies the recommended routes without continuing to ask inside it. Repeated agreement alone is not delegation. After three consecutive recommended reversible choices, when at least two reversible choices remain, the plugin offers one explicit delegation-or-continue choice and accepts a narrower custom scope. The plugin still pauses for irreversible commitments, material personal tradeoffs the delegation did not clearly cover, conflicts, implementation authorization, and final-plan approval.
+If the user explicitly delegates a defined group of reversible decisions to the plugin's recommendations, the plugin records the exact scope and applies the recommended routes without continuing to ask inside it. Repeated agreement alone is not delegation. Only a complete trimmed one-letter reply matching the recommended option increments the durable streak; added words or punctuation and every other reply reset it. After three qualifying replies, the next real reversible question keeps its recommendation as `A`, inserts the remaining-recommendations shortcut as `B`, and shifts other routes to `C` through at most `G`. Bare `B` grants delegation, applies the current recommendation, completes remaining reversible decisions, and stops at the first protected gate. The plugin still pauses for irreversible commitments, material personal tradeoffs the delegation did not clearly cover, conflicts, implementation authorization, and final-plan approval.
 
 After a side question, challenge, or context-rich paragraph, the planner answers or reconciles first, recomputes the frontier, and restores the complete lettered choice at the bottom whenever a worthwhile human decision remains.
 
@@ -319,7 +319,7 @@ Harness-specific commands may exist as conveniences, not as the core experience.
 - no obvious or already-answered question;
 - no technical choice transferred to a non-technical user;
 - two or three real options only when multiple good routes exist, with a fourth only when genuinely distinct;
-- stable `A/B/C(/D)` labels, with the recommendation always first as `A`;
+- stable consecutive `A` through at most `G` labels, with the recommendation always first as `A`;
 - concrete example before abstract UX choices;
 - ordinary replies default to a few short lines, aim around 40 words, remain under 80 words, and preserve useful context;
 - settled or delegated choices are synthesized without ceremonial questions;
@@ -404,7 +404,7 @@ No new architecture or feature should be added unless a failed test demonstrates
 6. A ticket ends only when decisions are saved and nothing unresolved blocks the next ticket.
 7. The plugin plans; the chosen harness performs final execution separately.
 8. Questions are short, plain, one at a time, and assume no technical knowledge.
-9. Choices use two or three real options, or four only when necessary; the recommendation is always `A`, and a custom-answer path remains available.
+9. Choices default to two or three real options, add more only when necessary, never exceed `G`, keep the recommendation as `A`, and preserve a custom-answer path.
 10. Finished plans include ordered execution tickets with dependencies and objective completion tests.
 11. Each execution ticket fits one fresh agent session.
 12. The plugin asks only genuine human-preference questions and derives or researches everything else.
@@ -427,4 +427,4 @@ No new architecture or feature should be added unless a failed test demonstrates
 
 [`PORTABLE-PLANNING-SYSTEMS.md`](../research/PORTABLE-PLANNING-SYSTEMS.md) compares Wayfinder, Spec Kit, OpenSpec, BMAD, Superpowers, Beads, Agent Skills, and Channel Brains using primary sources. It supports the recommended mechanics but is evidence, not a product decision.
 
-[`PORTABLE-PLANNER-EXPERT-SKILLS.md`](../research/PORTABLE-PLANNER-EXPERT-SKILLS.md) adds a fixed-commit, line-linked inspection of the complete Matt Pocock and David Ondrej skill repositories Drew supplied. It validates the prerequisite-aware question engine, human-decisions-versus-agent-facts boundary, explicit plan/build separation, immediate Markdown write-through, fresh-context tickets, and thin harness adapters. It also identifies Drew's one-question `A/B/C(/D)` surface and visual plan as intentional product improvements rather than copied expert behavior.
+[`PORTABLE-PLANNER-EXPERT-SKILLS.md`](../research/PORTABLE-PLANNER-EXPERT-SKILLS.md) adds a fixed-commit, line-linked inspection of the complete Matt Pocock and David Ondrej skill repositories Drew supplied. It validates the prerequisite-aware question engine, human-decisions-versus-agent-facts boundary, explicit plan/build separation, immediate Markdown write-through, fresh-context tickets, and thin harness adapters. It also identifies Drew's one-question lettered-choice surface and visual plan as intentional product improvements rather than copied expert behavior.

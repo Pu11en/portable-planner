@@ -7,7 +7,7 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 ## Notes
 
 - This map decides the remaining product behavior; it does not replace the active MVP acceptance checklist or perform final-plan execution.
-- Use the confirmed planning-only boundary, plain project-local state, one consequential human question per turn, recommendation-first `A/B/C(/D)` choices, and no rigid question count.
+- Use the confirmed planning-only boundary, plain project-local state, one consequential human question per turn, recommendation-first choices from `A` through at most `G`, and no rigid question count.
 - The preferred rich-host presentation is the earlier interactive Hanoi style: destination/current/next summary, clickable ordered route, one selected-step detail surface, compact supporting-system connections, and short plan-wide safety rules.
 - Automatically display the richest supported review surface when the agent can defend a coherent end-to-end plan. In Windows Codex Desktop backed by WSL, do not attempt file-backed inline HTML; use rendered Mermaid or native expandable Markdown, or a browser/Site when interaction is required.
 - Keep all implementation isolated in this repository; do not add MCP, a database, web app, cloud account, GitHub requirement, domain pack, or competing build workflow.

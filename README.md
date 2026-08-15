@@ -4,7 +4,7 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.5` public-preview prerelease can offer explicit delegation after a repeated recommendation pattern without assuming authority, recover the one-letter path after a digression, keep research-led product changes provisional, begin normal-harness execution after direct approval, and proactively present a small live test from refreshed state. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked human acceptance checks pass.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.6` public-preview candidate adds the exact bare-key option-`B` delegation shortcut, recovers the one-letter path after a digression, keeps research-led product changes provisional, begins normal-harness execution after direct approval, and proactively presents a small live test from refreshed state. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked human acceptance checks pass.
 
 ## Project source of truth
 
@@ -53,11 +53,11 @@ The planner creates plain project-local Markdown under `planning/`. A fresh agen
 
 ## What the experience is designed to do
 
-- Ask one recommendation-first A/B/C question at a time.
+- Ask one recommendation-first lettered question at a time, using consecutive choices from `A` through at most `G`.
 - Keep normal conversational output to a few short lines—aim around 40 words and stay under 80 when a question is enough.
 - Research or infer agent-owned decisions instead of grilling the user about implementation details.
 - With permission at the start of a thin software/AI idea, run a privacy-safe, bounded public-repository scan and keep its recommendation provisional until the user confirms the direction.
-- After three consecutive recommended reversible choices, offer scoped delegation once when it would meaningfully reduce the remaining questions; never infer permission from the pattern.
+- After three consecutive bare one-letter recommended replies, insert an option-`B` shortcut in the next real question so the planner can finish the remaining reversible choices; added text resets the streak and only selecting `B` grants permission.
 - After a side question or long mixed message, answer it first and restore the refreshed choice set at the bottom when a human decision remains.
 - Show an ordered visual route automatically at the approval point.
 - Produce dependency-ordered, session-sized execution tickets.

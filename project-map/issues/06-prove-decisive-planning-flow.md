@@ -1,7 +1,7 @@
 # Prove the decisive planning flow
 
 Type: implementation and validation
-Status: beta-5 objective repairs pass; awaiting fresh human acceptance
+Status: beta-6 exact-delegation objective checks pass; awaiting fresh human acceptance
 Blocked by:
 
 ## Question
@@ -16,7 +16,7 @@ Can Portable Planner stay brief, stop low-value grilling, act immediately on exp
 - Treat `yes` to a direct approval question as explicit authorization and immediately begin the normal harness build when safe.
 - Preserve irreversible commitments, personal tradeoffs, conflicts, implementation authorization, and final approval as human gates.
 - After agent checks pass, proactively present the smallest genuine user test.
-- After three consecutive acceptances of recommended reversible choices, explicitly offer scoped delegation when at least two such choices remain; never infer it from the pattern.
+- Count only complete bare recommended-key replies. After three consecutive matches, insert delegation as `B` in the next real reversible question while its recommendation remains `A`; added content resets the streak and the pattern never grants authority.
 - After a digression, answer or reconcile it first and then restore the current one-letter choice path at the bottom of the reply when a human decision remains.
 - Keep research-derived changes to the product destination, source role, or output provisional until the person confirms them.
 - Refresh all generated state before a live test, reuse known context, and ask at most one truly blocking test-input question.
@@ -34,4 +34,4 @@ The normative decision is [P-001](../../planning/decisions/P-001-define-decisive
 
 ## Acceptance
 
-R-04, C-03, C-07 through C-11, and T-04 passed the original [synthetic and package evidence](../../validation/DECISIVE-FLOW-TEST.md). Drew's [beta-4 live trial](../../validation/DECISIVE-FLOW-LIVE-ACCEPTANCE.md) then exposed interaction, state-freshness, and host-presentation failures, so beta 4 was not accepted. The [beta-5 affected rerun](../../validation/BETA5-RELEASE-CANDIDATE-TEST.md) now passes C-02 and C-12 through C-14 plus package and natural-invocation checks. This issue still resolves only after Drew's fresh direct beta-5 judgment; synthetic scenarios never count as human proof.
+R-04, C-03, C-07 through C-11, and T-04 passed the original [synthetic and package evidence](../../validation/DECISIVE-FLOW-TEST.md). Drew's [beta-4 live trial](../../validation/DECISIVE-FLOW-LIVE-ACCEPTANCE.md) exposed interaction, state-freshness, and host-presentation failures. The [beta-5 affected rerun](../../validation/BETA5-RELEASE-CANDIDATE-TEST.md) repaired those general failures, and the [beta-6 exact-delegation rerun](../../validation/BETA6-RELEASE-CANDIDATE-TEST.md) now passes the narrower C-02, C-12, and C-13 contract. This issue still resolves only after Drew's fresh direct beta-6 judgment; synthetic scenarios never count as human proof.

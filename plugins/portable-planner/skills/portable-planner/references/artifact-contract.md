@@ -46,7 +46,7 @@ Start a new plan with one planning ticket. Add or split tickets only when a demo
 
 Use `P-NNN-short-title.md`. Record the decision and why it matters, status, dependencies, viable options and tradeoffs when applicable, recommendation, confirmed decision, evidence links, effects on the map, and an objective completion check.
 
-A confirmed decision has one authoritative planning ticket. Summaries elsewhere link back to it. Record explicit delegation in the affected ticket using the person's exact words, its reversible-decision scope, when it began, and any later revocation, conflict, or exhaustion.
+A confirmed decision has one authoritative planning ticket. Summaries elsewhere link back to it. Record explicit delegation in the affected ticket using the person's exact words, its reversible-decision scope, when it began, and any later revocation, conflict, or exhaustion. Also record the current recommended-key streak (`0` through `3`) and whether its one-time option-`B` shortcut is `not ready`, `ready for next reversible question`, `offered`, `accepted`, or `consumed`. Update this interaction state after every user reply so compaction or resumption cannot invent or lose the streak.
 
 ## Evidence
 

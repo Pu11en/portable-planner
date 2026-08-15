@@ -40,6 +40,8 @@ Portable Planner stops low-value grilling, acts on explicitly delegated reversib
 - ✓ [E-005 — Repair the live interaction failures](execution/E-005-repair-live-failures.md)
 - ✓ [E-006 — Rerun affected behavior and package checks](execution/E-006-rerun-release-candidate.md)
 - ✓ [E-007 — Integrate and publish the release candidate](execution/E-007-publish-release-candidate.md)
+- ✓ [E-008 — Implement the exact option-B delegation shortcut](execution/E-008-implement-exact-delegation-shortcut.md)
+- ▶ [E-009 — Validate and publish beta 6](execution/E-009-validate-publish-beta6.md)
 
 ## Approval
 
@@ -48,5 +50,5 @@ Portable Planner stops low-value grilling, acts on explicitly delegated reversib
 
 ## Now
 
-- Current: Human beta-5 acceptance remains open.
-- Next: Drew starts a fresh task and judges the repaired flow, state refresh, and supported visual fallback.
+- Current: E-009 — Publish the passing beta-6 candidate and restore the installed public plugin.
+- Next: Drew opens the dedicated empty test folder and runs the exact human acceptance sequence.

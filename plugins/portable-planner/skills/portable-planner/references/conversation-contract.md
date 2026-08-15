@@ -54,33 +54,44 @@ In an automatically created successor task, do not repeat the new-plan explanati
 2. Ask only when the answer is a meaningful human preference or direction choice with multiple viable answers.
 3. Do not ask an obvious, already answered, disguised repeat, factual, technical, routing, or project-management question.
 4. Before an abstract choice, show one small concrete example.
-5. When choices help, offer two or three genuinely viable choices, or four only when a fourth meaningfully distinct choice is necessary. Put the concise recommendation first as `A.`, state its main tradeoff, and visibly end with a custom-answer path such as “Or give a different answer.”
-6. Label every answer choice so the user can reply with one character. Use `A.`, `B.`, `C.`, and—only when needed—`D.`. The recommendation is always `A.` Never present answer choices as numbers, never mix labeling styles in one choice set, and never present answer choices as unlabeled bullets.
+5. When choices help, offer two or three genuinely viable choices by default and add more only when each route is meaningfully distinct. Never exceed seven. Put the concise recommendation first as `A.`, state its main tradeoff, and visibly end with a custom-answer path such as “Or give a different answer.”
+6. Label every answer choice so the user can reply with one character. Use consecutive prefixes from `A.` through at most `G.`. The recommendation is always `A.` Never present answer choices as numbers, skip a letter, mix labeling styles, or present answer choices as unlabeled bullets.
 7. When the user replies with only the choice key, resolve it against the most recent choice set, save the full decision, and continue without asking them to repeat the option text.
 8. Do not offer an option that conflicts with a confirmed preference merely to manufacture choice.
 9. If the previous question directly asked for yes/no approval or authorization, an immediate `yes` is explicit. Resolve it against that question, save it, and act; do not demand magic wording or another confirmation.
 
 If the user explicitly delegates a set of reversible decisions—such as “use whatever you recommend for the rest”—record the exact words and scope, then apply the recommended route without continuing to ask within it. The delegation lasts for that plan until exhausted, revoked, contradicted, or blocked by a protected gate. Repeated agreement alone never creates authority. Still stop for an irreversible commitment, a material personal tradeoff the delegation did not clearly cover, a conflict, implementation authorization, or final-plan approval.
 
-Before sending a choice set, check its literal prefixes: each choice starts with `A.`, `B.`, `C.`, or `D.` exactly. Do not substitute a dash, bullet, or stylized separator for the period.
+Before sending a choice set, check its literal prefixes: each choice starts with a consecutive letter from `A.` through at most `G.` exactly. Do not substitute a dash, bullet, or stylized separator for the period.
 
-Track consecutive selections of recommended reversible choices. After the third consecutive `A`, if at least two reversible human-owned choices remain, offer this once before asking the next ordinary choice:
+Track the **recommended-key streak** in the active planning ticket:
+
+- Trim surrounding whitespace and compare the user's complete reply case-insensitively with the displayed recommended key.
+- Increment only when the complete trimmed reply is exactly that one letter. `A because...`, `A.`, `A!`, multiple letters, a side question, or any other added content does not count and resets the streak to zero.
+- A bare non-recommended key resolves normally but resets the streak. A redirect, confusion turn, or protected gate also resets it.
+- After the third qualifying reply, wait for the next reversible human-owned question. Do not create a ceremonial question when planning is already ready for a protected gate.
+- If no reversible question remains and the next step is a protected gate, reset the streak to `0`, set the shortcut to `not ready`, and proceed to that gate without showing delegation.
+- In that next ordinary choice set, preserve the question's normal recommended route as `A.`, insert the delegation shortcut as `B.`, and relabel the remaining ordinary routes consecutively from `C.` through at most `G.`.
+- If inserting `B` would create more than seven listed choices, combine overlapping routes or omit the least consequential ordinary route. Preserve the recommendation, delegation shortcut, materially distinct tradeoffs, and custom-answer path; never emit `H`.
+
+Use this shape:
 
 ```text
-A. Use my recommendations for every remaining reversible decision — Recommended; I’ll continue and stop only for protected gates.
-B. Keep choosing one at a time — More control, but slower.
+A. {{Recommended answer to the current real question}} — Recommended; {{main tradeoff}}.
+B. Use my recommendations for every remaining reversible decision — I’ll answer this and the rest, then stop for protected gates.
+C. {{Next viable answer to the current question}} — {{main tradeoff}}.
 
-Or give a narrower scope. Reply A or B.
+Or give a different answer. Reply A, B, or C.
 ```
 
-This is a delegation invitation, not inferred authority. Reset the consecutive count after another option, a material redirect, or a protected gate. Do not repeat the invitation after it is declined unless the person later asks for it.
+Selecting bare `B` is explicit scoped delegation: record it, reset the streak to `0`, mark the shortcut `accepted`, apply the recommendation for the current question, synthesize every remaining reversible choice, and continue in the same turn until a protected gate, trial, conflict, blocker, or final approval. Any other response resets the streak to `0`, resolves the current question normally, and marks the one-time shortcut `consumed`. Do not re-offer it unless a later new streak of three qualifying replies occurs.
 
 ## Digressions and mixed messages
 
 When the person asks a side question, digresses, or sends a long message containing both commentary and a decision:
 
 1. Answer or reconcile the new content first.
-2. Save any confirmed decisions and recompute the candidate frontier.
+2. Reset the recommended-key streak, save any confirmed decisions, and recompute the candidate frontier.
 3. If one human-owned decision remains, put the complete refreshed choice set at the bottom of the same reply so a one-letter answer still works.
 4. Do not repeat a stale choice set. Omit choices when no human decision remains, delegation covers it, or confusion recovery requires an explanation-only reply.
 

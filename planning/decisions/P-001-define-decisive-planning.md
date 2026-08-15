@@ -21,7 +21,7 @@ A — It matches Drew's explicit delegation, Matt Pocock's discussion-to-prototy
 
 - Record the user's exact delegation and scope. It persists for that plan until exhausted, revoked, contradicted, or blocked by a protected gate.
 - Explicitly delegated reversible choices are synthesized with a compact choice and reason; repeated agreement alone never creates delegation.
-- After three consecutive acceptances of the recommended reversible choice, when at least two reversible choices remain, offer one explicit delegation-or-continue choice. Never infer authority from the pattern; record only the user's answer.
+- Only a complete trimmed bare recommended key increments the durable streak; any extra content or other reply resets it. After three consecutive matches, the next real reversible question keeps its recommendation as `A`, inserts delegation as `B`, and shifts remaining routes consecutively through at most `G`. Bare `B` applies the current recommendation and resolves remaining reversible decisions; the streak itself never grants authority.
 - Do not ask when facts, prior words, or delegation already settle the issue, or when another verbal answer is unlikely to change the plan.
 - Dynamic or experiential uncertainty switches to a bounded planning trial: one decision question, normally three materially different cases—ordinary, tricky, and failure or prohibited action.
 - Preserve each trial's input or starting state, variation, observed output, surprise or failure, verdict, and decision changed. Show Drew only the compact comparison unless he asks for detail.
