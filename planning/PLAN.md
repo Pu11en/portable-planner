@@ -31,7 +31,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 ## Confirmed decisions
 
 - [P-001](decisions/P-001-define-decisive-planning.md): Explicit scoped delegation covers remaining reversible decisions; settled or experiential uncertainty is not re-asked; bounded trials replace exhausted discussion; replies stay short, take the next safe action, and proactively move finished work to approval and live testing; protected gates remain explicit.
-- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Keep the evidence-led method and rollback protection, withdraw the preselected 30-run allocation, preserve one original cross-domain protocol, adapt outside mechanisms only for named failures with cross-domain proof, settle the automatic planning boundary, and derive the minimum test set from real failures before revising the build route.
+- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Use Portable Planner as the adaptive default for unresolved project/product work, keep direct status/diagnosis/approved-build routes direct, preserve one original cross-domain protocol, adapt outside mechanisms only for named failures with cross-domain proof, and derive the minimum comparison set from real failures before revising the build route.
 
 ## Execution
 
@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Settle when Portable Planner should activate automatically.
-- Next: Mine the real-failure inventory and shape the minimum test contracts before choosing any run count.
+- Current: HUMAN — Approve or revise the exact six-contract, eight-unit comparison inventory.
+- Next: Replace the superseded E-010 through E-016 draft with the approved evidence-derived implementation and comparison route.

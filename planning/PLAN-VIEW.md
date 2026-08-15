@@ -6,33 +6,34 @@
 
 **Success:** The activation boundary is explicit; real failures determine the test inventory; every test states exactly what it can prove and what bad assumption it must catch; the minimum useful case set determines the run count; and a worse version is never left installed.
 
-**Now:** Decide when unresolved conversation should automatically become Portable Planner planning.
+**Now:** Approve or revise the exact evidence-derived test inventory.
 
-**Next:** Inspect the saved real tasks and failures, then shape the smallest discriminating test set with Drew before any automated runs.
+**Next:** Replace the superseded draft execution route with the approved implementation and comparison sequence.
 
 ```mermaid
 flowchart LR
     E["DONE · Real failures collected"]
-    A{"NOW · HUMAN set planning boundary"}
-    I["Inventory actual failures"]
-    C["Define each test contract"]
-    M["Choose minimum case set"]
-    P(["HUMAN approve exact test route"])
-    X["Compare beta 5 and beta 6"]
+    A["DONE · Adaptive planning boundary"]
+    I["DONE · Inventory actual failures"]
+    C["DONE · Define six test contracts"]
+    M{"NOW · HUMAN approve minimum set"}
+    B["Draft exact build route"]
+    P(["HUMAN approve full route"])
+    X["Compare beta 6 and candidate"]
     R(["PROOF · Keep/restore winner"])
-    E --> A --> I --> C --> M --> P --> X --> R
+    E --> A --> I --> C --> M --> B --> P --> X --> R
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
-    class A current;
-    class E,I,C,M,X milestone;
+    class M current;
+    class E,A,I,C,B,X milestone;
     class P,R proof;
 ```
 
-**Text route:** DONE real live failures and task history → NOW HUMAN settle when planning activates automatically → inventory actual failure claims → define each exact test conversation and prohibited assumption → choose the minimum case set and only then its run count → HUMAN approve the exact test route → compare beta 5 and beta 6 → keep or restore the proven winner
+**Text route:** DONE adaptive planning boundary → DONE inventory actual failures → DONE define six exact contracts containing eight independent starting-state units → NOW HUMAN approve or revise the minimum set → replace the superseded build route → compare beta 6 and candidate on identical cases → keep beta 6 or prove the candidate → smallest fresh human test
 
-## Current decision
+## Confirmed boundary and current decision
 
 Example boundaries:
 
@@ -40,7 +41,9 @@ Example boundaries:
 - “We need to improve Portable Planner, but I do not trust the proposed tests” automatically starts or resumes planning.
 - “Implement the already approved E-010 ticket” uses the normal build workflow.
 
-The recommended boundary is unresolved project/product work: planning activates when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Narrow facts, status, explanation, diagnosis-only work, and sufficiently specified builds remain direct.
+The confirmed boundary is unresolved project/product work: planning activates when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Narrow facts, status, explanation, diagnosis-only work, and sufficiently specified builds remain direct.
+
+The current decision is whether the six exact contracts in [the test inventory](evidence/P-002-test-inventory.md) are the right minimum. They produce eight independent first-pass conversations per compared version because the direct-route contract has separate status, diagnosis, and approved-build starting states. No repeated runs are proposed before variance appears.
 
 ## Plan-wide safety
 
@@ -48,8 +51,7 @@ The recommended boundary is unresolved project/product work: planning activates 
 - Real failures and explicit behavior claims come before authored prompts.
 - Each test has an exact starting state, expected route, prohibited behavior, and human judgment.
 - Repetition requires observed variance or protected high risk.
-- Expert skills supply evidence, not product authority.
-- Outside mechanisms are selectively adapted; Portable Planner's protocol and cross-domain scope remain its own.
+- Expert skills and outside mechanisms supply selective evidence, not product authority; Portable Planner's protocol and cross-domain scope remain its own.
 - Beta 5 and beta 6 remain immutable and recoverable.
 
-Details: [plan](PLAN.md) · [current decision](decisions/P-002-engineer-the-improvement-loop.md) · [evidence](evidence/P-002-expert-engineering-evidence.md)
+Details: [plan](PLAN.md) · [current decision](decisions/P-002-engineer-the-improvement-loop.md) · [test inventory](evidence/P-002-test-inventory.md) · [research evidence](evidence/P-002-expert-engineering-evidence.md)

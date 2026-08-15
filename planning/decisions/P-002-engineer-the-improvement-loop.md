@@ -25,11 +25,15 @@ Repository popularity is discovery evidence, not effectiveness proof. A borrowed
 - B. Tighten the canonical instructions directly from the expert patterns — Faster, but another prose-only revision may improve one case while silently harming others.
 - C. Wait for more uncoached beta-6 use and repair only observed failures — Lowest immediate cost, but it leaves frontier quality and run-to-run variance largely unmeasured.
 
-## Current unresolved decision — automatic planning boundary
+## Confirmed automatic planning boundary
 
-- A. Default Portable Planner for unresolved project/product work — Recommended; automatically start or resume planning when destination, scope, success, or proof is still being negotiated, while leaving direct builds, narrow facts/status, and diagnosis-only requests in their normal workflows.
-- B. Use Portable Planner for every project conversation that is not already building — Maximum planning coverage, but status questions, explanations, and narrow research would create unnecessary planning state.
-- C. Keep explicit or phrase-matched invocation — Least intrusive, but repeats the current failure where planning behavior depends on the user knowing when to request it.
+Drew selected option A with a bare `a`: Portable Planner becomes the adaptive default for unresolved project/product work. It automatically starts or resumes planning when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Sufficiently specified builds, narrow facts and status, explanation, and diagnosis-only requests remain in their normal workflows. An active-plan digression still reconciles and saves the planning frontier without treating the side question itself as a new plan.
+
+## Current unresolved decision — exact comparison inventory
+
+- A. Approve the six-contract, eight-unit inventory — Recommended; it covers the new adaptive boundary, software/non-software behavior, the real test-design and source-value failures, beta-6 delegation, and fresh resumption without speculative repetition.
+- B. Use a lean five-unit inventory — Lower cost, but omit diagnosis/build boundary variants and fresh resumption, leaving those behaviors to prior objective evidence rather than same-prompt comparison.
+- C. Expand to a twelve-plus-unit domain matrix — Add separate creative, personal, business, course, and operational activations before a failure demands them; broader coverage, but higher cost and more authored evidence.
 
 ## Recommendation
 
@@ -41,18 +45,21 @@ A remains confirmed as the improvement method: build a small decision-kernel and
 
 External inspiration is also confirmed as bounded input: preserve Portable Planner's own cross-domain protocol and adapt only evidence-backed mechanisms that survive cross-domain tests.
 
+The automatic activation boundary is confirmed as the adaptive default described above. The exact minimum comparison inventory is now proposed in [P-002 test inventory](../evidence/P-002-test-inventory.md); it is not approved for execution yet.
+
 ## Delegation
 
-None. Drew selected the evidence-led method but has not approved a replacement execution plan or delegated the current product boundary.
+None. Drew selected the evidence-led method and activation boundary but has not approved the proposed test inventory, replacement execution plan, or delegation of remaining reversible decisions.
 
 ## Interaction state
 
-- Recommended-key streak: 0
+- Recommended-key streak: 1
 - Option-B shortcut: not ready
 
 ## Evidence
 
 - [Current repository and Channel Brains evidence](../evidence/P-002-expert-engineering-evidence.md)
+- [Exact evidence-derived test inventory](../evidence/P-002-test-inventory.md)
 - [Earlier fixed-commit expert-skill pass](../../research/PORTABLE-PLANNER-EXPERT-SKILLS.md)
 - [Beta-6 objective evidence](../../validation/BETA6-RELEASE-CANDIDATE-TEST.md)
 - [Real beta-4 planning and test-handoff failures](../../validation/DECISIVE-FLOW-LIVE-ACCEPTANCE.md)
@@ -62,11 +69,11 @@ None. Drew selected the evidence-led method but has not approved a replacement e
 - Returns lifecycle state to `planning`; E-010 through E-016 are draft-only and ineligible until the replacement test design passes review.
 - The replacement route must inventory real failures before writing synthetic cases. Every retained case needs an exact starting state, exact natural user message, behavior claim, expected routing/decision, prohibited behavior, preserved output, and human-quality judgment.
 - No run count may be selected before duplicate claims are collapsed and the minimum discriminating case set is visible. Repetition is justified only for observed model variance or a high-risk behavior that a single pass cannot distinguish.
-- The automatic planning boundary must be settled before testing natural invocation; otherwise a test cannot tell a missed trigger from an intentionally excluded request.
+- The adaptive automatic planning boundary is settled and must control every natural-invocation and direct-route test.
 - Any imported or adapted mechanism must be tested across materially different software and non-software plans; a software-only success cannot justify narrowing the general planner.
 - A beta-6 hard or material shared-behavior regression restores public beta 5 before candidate work. The candidate is developed and tested away from `main`; a worse or inconclusive result is never merged, and a failed temporary human-test installation restores the proven reference immediately.
 - No database, service, MCP server, second skill, second canonical state tree, autonomous prompt optimizer, or production UI is justified by this research.
 
 ## Complete when
 
-Drew settles the automatic planning boundary; the real-failure inventory and minimum test contracts are visible and individually justified; run count follows from those contracts rather than precedes them; rollback, architecture, and human gates are explicit; and revised execution tickets cover the complete route without treating expert opinion or authored prompts as proof.
+Drew approves or revises the visible evidence-derived test inventory; the resulting minimum comparison count follows from those contracts rather than precedes them; rollback, architecture, and human gates are explicit; and revised execution tickets cover the complete route without treating expert opinion or authored prompts as proof.

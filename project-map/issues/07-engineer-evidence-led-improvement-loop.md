@@ -14,21 +14,23 @@ How should Portable Planner improve after beta 6 so the hidden planning logic be
 - Channel Brains adds the authors' rationale: strict processes compensate for agent memory limits, excessive instructions waste context, and autonomous optimization is unsuitable when “better” remains subjective.
 - The strongest unresolved engineering gap is not the visible A/B/C interaction. It is whether the model selects the correct frontier, honors ownership and protected modes, mutates state correctly, and does so consistently across repeated runs.
 - Portable Planner remains one original cross-domain protocol. Outside repositories may supply adapted mechanisms only when a named failure, architecture fit, and materially different software/non-software cases justify them.
+- Drew selected the adaptive default: unresolved destination, scope, success, proof, or meaningful human tradeoffs activate planning; narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds remain direct.
+- The proposed minimum inventory has six exact contracts and eight independent first-pass units; its count follows the visible cases and is not approved until Drew accepts the contracts.
 
-The full primary-source record and inference boundary are in [P-002 evidence](../../planning/evidence/P-002-expert-engineering-evidence.md).
+The full primary-source record and inference boundary are in [P-002 research evidence](../../planning/evidence/P-002-expert-engineering-evidence.md), and the exact proposed cases are in the [P-002 test inventory](../../planning/evidence/P-002-test-inventory.md).
 
 ## Provisional route
 
-1. Settle the automatic planning boundary so natural-invocation tests have a truthful expected route.
-2. Inventory material failures from saved live records and relevant Codex/ZCode task traces before authoring synthetic prompts.
-3. Give every retained case an exact starting state, natural user message, behavior claim, expected route, prohibited assumption, objective invariant, and human judgment.
-4. Collapse duplicate claims, then choose the minimum ordinary, contrasting, and prohibited-action set; add repetition only for observed variance or protected high risk.
+1. ✓ Use the adaptive default for unresolved project/product work and direct routes for narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds.
+2. ✓ Inventory material failures from saved live records and relevant task history before authoring synthetic prompts.
+3. ✓ Give every retained case an exact starting state, natural user message, behavior claim, expected route, prohibited assumption, objective invariant, and human judgment.
+4. ▶ Have Drew approve or revise the six contracts and eight independent first-pass units; add repetition only for observed variance or protected high risk.
 5. Define one normative decision-kernel transition contract and lightweight objective validator inside the existing skill/reference architecture.
-6. Compare immutable beta 5 and beta 6, restore the better reference, and make at most one candidate correction for one demonstrated failure.
+6. Audit immutable beta-5 and beta-6 evidence to confirm the recoverable reference, then compare beta 6 and a candidate on the same approved units; restore beta 5 if beta 6 fails its protected live check.
 7. Require Drew's uncoached real-task judgment before release.
 
 No automated-run count is approved. Quantity follows from the visible test contracts and their discrimination needs; it may not precede or substitute for test design.
 
 ## Acceptance
 
-The evidence-led method is confirmed in [P-002](../../planning/decisions/P-002-engineer-the-improvement-loop.md), while the activation boundary, exact test contracts, and resulting run count remain open. E-010 through E-016 are superseded drafts and cannot execute until those decisions produce a replacement route. This issue resolves only when the approved cases prove which released version is the reference and any candidate proves better without weakening it—or the losing candidate is preserved and the better reference remains installed.
+The evidence-led method and adaptive activation boundary are confirmed in [P-002](../../planning/decisions/P-002-engineer-the-improvement-loop.md), while approval of the exact test inventory and its resulting replacement route remain open. E-010 through E-016 are superseded drafts and cannot execute until that approval produces a replacement route. This issue resolves only when the approved cases preserve the recoverable reference and any candidate proves better without weakening it—or the losing candidate is preserved and the better reference remains installed.

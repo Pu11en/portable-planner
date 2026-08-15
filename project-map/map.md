@@ -14,6 +14,7 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - Human evidence must come from Drew's ordinary plans in fresh tasks. An implementation simulation or canned example cannot stand in for him.
 - Treat expert repositories and creator explanations as evidence, not product authority. Baseline the released behavior before making another instruction change.
 - Preserve Portable Planner as one original cross-domain protocol. Adapt small mechanisms from outside repositories only for named failures and only after materially different software and non-software evidence; do not vendor another planning framework.
+- Use Portable Planner as the adaptive default when project outcomes are still being shaped; keep narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds on their direct routes.
 
 ## Decisions so far
 
