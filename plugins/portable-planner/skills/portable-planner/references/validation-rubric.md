@@ -43,8 +43,10 @@ Before claiming this behavior passes, use materially different software and non-
 
 - ordinary replies are a few short lines and avoid settled-context recap;
 - explicit reversible delegation synthesizes decisions, while repeated agreement does not create authority;
-- after three consecutive recommended reversible selections with at least two such decisions remaining, one explicit delegation-or-continue invitation appears without inferring authority;
-- every choice uses literal `A.`, `B.`, `C.`, or `D.` prefixes, and a digression restores the recomputed current choice set at the bottom when a human decision remains;
+- only a complete bare recommended key increments the durable streak; added punctuation, words, another key, a non-recommended choice, digression, redirect, or protected gate resets it;
+- after three qualifying replies, the next real reversible question keeps its ordinary recommendation as `A.`, inserts delegation as `B.`, and relabels other routes consecutively through at most `G.` without inferring authority or creating a separate question;
+- bare `B` applies the current recommendation, resolves all remaining delegated reversible decisions in the same turn, and stops at the first protected gate;
+- every choice uses consecutive literal prefixes from `A.` through at most `G.`, and a digression restores the recomputed current choice set at the bottom when a human decision remains;
 - facts and settled choices are not re-asked;
 - research-derived changes to destination, output, or the role of a value-bearing source remain provisional until human confirmation;
 - dynamic uncertainty becomes one preserved ordinary/contrasting/failure trial;

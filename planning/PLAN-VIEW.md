@@ -6,9 +6,9 @@
 
 **Success:** Fresh varied sessions prove delegated choices proceed without extra questions, bounded trials replace unproductive discussion, and the planner clearly pushes completed work into approval and the right live test without crossing protected gates.
 
-**Now:** E-001 through E-007 are complete. Beta 5 is integrated and published as an honest public-preview prerelease; objective repaired-interaction, package, install, and fresh natural-invocation checks pass.
+**Now:** E-001 through E-008 are complete. The exact beta-6 shortcut passes its affected behavior, state, natural-invocation, and package checks; E-009 is publishing it.
 
-**Next:** Drew reruns the remaining human acceptance in a new task.
+**Next:** Publish and install beta 6, then Drew runs the exact real-project acceptance test in a new task.
 
 ```mermaid
 flowchart LR
@@ -20,18 +20,20 @@ flowchart LR
     E5["DONE · Repair shared behavior"]
     E6["DONE · Rerun release checks"]
     E7["DONE · Integrate prerelease"]
-    D(["NOW · HUMAN beta-5 acceptance"])
-    H --> E1 --> E2 --> E3 --> E4 --> E5 --> E6 --> E7 --> D
+    E8["DONE · Exact option-B shortcut"]
+    E9(["NOW · Publish beta 6"])
+    D["HUMAN · Real-project acceptance"]
+    H --> E1 --> E2 --> E3 --> E4 --> E5 --> E6 --> E7 --> E8 --> E9 --> D
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
 
-    class D current;
-    class H,E1,E2,E3,E4,E5,E6,E7 milestone;
+    class E9 current;
+    class H,E1,E2,E3,E4,E5,E6,E7,E8,D milestone;
 ```
 
-**Text route:** HUMAN approved plan → DONE lock behavior contract → DONE update the one canonical skill → DONE synthetic proof → DONE capture beta.4 live failures → DONE repair only demonstrated shared behavior → DONE affected and package checks → DONE integrate and publish an honest prerelease → NOW HUMAN rerun remaining acceptance.
+**Text route:** HUMAN approved plan → DONE beta-5 route → DONE exact bare-key option-`B` shortcut → NOW publish passing beta 6 → HUMAN run the real-project acceptance test.
 
 ## Step details
 
@@ -123,13 +125,35 @@ flowchart LR
 
 </details>
 
-<details open>
-<summary>NOW · HUMAN beta-5 acceptance</summary>
+<details>
+<summary>DONE · E-008 · Exact option-B shortcut</summary>
 
-- Outcome: Direct judgment of the repaired interaction, current-state refresh, and supported visual fallback in a fresh task.
+- Outcome: Only bare recommended keys build the streak; the next real question inserts delegation as `B` while preserving its recommendation as `A`.
+- Owner: Agent.
+- Inputs: Drew's exact 2026-08-15 interaction rule and the beta-5 canonical skill.
+- Proof: Product authority, skill guidance, durable state, templates, and acceptance agree without inferred delegation.
+- If blocked or changed: Return only a genuinely ambiguous safety boundary to Drew.
+
+</details>
+
+<details open>
+<summary>NOW · E-009 · Validate and publish beta 6</summary>
+
+- Outcome: Positive, reset, resumption, protected-gate, package, and natural-invocation checks pass before beta 6 is published and installed.
+- Owner: Agent.
+- Inputs: Unchanged E-008 candidate.
+- Proof: Preserved release-candidate evidence, remote main/tag/release agreement, public plugin installation, and exact human test instructions.
+- If blocked or changed: Repair only the failed shared instruction and rerun affected cases.
+
+</details>
+
+<details>
+<summary>HUMAN · Real-project acceptance</summary>
+
+- Outcome: Drew confirms the shortcut appears at the right moment, delegates only through bare `B`, and stops at final approval.
 - Owner: Drew.
-- Inputs: Installed public beta 5 and an ordinary real planning request.
-- Proof: Remaining checks in `docs/ACCEPTANCE.md` are updated from the actual run.
+- Inputs: Installed public beta 6 and the durable human test runbook.
+- Proof: Actual fresh-task trace recorded against C-02, C-12, and C-13.
 - If blocked or changed: Record the exact failure and reopen only its shared behavior.
 
 </details>

@@ -26,7 +26,7 @@ If no human-owned question is ready, research or synthesize the blocker without 
 
 If the person has explicitly delegated the remaining reversible decisions to the agent's recommendations, treat ready decisions inside that recorded scope as synthesis: save the recommended choice and reconcile its effects without asking. Repeated acceptance is convergence evidence, not delegation. Do not extend authority to irreversible commitments, materially personal tradeoffs, conflicts, implementation authorization, or final approval.
 
-Track consecutive acceptances of recommended reversible choices. After three consecutive acceptances, if the recomputed frontier still contains at least two reversible human-owned decisions, make the next question the one-time delegation-or-continue invitation from [conversation-contract.md](conversation-contract.md). This pattern never changes ownership by itself. Reset the count after a non-recommended answer, material redirect, or protected gate; do not re-offer after a decline unless requested.
+Track the recommended-key streak exactly as defined in [conversation-contract.md](conversation-contract.md). Only a complete trimmed one-letter reply matching the displayed recommended key increments it; every other reply resets it. After the third qualifying reply, augment the next real reversible human-owned question by keeping its recommendation as `A.`, inserting the delegation shortcut as `B.`, and shifting other viable routes to `C.` through at most `G.`. If insertion would exceed seven choices, combine overlaps or omit the least consequential ordinary route while preserving the custom-answer path. If no reversible question remains, reset to `0 / not ready` and proceed to the protected gate. Never create a separate delegation question, infer authority from the streak, or emit `H`.
 
 If the remaining uncertainty concerns dynamic behavior, look and feel, interaction, or effectiveness that words cannot discriminate, stop asking and run one bounded planning trial. Name one decision question; use an ordinary case, a materially contrasting case, and a failure or prohibited-action case by default. Preserve every input or starting state, variation, observed output, surprise or failure, verdict, and decision changed. Make one targeted planning revision after failure and rerun affected cases; return persistent tradeoffs to the person.
 
@@ -34,16 +34,16 @@ If the remaining uncertainty concerns dynamic behavior, look and feel, interacti
 
 - Treat category names, experience qualities, priorities, and other labels as abstract. Before those choices, show one literal project-specific input, output, or moment the person can picture. Option descriptions do not count as this example.
 - Put the recommended answer first as `A.`
-- Usually provide `A/B/C`; use `A/B` when only two strong routes exist and add `D` only for a genuinely distinct fourth route.
+- Usually provide `A/B/C`; add more only for genuinely distinct routes and never continue beyond `G`.
 - Make every option viable, concrete, and mutually distinct.
 - Give each option one short consequence or tradeoff.
 - End with a visible custom-answer path and the valid reply letters.
 - Do not expose expert names, framework jargon, or internal planning logic unless the person asks.
-- Verify literal choice prefixes before replying: `A.`, `B.`, `C.`, and `D.` only.
+- Verify consecutive literal choice prefixes before replying: `A.` through at most `G.`.
 
 ## Resolve the answer
 
-When the person replies with one letter, resolve it against the most recent displayed choice set. Before asking anything else, write the full selected meaning, rationale when given, and every affected route, proof, scope, dependency, or ticket into canonical state. Never ask the person to repeat the option text.
+When the person replies with one letter, resolve it against the most recent displayed choice set. Before asking anything else, write the full selected meaning, rationale when given, every affected route, proof, scope, dependency, or ticket, and the updated recommended-key streak into canonical state. Never ask the person to repeat the option text. When bare `B` selects the inserted delegation shortcut, apply the recommendation for the current question and synthesize the rest of the delegated reversible frontier before stopping at a protected gate.
 
 When the person replies `yes`, `no`, `approved`, or equivalent to the most recent direct yes/no question, resolve it the same way. A direct `yes` to “Do you approve this plan for build?” is explicit build authorization; update state and immediately enter normal harness execution when safe instead of requesting a second command.
 

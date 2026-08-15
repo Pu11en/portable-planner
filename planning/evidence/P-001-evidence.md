@@ -6,6 +6,7 @@ Accessed: 2026-08-07
 
 - The [beta.4 live acceptance trace](../../validation/DECISIVE-FLOW-LIVE-ACCEPTANCE.md) confirms the successful natural start, research, durable state, approval-to-build, and proactive test transition while preserving the exact failures that require the release-candidate repairs in E-005.
 - The [beta.5 affected rerun](../../validation/BETA5-RELEASE-CANDIDATE-TEST.md) passes the repaired instruction, package, isolated-install, and fresh natural-invocation checks while keeping V-03, V-04, and final human acceptance open.
+- The [beta.6 exact-delegation rerun](../../validation/BETA6-RELEASE-CANDIDATE-TEST.md) passes the bare-key streak, option-`B` insertion, reset, resumption, choice-ceiling, protected-gate, package, and natural-invocation matrix while keeping direct human acceptance open.
 
 ## Primary research
 

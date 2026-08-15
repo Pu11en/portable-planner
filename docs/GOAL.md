@@ -37,13 +37,13 @@ The person installs no runtime, renderer, MCP server, database, web app, package
 - Ask at most one question per turn and only when multiple good answers depend on human preference.
 - Record explicit delegation of reversible decisions and use the agent's recommendations within that scope without more preference questions.
 - Stop verbal grilling when facts, prior answers, or delegation already settle the issue; use a bounded planning trial when behavior must be judged from concrete cases.
-- Label every offered answer `A/B/C`, adding `D` only when a genuinely distinct fourth choice is needed, so a one-character reply works.
+- Label every offered answer consecutively from `A` through at most `G`, adding choices beyond the usual two or three only when genuinely distinct, so a one-character reply works.
 - Derive mechanics and research facts without transferring them to the user.
 - Keep ordinary replies to a few short lines, normally around 40 words and under 80 unless requested evidence or a required approval view needs more.
 - Perform the next safe planning action in the same turn instead of stopping after saying what will happen next.
 - Preserve confirmed decisions before continuing.
 - Finish a simple route in one session; expand only when demonstrated uncertainty requires it.
-- After three consecutive recommended reversible choices, offer one explicit delegation shortcut when more reversible choices remain; never infer that authority from repeated agreement.
+- Count only bare one-letter recommended replies toward delegation. After three consecutive matches, insert the delegation shortcut as option `B` in the next real reversible question while its recommendation remains `A`; added text resets the streak and only selecting `B` grants authority.
 - After a digression, preserve the one-letter path by ending with the refreshed complete choice set whenever a worthwhile human decision remains.
 - Keep research-derived changes to the product provisional until the person confirms them, and make live-test handoffs reuse known context rather than reopening intake.
 - At a real session boundary, start the one authorized successor or give a clearly labeled exact prompt the person can paste; never leave them with only a vague next-step announcement.

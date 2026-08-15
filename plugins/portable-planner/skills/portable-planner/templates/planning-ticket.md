@@ -12,7 +12,7 @@
 - A. {{Recommended option and main tradeoff.}}
 - B. {{Second viable option and main tradeoff.}}
 - C. {{Third viable option and main tradeoff, or omit when only two strong routes exist.}}
-- {{Add D only for a genuinely distinct fourth route; otherwise omit it. Use “Not applicable — synthesize/research directly” when no human choice is needed.}}
+- {{Add D through at most G only for genuinely distinct routes; otherwise omit them. Use “Not applicable — synthesize/research directly” when no human choice is needed.}}
 
 ## Recommendation
 
@@ -25,6 +25,11 @@ A — {{Recommended route and main tradeoff.}}
 ## Delegation
 
 {{Exact user words, reversible-decision scope, and start/end condition, or “None.”}}
+
+## Interaction state
+
+- Recommended-key streak: {{0 | 1 | 2 | 3}}
+- Option-B shortcut: {{not ready | ready for next reversible question | offered | accepted | consumed}}
 
 ## Evidence
 
