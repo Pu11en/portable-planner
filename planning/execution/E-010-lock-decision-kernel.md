@@ -18,7 +18,7 @@
 
 ## Out of scope
 
-- Coding the subjective choice of the best product question, changing the visible A/B/C interaction, adding another skill or state tree, or editing behavior to improve a scenario before the beta-6 baseline exists.
+- Coding the subjective choice of the best product question, changing the visible A/B/C interaction, adding another skill or state tree, or editing behavior before the beta-5/beta-6 control comparison exists.
 
 ## Constraints
 

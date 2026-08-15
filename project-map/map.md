@@ -24,14 +24,14 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - [Adaptive review gate](issues/01-decide-adaptive-review-gate.md) — the visual is always available, may be offered once as a useful draft, and opens automatically only when the complete route is defensible; approval, targeted revision, continued planning, and confusion each return to an explicit lifecycle path without a question-count threshold.
 - [Idea-stage possibility scan](issues/05-prove-idea-stage-possibility-scan.md) — a new no-idea or thin-idea software/AI start may opt into bounded repository-first discovery, but the result remains provisional and unproven until objective scenario checks and Drew's fresh-session use pass.
 - [Decisive planning flow](issues/06-prove-decisive-planning-flow.md) — explicit delegation removes reversible preference questions, repeated recommendation acceptance triggers an explicit delegation offer without granting authority, exhausted discussion becomes bounded evidence, direct approval starts normal execution, and validated work proactively asks Drew to test from refreshed state.
-- [Evidence-led improvement loop](issues/07-engineer-evidence-led-improvement-loop.md) — beta 6 stays immutable while a decision-kernel contract, frozen 24-run experiment, one targeted candidate, objective rollback verdict, and uncoached human test determine whether another prerelease deserves to replace it.
+- [Evidence-led improvement loop](issues/07-engineer-evidence-led-improvement-loop.md) — immutable beta 5 and beta 6 enter a frozen 30-run control-and-candidate experiment; regressions restore the better reference, while only one objectively and human-proven candidate may become another prerelease.
 
 ## Not yet specified
 
 - Exact implementation corrections exposed by the first real plan and the first naturally complex real plan.
 - Exact corrections exposed by the idea-stage scenario matrix and Drew's first natural fresh-session scan.
 - Whether the beta-6 repairs fully resolve the decisive-flow failures in Drew's next fresh live test.
-- Whether the approved evidence-led improvement route proves a candidate better than beta 6 without weakening any protected or state-safety behavior.
+- Whether the approved evidence-led improvement route proves beta 6 preserved beta 5's shared behavior and then proves any candidate better than the winning reference without weakening protected or state-safety behavior.
 - Whether naturally complex use exposes a genuinely new planning behavior after the first real-use flow is clean.
 - The final wording Drew uses to judge speed, worthwhile questions, boundary clarity, usable plans, and executable handoff after both real-use proofs.
 

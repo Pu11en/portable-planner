@@ -21,13 +21,13 @@ The full primary-source record and inference boundary are in [P-002 evidence](..
 1. Define one normative decision-kernel transition contract inside the existing skill/reference architecture.
 2. Add a compact frontier ledger to the existing planning ticket rather than creating another state tree.
 3. Build a bounded scenario corpus and deterministic invariant validator.
-4. Measure repeated unchanged beta-6 runs before editing instructions.
+4. Compare repeated unchanged beta-5 and beta-6 runs before editing instructions.
 5. Make one minimal revision for one demonstrated failure class.
 6. Rerun affected, regression, and held-out cases.
 7. Require Drew's uncoached real-task judgment before release.
 
-The recommended first-cycle ceiling is 24 automated fresh-task scenario runs with early stop on a hard failure, plus one separate uncoached human run. The cap may not be used for repeated tuning against the same visible cases.
+The first-cycle ceiling is 30 automated fresh-task scenario runs with early stop on a hard failure, plus one separate uncoached human run. Eighteen runs compare beta 5 and beta 6, including repeated high-risk cases; twelve remain for the candidate. The cap may not be used for repeated tuning against the same visible cases.
 
 ## Acceptance
 
-Option A is confirmed in [P-002](../../planning/decisions/P-002-engineer-the-improvement-loop.md); hard failure gates, directional metrics, the 24-run ceiling, candidate isolation, beta-6 restoration, and the human gate are explicit; [E-010 through E-016](../../planning/PLAN.md) cover the complete experiment. This issue resolves only when the candidate proves better and ships, or the losing candidate is preserved and beta 6 remains the verified product.
+Option A is confirmed in [P-002](../../planning/decisions/P-002-engineer-the-improvement-loop.md); hard failure gates, directional metrics, the 30-run ceiling, beta-5/beta-6 control, candidate isolation, reference restoration, and the human gate are explicit; [E-010 through E-016](../../planning/PLAN.md) cover the complete experiment. This issue resolves only when the candidate proves better and ships, or the losing candidate is preserved and the better reference remains installed.

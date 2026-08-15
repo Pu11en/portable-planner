@@ -14,7 +14,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Success
 
-- Against a fixed beta-6 baseline, a later candidate keeps every protected and state-safety gate perfect, improves consequential-question yield and time to a defensible plan across repeated varied runs, and earns Drew's uncoached judgment that planning is faster and more useful without increased context bloat.
+- A frozen beta-5/beta-6 comparison first proves the exact beta-6 change did not degrade shared behavior or restores beta 5 if it did; a later candidate must then keep every protected and state-safety gate perfect, improve its targeted failure without material regression, and earn Drew's uncoached judgment that planning is faster and more useful without increased context bloat.
 
 ## Boundaries
 
@@ -31,7 +31,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 ## Confirmed decisions
 
 - [P-001](decisions/P-001-define-decisive-planning.md): Explicit scoped delegation covers remaining reversible decisions; settled or experiential uncertainty is not re-asked; bounded trials replace exhausted discussion; replies stay short, take the next safe action, and proactively move finished work to approval and live testing; protected gates remain explicit.
-- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Preserve immutable beta 6, formalize the hidden decision kernel, measure a frozen baseline before one targeted revision, cap the first experiment at 24 automated runs, and reject or restore any candidate that is worse or inconclusive.
+- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Compare immutable beta 5 and beta 6 before another change, formalize the hidden decision kernel, cap the first experiment at 30 automated runs, restore beta 5 if beta 6 regressed, and reject or restore any later candidate that is worse or inconclusive.
 
 ## Execution
 
@@ -46,7 +46,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 - ✓ [E-009 — Validate and publish beta 6](execution/E-009-validate-publish-beta6.md)
 - ○ [E-010 — Lock the decision-kernel contract](execution/E-010-lock-decision-kernel.md)
 - ○ [E-011 — Build the bounded evaluation harness](execution/E-011-build-bounded-evaluation-harness.md)
-- ○ [E-012 — Measure the immutable beta-6 baseline](execution/E-012-measure-beta6-baseline.md)
+- ○ [E-012 — Compare beta 5 and beta 6](execution/E-012-measure-beta6-baseline.md)
 - ○ [E-013 — Implement one evidence-backed candidate change](execution/E-013-implement-one-candidate-change.md)
 - ○ [E-014 — Compare, keep, or reject the candidate](execution/E-014-compare-keep-or-reject-candidate.md)
 - ○ [E-015 — Run the controlled human acceptance](execution/E-015-run-controlled-human-acceptance.md)

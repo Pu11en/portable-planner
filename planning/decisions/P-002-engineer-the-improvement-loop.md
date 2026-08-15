@@ -15,11 +15,11 @@ Choose how Portable Planner should become more reliable and effective after beta
 
 ## Recommendation
 
-A — Keep the current user-facing experience, formalize the hidden decision and state-transition contract, baseline beta 6 with bounded repeated scenarios, then make only evidence-backed changes. Use scripts for objective invariants and preserve human judgment for whether questions and plans are actually good. Cap the first experiment at 24 fresh automated scenario runs, stop early on any hard failure, and reserve one separate uncoached run for Drew.
+A — Keep the current user-facing experience, formalize the hidden decision and state-transition contract, first compare beta 5 with beta 6 on frozen shared scenarios, then make only evidence-backed changes. Use scripts for objective invariants and preserve human judgment for whether questions and plans are actually good. Cap the first experiment at 30 fresh automated scenario runs, stop early on any hard failure, and reserve one separate uncoached run for Drew.
 
 ## Confirmed decision
 
-A — Build the decision-kernel and repeatable evaluation loop. Beta 6 is the immutable baseline. The candidate remains isolated and cannot merge, release, or replace the public installation unless it has zero hard-gate failures, fixes its targeted failure consistently, avoids material regression, and passes Drew's uncoached test. A worse or inconclusive candidate is rejected and beta 6 remains installed.
+A — Build the decision-kernel and repeatable evaluation loop. Immutable beta-5 and beta-6 tags are paired controls before another change. If beta 6 regressed shared behavior, restore public beta 5 and make that regression the only candidate target. Otherwise beta 6 remains the reference. Any later candidate remains isolated and cannot merge, release, or replace the reference installation unless it has zero hard-gate failures, fixes its target consistently, avoids material regression, and passes Drew's uncoached test. Worse or inconclusive always keeps or restores the better proven reference.
 
 ## Delegation
 
@@ -39,12 +39,12 @@ None. Drew selected option A but has not yet approved the finished execution pla
 ## Effects
 
 - Returns lifecycle state to `planning`; the beta-6 human test remains valid but no longer stands in for approving this new improvement program.
-- If A is confirmed, execution planning will cover the normative decision kernel, trace corpus, objective validator, beta-6 baseline, one-change experiment, held-out regression run, and fresh human acceptance.
-- The first experiment may use at most 24 automated fresh-task runs; it cannot spend the cap to tune repeatedly against the same visible cases.
-- The first twelve runs establish the unchanged beta-6 baseline. The remaining twelve are reserved for affected, regression, and held-out candidate proof.
-- The candidate is developed and tested away from `main`. A worse or inconclusive result is never merged; if a candidate was temporarily installed for human testing, restore public beta 6 immediately after a failure.
+- If A is confirmed, execution planning will cover the normative decision kernel, trace corpus, objective validator, beta-5/beta-6 control comparison, one-change experiment, held-out regression run, and fresh human acceptance.
+- The first experiment may use at most 30 automated fresh-task runs; it cannot spend the cap to tune repeatedly against the same visible cases.
+- The first eighteen runs compare all six visible scenarios once on beta 5 and beta 6, then repeat the three highest-risk shared scenarios once on both versions. The remaining twelve are reserved for affected, regression, and held-out candidate proof.
+- A beta-6 hard or material shared-behavior regression restores public beta 5 before candidate work. The candidate is developed and tested away from `main`; a worse or inconclusive result is never merged, and a failed temporary human-test installation restores the proven reference immediately.
 - No database, service, MCP server, second skill, second canonical state tree, autonomous prompt optimizer, or production UI is justified by this research.
 
 ## Complete when
 
-Drew's A decision, success metrics, 24-run ceiling, rollback rule, architecture boundary, and human gate are explicit; E-010 through E-016 cover the complete experiment; and canonical state is ready for final approval without treating expert opinion as proof.
+Drew's A decision, beta-5/beta-6 control comparison, success metrics, 30-run ceiling, rollback rule, architecture boundary, and human gate are explicit; E-010 through E-016 cover the complete experiment; and canonical state is ready for final approval without treating expert opinion as proof.

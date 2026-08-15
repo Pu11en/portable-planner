@@ -22,7 +22,7 @@
 ## Constraints
 
 - Release bytes must be the unchanged human-tested candidate plus release-record/version metadata only.
-- Beta 6 remains permanently recoverable by tag and release.
+- Beta 5 and beta 6 remain permanently recoverable by tag and release.
 - Every previously open acceptance gate stays visibly open unless this exact run satisfied it.
 
 ## Proof
@@ -33,7 +33,7 @@
 
 ## If blocked or disproven
 
-- Leave the proven candidate branch and evidence intact, restore public beta 6 if necessary, and report the exact release blocker without changing quality claims.
+- Leave the proven candidate branch and evidence intact, restore the winning reference if necessary, and report the exact release blocker without changing quality claims.
 
 ## Human review
 

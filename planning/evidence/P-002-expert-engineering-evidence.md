@@ -79,7 +79,7 @@ Build a small **decision-kernel and evaluation loop**, not a larger planning fra
 2. Add a compact frontier ledger to the existing active planning ticket so fresh sessions can inspect the next decision without relying on chat memory.
 3. Create a bounded scenario corpus spanning invocation, thin-idea research, fact-versus-decision routing, digressions, delegation, resumption, trials, approval, and prohibited actions.
 4. Add deterministic validators only for objective invariants; use a fixed rubric and held-out human review for judgment quality.
-5. Establish a repeated beta-6 baseline before changing instructions.
+5. Compare immutable beta 5 and beta 6 on frozen shared scenarios, then establish the winning version as the reference before changing instructions.
 6. Make one targeted revision per demonstrated failure class, then rerun the affected, regression, and held-out cases.
 7. Ship a later prerelease only if hard gates remain perfect and the directional metrics improve without increased context bloat.
 

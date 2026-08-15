@@ -43,4 +43,4 @@
 
 ## Next eligible ticket
 
-- E-012 — Measure the immutable beta-6 baseline.
+- E-012 — Compare beta 5 and beta 6.
