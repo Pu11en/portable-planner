@@ -1,6 +1,6 @@
 # E-009 — Validate and publish beta 6
 
-- Status: current
+- Status: complete — 2026-08-15
 - Depends on: E-008
 
 ## Outcome
@@ -43,3 +43,9 @@ The unchanged beta-6 candidate passes the exact shortcut matrix and package chec
 ## Next eligible ticket
 
 - Human beta-6 acceptance; otherwise reopen only the failed behavior.
+
+## Result
+
+- The unchanged candidate passed the recorded shortcut matrix, natural invocation, validators, package audits, and isolated installation.
+- PR #2 merged the reviewed change to `main`; `v0.1.0-beta.6` identifies the matching public-preview prerelease, and the installed plugin was restored from the public GitHub marketplace.
+- Drew's exact uncoached human run remains deliberately open and is the current project gate.

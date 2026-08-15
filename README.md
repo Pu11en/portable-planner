@@ -4,7 +4,7 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.6` public-preview candidate adds the exact bare-key option-`B` delegation shortcut, recovers the one-letter path after a digression, keeps research-led product changes provisional, begins normal-harness execution after direct approval, and proactively presents a small live test from refreshed state. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked human acceptance checks pass.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.6` public-preview prerelease adds the exact bare-key option-`B` delegation shortcut, recovers the one-letter path after a digression, keeps research-led product changes provisional, begins normal-harness execution after direct approval, and proactively presents a small live test from refreshed state. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked human acceptance checks pass.
 
 ## Project source of truth
 

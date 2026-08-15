@@ -6,9 +6,9 @@
 
 **Success:** Fresh varied sessions prove delegated choices proceed without extra questions, bounded trials replace unproductive discussion, and the planner clearly pushes completed work into approval and the right live test without crossing protected gates.
 
-**Now:** E-001 through E-008 are complete. The exact beta-6 shortcut passes its affected behavior, state, natural-invocation, and package checks; E-009 is publishing it.
+**Now:** E-001 through E-009 are complete. The exact beta-6 shortcut is published and installed; Drew's uncoached fresh-task acceptance is the current gate.
 
-**Next:** Publish and install beta 6, then Drew runs the exact real-project acceptance test in a new task.
+**Next:** Drew runs the exact real-project acceptance test in a new task and records the first result without coaching the planner mid-run.
 
 ```mermaid
 flowchart LR
@@ -21,19 +21,19 @@ flowchart LR
     E6["DONE · Rerun release checks"]
     E7["DONE · Integrate prerelease"]
     E8["DONE · Exact option-B shortcut"]
-    E9(["NOW · Publish beta 6"])
-    D["HUMAN · Real-project acceptance"]
+    E9["DONE · Publish beta 6"]
+    D(["NOW · HUMAN acceptance"])
     H --> E1 --> E2 --> E3 --> E4 --> E5 --> E6 --> E7 --> E8 --> E9 --> D
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
 
-    class E9 current;
-    class H,E1,E2,E3,E4,E5,E6,E7,E8,D milestone;
+    class D current;
+    class H,E1,E2,E3,E4,E5,E6,E7,E8,E9 milestone;
 ```
 
-**Text route:** HUMAN approved plan → DONE beta-5 route → DONE exact bare-key option-`B` shortcut → NOW publish passing beta 6 → HUMAN run the real-project acceptance test.
+**Text route:** HUMAN approved plan → DONE beta-5 route → DONE exact bare-key option-`B` shortcut → DONE publish beta 6 → NOW HUMAN real-project acceptance test.
 
 ## Step details
 
@@ -136,8 +136,8 @@ flowchart LR
 
 </details>
 
-<details open>
-<summary>NOW · E-009 · Validate and publish beta 6</summary>
+<details>
+<summary>DONE · E-009 · Validate and publish beta 6</summary>
 
 - Outcome: Positive, reset, resumption, protected-gate, package, and natural-invocation checks pass before beta 6 is published and installed.
 - Owner: Agent.
@@ -147,8 +147,8 @@ flowchart LR
 
 </details>
 
-<details>
-<summary>HUMAN · Real-project acceptance</summary>
+<details open>
+<summary>NOW · HUMAN · Real-project acceptance</summary>
 
 - Outcome: Drew confirms the shortcut appears at the right moment, delegates only through bare `B`, and stops at final approval.
 - Owner: Drew.
