@@ -49,6 +49,7 @@ The recommended boundary is unresolved project/product work: planning activates 
 - Each test has an exact starting state, expected route, prohibited behavior, and human judgment.
 - Repetition requires observed variance or protected high risk.
 - Expert skills supply evidence, not product authority.
+- Outside mechanisms are selectively adapted; Portable Planner's protocol and cross-domain scope remain its own.
 - Beta 5 and beta 6 remain immutable and recoverable.
 
 Details: [plan](PLAN.md) · [current decision](decisions/P-002-engineer-the-improvement-loop.md) · [evidence](evidence/P-002-expert-engineering-evidence.md)

@@ -18,8 +18,8 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Boundaries
 
-- In: the existing canonical skill and planning state, a normative decision-kernel contract, a bounded trace corpus, objective invariant validation, repeated behavioral comparison, and fresh human acceptance.
-- Out: copying another creator's interface, a second skill or state tree, a database or service, an autonomous prompt optimizer, production UI, a fixed question quota, or changes justified only by expert opinion.
+- In: the existing canonical skill and planning state, selective adaptation of evidence-backed mechanisms, a normative decision-kernel contract, a bounded trace corpus across materially different domains, objective invariant validation, repeated behavioral comparison, and fresh human acceptance.
+- Out: replacing or vendoring another planning framework, copying another creator's protocol or interface, narrowing to software, a second skill or state tree, a database or service, an autonomous prompt optimizer, production UI, a fixed question quota, or changes justified only by popularity or expert opinion.
 
 ## Map
 
@@ -31,7 +31,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 ## Confirmed decisions
 
 - [P-001](decisions/P-001-define-decisive-planning.md): Explicit scoped delegation covers remaining reversible decisions; settled or experiential uncertainty is not re-asked; bounded trials replace exhausted discussion; replies stay short, take the next safe action, and proactively move finished work to approval and live testing; protected gates remain explicit.
-- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Keep the evidence-led method and rollback protection, withdraw the preselected 30-run allocation, settle the automatic planning boundary, and derive the minimum test set from real failures before revising the build route.
+- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Keep the evidence-led method and rollback protection, withdraw the preselected 30-run allocation, preserve one original cross-domain protocol, adapt outside mechanisms only for named failures with cross-domain proof, settle the automatic planning boundary, and derive the minimum test set from real failures before revising the build route.
 
 ## Execution
 

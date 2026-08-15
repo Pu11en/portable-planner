@@ -13,6 +13,12 @@ Drew rejected the 30-run route because the plan selected a quantity before the e
 
 The previous approval surface was therefore premature. No automated-run budget is currently approved. The next route must first derive a small test inventory from real Codex/ZCode sessions and saved live failures, state what each case can prove, and ask only the human-owned questions that materially change that inventory.
 
+## Confirmed external-inspiration boundary
+
+Drew confirmed that Portable Planner remains its own cross-domain plugin. Open-source skills and repositories may be inspected for mechanisms, engineering discipline, failure evidence, or small reusable components, then adapted to Portable Planner's existing protocol. They may not replace its conversation model, canonical state, voice, portability boundary, or support for software, business, courses, creative work, events, operations, and personal projects.
+
+Repository popularity is discovery evidence, not effectiveness proof. A borrowed mechanism must solve a named Portable Planner failure, fit the existing skill/reference architecture, preserve generality, and pass materially different domain cases. If implementation code is reused rather than the idea being independently adapted, its license, provenance, maintenance surface, and exact included scope must be reviewed first. Installing or vendoring another planning framework is not the default route.
+
 ## Viable options
 
 - A. Build a decision-kernel and repeatable evaluation loop — Recommended; more initial engineering, but it makes future improvements measurable and protects against regressions.
@@ -32,6 +38,8 @@ A — Preserve the selected evidence-led improvement direction, but replace the 
 ## Confirmed decision
 
 A remains confirmed as the improvement method: build a small decision-kernel and repeatable evaluation loop, compare immutable beta 5 and beta 6 before another behavior change, and restore the better proven reference after any regression. The former 30-run allocation and its derived execution route are withdrawn. Test count, prompts, starting states, and scoring remain unconfirmed until the evidence-derived test contracts and automatic planning boundary are settled.
+
+External inspiration is also confirmed as bounded input: preserve Portable Planner's own cross-domain protocol and adapt only evidence-backed mechanisms that survive cross-domain tests.
 
 ## Delegation
 
@@ -55,6 +63,7 @@ None. Drew selected the evidence-led method but has not approved a replacement e
 - The replacement route must inventory real failures before writing synthetic cases. Every retained case needs an exact starting state, exact natural user message, behavior claim, expected routing/decision, prohibited behavior, preserved output, and human-quality judgment.
 - No run count may be selected before duplicate claims are collapsed and the minimum discriminating case set is visible. Repetition is justified only for observed model variance or a high-risk behavior that a single pass cannot distinguish.
 - The automatic planning boundary must be settled before testing natural invocation; otherwise a test cannot tell a missed trigger from an intentionally excluded request.
+- Any imported or adapted mechanism must be tested across materially different software and non-software plans; a software-only success cannot justify narrowing the general planner.
 - A beta-6 hard or material shared-behavior regression restores public beta 5 before candidate work. The candidate is developed and tested away from `main`; a worse or inconclusive result is never merged, and a failed temporary human-test installation restores the proven reference immediately.
 - No database, service, MCP server, second skill, second canonical state tree, autonomous prompt optimizer, or production UI is justified by this research.
 

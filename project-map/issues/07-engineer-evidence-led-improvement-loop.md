@@ -13,6 +13,7 @@ How should Portable Planner improve after beta 6 so the hidden planning logic be
 - The current Matt Pocock and David Ondrej repositories still support a decision tree, prerequisite-ready frontier, fact-versus-decision ownership, immediate durable state, concise recommendations, and verify-fix-reverify loops.
 - Channel Brains adds the authors' rationale: strict processes compensate for agent memory limits, excessive instructions waste context, and autonomous optimization is unsuitable when “better” remains subjective.
 - The strongest unresolved engineering gap is not the visible A/B/C interaction. It is whether the model selects the correct frontier, honors ownership and protected modes, mutates state correctly, and does so consistently across repeated runs.
+- Portable Planner remains one original cross-domain protocol. Outside repositories may supply adapted mechanisms only when a named failure, architecture fit, and materially different software/non-software cases justify them.
 
 The full primary-source record and inference boundary are in [P-002 evidence](../../planning/evidence/P-002-expert-engineering-evidence.md).
 
