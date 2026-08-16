@@ -98,6 +98,33 @@ The current decision sits at the center, with completed evidence to the left, up
 
 The trial shows all four directly in the conversation at useful size. It compares compositions, not colors or invented application chrome. A later prototype may add host-supported interaction, but the visible first layer must already work.
 
+## Selected composition
+
+On 2026-08-16 Drew selected bare `A`, confirming **H-02 — Journey plus focus lens** from the displayed choice set. This selects the composition for further planning trials; it is not final visual acceptance or implementation approval.
+
+The selection preserves these required behaviors:
+
+- the complete milestone journey is continuously visible;
+- the current step receives the strongest visual emphasis;
+- its focus lens carries the exact next action, human role, proof, and recovery;
+- later work remains oriented without competing with the present step; and
+- no essential first-read information requires expansion.
+
+## H-02 dynamic scenario trial
+
+Decision question: Does Journey plus focus lens preserve fast comprehension when the plan's maturity, size, and health change?
+
+Use four materially different cases:
+
+1. **Ordinary current state — Portable Planner improvement:** a real multi-issue plan with I-01 current.
+2. **Early ambiguity — thin software idea:** the destination is provisional and the immediate human gate is repository-scan consent.
+3. **Complex operational/creative plan — GOMER videos:** a long production route with several human reviews and a clean-streak success condition.
+4. **Failure and recovery — losing candidate:** comparison disproves a change, blocks shipping, and restores or keeps beta 6.
+
+Expected behavior in every case: destination and success are visible; the journey is readable without expansion; the focus lens clearly distinguishes current state, exact next action, human ownership, proof, and recovery; content density grows in the detail layer rather than the main route.
+
+Status: outputs displayed in the active session; Drew's comprehension and aesthetic verdict pending. Preserve any failing case and revise only the demonstrated composition problem.
+
 ## Comprehension jobs
 
 A useful plan surface must let Drew do these jobs without first opening the long source files:

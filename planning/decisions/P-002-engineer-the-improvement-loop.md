@@ -37,6 +37,8 @@ Drew then established the compression invariant: Portable Planner should reduce 
 
 The first compressed examples exposed two further requirements: the core plan must not require expansion to become visible, and the presentation must be aesthetically pleasing enough to invite scanning. The active comparison therefore replaces the three isolated formats with four fully visible hybrids: mission control, journey plus focus lens, three-lane roadmap, and compass map. Journey plus focus lens is the provisional recommendation because it preserves the whole route while giving the current technical step visual priority.
 
+Drew selected the recommended Journey plus focus lens composition with bare `A` on 2026-08-16. The selection advances I-01 to a dynamic scenario trial, not production implementation. The same composition is now tested against the real Portable Planner improvement state, an early thin software idea, the complex GOMER production plan, and a losing-candidate recovery state.
+
 ## Recommendation
 
 Preserve the selected evidence-led improvement direction and separate problem discovery from solution selection. Use the [improvement inventory](../evidence/P-002-improvement-issues.md) to keep current failures, unproven targets, repaired historical failures, and regression guards distinct. For each confirmed issue, use historical traces as the test-design source and run only the minimum prototype or decision-point replay needed to choose a correction.
@@ -55,7 +57,7 @@ None. Corpus indexing and redacted case discovery are agent-owned research actio
 
 ## Interaction state
 
-- Recommended-key streak: 0
+- Recommended-key streak: 1
 - Option-B shortcut: not ready
 
 ## Evidence

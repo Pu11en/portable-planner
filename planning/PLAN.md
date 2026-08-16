@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Compare four fully visible, polished hybrid presentations of the identical improvement plan: mission control, journey plus focus lens, three-lane roadmap, and compass map.
-- Next: Use Drew's reaction to select one hybrid or combine named parts, then turn only that composition into a faithful bounded prototype.
+- Current: HUMAN — Judge the selected Journey plus focus lens composition across four visible scenarios: current improvement work, early ambiguity, complex production, and failure recovery.
+- Next: Preserve any failing scenario, revise only the demonstrated presentation problem, and lock the smallest faithful prototype when the composition holds across the set.

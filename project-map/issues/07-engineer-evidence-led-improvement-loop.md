@@ -22,6 +22,7 @@ How should Portable Planner improve after beta 6 so the hidden planning logic be
 - The first I-01 comparison failed by presenting three standalone image screens and asking Drew to choose among them. The earlier liked Codex task was then recovered and shows the correct baseline: real plan content rendered directly inside the conversation with current state, exact next action, route, gates, proof, and recovery in the same reply.
 - I-01 now has a compression invariant: reduce required reading without reducing the technical meaning available in the same session. Route-first, status-board, and progressive-disclosure variants must all use identical canonical state so apparent simplicity cannot come from omitted plan content.
 - The compact comparison revealed that essential content cannot require expansion and that aesthetic hierarchy is part of usability. The active candidates are now four fully visible hybrids—mission control, journey plus focus lens, three-lane roadmap, and compass map—using the same state.
+- Drew selected Journey plus focus lens. Its next evidence is a four-case dynamic trial covering current multi-issue work, an early thin idea, a complex operational/creative route, and a losing-candidate recovery state.
 
 The full primary-source record and inference boundary are in [P-002 research evidence](../../planning/evidence/P-002-expert-engineering-evidence.md), and the exact proposed cases are in the [P-002 test inventory](../../planning/evidence/P-002-test-inventory.md).
 
@@ -30,7 +31,7 @@ The full primary-source record and inference boundary are in [P-002 research evi
 1. ✓ Use the adaptive default for unresolved project/product work and direct routes for narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds.
 2. ✓ Verify the local Codex and ZCode stores and their documented access paths without changing source tasks.
 3. ✓ Create an initial evidence-backed improvement inventory before selecting solutions.
-4. ▶ I-01 requirements and pattern research are complete; preserve the rejected image and plain/expansion-dependent comparisons as failure evidence and use the recovered in-session presentation as the positive control. Compare four fully visible hybrid views of the exact same current plan before narrowing the solution or building a prototype.
+4. ▶ I-01 requirements and pattern research are complete; preserve the rejected comparisons as failure evidence. Test the selected Journey plus focus lens composition across four materially different states before narrowing the implementation or building a prototype.
 5. Repeat the same loop for each confirmed issue while preserving objectively passing behavior as regression constraints.
 6. Define one normative decision-kernel transition contract and lightweight objective validator inside the existing skill/reference architecture.
 7. Compare beta 6 and a candidate only at the minimum selected historical decision points; add repetition only for observed variance or protected high risk and restore the better recoverable reference after regression.
