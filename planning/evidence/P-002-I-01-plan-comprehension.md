@@ -1,7 +1,7 @@
 # P-002 / I-01 evidence — Comprehending large plans
 
 Researched: 2026-08-15
-Status: static-image comparison rejected; recovered positive control resets the target to a real plan shown directly inside the session
+Status: Journey plus focus lens selected and directionally passed across four scenarios; one polished faithful prototype is current
 
 ## Decision question
 
@@ -123,7 +123,18 @@ Use four materially different cases:
 
 Expected behavior in every case: destination and success are visible; the journey is readable without expansion; the focus lens clearly distinguishes current state, exact next action, human ownership, proof, and recovery; content density grows in the detail layer rather than the main route.
 
-Status: outputs displayed in the active session; Drew's comprehension and aesthetic verdict pending. Preserve any failing case and revise only the demonstrated composition problem.
+Observed result: Drew selected `A. Keep this structure and refine its polish` after seeing all four cases. No structural or scenario-specific failure was identified. This is a directional human pass for the composition, not final live acceptance.
+
+Decision changed: keep Journey plus focus lens, stop generating alternative compositions, and create one faithful prototype from the real Portable Planner improvement state.
+
+## Polished faithful prototype contract
+
+- Seven or fewer overview milestones, split into at most two left-to-right rows when width requires it.
+- Exactly one focal current milestone and one focus lens.
+- The focus lens contains only current outcome, exact next action, human role, proof, and recovery.
+- One quiet issue rail preserves the remaining I-02 through I-09 orientation without turning the overview into a report.
+- Literal labels and shapes carry meaning in every theme; styling emphasizes only current and protected human/proof gates.
+- No essential comprehension requires expansion, a file link, or a second diagram.
 
 ## Comprehension jobs
 
@@ -213,4 +224,4 @@ All three stable PNG files remain preserved as failed evidence. They are not act
 
 ## Current bounded trial
 
-Show H-01 through H-04 directly in the active session using the exact same current Portable Planner improvement state. Keep their essential content visible without expansion and make hierarchy deliberate enough to judge visual appeal as well as comprehension. His reaction may select one hybrid or combine named parts; it does not select production technology.
+Show the polished faithful Journey plus focus lens prototype directly in the active session using the current Portable Planner improvement state. Drew judges the actual first-read experience: lock the structure, shorten the focus lens, or increase useful route expression. This remains planning evidence and does not authorize production implementation.

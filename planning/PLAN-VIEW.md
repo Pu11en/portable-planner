@@ -6,32 +6,44 @@
 
 **Success:** Improvement problems are listed before solutions; each problem is solved and proved separately; a large plan reveals destination, current position, next action, important gates, and relevant detail without forcing Drew through Mermaid or a report; and a worse version is never left installed.
 
-**Now:** Test the selected Journey plus focus lens composition across four materially different plan states.
+**Now:** Judge one polished Journey plus focus lens prototype using this plan's real state.
 
-**Next:** Replace the superseded draft execution route with the approved implementation and comparison sequence.
+**Next:** Lock the structure or make one targeted revision, then test the faithful candidate on an actual large plan.
 
 ```mermaid
-flowchart LR
-    E["DONE · Recover real session history"]
-    I["DONE · List nine improvement issues"]
-    F["FAILED · Image and plain-view detours"]
-    C["DONE · Select Journey + focus lens"]
-    M{"NOW · Test four dynamic scenarios"}
-    H(["HUMAN · Judge comprehension and appeal"])
-    B["Refine only a demonstrated failure"]
-    X["Prototype on a real large plan"]
-    R(["PROOF · Keep/restore winner"])
-    E --> I --> F --> C --> M --> H --> B --> X --> R
+flowchart TB
+    G(["DESTINATION · A measurably better Portable Planner"])
 
-    classDef current stroke-width:3px,font-weight:700;
-    classDef milestone stroke-width:2px;
-    classDef proof stroke-width:3px,font-weight:700;
-    class M current;
-    class E,I,F,C,B,X milestone;
-    class H,R proof;
+    subgraph R1["UNDERSTAND"]
+        direction LR
+        E["01 · Evidence<br/>DONE"] --> I["02 · Nine issues<br/>DONE"] --> C{{"03 · Plan clarity<br/>NOW"}} --> P["04 · Faithful prototype"]
+    end
+
+    subgraph R2["PROVE"]
+        direction LR
+        B["05 · Compare with beta 6"] --> H(["06 · HUMAN<br/>Real-plan judgment"]) --> W(["07 · Keep the winner"])
+    end
+
+    L["FOCUS · I-01 PLAN COMPREHENSION<br/><br/>NEXT · Lock or revise this first-read structure<br/>HUMAN · Judge clarity and visual appeal<br/>PROOF · Goal, now, next, gate and recovery are obvious<br/>RECOVERY · Beta 6 remains untouched"]
+
+    Q["ISSUE RAIL · NEXT I-02–04 · VERIFY I-05 & I-07 · PROTECT I-06 & I-08 · METHOD I-09"]
+
+    G --> E
+    C --> L
+    P --> B
+    L --- Q
+
+    classDef done stroke-width:1.5px;
+    classDef current stroke-width:4px,font-weight:700;
+    classDef protected stroke-width:3px,font-weight:700;
+    classDef quiet stroke-width:1px,stroke-dasharray:4 3;
+    class E,I done;
+    class C,L current;
+    class H,W protected;
+    class Q quiet;
 ```
 
-**Text route:** DONE recover real-session evidence → DONE list nine improvement issues → FAILED image and plain/expansion-dependent views → DONE select Journey plus focus lens → NOW test current, early, complex, and failure states → HUMAN judge comprehension and appeal → refine only a failing behavior → prototype on a real large plan → keep beta 6 or prove the candidate
+**Text route:** DONE recover real-session evidence → DONE inventory nine issues → NOW lock or revise the polished I-01 prototype → build one faithful candidate → compare with beta 6 → HUMAN judge it on a real large plan → keep the winner
 
 ## Confirmed boundary and current decision
 
@@ -43,7 +55,7 @@ Example boundaries:
 
 The confirmed boundary is unresolved project/product work: planning activates when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Narrow facts, status, explanation, diagnosis-only work, and sufficiently specified builds remain direct.
 
-There is no current human-owned test-count or renderer decision. The [improvement inventory](evidence/P-002-improvement-issues.md) defines nine problems or regression constraints. [I-01 research](evidence/P-002-I-01-plan-comprehension.md) preserves the rejected variants, selected Journey plus focus lens composition, and four-case dynamic trial. Implementation waits for Drew's concrete reaction to those in-session cases.
+There is no current human-owned test-count or renderer decision. The [improvement inventory](evidence/P-002-improvement-issues.md) defines nine problems or regression constraints. [I-01 research](evidence/P-002-I-01-plan-comprehension.md) preserves the rejected variants, selected Journey plus focus lens composition, four-case directional pass, and polished faithful prototype contract. Implementation waits for Drew's judgment of this first-read structure.
 
 ## Plan-wide safety
 

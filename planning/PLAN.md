@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Judge the selected Journey plus focus lens composition across four visible scenarios: current improvement work, early ambiguity, complex production, and failure recovery.
-- Next: Preserve any failing scenario, revise only the demonstrated presentation problem, and lock the smallest faithful prototype when the composition holds across the set.
+- Current: HUMAN — Judge one polished, faithful Journey plus focus lens prototype using the real Portable Planner improvement state.
+- Next: Lock the structure or make one targeted density/polish revision, then test the faithful candidate on an actual large plan before implementation.

@@ -23,6 +23,7 @@ How should Portable Planner improve after beta 6 so the hidden planning logic be
 - I-01 now has a compression invariant: reduce required reading without reducing the technical meaning available in the same session. Route-first, status-board, and progressive-disclosure variants must all use identical canonical state so apparent simplicity cannot come from omitted plan content.
 - The compact comparison revealed that essential content cannot require expansion and that aesthetic hierarchy is part of usability. The active candidates are now four fully visible hybrids—mission control, journey plus focus lens, three-lane roadmap, and compass map—using the same state.
 - Drew selected Journey plus focus lens. Its next evidence is a four-case dynamic trial covering current multi-issue work, an early thin idea, a complex operational/creative route, and a losing-candidate recovery state.
+- Drew then kept the structure after seeing all four cases and requested polish. I-01 now has one faithful current-plan prototype with seven route milestones, one focal step, one compact lens, and one quiet issue rail.
 
 The full primary-source record and inference boundary are in [P-002 research evidence](../../planning/evidence/P-002-expert-engineering-evidence.md), and the exact proposed cases are in the [P-002 test inventory](../../planning/evidence/P-002-test-inventory.md).
 
@@ -31,7 +32,7 @@ The full primary-source record and inference boundary are in [P-002 research evi
 1. ✓ Use the adaptive default for unresolved project/product work and direct routes for narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds.
 2. ✓ Verify the local Codex and ZCode stores and their documented access paths without changing source tasks.
 3. ✓ Create an initial evidence-backed improvement inventory before selecting solutions.
-4. ▶ I-01 requirements and pattern research are complete; preserve the rejected comparisons as failure evidence. Test the selected Journey plus focus lens composition across four materially different states before narrowing the implementation or building a prototype.
+4. ▶ I-01 requirements and pattern research are complete; preserve the rejected comparisons as failure evidence. Judge the polished faithful current-plan prototype, then test the locked candidate on an actual large plan before implementation.
 5. Repeat the same loop for each confirmed issue while preserving objectively passing behavior as regression constraints.
 6. Define one normative decision-kernel transition contract and lightweight objective validator inside the existing skill/reference architecture.
 7. Compare beta 6 and a candidate only at the minimum selected historical decision points; add repetition only for observed variance or protected high risk and restore the better recoverable reference after regression.

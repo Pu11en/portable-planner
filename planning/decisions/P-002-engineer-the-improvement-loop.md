@@ -39,6 +39,8 @@ The first compressed examples exposed two further requirements: the core plan mu
 
 Drew selected the recommended Journey plus focus lens composition with bare `A` on 2026-08-16. The selection advances I-01 to a dynamic scenario trial, not production implementation. The same composition is now tested against the real Portable Planner improvement state, an early thin software idea, the complex GOMER production plan, and a losing-candidate recovery state.
 
+After seeing all four cases, Drew selected the recommended `Keep this structure and refine its polish` route with another bare `A`. The scenario set therefore passes directionally: stop producing new composition families and refine one faithful current-plan prototype. The prototype uses no more than seven route milestones, one dominant current step, one short focus lens, and one quiet issue rail.
+
 ## Recommendation
 
 Preserve the selected evidence-led improvement direction and separate problem discovery from solution selection. Use the [improvement inventory](../evidence/P-002-improvement-issues.md) to keep current failures, unproven targets, repaired historical failures, and regression guards distinct. For each confirmed issue, use historical traces as the test-design source and run only the minimum prototype or decision-point replay needed to choose a correction.
@@ -57,7 +59,7 @@ None. Corpus indexing and redacted case discovery are agent-owned research actio
 
 ## Interaction state
 
-- Recommended-key streak: 1
+- Recommended-key streak: 2
 - Option-B shortcut: not ready
 
 ## Evidence
