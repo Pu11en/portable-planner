@@ -35,6 +35,8 @@ The improvement loop now begins with a problem inventory rather than candidate s
 
 Drew then established the compression invariant: Portable Planner should reduce required reading without reducing comprehension of the same technical plan. I-01 will compare three in-session presentations of identical canonical state: a route-first visual spine, a compact status board, and a progressive-disclosure hybrid. The hybrid is provisional recommendation because it can keep the default view shortest while retaining detail in the same session; the comparison, not the description, determines whether that is true.
 
+The first compressed examples exposed two further requirements: the core plan must not require expansion to become visible, and the presentation must be aesthetically pleasing enough to invite scanning. The active comparison therefore replaces the three isolated formats with four fully visible hybrids: mission control, journey plus focus lens, three-lane roadmap, and compass map. Journey plus focus lens is the provisional recommendation because it preserves the whole route while giving the current technical step visual priority.
+
 ## Recommendation
 
 Preserve the selected evidence-led improvement direction and separate problem discovery from solution selection. Use the [improvement inventory](../evidence/P-002-improvement-issues.md) to keep current failures, unproven targets, repaired historical failures, and regression guards distinct. For each confirmed issue, use historical traces as the test-design source and run only the minimum prototype or decision-point replay needed to choose a correction.
@@ -77,6 +79,7 @@ None. Corpus indexing and redacted case discovery are agent-owned research actio
 - Three stable I-01 concept images remain as failed evidence. None was selected; their generated text drift and out-of-session presentation must not be mistaken for canonical state or human acceptance.
 - The in-session candidate must use real canonical state and show orientation, route, current/next, human gates, proof, and recovery together. A PNG, link-only handoff, generic UI screen, or Mermaid rendering by itself cannot satisfy I-01.
 - Compression may change hierarchy and initial visibility, but it may not delete or alter technical meaning. Every I-01 variant uses identical canonical plan state and is rejected if Drew must open the planning reports to recover essential context.
+- Requiring expansion for destination, current, next, route, gate, proof, or recovery is an I-01 failure. Aesthetics and hierarchy are judged as usability because a technically complete view that is visually unpleasant or hard to scan does not meet the product goal.
 - No run count may be selected before duplicate claims are collapsed and the minimum discriminating case set is visible. Repetition is justified only for observed model variance or a high-risk behavior that a single pass cannot distinguish.
 - The adaptive automatic planning boundary is settled and must control every natural-invocation and direct-route test.
 - Any imported or adapted mechanism must be tested across materially different software and non-software plans; a software-only success cannot justify narrowing the general planner.

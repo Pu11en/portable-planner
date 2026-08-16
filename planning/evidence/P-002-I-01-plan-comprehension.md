@@ -45,7 +45,7 @@ Drew clarified that Portable Planner's purpose is to reduce reading without redu
 
 The comparison will use the same canonical Portable Planner improvement plan in every variant. No candidate may improve its apparent simplicity by changing, omitting, or inventing plan state.
 
-## Same-plan variations
+## Superseded same-plan variations
 
 ### V-01 — Route-first visual spine
 
@@ -68,7 +68,35 @@ The comparison will use the same canonical Portable Planner improvement plan in 
 - Strength: shortest default read while preserving the complete technical plan in the same session.
 - Risk: the host must make hidden detail discoverable, and critical information must not be buried in the collapsed layer.
 
-The next comparison shows all three with identical plan state. Judge whether each preserves: destination, current position, next action, all nine issues at the appropriate layer, human authority, proof, and beta-6 recovery. The likely final direction may combine V-01's route with V-03's disclosure, but the examples must expose whether that actually improves comprehension.
+The first compact examples exposed another failure: the useful route was visually plain and could require expansion to see, while the progressive-disclosure recommendation hid too much of the value behind opening controls. Drew requires an immediately visible and aesthetically pleasing in-session plan, not merely a technically compact fallback. V-01 through V-03 remain comparison history, not the active option set.
+
+## Refined visual invariant
+
+- The initial viewport must show destination, current position, next action, route, human gate, proof, and recovery without expansion.
+- Expansion may provide depth, but it cannot be required for basic comprehension.
+- Visual hierarchy, spacing, grouping, shapes, and restrained styling must make the view pleasing and scannable; polish is part of usability.
+- Every candidate is a hybrid: it combines route orientation with focused status or plan depth instead of offering a route, board, or collapsed outline alone.
+- All candidates use identical canonical Portable Planner improvement state.
+
+## Active hybrid options
+
+### H-01 — Mission control
+
+A compact orientation strip (`GOAL / NOW / NEXT / PROOF`) sits above the milestone route, with issue groups and beta-6 recovery visible below. Best for immediate status and confidence; risk is feeling dashboard-like.
+
+### H-02 — Journey plus focus lens — provisional recommendation
+
+A polished end-to-end route remains continuously visible while one visually dominant current-step panel explains the issue, next move, human role, proof, and recovery. Best balance of whole-plan orientation and current technical meaning; risk is ensuring the focus panel does not become a text report.
+
+### H-03 — Three-lane roadmap
+
+The plan is organized into `DISCOVER`, `IMPROVE`, and `PROVE` lanes, with the current I-01 step prominent and the nine issues grouped by when they matter. Best for a large multi-phase plan; risk is requiring more screen height.
+
+### H-04 — Compass map
+
+The current decision sits at the center, with completed evidence to the left, upcoming issue groups to the right, goal above, and proof/recovery below. Best for seeing why the current step matters; risk is weaker linear execution order.
+
+The trial shows all four directly in the conversation at useful size. It compares compositions, not colors or invented application chrome. A later prototype may add host-supported interaction, but the visible first layer must already work.
 
 ## Comprehension jobs
 
@@ -158,4 +186,4 @@ All three stable PNG files remain preserved as failed evidence. They are not act
 
 ## Current bounded trial
 
-Show V-01, V-02, and V-03 directly in the active session using the exact same current Portable Planner improvement state. Keep each candidate short enough to experience rather than explain. Do not ask Drew to infer the designs from descriptions or choose a production renderer. His natural reaction to the concrete variants will identify which compression model preserves understanding with the least reading.
+Show H-01 through H-04 directly in the active session using the exact same current Portable Planner improvement state. Keep their essential content visible without expansion and make hierarchy deliberate enough to judge visual appeal as well as comprehension. His reaction may select one hybrid or combine named parts; it does not select production technology.

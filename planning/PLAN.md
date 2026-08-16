@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Compare three short in-session presentations of the identical improvement plan: route-first, status-board, and progressive-disclosure hybrid.
-- Next: Use Drew's concrete comprehension reaction to select or combine only the useful compression behavior, then define the smallest implementation comparison.
+- Current: HUMAN — Compare four fully visible, polished hybrid presentations of the identical improvement plan: mission control, journey plus focus lens, three-lane roadmap, and compass map.
+- Next: Use Drew's reaction to select one hybrid or combine named parts, then turn only that composition into a faithful bounded prototype.
