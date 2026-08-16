@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Experience the real current plan directly in this session and respond naturally once orientation is restored; no visual direction is awaiting selection.
-- Next: Use Drew's reaction to the concrete in-session plan to isolate the smallest presentation correction, then compare only that correction before any Portable Planner implementation.
+- Current: HUMAN — Compare three short in-session presentations of the identical improvement plan: route-first, status-board, and progressive-disclosure hybrid.
+- Next: Use Drew's concrete comprehension reaction to select or combine only the useful compression behavior, then define the smallest implementation comparison.

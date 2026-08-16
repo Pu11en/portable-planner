@@ -39,6 +39,37 @@ The next candidate must:
 6. Let Drew react to the concrete plan itself before choosing a renderer or product UI.
 7. Treat a PNG, link-only handoff, generic pretend screen, or long report as a failed substitute.
 
+## Compression invariant
+
+Drew clarified that Portable Planner's purpose is to reduce reading without reducing comprehension of the technical plan. Shortness is therefore not a word-count objective by itself. A compressed view fails if it removes or obscures the destination, current position, next action, route, human gates, success proof, or recovery behavior. Supporting detail may be hidden initially only when it remains available in the same in-session experience.
+
+The comparison will use the same canonical Portable Planner improvement plan in every variant. No candidate may improve its apparent simplicity by changing, omitting, or inventing plan state.
+
+## Same-plan variations
+
+### V-01 — Route-first visual spine
+
+- First read: one short milestone route plus a compact `Now / Next / Proof` block.
+- Detail: the nine improvement issues and safety rules remain below the route or open on demand.
+- Strength: fastest whole-plan orientation and closest to the earlier positively received Hanoi presentation.
+- Risk: a diagram can still become interpretation work if too many relationships enter the spine.
+
+### V-02 — Compact status board
+
+- First read: a small grouped board showing `NOW`, `NEXT`, `VERIFY`, `PROTECT`, and `ALWAYS`.
+- Detail: each group carries the relevant issue IDs and plain-language labels; the execution route remains one text line.
+- Strength: high information density without requiring graph reading.
+- Risk: communicates state better than dependency or journey.
+
+### V-03 — Progressive-disclosure hybrid — provisional recommendation
+
+- First read: destination, `Now`, exact next action, and one short route.
+- Detail: the issue inventory, human gates, proof, and recovery are collapsed or revealed only when selected.
+- Strength: shortest default read while preserving the complete technical plan in the same session.
+- Risk: the host must make hidden detail discoverable, and critical information must not be buried in the collapsed layer.
+
+The next comparison shows all three with identical plan state. Judge whether each preserves: destination, current position, next action, all nine issues at the appropriate layer, human authority, proof, and beta-6 recovery. The likely final direction may combine V-01's route with V-03's disclosure, but the examples must expose whether that actually improves comprehension.
+
 ## Comprehension jobs
 
 A useful plan surface must let Drew do these jobs without first opening the long source files:
@@ -127,4 +158,4 @@ All three stable PNG files remain preserved as failed evidence. They are not act
 
 ## Current bounded trial
 
-Show the current Portable Planner improvement plan directly in the active session using the recovered positive-control structure. Explain what is settled, what is not settled, the current position, exact next action, route, proof, and recovery rule. Do not ask Drew to choose a rendering family in the same reply. His natural reaction to that concrete presentation will identify which parts provide orientation and which still fail; only then should a narrower alternative be planned.
+Show V-01, V-02, and V-03 directly in the active session using the exact same current Portable Planner improvement state. Keep each candidate short enough to experience rather than explain. Do not ask Drew to infer the designs from descriptions or choose a production renderer. His natural reaction to the concrete variants will identify which compression model preserves understanding with the least reading.
