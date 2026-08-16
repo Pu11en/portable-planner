@@ -2,11 +2,11 @@
 
 **Status:** planning
 
-**Destination:** During project work, Portable Planner recognizes when the outcome is still being shaped, helps Drew and the agent reach the same understanding, and prevents implementation or testing from running ahead of that understanding.
+**Destination:** Portable Planner recognizes when an outcome is still being shaped, helps Drew and the agent reach the same understanding, and makes even a large plan genuinely comprehensible before implementation or testing runs ahead.
 
-**Success:** The activation boundary is explicit; private historical Codex/ZCode evidence determines the test inventory; every retained case states exactly what it can prove and what bad assumption it must catch; the minimum useful decision-point set determines any replay count; and a worse version is never left installed.
+**Success:** Improvement problems are listed before solutions; each problem is solved and proved separately; a large plan reveals destination, current position, next action, important gates, and relevant detail without forcing Drew through Mermaid or a report; and a worse version is never left installed.
 
-**Now:** Privately index real Codex/ZCode sessions and surface a redacted case set.
+**Now:** Drew selects or refines one of three displayed I-01 visual directions.
 
 **Next:** Replace the superseded draft execution route with the approved implementation and comparison sequence.
 
@@ -14,10 +14,10 @@
 flowchart LR
     E["DONE · Real failures collected"]
     A["DONE · Adaptive planning boundary"]
-    I["DONE · Verify local session stores"]
-    C["NOW · AGENT mine real moments"]
-    M{"HUMAN · Check missing behavior"}
-    B["Draft exact build route"]
+    I["DONE · List improvement issues"]
+    C["DONE · Generate three I-01 directions"]
+    M{"NOW · HUMAN choose comprehension direction"}
+    B["Repeat one issue at a time"]
     P(["HUMAN approve full route"])
     X["Compare beta 6 and candidate"]
     R(["PROOF · Keep/restore winner"])
@@ -26,12 +26,12 @@ flowchart LR
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
-    class C current;
+    class M current;
     class E,A,I,C,B,X milestone;
     class P,R proof;
 ```
 
-**Text route:** DONE adaptive planning boundary → DONE verify local Codex/ZCode stores → NOW AGENT privately mine and redact real planning moments → HUMAN check only for missing behavior → replace the superseded build route → replay only selected decision points against beta 6 and a candidate → keep beta 6 or prove the candidate → smallest fresh human test
+**Text route:** DONE evidence and local-history access → DONE initial nine-issue inventory → DONE research I-01 solution families → DONE generate three directions from the real GOMER brief → NOW HUMAN choose or refine the useful direction → build one faithful disposable prototype → repeat the issue loop → build only approved corrections → keep beta 6 or prove the candidate → smallest fresh human test
 
 ## Confirmed boundary and current decision
 
@@ -43,7 +43,7 @@ Example boundaries:
 
 The confirmed boundary is unresolved project/product work: planning activates when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Narrow facts, status, explanation, diagnosis-only work, and sufficiently specified builds remain direct.
 
-There is no current human-owned test-count decision. The [historical corpus inventory](evidence/P-002-test-inventory.md) verifies that real session evidence is available and defines the privacy and normalization boundary. The agent must first surface materially different redacted cases; only then should Drew judge whether an important behavior is absent.
+There is no current human-owned test-count decision. The [improvement inventory](evidence/P-002-improvement-issues.md) defines nine problems or regression constraints. [I-01 research](evidence/P-002-I-01-plan-comprehension.md) contains the pattern evidence and stable concept images. Drew now chooses or refines their information hierarchy before one faithful interactive prototype is built.
 
 ## Plan-wide safety
 
@@ -51,9 +51,11 @@ There is no current human-owned test-count decision. The [historical corpus inve
 - Real session evidence and explicit behavior claims come before authored prompts.
 - Raw Codex/ZCode transcripts remain local, private, read-only, and untracked.
 - Historical cases replace full synthetic conversations; only selected decision points are replayed when a candidate needs counterfactual proof.
+- Mermaid rendering is not accepted as proof of comprehension; the solution must work on an actual large plan.
+- Solve one confirmed issue at a time and preserve objectively passing behaviors as regression guards.
 - Each test has an exact starting state, expected route, prohibited behavior, and human judgment.
 - Repetition requires observed variance or protected high risk.
 - Expert skills and outside mechanisms supply selective evidence, not product authority; Portable Planner's protocol and cross-domain scope remain its own.
 - Beta 5 and beta 6 remain immutable and recoverable.
 
-Details: [plan](PLAN.md) · [current decision](decisions/P-002-engineer-the-improvement-loop.md) · [historical corpus](evidence/P-002-test-inventory.md) · [research evidence](evidence/P-002-expert-engineering-evidence.md)
+Details: [plan](PLAN.md) · [current decision](decisions/P-002-engineer-the-improvement-loop.md) · [improvement inventory](evidence/P-002-improvement-issues.md) · [I-01 comprehension research](evidence/P-002-I-01-plan-comprehension.md) · [historical corpus](evidence/P-002-test-inventory.md)

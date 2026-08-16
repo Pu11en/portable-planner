@@ -14,11 +14,11 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Success
 
-- The planner automatically recognizes unresolved project/product planning at the agreed boundary, and every behavior test is derived from private historical Codex/ZCode evidence or an explicit product claim before a run count is chosen. Any candidate comparison uses the smallest real decision-point replays with exact state, expected decision, prohibited behavior, and human judgment.
+- The planner automatically recognizes unresolved project/product planning at the agreed boundary, presents even large plans in a form Drew can genuinely comprehend, and improves through a visible problem inventory followed by one evidence-backed solution at a time. Any candidate comparison uses the smallest real decision-point replays with exact state, expected decision, prohibited behavior, and human judgment.
 
 ## Boundaries
 
-- In: the existing canonical skill and planning state, selective adaptation of evidence-backed mechanisms, a normative decision-kernel contract, read-only private indexing of historical Codex/ZCode sessions, a bounded redacted trace corpus across materially different domains, objective invariant validation, minimum counterfactual replay, and fresh human acceptance.
+- In: the existing canonical skill and planning state, a complete improvement-issue inventory, scalable plan-comprehension alternatives, selective adaptation of evidence-backed mechanisms, a normative decision-kernel contract, read-only private indexing of historical Codex/ZCode sessions, a bounded redacted trace corpus across materially different domains, objective invariant validation, minimum counterfactual replay, and fresh human acceptance.
 - Out: replacing or vendoring another planning framework, copying another creator's protocol or interface, narrowing to software, a second skill or state tree, a database or service, an autonomous prompt optimizer, production UI, a fixed question quota, or changes justified only by popularity or expert opinion.
 
 ## Map
@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: AGENT — Privately index and deduplicate real Codex/ZCode sessions, then surface redacted planning and correction moments grouped by behavior claim.
-- Next: Ask Drew only whether the real-case set misses an important behavior; then replace the superseded E-010 through E-016 draft with the evidence-derived implementation and minimum replay route.
+- Current: HUMAN — Select or refine one of the three displayed I-01 visual directions based on which makes the GOMER plan easiest to comprehend.
+- Next: Turn the selected direction into a faithful interactive prototype using exact canonical GOMER state, then run the defined comprehension tasks before any Portable Planner implementation.

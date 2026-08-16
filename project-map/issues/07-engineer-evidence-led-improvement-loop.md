@@ -17,6 +17,8 @@ How should Portable Planner improve after beta 6 so the hidden planning logic be
 - Drew selected the adaptive default: unresolved destination, scope, success, proof, or meaningful human tradeoffs activate planning; narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds remain direct.
 - The Codex connector's local task-list failure did not remove the history: the initial local snapshot contained 184 user-source task logs plus subagent and other rollout records. ZCode has 83 interactive sessions with 1,434 real user text turns.
 - The former six-contract/eight-unit authored matrix is withdrawn. Raw transcripts remain private and untracked; aggregate inventory and redacted case contracts are the public evidence boundary.
+- Drew confirmed I-01 as a current failure: Mermaid and report-like text do not make large plans meaningfully easier to comprehend. The failure concerns information hierarchy and interaction, not merely rendering.
+- The initial inventory now separates nine current problems, unproven targets, historical repairs, and regression guards before solution selection.
 
 The full primary-source record and inference boundary are in [P-002 research evidence](../../planning/evidence/P-002-expert-engineering-evidence.md), and the exact proposed cases are in the [P-002 test inventory](../../planning/evidence/P-002-test-inventory.md).
 
@@ -24,11 +26,12 @@ The full primary-source record and inference boundary are in [P-002 research evi
 
 1. ✓ Use the adaptive default for unresolved project/product work and direct routes for narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds.
 2. ✓ Verify the local Codex and ZCode stores and their documented access paths without changing source tasks.
-3. ▶ Privately index and deduplicate visible human conversation turns; exclude hidden instructions, reasoning, tools, subagents, automation, and sensitive raw content from repository evidence.
-4. Group redacted real planning moments by behavior claim, then have Drew identify only missing coverage.
-5. Define one normative decision-kernel transition contract and lightweight objective validator inside the existing skill/reference architecture.
-6. Compare beta 6 and a candidate only at the minimum selected historical decision points; add repetition only for observed variance or protected high risk and restore the better recoverable reference after regression.
-7. Require Drew's uncoached real-task judgment before release.
+3. ✓ Create an initial evidence-backed improvement inventory before selecting solutions.
+4. ▶ I-01 requirements, pattern research, and three stable GOMER-based visual directions are complete; Drew now selects or refines the useful information hierarchy before one faithful disposable prototype is built.
+5. Repeat the same loop for each confirmed issue while preserving objectively passing behavior as regression constraints.
+6. Define one normative decision-kernel transition contract and lightweight objective validator inside the existing skill/reference architecture.
+7. Compare beta 6 and a candidate only at the minimum selected historical decision points; add repetition only for observed variance or protected high risk and restore the better recoverable reference after regression.
+8. Require Drew's uncoached real-task judgment before release.
 
 No automated-run count is approved. Quantity follows from the visible test contracts and their discrimination needs; it may not precede or substitute for test design.
 
