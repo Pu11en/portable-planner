@@ -11,7 +11,7 @@ Choose how Portable Planner should become more reliable and effective after beta
 
 Drew rejected the 30-run route because the plan selected a quantity before the exact conversations, starting states, failure claims, expected behavior, and human judgments were shaped. He also clarified the larger product intent: during project work, when the agent and user are still discussing what the outcome should be rather than executing an already-understood route, Portable Planner should normally recognize that planning is happening without requiring a command.
 
-The previous approval surface was therefore premature. No automated-run budget is currently approved. The next route must first derive a small test inventory from real Codex/ZCode sessions and saved live failures, state what each case can prove, and ask only the human-owned questions that materially change that inventory.
+The previous approval surface was therefore premature. No automated-run budget is currently approved. The local history audit then established that the desktop connector's Codex `thread_list_unavailable` result did not mean the history was absent: Codex rollout files and ZCode's structured local session databases contain a substantial real-use corpus. The next route must mine and redact those real traces before authored prompts or a comparison count are considered.
 
 ## Confirmed external-inspiration boundary
 
@@ -29,15 +29,13 @@ Repository popularity is discovery evidence, not effectiveness proof. A borrowed
 
 Drew selected option A with a bare `a`: Portable Planner becomes the adaptive default for unresolved project/product work. It automatically starts or resumes planning when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Sufficiently specified builds, narrow facts and status, explanation, and diagnosis-only requests remain in their normal workflows. An active-plan digression still reconciles and saves the planning frontier without treating the side question itself as a new plan.
 
-## Current unresolved decision — exact comparison inventory
+## Current evidence action — historical corpus first
 
-- A. Approve the six-contract, eight-unit inventory — Recommended; it covers the new adaptive boundary, software/non-software behavior, the real test-design and source-value failures, beta-6 delegation, and fresh resumption without speculative repetition.
-- B. Use a lean five-unit inventory — Lower cost, but omit diagnosis/build boundary variants and fresh resumption, leaving those behaviors to prior objective evidence rather than same-prompt comparison.
-- C. Expand to a twelve-plus-unit domain matrix — Add separate creative, personal, business, course, and operational activations before a failure demands them; broader coverage, but higher cost and more authored evidence.
+The agent now owns the next action: create a private, read-only index of real Codex and ZCode conversations, identify the smallest materially different planning and correction moments, and surface redacted case summaries. Drew does not need to choose a synthetic conversation count or test matrix before that evidence exists.
 
 ## Recommendation
 
-A — Preserve the selected evidence-led improvement direction, but replace the preselected 30-run ceiling with evidence-first test design. Mine real saved failures and relevant task traces, convert each material behavior claim into a test contract, then choose the minimum ordinary, contrasting, and prohibited-action cases needed to discriminate beta 5, beta 6, and any later candidate. Use scripts for objective invariants and preserve human judgment for whether the planner understood the person and asked worthwhile questions.
+Preserve the selected evidence-led improvement direction, but use the historical corpus as the test-design source. Mine real saved failures and relevant task traces, convert each material behavior claim into a redacted test contract, then choose only the decision-point replays needed to discriminate beta 6 and a later candidate. Use scripts for objective invariants and preserve human judgment for whether the planner understood the person and asked worthwhile questions.
 
 ## Confirmed decision
 
@@ -45,21 +43,21 @@ A remains confirmed as the improvement method: build a small decision-kernel and
 
 External inspiration is also confirmed as bounded input: preserve Portable Planner's own cross-domain protocol and adapt only evidence-backed mechanisms that survive cross-domain tests.
 
-The automatic activation boundary is confirmed as the adaptive default described above. The exact minimum comparison inventory is now proposed in [P-002 test inventory](../evidence/P-002-test-inventory.md); it is not approved for execution yet.
+The automatic activation boundary is confirmed as the adaptive default described above. The authored six-contract/eight-unit matrix is withdrawn. The replacement source and privacy boundary are recorded in the [historical Codex and ZCode corpus inventory](../evidence/P-002-test-inventory.md).
 
 ## Delegation
 
-None. Drew selected the evidence-led method and activation boundary but has not approved the proposed test inventory, replacement execution plan, or delegation of remaining reversible decisions.
+None. Corpus indexing and redacted case discovery are agent-owned research actions. Drew has not delegated product decisions or approved a candidate implementation or comparison run.
 
 ## Interaction state
 
-- Recommended-key streak: 1
+- Recommended-key streak: 0
 - Option-B shortcut: not ready
 
 ## Evidence
 
 - [Current repository and Channel Brains evidence](../evidence/P-002-expert-engineering-evidence.md)
-- [Exact evidence-derived test inventory](../evidence/P-002-test-inventory.md)
+- [Historical Codex and ZCode corpus inventory](../evidence/P-002-test-inventory.md)
 - [Earlier fixed-commit expert-skill pass](../../research/PORTABLE-PLANNER-EXPERT-SKILLS.md)
 - [Beta-6 objective evidence](../../validation/BETA6-RELEASE-CANDIDATE-TEST.md)
 - [Real beta-4 planning and test-handoff failures](../../validation/DECISIVE-FLOW-LIVE-ACCEPTANCE.md)
@@ -67,7 +65,8 @@ None. Drew selected the evidence-led method and activation boundary but has not 
 ## Effects
 
 - Returns lifecycle state to `planning`; E-010 through E-016 are draft-only and ineligible until the replacement test design passes review.
-- The replacement route must inventory real failures before writing synthetic cases. Every retained case needs an exact starting state, exact natural user message, behavior claim, expected routing/decision, prohibited behavior, preserved output, and human-quality judgment.
+- The replacement route must inventory real failures before writing synthetic cases. Raw conversations remain private and untracked; only aggregates, redacted contracts, and minimum sanitized excerpts may enter this public repository.
+- Historical traces supply real wording, behavior, and user corrections. Candidate changes are tested with the minimum decision-point replay needed for a counterfactual comparison, not blanket full-conversation generation.
 - No run count may be selected before duplicate claims are collapsed and the minimum discriminating case set is visible. Repetition is justified only for observed model variance or a high-risk behavior that a single pass cannot distinguish.
 - The adaptive automatic planning boundary is settled and must control every natural-invocation and direct-route test.
 - Any imported or adapted mechanism must be tested across materially different software and non-software plans; a software-only success cannot justify narrowing the general planner.
@@ -76,4 +75,4 @@ None. Drew selected the evidence-led method and activation boundary but has not 
 
 ## Complete when
 
-Drew approves or revises the visible evidence-derived test inventory; the resulting minimum comparison count follows from those contracts rather than precedes them; rollback, architecture, and human gates are explicit; and revised execution tickets cover the complete route without treating expert opinion or authored prompts as proof.
+The real-session corpus is privately indexed and deduplicated; Drew sees a redacted set of materially different historical planning moments; any remaining comparison count follows from those cases rather than precedes them; rollback, privacy, architecture, and human gates are explicit; and revised execution tickets do not treat expert opinion or authored prompts as proof.

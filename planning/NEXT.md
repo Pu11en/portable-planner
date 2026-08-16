@@ -2,10 +2,10 @@
 
 Plan: `/home/drewp/main-projects/portable-planner/planning/`
 State: `planning`
-Work: **HUMAN — Approve or revise the exact evidence-derived comparison inventory**
+Work: **AGENT — Mine the private Codex/ZCode history before proposing tests**
 Read: `PLAN.md`, `PLAN-VIEW.md`, `decisions/P-002-engineer-the-improvement-loop.md`, and `evidence/P-002-test-inventory.md` only.
-Context: Drew selected the adaptive automatic-planning boundary. The proposed inventory now derives six contracts and eight independent first-pass units from current and recorded failures: thin software activation, cross-domain activation plus beta-6 delegation, three direct-route exclusions, quantity-before-test-design correction, value-bearing-source protection, and fresh resumption. Beta 6 and a later candidate receive the same units; repetition appears only after observed variance or an ambiguous protected-gate result.
-Outcome: Drew approves the proposed inventory or identifies the exact contract that should be removed, changed, or added.
-Done when: Every retained contract has a real source, exact starting state and user turn, expected and prohibited behavior, objective invariant, human judgment, and decision effect, and Drew confirms that this is the right minimum effectiveness test before execution tickets are revised.
+Context: The Codex task-list connector failed, but the initial local snapshot still contained 184 user-source task logs plus subagent and other rollout records. ZCode's local structured store contains 83 interactive sessions and 1,434 user text turns; signal discovery found 50 planning, 49 correction, 20 recommendation/letter-choice, and 30 resumption candidate sessions. The former authored six-contract/eight-unit matrix is withdrawn. Raw transcripts must remain private and untracked.
+Outcome: A deduplicated private candidate index and a small redacted set of real planning, correction, delegation, resumption, and direct-route moments grouped by behavior claim.
+Done when: Duplicate or automated traces are excluded; each retained real moment has source identity, minimum starting state, visible user turn, observed behavior, user reaction, state effect, and testable claim; and Drew can judge missing coverage without reviewing private raw history.
 
-Do not begin E-010 or any automated beta comparison until P-002 is complete and a replacement exact test route receives explicit approval.
+Do not begin E-010 or any beta/candidate replay until the real-case set is visible and P-002 produces a replacement exact route.

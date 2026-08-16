@@ -15,6 +15,7 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - Treat expert repositories and creator explanations as evidence, not product authority. Baseline the released behavior before making another instruction change.
 - Preserve Portable Planner as one original cross-domain protocol. Adapt small mechanisms from outside repositories only for named failures and only after materially different software and non-software evidence; do not vendor another planning framework.
 - Use Portable Planner as the adaptive default when project outcomes are still being shaped; keep narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds on their direct routes.
+- Mine existing Codex and ZCode sessions read-only before authoring tests. Keep raw transcripts private and untracked; publish only aggregates, redacted contracts, and minimum sanitized excerpts.
 
 ## Decisions so far
 
@@ -26,7 +27,7 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - [Adaptive review gate](issues/01-decide-adaptive-review-gate.md) — the visual is always available, may be offered once as a useful draft, and opens automatically only when the complete route is defensible; approval, targeted revision, continued planning, and confusion each return to an explicit lifecycle path without a question-count threshold.
 - [Idea-stage possibility scan](issues/05-prove-idea-stage-possibility-scan.md) — a new no-idea or thin-idea software/AI start may opt into bounded repository-first discovery, but the result remains provisional and unproven until objective scenario checks and Drew's fresh-session use pass.
 - [Decisive planning flow](issues/06-prove-decisive-planning-flow.md) — explicit delegation removes reversible preference questions, repeated recommendation acceptance triggers an explicit delegation offer without granting authority, exhausted discussion becomes bounded evidence, direct approval starts normal execution, and validated work proactively asks Drew to test from refreshed state.
-- [Evidence-led improvement loop](issues/07-engineer-evidence-led-improvement-loop.md) — real failures and an agreed automatic-planning boundary define exact test contracts first; only then does the minimum comparison establish the better recoverable reference and whether one candidate deserves another prerelease.
+- [Evidence-led improvement loop](issues/07-engineer-evidence-led-improvement-loop.md) — a private historical Codex/ZCode corpus and the agreed automatic-planning boundary define redacted real test contracts first; only then do minimum decision-point replays establish the better recoverable reference and whether one candidate deserves another prerelease.
 
 ## Not yet specified
 
