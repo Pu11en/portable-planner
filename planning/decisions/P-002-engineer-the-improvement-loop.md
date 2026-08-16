@@ -31,7 +31,7 @@ Drew selected option A with a bare `a`: Portable Planner becomes the adaptive de
 
 ## Current evidence action — historical corpus first
 
-The improvement loop now begins with a problem inventory rather than candidate solutions or test counts. Drew confirmed the first current issue: large plans and report-like text are hard to comprehend, while Mermaid renders the structure without making it meaningfully easier to understand. Nine initial issues are now visible. I-01 has moved through pattern research and three distinct GOMER-based visual directions; Drew's next judgment selects or refines the information hierarchy before any implementation.
+The improvement loop now begins with a problem inventory rather than candidate solutions or test counts. Drew confirmed the first current issue: large plans and report-like text are hard to comprehend, while rendering structure alone does not make it meaningfully easier to understand. Nine initial issues are now visible. The three standalone I-01 image directions were rejected because they moved the experience outside the session and asked for a premature screen choice. Local history recovered the actual earlier positive control: a real project plan shown directly in one Codex reply with destination, current state, route, gates, next action, proof, and recovery. The current action is to replay that presentation contract using this plan's real state before choosing any implementation.
 
 ## Recommendation
 
@@ -71,8 +71,9 @@ None. Corpus indexing and redacted case discovery are agent-owned research actio
 - Historical traces supply real wording, behavior, and user corrections. Candidate changes are tested with the minimum decision-point replay needed for a counterfactual comparison, not blanket full-conversation generation.
 - Problems are inventoried before solutions. Every issue is labeled as a confirmed current problem, an unproven target, a historical repair awaiting confirmation, or a regression guard so a passing behavior is not needlessly redesigned.
 - Mermaid is not accepted as the visual-comprehension solution merely because it renders. I-01 must compare alternative information architectures and supported interaction models on an actual large plan.
-- I-01's provisional direction is a focus-first navigator with a structured collapsible fallback and optional task-specific views; it remains unconfirmed until three distinct GOMER-based visual directions are compared.
-- Three stable I-01 concept images now exist in displayed order: focus-first navigator, coordinated multi-view workspace, and collapsible phase outline. Generated text drift is recorded and must not be mistaken for canonical GOMER state.
+- I-01's current baseline is the recovered in-session presentation, not a selected dashboard or renderer. Focus-first navigation, structured disclosure, and optional task-specific views remain research inputs until the real in-session candidate exposes a narrower need.
+- Three stable I-01 concept images remain as failed evidence. None was selected; their generated text drift and out-of-session presentation must not be mistaken for canonical state or human acceptance.
+- The in-session candidate must use real canonical state and show orientation, route, current/next, human gates, proof, and recovery together. A PNG, link-only handoff, generic UI screen, or Mermaid rendering by itself cannot satisfy I-01.
 - No run count may be selected before duplicate claims are collapsed and the minimum discriminating case set is visible. Repetition is justified only for observed model variance or a high-risk behavior that a single pass cannot distinguish.
 - The adaptive automatic planning boundary is settled and must control every natural-invocation and direct-route test.
 - Any imported or adapted mechanism must be tested across materially different software and non-software plans; a software-only success cannot justify narrowing the general planner.

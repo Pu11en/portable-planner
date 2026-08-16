@@ -19,6 +19,7 @@ How should Portable Planner improve after beta 6 so the hidden planning logic be
 - The former six-contract/eight-unit authored matrix is withdrawn. Raw transcripts remain private and untracked; aggregate inventory and redacted case contracts are the public evidence boundary.
 - Drew confirmed I-01 as a current failure: Mermaid and report-like text do not make large plans meaningfully easier to comprehend. The failure concerns information hierarchy and interaction, not merely rendering.
 - The initial inventory now separates nine current problems, unproven targets, historical repairs, and regression guards before solution selection.
+- The first I-01 comparison failed by presenting three standalone image screens and asking Drew to choose among them. The earlier liked Codex task was then recovered and shows the correct baseline: real plan content rendered directly inside the conversation with current state, exact next action, route, gates, proof, and recovery in the same reply.
 
 The full primary-source record and inference boundary are in [P-002 research evidence](../../planning/evidence/P-002-expert-engineering-evidence.md), and the exact proposed cases are in the [P-002 test inventory](../../planning/evidence/P-002-test-inventory.md).
 
@@ -27,7 +28,7 @@ The full primary-source record and inference boundary are in [P-002 research evi
 1. ✓ Use the adaptive default for unresolved project/product work and direct routes for narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds.
 2. ✓ Verify the local Codex and ZCode stores and their documented access paths without changing source tasks.
 3. ✓ Create an initial evidence-backed improvement inventory before selecting solutions.
-4. ▶ I-01 requirements, pattern research, and three stable GOMER-based visual directions are complete; Drew now selects or refines the useful information hierarchy before one faithful disposable prototype is built.
+4. ▶ I-01 requirements and pattern research are complete; preserve the rejected image comparison as failure evidence and use the recovered in-session presentation as the positive control. Show the present plan directly in the conversation before narrowing the solution or building a prototype.
 5. Repeat the same loop for each confirmed issue while preserving objectively passing behavior as regression constraints.
 6. Define one normative decision-kernel transition contract and lightweight objective validator inside the existing skill/reference architecture.
 7. Compare beta 6 and a candidate only at the minimum selected historical decision points; add repetition only for observed variance or protected high risk and restore the better recoverable reference after regression.

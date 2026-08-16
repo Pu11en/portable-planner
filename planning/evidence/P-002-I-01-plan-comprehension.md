@@ -1,7 +1,7 @@
 # P-002 / I-01 evidence — Comprehending large plans
 
 Researched: 2026-08-15
-Status: three visual directions generated from the same GOMER brief; awaiting Drew's selection or refinement
+Status: static-image comparison rejected; recovered positive control resets the target to a real plan shown directly inside the session
 
 ## Decision question
 
@@ -12,6 +12,32 @@ What presentation model lets Drew understand a large Portable Planner plan witho
 - Drew's latest feedback is that the visual plans are not correct, Mermaid does not provide comprehension value, and plans become especially hard to understand when they read like reports.
 - The [recorded visual failure](../../validation/VISUAL-COMPREHENSION-FAILURE.md) found that the Hanoi view mixed route, current/invalid state, proof, scheduling, and support systems. It exposed implementation structure instead of answering where the user is, where the plan is going, and what happens next.
 - The GOMER plan is a useful real stress case: its canonical `PLAN.md` is 144 lines and its current `PLAN-VIEW.md` is 242 lines. The view contains a short Mermaid route followed by many expanded reports, so it demonstrates that a compact graph plus a long detail dump is still a large reading task.
+- The first comparison attempt converted three information-architecture directions into standalone PNG screens. Drew rejected the entire comparison because it did not put the usable plan experience inside the active conversation. Asking him to select among those images therefore measured the wrong thing.
+
+## Recovered positive control
+
+The local Codex history contains the earlier experience Drew said he loved:
+
+- Task: `Build and Iterate the Planning Plug…`
+- Task ID: `019fd2af-654e-78b0-81dd-b451b66ce60a`
+- Positive reaction recorded: 2026-08-05 22:56 UTC
+- Surface: one ordinary assistant reply inside the Codex session, not a separate application screen.
+
+That reply presented the actual Hanoi plan state in a rendered route and immediately followed it with the current position, invalidated prior state, exact next action, complete text fallback, recovery rule, and separate posting-confirmation gate. It also showed the real human checkpoints and supporting systems. Drew's positive reaction followed that combined in-session presentation.
+
+The recovered evidence changes the design question. The target is not “which diagram or dashboard looks best?” It is “how should the agent present the real canonical plan directly in the conversation so Drew can orient, inspect, correct, and act without opening a report?” Mermaid happened to render the earlier route, but renderer choice alone neither caused nor proves comprehension.
+
+## Corrected in-session contract
+
+The next candidate must:
+
+1. Appear directly in the active planning conversation.
+2. Use the current project's canonical state rather than invented mock text.
+3. Make destination, success, current position, and exact next action visible before detail.
+4. Show the meaningful route, human gates, proof, supporting systems, and recovery behavior.
+5. Keep a complete native text path in the same reply.
+6. Let Drew react to the concrete plan itself before choosing a renderer or product UI.
+7. Treat a PNG, link-only handoff, generic pretend screen, or long report as a failed substitute.
 
 ## Comprehension jobs
 
@@ -66,20 +92,20 @@ A useful plan surface must let Drew do these jobs without first opening the long
 
 ## Provisional synthesis
 
-The strongest direction is not one of these families in isolation. Use S-01 as the default comprehension experience, use S-03 as its portable fallback, and borrow S-02 only for optional task-specific views. Keep a graph, if any, as an optional dependency inspection mode. This is provisional until distinct visual prototypes are compared; it is not authorization to implement a UI.
+The recovered positive control is stronger evidence than the generated screens. Use its in-session, real-state presentation as the baseline: short orientation first, real route second, current/next/proof/recovery in the same reply, and detail only where it helps the present decision. The focus-first, collapsible, and task-specific-view patterns remain research inputs, not choices Drew must make before seeing a faithful candidate. This is not authorization to implement a UI.
 
 ## Host feasibility
 
 - Canonical truth remains the existing project-local Markdown plan and tickets.
 - A portable structured outline can be generated without another state store.
-- Windows Codex Desktop backed by WSL cannot use file-backed inline HTML through the current bridge. A real interactive prototype must be shown through a browser/Site or another supported host; Mermaid remains a static fallback only.
+- Windows Codex Desktop backed by WSL cannot use file-backed inline HTML through the current bridge. The supported in-session trial therefore uses ordinary rendered conversation content—native Markdown and, when useful, rendered Mermaid—rather than hiding the candidate in a local HTML file.
 - The comparison must evaluate comprehension separately from whether a host can render a file. A presentation bridge failure is not a plan-model verdict, and a locally rendered mock is not human acceptance.
 
-## Bounded comparison
+## Superseded bounded comparison
 
 Use the actual read-only GOMER `planning/PLAN.md` and `planning/PLAN-VIEW.md` as the source. Do not reconstruct or mutate the GOMER plan.
 
-Create exactly three visual directions:
+The first attempt created exactly three visual directions:
 
 1. Focus-first navigator.
 2. Coordinated overview/current/dependency workspace.
@@ -87,9 +113,9 @@ Create exactly three visual directions:
 
 Retain the current Mermaid/report presentation as the negative control, not a fourth candidate direction.
 
-For each direction, show the same GOMER state and ask Drew to perform the same tasks: identify the destination, current decision, next milestone, one human gate, one failure rule, and return to the overview after inspecting a phase. Preserve the output and Drew's concrete confusion or success. The direction that makes these tasks easiest without hiding important state becomes the I-01 candidate; no implementation begins before that judgment.
+This comparison is withdrawn. It turned the directions into standalone screens and asked Drew to choose before he could experience a real plan inside the session. No direction was selected.
 
-## Generated directions
+## Failed evidence — F-I01-01 static-image detour
 
 The authoritative option order is the order the three generated images appeared in the task:
 
@@ -97,4 +123,8 @@ The authoritative option order is the order the three generated images appeared 
 2. [Coordinated multi-view workspace](../../validation/i01-plan-comprehension/coordinated-multiview-workspace.png)
 3. [Collapsible phase outline](../../validation/i01-plan-comprehension/collapsible-phase-outline.png)
 
-All three stable PNG files were copied into the repository and verified as 1487 × 1058 RGB images. They are visual structure concepts, not approved product UI or state-fidelity proof. Image generation introduced some extra or altered phase wording, dates, and implementation details despite the shared source brief; those discrepancies are failures to correct in a selected prototype, not plan decisions. Drew should judge the information hierarchy and interaction direction rather than accept the mock text as canonical GOMER state.
+All three stable PNG files remain preserved as failed evidence. They are not active candidates, approved product UI, or state-fidelity proof. Besides introducing altered plan content, they removed the experience from the conversation and forced a premature screen-selection decision.
+
+## Current bounded trial
+
+Show the current Portable Planner improvement plan directly in the active session using the recovered positive-control structure. Explain what is settled, what is not settled, the current position, exact next action, route, proof, and recovery rule. Do not ask Drew to choose a rendering family in the same reply. His natural reaction to that concrete presentation will identify which parts provide orientation and which still fail; only then should a narrower alternative be planned.

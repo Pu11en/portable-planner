@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Select or refine one of the three displayed I-01 visual directions based on which makes the GOMER plan easiest to comprehend.
-- Next: Turn the selected direction into a faithful interactive prototype using exact canonical GOMER state, then run the defined comprehension tasks before any Portable Planner implementation.
+- Current: HUMAN — Experience the real current plan directly in this session and respond naturally once orientation is restored; no visual direction is awaiting selection.
+- Next: Use Drew's reaction to the concrete in-session plan to isolate the smallest presentation correction, then compare only that correction before any Portable Planner implementation.
