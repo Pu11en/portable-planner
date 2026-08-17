@@ -1,6 +1,6 @@
 # E-017 — Freeze the I-01 fidelity contract
 
-- Status: draft — requires human review of the I-01 route
+- Status: complete — 2026-08-17
 - Depends on: P-002
 
 ## Outcome
@@ -47,3 +47,9 @@ Six sanitized, deterministic fixtures and assertions make the accepted Journey p
 ## Next eligible ticket
 
 - E-018 — Implement the Journey plus focus lens candidate.
+
+## Result
+
+- Added exactly six sanitized fixtures for F-01 through F-06 and one deliberately malformed control per fixture.
+- `validate_fixtures.py` proves every valid view passes and every malformed view fails for exactly its declared reason.
+- No private transcript, patient data, sibling-project state, or arbitrary run count entered the contract.

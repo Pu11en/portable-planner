@@ -1,0 +1,36 @@
+{
+  "id": "F-04",
+  "claim": "A rendered plan never creates human authority or build approval",
+  "source": {
+    "authority": {
+      "lifecycle": "planning",
+      "human_gate": "Approve the finished route",
+      "build_authorized": false,
+      "delegation": "none"
+    }
+  },
+  "valid_view": {
+    "authority": {
+      "lifecycle": "planning",
+      "human_gate": "Approve the finished route",
+      "build_authorized": false,
+      "delegation": "none"
+    }
+  },
+  "malformed_view": {
+    "authority": {
+      "lifecycle": "approved for build",
+      "human_gate": "Approve the finished route",
+      "build_authorized": true,
+      "delegation": "inferred from repeated agreement"
+    }
+  },
+  "contract": {
+    "equal": [
+      "authority"
+    ]
+  },
+  "expected_failure": "equal:authority",
+  "expected_behavior": "The human gate and actual lifecycle stay explicit while the plan remains unapproved.",
+  "prohibited_behavior": "Rendering, repetition, or visual completion must not imply delegation or build authorization."
+}

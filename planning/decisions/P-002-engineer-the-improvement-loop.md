@@ -45,7 +45,7 @@ Drew then selected bare `A. Lock this structure` on 2026-08-17, completing a thr
 
 Drew accepted the GOMER-tested output as the I-01 candidate with bare `A`. Because `B` was the offered delegation shortcut, choosing `A` consumed the shortcut, reset the streak, and granted no delegation. Six unique failure claims now define the minimum objective proof; there is no arbitrary run count. The smallest candidate remains inside the existing visual contract, template, and objective validation surface.
 
-The complete draft I-01 route is E-017 through E-020: freeze six sanitized claim-derived fixtures, implement only the accepted view contract/template/checks, run objective fidelity and beta-6 regression protection, then perform one fresh real-session acceptance with verified beta-6 restoration on failure. Passing I-01 creates a working improvement-branch candidate and returns to I-02; it does not publish a release by itself.
+The complete I-01 route is E-017 through E-020: freeze six sanitized claim-derived fixtures, implement only the accepted view contract/template/checks, run objective fidelity and beta-6 regression protection, then perform one fresh real-session acceptance with verified beta-6 restoration on failure. Drew approved this route with bare `A` on 2026-08-17. Passing I-01 creates a working improvement-branch candidate and returns to I-02; it does not publish a release by itself.
 
 ## Recommendation
 
@@ -61,7 +61,7 @@ The automatic activation boundary is confirmed as the adaptive default described
 
 ## Delegation
 
-None. Corpus indexing and redacted case discovery are agent-owned research actions. Drew has not delegated product decisions or approved a candidate implementation or comparison run.
+None. Corpus indexing and redacted case discovery are agent-owned research actions. Drew approved only the bounded E-017 through E-020 implementation and comparison route; he did not delegate product decisions, final acceptance, or publication.
 
 ## Interaction state
 

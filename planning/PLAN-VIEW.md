@@ -4,70 +4,55 @@
 
 **Destination:** Portable Planner recognizes when an outcome is still being shaped, helps Drew and the agent reach the same understanding, and makes even a large plan genuinely comprehensible before implementation or testing runs ahead.
 
-**Success:** Improvement problems are listed before solutions; each problem is solved and proved separately; a large plan reveals destination, current position, next action, important gates, and relevant detail without forcing Drew through Mermaid or a report; and a worse version is never left installed.
+**Success:** Each improvement starts from a named real failure, preserves already-good behavior, and passes objective checks plus Drew's fresh-session judgment before it can replace beta 6.
 
-**Now:** Review the complete four-step I-01 implementation and proof route.
-
-**Next:** Approve the route or identify one exact correction before the canonical skill changes.
+## Journey
 
 ```mermaid
-flowchart TB
-    G(["DESTINATION · A measurably better Portable Planner"])
+flowchart LR
+    M1["DONE · 1 · Recover evidence"]
+    M2["DONE · 2 · Inventory nine issues"]
+    M3["DONE · 3 · Select focus-lens route"]
+    M4["DONE · 4 · Freeze six claims"]
+    M5["DONE · 5 · Implement candidate"]
+    M6(["NOW · 6 · Compare and protect"])
+    M7(["HUMAN · 7 · Judge fresh task"])
+    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7
 
-    subgraph R1["UNDERSTAND"]
-        direction LR
-        E["01 · Evidence<br/>DONE"] --> I["02 · Nine issues<br/>DONE"] --> C["03 · Structure<br/>ACCEPTED"] --> P["04 · GOMER fidelity<br/>PASSED"]
-    end
-
-    subgraph R2["PROVE"]
-        direction LR
-        B["05 · Objective route<br/>DONE"] --> H(["06 · HUMAN<br/>Review route · NOW"]) --> W(["07 · Keep the winner"])
-    end
-
-    L["FOCUS · E-017 → E-020<br/><br/>NEXT · Approve or target one correction<br/>HUMAN · Reviews the complete route before build<br/>PROOF · Six objective claims + one fresh real task<br/>RECOVERY · Failure restores beta 6 and stops I-02"]
-
-    Q["ISSUE RAIL · NEXT I-02–04 · VERIFY I-05 & I-07 · PROTECT I-06 & I-08 · METHOD I-09"]
-
-    G --> E
-    C --> L
-    P --> B
-    L --- Q
-
-    classDef done stroke-width:1.5px;
-    classDef current stroke-width:4px,font-weight:700;
-    classDef protected stroke-width:3px,font-weight:700;
-    classDef quiet stroke-width:1px,stroke-dasharray:4 3;
-    class E,I,C done;
-    class H,L current;
-    class H,W protected;
-    class Q quiet;
+    classDef current stroke-width:3px,font-weight:700;
+    classDef milestone stroke-width:2px;
+    classDef proof stroke-width:3px,font-weight:700;
+    class M6 current;
+    class M1,M2,M3,M4,M5 milestone;
+    class M7 proof;
 ```
 
-**Text route:** DONE recover evidence → DONE accept Journey plus focus lens on GOMER → DONE define six claim-derived checks → NOW HUMAN review E-017 freeze fixtures → E-018 implement the smallest candidate → E-019 compare and protect beta 6 → E-020 fresh real-session judgment → keep the winner or restore beta 6
+**Text route:** DONE · 1 · Recover evidence → DONE · 2 · Inventory nine issues → DONE · 3 · Select focus-lens route → DONE · 4 · Freeze six claims → DONE · 5 · Implement candidate → NOW · 6 · Compare and protect → HUMAN · 7 · Judge fresh task
 
-## Confirmed boundary and current decision
+## Focus lens
 
-Example boundaries:
+- **Current outcome:** E-019 determines whether the unchanged candidate preserves all six I-01 claims and beta-6 behavior.
+- **Next action:** Run the package, fidelity, state-refresh, and affected beta-6 regression checks against one candidate commit.
+- **Human role:** None during objective comparison; Drew owns the fresh-session comprehension judgment only if the candidate is eligible.
+- **Proof:** Six attributable claim results and all affected regressions pass with candidate/reference bytes recorded.
+- **Recovery:** Reject the candidate on a hard failure; leave beta 6 installed and recoverable, and do not begin I-02.
 
-- “What does 30 runs mean?” receives a direct explanation; it does not create a new planning route.
-- “We need to improve Portable Planner, but I do not trust the proposed tests” automatically starts or resumes planning.
-- “Implement the already approved E-010 ticket” uses the normal build workflow.
+## Quiet rail
 
-The confirmed boundary is unresolved project/product work: planning activates when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Narrow facts, status, explanation, diagnosis-only work, and sufficiently specified builds remain direct.
+- **Remaining:** E-020 fresh acceptance · then I-02 through I-09 one issue at a time
+- **Guardrails:** Raw histories stay local · no arbitrary run count · no second state tree · no renderer or app · no publication from objective proof alone · beta 6 wins ties
 
-There is no current human-owned test-count or renderer decision. The [improvement inventory](evidence/P-002-improvement-issues.md) defines nine problems or regression constraints. [I-01 research](evidence/P-002-I-01-plan-comprehension.md) preserves the accepted candidate, GOMER fidelity trial, six objective claims, and regression boundary. E-017 through E-020 are the complete draft route and no canonical skill change begins before human review.
+## Optional detail
 
-## Plan-wide safety
+<details>
+<summary>E-019 comparison boundary</summary>
 
-- The former 30-run allocation is withdrawn.
-- Real session evidence and explicit behavior claims come before authored prompts.
-- Raw Codex/ZCode transcripts remain local, private, read-only, and untracked.
-- Historical cases replace full synthetic conversations; only selected decision points are replayed when a candidate needs counterfactual proof.
-- Mermaid rendering is not accepted as proof of comprehension; the solution must work on an actual large plan.
-- Solve one confirmed issue at a time and preserve objectively passing behaviors as regression guards.
-- Each test has an exact starting state, expected route, prohibited behavior, and human judgment.
-- Repetition requires observed variance or protected high risk.
-- Expert skills and outside mechanisms supply selective evidence, not product authority; Portable Planner's protocol and cross-domain scope remain its own.
-- Beta 5 and beta 6 remain immutable and recoverable.
+- Outcome: one eligible-or-rejected verdict from fixed candidate bytes
+- Owner: agent
+- Inputs: frozen F-01 through F-06 fixtures, canonical skill, beta-6 evidence
+- Proof: preserved validation report linked to the candidate commit
+- If blocked or changed: reject or return the exact unexpressible assertion to planning
 
-Details: [plan](PLAN.md) · [current decision](decisions/P-002-engineer-the-improvement-loop.md) · [improvement inventory](evidence/P-002-improvement-issues.md) · [I-01 comprehension research](evidence/P-002-I-01-plan-comprehension.md) · [historical corpus](evidence/P-002-test-inventory.md)
+</details>
+
+Details: [plan](PLAN.md) · [current ticket](execution/E-019-compare-i01-candidate.md) · [I-01 evidence](evidence/P-002-I-01-plan-comprehension.md)

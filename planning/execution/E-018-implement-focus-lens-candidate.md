@@ -1,6 +1,6 @@
 # E-018 — Implement the Journey plus focus lens candidate
 
-- Status: draft — requires E-017 and human review of the I-01 route
+- Status: complete — 2026-08-17
 - Depends on: E-017
 
 ## Outcome
@@ -48,3 +48,9 @@ Portable Planner generates the accepted compact route, one focal current step, o
 ## Next eligible ticket
 
 - E-019 — Run the I-01 objective comparison and regression checks.
+
+## Result
+
+- The existing visual contract now defines exactly three first-read regions: a five-to-nine milestone Journey with one `NOW`, one five-field focus lens, and one subordinate quiet rail with at most six guardrails.
+- The existing `PLAN-VIEW.md` template implements the same grammar with a semantically equal compact text route and keeps essential orientation outside optional detail.
+- `validate_candidate.py` checks the canonical files against the frozen fixtures. No renderer, UI, service, state store, or second protocol was added.

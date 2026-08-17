@@ -1,6 +1,6 @@
 # E-019 — Compare the I-01 candidate and protect beta 6
 
-- Status: draft — requires E-018 and human review of the I-01 route
+- Status: current — candidate implementation complete; objective checks pending
 - Depends on: E-018
 
 ## Outcome

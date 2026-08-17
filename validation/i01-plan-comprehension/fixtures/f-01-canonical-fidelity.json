@@ -1,0 +1,73 @@
+{
+  "id": "F-01",
+  "claim": "Compression preserves canonical decision meaning",
+  "source": {
+    "destination": "Local visible health Case plugin",
+    "lifecycle": "planning",
+    "current": "Decide whether a report request performs a visible record update first",
+    "next": "Decide failed or unavailable update behavior",
+    "recommendation": "Attempt the bounded visible update first",
+    "unresolved": "Whether failure stops the job or permits labeled stale data",
+    "blocked": "General question answering is outside the first release",
+    "human_gate": "Human confirms what the report request authorizes",
+    "proof": "Changes and the record cutoff are visible",
+    "recovery": "Label the last successful update; do not imply a refresh",
+    "safety": [
+      "No provider password",
+      "No patient data in source control",
+      "Legacy stack remains untouched"
+    ]
+  },
+  "valid_view": {
+    "destination": "Local visible health Case plugin",
+    "lifecycle": "planning",
+    "current": "Decide whether a report request performs a visible record update first",
+    "next": "Decide failed or unavailable update behavior",
+    "recommendation": "Attempt the bounded visible update first",
+    "unresolved": "Whether failure stops the job or permits labeled stale data",
+    "blocked": "General question answering is outside the first release",
+    "human_gate": "Human confirms what the report request authorizes",
+    "proof": "Changes and the record cutoff are visible",
+    "recovery": "Label the last successful update; do not imply a refresh",
+    "safety": [
+      "No provider password",
+      "No patient data in source control",
+      "Legacy stack remains untouched"
+    ]
+  },
+  "malformed_view": {
+    "destination": "Local visible health Case plugin",
+    "lifecycle": "planning",
+    "current": "Choose the connector implementation",
+    "next": "Decide failed or unavailable update behavior",
+    "recommendation": "Attempt the bounded visible update first",
+    "unresolved": "Whether failure stops the job or permits labeled stale data",
+    "blocked": "General question answering is outside the first release",
+    "human_gate": "Human confirms what the report request authorizes",
+    "proof": "Changes and the record cutoff are visible",
+    "recovery": "Label the last successful update; do not imply a refresh",
+    "safety": [
+      "No provider password",
+      "No patient data in source control",
+      "Legacy stack remains untouched"
+    ]
+  },
+  "contract": {
+    "equal": [
+      "destination",
+      "lifecycle",
+      "current",
+      "next",
+      "recommendation",
+      "unresolved",
+      "blocked",
+      "human_gate",
+      "proof",
+      "recovery",
+      "safety"
+    ]
+  },
+  "expected_failure": "equal:current",
+  "expected_behavior": "The compressed first read preserves every decision-changing fact from the sanitized large-plan source.",
+  "prohibited_behavior": "The view must not invent a current decision, settle update failure behavior, or omit blocked scope and safety boundaries."
+}
