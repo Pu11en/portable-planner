@@ -53,5 +53,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Judge one polished, faithful Journey plus focus lens prototype using the real Portable Planner improvement state.
-- Next: Lock the structure or make one targeted density/polish revision, then test the faithful candidate on an actual large plan before implementation.
+- Current: HUMAN — Judge the locked Journey plus focus lens candidate applied faithfully to GOMER's actual large plan.
+- Next: Accept the I-01 candidate or make one targeted focus/route revision, then define objective fidelity and regression proof before implementation.

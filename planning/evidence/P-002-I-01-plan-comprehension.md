@@ -136,6 +136,72 @@ Decision changed: keep Journey plus focus lens, stop generating alternative comp
 - Literal labels and shapes carry meaning in every theme; styling emphasizes only current and protected human/proof gates.
 - No essential comprehension requires expansion, a file link, or a second diagram.
 
+## Prototype structure locked
+
+On 2026-08-17 Drew selected bare `A. Lock this structure`. This is the third consecutive bare recommended selection. The Journey plus focus lens grammar is now locked for the I-01 large-plan fidelity test; alternatives remain preserved as evidence but are no longer active.
+
+## Actual large-plan fidelity trial — GOMER
+
+Decision question: Can the locked structure preserve the decision-changing meaning of an actual large plan without requiring Drew to read its reports?
+
+Read-only source:
+
+- `/home/drewp/main-projects/GOMER/planning/PLAN.md` — 144 lines.
+- `/home/drewp/main-projects/GOMER/planning/PLAN-VIEW.md` — 242 lines.
+- `/home/drewp/main-projects/GOMER/planning/NEXT.md` — 11 lines.
+- `/home/drewp/main-projects/GOMER/planning/decisions/P-018-define-pre-signal-story-update.md` — current decision.
+
+Starting state:
+
+- Destination: turn GOMER into a harness-hosted, local, visible health-data Case plugin.
+- Plan state: 10 decisions complete, P-010 blocked because general question answering left first-release scope, and P-018 current.
+- Current decision: whether a Signal & Story request automatically performs a visible MyChart update first.
+- Recommendation: always attempt the bounded visible update first; failure/stale-data behavior remains a later decision.
+- Major protected boundaries: GOMER never receives the MyChart password; patient data never enters Git; the legacy Docker/Postgres/Medplum stack remains untouched; Karen's real Case is a final human test only after synthetic proof.
+
+Expected behavior: the first read exposes the destination, eight-or-fewer milestone journey, P-018 as current, exact recommendation and ownership, completion proof, failure fallback, blocked scope item, later work, and protected privacy/recovery rules without expansion.
+
+Observed output: the active session displays one GOMER Journey plus focus lens view generated from the source above. The route groups completed product/data/Case decisions, keeps update timing current, and preserves later connection, Signal & Story, packaging, and Karen Case proof. The focus lens keeps P-018 unresolved and states the recommended route, proof, and failure fallback. A quiet rail carries the blocked P-010 and critical plan-wide protections.
+
+Exact candidate source:
+
+```mermaid
+flowchart TB
+    G(["DESTINATION · A local, visible health-data Case plugin"])
+
+    subgraph R1["SHAPE THE PLUGIN"]
+        direction LR
+        A["01 · Plugin direction<br/>DONE"] --> B["02 · Data boundary<br/>DONE"] --> C["03 · Case ownership<br/>DONE"] --> D{{"04 · Update timing<br/>NOW"}}
+    end
+
+    subgraph R2["PROVE THE EXPERIENCE"]
+        direction LR
+        E["05 · Connect + store"] --> F["06 · Signal & Story<br/>Check + hold"] --> H["07 · Package + synthetic proof"] --> K(["08 · HUMAN<br/>Karen Case"])
+    end
+
+    L["FOCUS · P-018 UPDATE BEFORE SIGNAL & STORY<br/><br/>RECOMMEND · Attempt a visible MyChart update first<br/>NEXT · Decide failed or unavailable update behavior<br/>HUMAN · Drew confirms what the request authorizes<br/>PROOF · Changes and the Chart cutoff are recorded<br/>RECOVERY · Label last successful update; stop/stale remains undecided"]
+
+    Q["PLAN + SAFETY RAIL · 10 DONE · P-010 BLOCKED / OUT · P-018 NOW · NO BUILD · NO MYCHART PASSWORD · NO PATIENT DATA IN GIT · LEGACY STACK UNTOUCHED"]
+
+    G --> A
+    D --> L
+    D --> E
+    L --- Q
+
+    classDef done stroke-width:1.5px;
+    classDef current stroke-width:4px,font-weight:700;
+    classDef protected stroke-width:3px,font-weight:700;
+    classDef quiet stroke-width:1px,stroke-dasharray:4 3;
+    class A,B,C done;
+    class D,L current;
+    class K protected;
+    class Q quiet;
+```
+
+Limitations: the portable Codex surface is static rather than clickable; the trial judges first-read comprehension and fidelity, not production interaction, final styling, GOMER correctness, or implementation authorization. GOMER's source files remain unchanged.
+
+Verdict: pending Drew's direct judgment. Because the recommended-key streak reached three, the real candidate decision offers the exact delegation shortcut as option `B` without inferring authority.
+
 ## Comprehension jobs
 
 A useful plan surface must let Drew do these jobs without first opening the long source files:
@@ -224,4 +290,4 @@ All three stable PNG files remain preserved as failed evidence. They are not act
 
 ## Current bounded trial
 
-Show the polished faithful Journey plus focus lens prototype directly in the active session using the current Portable Planner improvement state. Drew judges the actual first-read experience: lock the structure, shorten the focus lens, or increase useful route expression. This remains planning evidence and does not authorize production implementation.
+Show the locked prototype directly in the active session using the actual current GOMER plan. Drew judges whether to accept it as the I-01 candidate, delegate remaining reversible planning choices, revise the focus lens, or revise route/rail density. This remains planning evidence and does not authorize production implementation or modify GOMER.
