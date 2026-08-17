@@ -4,7 +4,7 @@
 
 **Destination:** Portable Planner recognizes when an outcome is still being shaped, helps Drew and the agent reach the same understanding, and makes even a large plan genuinely comprehensible before implementation or testing runs ahead.
 
-**Success:** Each improvement starts from a named real failure, preserves already-good behavior, and passes objective checks plus Drew's fresh-session judgment before it can replace beta 6.
+**Success:** Each improvement starts from a named real failure, preserves already-good behavior, and survives objective checks plus uncoached real use before it is described as proven.
 
 ## Journey
 
@@ -16,42 +16,43 @@ flowchart LR
     M4["DONE · 4 · Freeze six claims"]
     M5["DONE · 5 · Implement candidate"]
     M6["DONE · 6 · Compare and protect"]
-    M7(["NOW · HUMAN · 7 · Judge fresh task"])
-    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7
+    M7["DONE · 7 · Authorize field candidate"]
+    M8(["NOW · FIELD · 8 · Use normally"])
+    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
-    class M7 current;
-    class M1,M2,M3,M4,M5,M6 milestone;
+    class M8 current;
+    class M1,M2,M3,M4,M5,M6,M7 milestone;
 ```
 
-**Text route:** DONE · 1 · Recover evidence → DONE · 2 · Inventory nine issues → DONE · 3 · Select focus-lens route → DONE · 4 · Freeze six claims → DONE · 5 · Implement candidate → DONE · 6 · Compare and protect → NOW · HUMAN · 7 · Judge fresh task
+**Text route:** DONE · 1 · Recover evidence → DONE · 2 · Inventory nine issues → DONE · 3 · Select focus-lens route → DONE · 4 · Freeze six claims → DONE · 5 · Implement candidate → DONE · 6 · Compare and protect → DONE · 7 · Authorize field candidate → NOW · FIELD · 8 · Use normally
 
 ## Focus lens
 
-- **Current outcome:** E-020 determines whether the objectively passing candidate actually gives Drew a shorter, equally complete, and more pleasing first read.
-- **Next action:** Open one new Codex task in this repository and paste the exact natural continuation prompt from `NEXT.md`.
-- **Human role:** Judge the uncoached visible first read as `better`, `same`, or `worse` than beta 6.
-- **Proof:** The fresh task preserves destination, journey, current outcome, next action, human role, proof, and recovery without requiring a report, expansion, or file link.
-- **Recovery:** On `same`, `worse`, or a hard failure, restore the verified beta-6 cache immediately and reopen only I-01.
+- **Current outcome:** Beta 7 runs as the same default planning candidate in Codex and ZCode while real projects supply the missing human evidence.
+- **Next action:** Use either harness normally; no special prompt or manufactured test conversation is needed.
+- **Human role:** After enough ordinary use, ask for the local Codex and ZCode histories to be reviewed for recurring successes and failures.
+- **Proof:** Objective checks protect existing behavior now; later redacted real-session evidence decides whether the candidate improved comprehension and the broader flow.
+- **Recovery:** A material field regression restores the immutable beta-6 release; isolated failures reopen only the affected issue.
 
 ## Quiet rail
 
-- **Remaining:** Drew's E-020 verdict · then I-02 through I-09 one issue at a time only if I-01 wins
-- **Guardrails:** Raw histories stay local · no arbitrary run count · no second state tree · no renderer or app · no publication from objective proof alone · beta 6 wins ties
+- **Remaining:** ordinary field use · local history review · then I-02 through I-09 one issue at a time from observed evidence
+- **Guardrails:** Raw histories stay local · no arbitrary run count · no second state tree · no renderer or app · public preview is not production proof · beta 6 remains recoverable
 
 ## Optional detail
 
 <details>
-<summary>E-020 acceptance boundary</summary>
+<summary>Beta-7 field boundary</summary>
 
-- Outcome: one better/same/worse verdict from the exact installed candidate
+- Outcome: recurring evidence from ordinary Codex and ZCode planning
 - Owner: Drew
-- Inputs: this real plan, a fresh task, and the natural continuation prompt
-- Proof: preserved visible first read plus Drew's direct judgment
-- If blocked or changed: restore beta 6 and preserve the first concrete failure
+- Inputs: real projects and local session histories; no coached scripts
+- Proof: redacted observed behavior plus Drew's judgment after normal use
+- If blocked or changed: preserve the first concrete failure and restore beta 6 only for a material regression
 
 </details>
 
-Details: [plan](PLAN.md) · [current ticket](execution/E-020-run-i01-human-acceptance.md) · [objective evidence](../validation/I01-CANDIDATE-TEST.md)
+Details: [plan](PLAN.md) · [current ticket](execution/E-021-publish-beta7-field-candidate.md) · [objective evidence](../validation/I01-CANDIDATE-TEST.md)

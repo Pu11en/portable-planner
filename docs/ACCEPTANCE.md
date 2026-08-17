@@ -75,4 +75,4 @@
 
 ## Final result
 
-**Current status: BETA.6 EXACT-DELEGATION OBJECTIVE CHECKS PASS; FRESH HUMAN ACCEPTANCE REMAINS OPEN.** C-02, C-12, and C-13 pass the exact bare-key streak, option-`B` insertion, `A` through `G` ceiling, reset, resumption, and protected-gate matrix. V-03, V-04, the complex visual proof, idea-stage checks, real-use proofs, H-01 through H-05, and final audit remain open. Do not describe Portable Planner as production-proven yet.
+**Current status: BETA.7 FIELD CANDIDATE; OBJECTIVE CHECKS PASS AND ORDINARY-USE REVIEW REMAINS OPEN.** Beta 7 preserves the passing beta-6 exact-delegation matrix and adds the objectively checked Journey plus focus-lens contract. Drew explicitly replaced a coached one-task visual verdict with normal Codex and ZCode use followed by later local history review; that decision is not a human-acceptance pass. V-03, V-04, V-05, the idea-stage checks, real-use proofs, H-01 through H-05, and final audit remain open. Do not describe Portable Planner as production-proven yet.

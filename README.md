@@ -4,7 +4,7 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.6` public-preview prerelease adds the exact bare-key option-`B` delegation shortcut, recovers the one-letter path after a digression, keeps research-led product changes provisional, begins normal-harness execution after direct approval, and proactively presents a small live test from refreshed state. Its idea-stage repository scan and decisive-flow revision remain unproven until the linked human acceptance checks pass.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.7` public-preview field candidate adds a compact Journey plus focus-lens view for large plans while preserving beta 6's repository discovery, exact option-`B` delegation shortcut, protected approval gates, and normal-harness build transition. Objective checks pass; ordinary Codex and ZCode use is now the live evaluation, so the new view and the broader planning experience remain unproven until those real sessions are reviewed.
 
 ## Project source of truth
 
@@ -50,6 +50,12 @@ Other natural requests work too:
 - `Turn the approved plan into execution tickets.`
 
 The planner creates plain project-local Markdown under `planning/`. A fresh agent session can resume from those files without the original chat. In Codex, a plan that genuinely outgrows the current task can create one compact successor task after the user authorizes automatic continuation for that plan; small plans stay in the current task.
+
+To make the planner the default without forcing planning ceremony onto every request, add this rule to the harness's global `AGENTS.md`:
+
+```text
+Use the installed Portable Planner automatically when a project or product outcome is still being shaped: destination, scope, success, proof, route, or a meaningful human tradeoff remains unresolved. Keep narrow facts, status, explanations, diagnosis-only work, and sufficiently specified build requests direct. Resume existing project-local planning state instead of starting a second plan.
+```
 
 ## What the experience is designed to do
 

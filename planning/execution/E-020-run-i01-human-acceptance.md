@@ -1,6 +1,6 @@
 # E-020 — Run the I-01 fresh-session acceptance
 
-- Status: current — eligible candidate installed; fresh task and Drew's verdict required
+- Status: superseded 2026-08-17 — not passed; Drew chose ordinary longitudinal field use instead of a coached one-task verdict
 - Depends on: E-019
 
 ## Outcome
@@ -56,3 +56,9 @@ Drew experiences the exact objectively passing candidate in one fresh, naturally
 - The prior installed 17-file plugin matched `v0.1.0-beta.6` before replacement.
 - The candidate is temporarily installed in the active Portable Planner cache; an exact beta-6 recovery copy is preserved separately.
 - Start one new Codex task in this repository and use the natural prompt in `NEXT.md`. The new task boundary is required because open tasks retain their original skill catalog.
+
+## Supersession result
+
+- Drew explicitly waived this artificial one-task comparison and authorized publication as an unproven public-preview field candidate.
+- Objective E-019 evidence remains valid, but it is not reclassified as human acceptance.
+- E-021 replaces this ticket with normal, uncoached Codex and ZCode use followed by later local session-history review.

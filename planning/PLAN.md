@@ -18,7 +18,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Boundaries
 
-- In: the existing canonical skill and planning state, a complete improvement-issue inventory, scalable plan-comprehension alternatives, selective adaptation of evidence-backed mechanisms, a normative decision-kernel contract, read-only private indexing of historical Codex/ZCode sessions, a bounded redacted trace corpus across materially different domains, objective invariant validation, minimum counterfactual replay, and fresh human acceptance.
+- In: the existing canonical skill and planning state, a complete improvement-issue inventory, scalable plan-comprehension alternatives, selective adaptation of evidence-backed mechanisms, a normative decision-kernel contract, read-only private indexing of historical Codex/ZCode sessions, a bounded redacted trace corpus across materially different domains, objective invariant validation, minimum counterfactual replay, and uncoached field-use review.
 - Out: replacing or vendoring another planning framework, copying another creator's protocol or interface, narrowing to software, a second skill or state tree, a database or service, an autonomous prompt optimizer, production UI, a fixed question quota, or changes justified only by popularity or expert opinion.
 
 ## Map
@@ -48,14 +48,15 @@ Portable Planner reliably chooses the right next planning action with less user 
 - ✓ [E-017 — Freeze the I-01 fidelity contract](execution/E-017-freeze-i01-fidelity-contract.md)
 - ✓ [E-018 — Implement the Journey plus focus lens candidate](execution/E-018-implement-focus-lens-candidate.md)
 - ✓ [E-019 — Compare the I-01 candidate and protect beta 6](execution/E-019-compare-i01-candidate.md)
-- ▶ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — depends on E-019
+- ~ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — superseded by Drew's field-use decision; not passed
+- ▶ [E-021 — Publish beta 7 for ordinary field use](execution/E-021-publish-beta7-field-candidate.md) — depends on E-019
 
 ## Approval
 
 - Prior beta-6 route: approved and released
-- Current improvement revision: E-017 through E-020 route approved; implementation remains off `main` pending proof
+- Current improvement revision: beta 7 publication and uncoached Codex/ZCode field use explicitly authorized; production proof remains open
 
 ## Now
 
-- Current: HUMAN — Judge the installed candidate in one fresh Codex task using this real large plan.
-- Next: Return a direct `better`, `same`, or `worse` verdict; restore beta 6 immediately on `same`, `worse`, or a hard failure.
+- Current: AGENT — Publish and install the beta-7 field candidate in Codex and ZCode with adaptive default routing.
+- Next: HUMAN — Use both harnesses normally; later request a local session-history review so observed failures can drive the next improvement.
