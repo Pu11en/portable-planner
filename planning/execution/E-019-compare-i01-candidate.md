@@ -1,6 +1,6 @@
 # E-019 — Compare the I-01 candidate and protect beta 6
 
-- Status: current — candidate implementation complete; objective checks pending
+- Status: complete — 2026-08-17; candidate eligible for human test
 - Depends on: E-018
 
 ## Outcome
@@ -47,3 +47,10 @@ The unchanged candidate passes all six I-01 claims and preserves beta-6 behavior
 ## Next eligible ticket
 
 - E-020 — Run one fresh real-session acceptance, or stop with beta 6 if rejected.
+
+## Result
+
+- Verdict: `candidate eligible for human test`.
+- F-01 through F-06, all six malformed controls, actual state regeneration, rich/text parity, skill/plugin/package checks, isolated installation, links, and diff checks pass.
+- Natural-invocation, delegation, protected-gate, approval, artifact, and session-chaining instruction bytes remain identical to beta 6; changed visual behavior passed the separate I-01 checks.
+- Exact output, commits, checks, and recovery location are preserved in [I-01 candidate evidence](../../validation/I01-CANDIDATE-TEST.md).

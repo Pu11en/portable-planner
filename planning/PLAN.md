@@ -47,8 +47,8 @@ Portable Planner reliably chooses the right next planning action with less user 
 - ! [E-010 through E-016 — Draft improvement route](execution/E-010-lock-decision-kernel.md) — blocked by reopened P-002; former test counts are invalid
 - ✓ [E-017 — Freeze the I-01 fidelity contract](execution/E-017-freeze-i01-fidelity-contract.md)
 - ✓ [E-018 — Implement the Journey plus focus lens candidate](execution/E-018-implement-focus-lens-candidate.md)
-- ▶ [E-019 — Compare the I-01 candidate and protect beta 6](execution/E-019-compare-i01-candidate.md) — depends on E-018
-- ○ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — depends on E-019
+- ✓ [E-019 — Compare the I-01 candidate and protect beta 6](execution/E-019-compare-i01-candidate.md)
+- ▶ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — depends on E-019
 
 ## Approval
 
@@ -57,5 +57,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: AGENT — Run the unchanged Journey plus focus lens candidate through the six I-01 claims and beta-6 regressions.
-- Next: Give one objective verdict: eligible for a fresh human task or rejected while beta 6 remains the reference.
+- Current: HUMAN — Judge the installed candidate in one fresh Codex task using this real large plan.
+- Next: Return a direct `better`, `same`, or `worse` verdict; restore beta 6 immediately on `same`, `worse`, or a hard failure.

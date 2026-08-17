@@ -1,6 +1,6 @@
 # E-020 — Run the I-01 fresh-session acceptance
 
-- Status: draft — requires an eligible E-019 verdict and human review of the I-01 route
+- Status: current — eligible candidate installed; fresh task and Drew's verdict required
 - Depends on: E-019
 
 ## Outcome
@@ -48,3 +48,11 @@ Drew experiences the exact objectively passing candidate in one fresh, naturally
 ## Next eligible ticket
 
 - If passed, preserve the candidate as the working improvement branch and begin I-02 solution discovery; publication remains separate. If failed, reopen I-01 with the exact evidence.
+
+## Preflight
+
+- Exact candidate: `0553101c7e16a9019605df8bd2e1a5c7fbcbb644`.
+- E-019 verdict: `candidate eligible for human test`.
+- The prior installed 17-file plugin matched `v0.1.0-beta.6` before replacement.
+- The candidate is temporarily installed in the active Portable Planner cache; an exact beta-6 recovery copy is preserved separately.
+- Start one new Codex task in this repository and use the natural prompt in `NEXT.md`. The new task boundary is required because open tasks retain their original skill catalog.
