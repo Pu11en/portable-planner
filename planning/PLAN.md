@@ -1,6 +1,6 @@
-# Plan: Make Portable Planner decisive and brief
+# Plan: Make Portable Planner measurably better
 
-**Status:** approved for build
+**Status:** planning
 
 ## Continuation
 
@@ -10,26 +10,28 @@
 
 ## Destination
 
-Portable Planner stops low-value grilling, acts on explicitly delegated reversible decisions, uses bounded example trials when words cannot settle behavior, keeps ordinary replies short, and proactively moves finished work into approval and live testing without crossing protected human gates.
+Portable Planner reliably chooses the right next planning action with less user effort, preserves human authority and durable state, and proves each improvement repeatably before it ships.
 
 ## Success
 
-- Fresh cross-project sessions show concise, action-oriented replies; explicit delegation removes redundant preference questions; dynamic uncertainty triggers preserved three-case trials; completed planning automatically asks for approval; validated builds proactively invite the correct live test; and protected decisions remain human-owned.
+- The planner automatically recognizes unresolved project/product planning at the agreed boundary, presents even large plans in a form Drew can genuinely comprehend, and improves through a visible problem inventory followed by one evidence-backed solution at a time. Any candidate comparison uses the smallest real decision-point replays with exact state, expected decision, prohibited behavior, and human judgment.
 
 ## Boundaries
 
-- In: the canonical skill, product contract, question and conversation guidance, planning evidence rules, cross-project fixtures, packaging checks, and live acceptance.
-- Out: a second skill or state tree, production prototypes, inferred delegation, a fixed question quota, new infrastructure, or architecture expansion without a recorded live failure.
+- In: the existing canonical skill and planning state, a complete improvement-issue inventory, scalable plan-comprehension alternatives, selective adaptation of evidence-backed mechanisms, a normative decision-kernel contract, read-only private indexing of historical Codex/ZCode sessions, a bounded redacted trace corpus across materially different domains, objective invariant validation, minimum counterfactual replay, and uncoached field-use review.
+- Out: replacing or vendoring another planning framework, copying another creator's protocol or interface, narrowing to software, a second skill or state tree, a database or service, an autonomous prompt optimizer, production UI, a fixed question quota, or changes justified only by popularity or expert opinion.
 
 ## Map
 
-`1/1`
+`2/2`
 
 - ✓ [P-001 — Define decisive planning behavior](decisions/P-001-define-decisive-planning.md) — depends on: none
+- ▶ [P-002 — Engineer the next improvement loop](decisions/P-002-engineer-the-improvement-loop.md) — depends on: P-001
 
 ## Confirmed decisions
 
 - [P-001](decisions/P-001-define-decisive-planning.md): Explicit scoped delegation covers remaining reversible decisions; settled or experiential uncertainty is not re-asked; bounded trials replace exhausted discussion; replies stay short, take the next safe action, and proactively move finished work to approval and live testing; protected gates remain explicit.
+- [P-002](decisions/P-002-engineer-the-improvement-loop.md): Use Portable Planner as the adaptive default for unresolved project/product work, keep direct status/diagnosis/approved-build routes direct, preserve one original cross-domain protocol, adapt outside mechanisms only for named failures with cross-domain proof, and derive the minimum comparison set from real failures before revising the build route.
 
 ## Execution
 
@@ -42,13 +44,19 @@ Portable Planner stops low-value grilling, acts on explicitly delegated reversib
 - ✓ [E-007 — Integrate and publish the release candidate](execution/E-007-publish-release-candidate.md)
 - ✓ [E-008 — Implement the exact option-B delegation shortcut](execution/E-008-implement-exact-delegation-shortcut.md)
 - ✓ [E-009 — Validate and publish beta 6](execution/E-009-validate-publish-beta6.md)
+- ! [E-010 through E-016 — Draft improvement route](execution/E-010-lock-decision-kernel.md) — blocked by reopened P-002; former test counts are invalid
+- ✓ [E-017 — Freeze the I-01 fidelity contract](execution/E-017-freeze-i01-fidelity-contract.md)
+- ✓ [E-018 — Implement the Journey plus focus lens candidate](execution/E-018-implement-focus-lens-candidate.md)
+- ✓ [E-019 — Compare the I-01 candidate and protect beta 6](execution/E-019-compare-i01-candidate.md)
+- ~ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — superseded by Drew's field-use decision; not passed
+- ▶ [E-021 — Publish beta 7 for ordinary field use](execution/E-021-publish-beta7-field-candidate.md) — depends on E-019
 
 ## Approval
 
-- Visual review: approved
-- Build handoff: approved by Drew on 2026-08-07
+- Prior beta-6 route: approved and released
+- Current improvement revision: beta 7 publication and uncoached Codex/ZCode field use explicitly authorized; production proof remains open
 
 ## Now
 
-- Current: Drew opens the dedicated empty test folder and runs the exact beta-6 human acceptance sequence.
-- Next: Record the first uncoached result; reopen only the shared behavior behind a demonstrated failure.
+- Current: AGENT — Publish and install the beta-7 field candidate in Codex and ZCode with adaptive default routing.
+- Next: HUMAN — Use both harnesses normally; later request a local session-history review so observed failures can drive the next improvement.

@@ -1,170 +1,58 @@
-# Make Portable Planner decisive and brief
+# Make Portable Planner diligent before it acts
 
-**Status:** approved for build
+**Status:** planning
 
-**Destination:** Short, decisive planning that stops grilling when discussion is exhausted, then proactively moves finished work into approval and live testing while preserving human control.
+**Destination:** Portable Planner recognizes when an outcome is still being shaped, helps Drew and the agent reach the same understanding, and makes even a large plan genuinely comprehensible before implementation or testing runs ahead.
 
-**Success:** Fresh varied sessions prove delegated choices proceed without extra questions, bounded trials replace unproductive discussion, and the planner clearly pushes completed work into approval and the right live test without crossing protected gates.
+**Success:** Each improvement starts from a named real failure, preserves already-good behavior, and survives objective checks plus uncoached real use before it is described as proven.
 
-**Now:** E-001 through E-009 are complete. The exact beta-6 shortcut is published and installed; Drew's uncoached fresh-task acceptance is the current gate.
-
-**Next:** Drew runs the exact real-project acceptance test in a new task and records the first result without coaching the planner mid-run.
+## Journey
 
 ```mermaid
 flowchart LR
-    H["DONE · HUMAN approved plan"]
-    E1["DONE · Lock behavior contract"]
-    E2["DONE · Update canonical skill"]
-    E3["DONE · Prove varied behavior"]
-    E4["DONE · Live failures captured"]
-    E5["DONE · Repair shared behavior"]
-    E6["DONE · Rerun release checks"]
-    E7["DONE · Integrate prerelease"]
-    E8["DONE · Exact option-B shortcut"]
-    E9["DONE · Publish beta 6"]
-    D(["NOW · HUMAN acceptance"])
-    H --> E1 --> E2 --> E3 --> E4 --> E5 --> E6 --> E7 --> E8 --> E9 --> D
+    M1["DONE · 1 · Recover evidence"]
+    M2["DONE · 2 · Inventory nine issues"]
+    M3["DONE · 3 · Select focus-lens route"]
+    M4["DONE · 4 · Freeze six claims"]
+    M5["DONE · 5 · Implement candidate"]
+    M6["DONE · 6 · Compare and protect"]
+    M7["DONE · 7 · Authorize field candidate"]
+    M8(["NOW · FIELD · 8 · Use normally"])
+    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
-
-    class D current;
-    class H,E1,E2,E3,E4,E5,E6,E7,E8,E9 milestone;
+    class M8 current;
+    class M1,M2,M3,M4,M5,M6,M7 milestone;
 ```
 
-**Text route:** HUMAN approved plan → DONE beta-5 route → DONE exact bare-key option-`B` shortcut → DONE publish beta 6 → NOW HUMAN real-project acceptance test.
+**Text route:** DONE · 1 · Recover evidence → DONE · 2 · Inventory nine issues → DONE · 3 · Select focus-lens route → DONE · 4 · Freeze six claims → DONE · 5 · Implement candidate → DONE · 6 · Compare and protect → DONE · 7 · Authorize field candidate → NOW · FIELD · 8 · Use normally
 
-## Step details
+## Focus lens
 
-<details>
-<summary>DONE · HUMAN approved plan</summary>
+- **Current outcome:** Beta 7 runs as the same default planning candidate in Codex and ZCode while real projects supply the missing human evidence.
+- **Next action:** Use either harness normally; no special prompt or manufactured test conversation is needed.
+- **Human role:** After enough ordinary use, ask for the local Codex and ZCode histories to be reviewed for recurring successes and failures.
+- **Proof:** Objective checks protect existing behavior now; later redacted real-session evidence decides whether the candidate improved comprehension and the broader flow.
+- **Recovery:** A material field regression restores the immutable beta-6 release; isolated failures reopen only the affected issue.
 
-- Outcome: Building is explicitly authorized.
-- Owner: Drew.
-- Inputs: Finished plan, confirmed decision, and evidence.
-- Proof: Drew explicitly approved on 2026-08-07.
-- If blocked or changed: Reopen only the affected decision.
+## Quiet rail
 
-</details>
+- **Remaining:** ordinary field use · local history review · then I-02 through I-09 one issue at a time from observed evidence
+- **Guardrails:** Raw histories stay local · no arbitrary run count · no second state tree · no renderer or app · public preview is not production proof · beta 6 remains recoverable
 
-<details>
-<summary>DONE · E-001 · Lock behavior contract</summary>
-
-- Outcome: Product and acceptance documents define the new behavior consistently.
-- Owner: Agent.
-- Inputs: P-001 and recorded live failures.
-- Proof: Authority documents agree without claiming proven effectiveness.
-- If blocked or changed: Return conflicting product tradeoffs to planning.
-
-</details>
+## Optional detail
 
 <details>
-<summary>DONE · E-002 · Update canonical skill</summary>
+<summary>Beta-7 field boundary</summary>
 
-- Outcome: One skill implements brevity, explicit delegation, stopping, bounded trials, immediate action, proactive approval and test handoffs, and protected gates.
-- Owner: Agent.
-- Inputs: Locked behavior contract.
-- Proof: References resolve and adapters remain thin.
-- If blocked or changed: Record the instruction failure before adding architecture.
-
-</details>
-
-<details>
-<summary>DONE · E-003 · Prove varied behavior</summary>
-
-- Outcome: Normal, contrasting, and failure cases pass across software and non-software planning.
-- Owner: Agent.
-- Inputs: Updated canonical skill and fixtures.
-- Proof: Preserved inputs, outputs, variations, failures, and changed decisions.
-- If blocked or changed: Make a targeted revision and rerun affected cases.
+- Outcome: recurring evidence from ordinary Codex and ZCode planning
+- Owner: Drew
+- Inputs: real projects and local session histories; no coached scripts
+- Proof: redacted observed behavior plus Drew's judgment after normal use
+- If blocked or changed: preserve the first concrete failure and restore beta 6 only for a material regression
 
 </details>
 
-<details>
-<summary>DONE · E-004 · HUMAN live acceptance</summary>
-
-- Outcome: A genuine fresh session preserved both passing behavior and concrete failures.
-- Owner: Shared.
-- Inputs: Passing package and an ordinary fresh request.
-- Proof: Drew's direct judgments and the preserved beta.4 trace.
-- If blocked or changed: Reopen only the affected shared behavior.
-
-</details>
-
-<details>
-<summary>DONE · E-005 · Repair shared behavior</summary>
-
-- Outcome: Fix delegation invitation, digression choices, provisional research direction, test intake, visual freshness, and fallback behavior in the one canonical skill.
-- Owner: Agent.
-- Inputs: Recorded beta.4 failures and Drew's confirmed corrections.
-- Proof: Product and skill contracts agree without domain-specific instructions or new architecture.
-- If blocked or changed: Return only a genuinely new product tradeoff to planning.
-
-</details>
-
-<details>
-<summary>DONE · E-006 · Rerun release checks</summary>
-
-- Outcome: Fresh affected cases and full package checks pass on the unchanged repaired candidate.
-- Owner: Agent.
-- Inputs: E-005 candidate and preserved failure assertions.
-- Proof: Raw outputs, package validation, link/state audits, installer proof, and honest acceptance reconciliation.
-- If blocked or changed: Repair only the failed shared instruction and rerun affected cases.
-
-</details>
-
-<details>
-<summary>DONE · E-007 · Integrate prerelease</summary>
-
-- Outcome: Reviewed changes reach remote `main`, a matching tag, and a GitHub prerelease.
-- Owner: Agent; Drew supplies remaining post-install human acceptance.
-- Inputs: Passing E-006 candidate.
-- Proof: Remote hashes, merged PR, tag, release, clean worktree, and explicit remaining gates.
-- If blocked or changed: Push the branch and record the exact release blocker without a false production claim.
-
-</details>
-
-<details>
-<summary>DONE · E-008 · Exact option-B shortcut</summary>
-
-- Outcome: Only bare recommended keys build the streak; the next real question inserts delegation as `B` while preserving its recommendation as `A`.
-- Owner: Agent.
-- Inputs: Drew's exact 2026-08-15 interaction rule and the beta-5 canonical skill.
-- Proof: Product authority, skill guidance, durable state, templates, and acceptance agree without inferred delegation.
-- If blocked or changed: Return only a genuinely ambiguous safety boundary to Drew.
-
-</details>
-
-<details>
-<summary>DONE · E-009 · Validate and publish beta 6</summary>
-
-- Outcome: Positive, reset, resumption, protected-gate, package, and natural-invocation checks pass before beta 6 is published and installed.
-- Owner: Agent.
-- Inputs: Unchanged E-008 candidate.
-- Proof: Preserved release-candidate evidence, remote main/tag/release agreement, public plugin installation, and exact human test instructions.
-- If blocked or changed: Repair only the failed shared instruction and rerun affected cases.
-
-</details>
-
-<details open>
-<summary>NOW · HUMAN · Real-project acceptance</summary>
-
-- Outcome: Drew confirms the shortcut appears at the right moment, delegates only through bare `B`, and stops at final approval.
-- Owner: Drew.
-- Inputs: Installed public beta 6 and the durable human test runbook.
-- Proof: Actual fresh-task trace recorded against C-02, C-12, and C-13.
-- If blocked or changed: Record the exact failure and reopen only its shared behavior.
-
-</details>
-
-## Plan-wide safety
-
-- Never infer delegation from repeated agreement.
-- Never delegate irreversible commitments, personal tradeoffs, conflicts, implementation, or final approval.
-- Trials are planning evidence, not production work.
-- Keep one canonical skill and one project-local planning state.
-- Record live failures before architecture expands.
-- Keep ordinary replies short; reveal details only when requested or required for safety.
-
-Details: [plan](PLAN.md) · [confirmed decision](decisions/P-001-define-decisive-planning.md)
+Details: [plan](PLAN.md) · [current ticket](execution/E-021-publish-beta7-field-candidate.md) · [objective evidence](../validation/I01-CANDIDATE-TEST.md)

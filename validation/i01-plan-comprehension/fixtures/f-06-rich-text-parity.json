@@ -1,0 +1,68 @@
+{
+  "id": "F-06",
+  "claim": "Rich and compact-text routes preserve identical semantics",
+  "source": {
+    "route": [
+      "Direction DONE",
+      "Data boundary DONE",
+      "Case ownership DONE",
+      "Update timing NOW",
+      "Connect and store PENDING",
+      "Make and check PENDING",
+      "Package and prove PENDING",
+      "Human acceptance HUMAN"
+    ]
+  },
+  "valid_view": {
+    "rich_route": [
+      "Direction DONE",
+      "Data boundary DONE",
+      "Case ownership DONE",
+      "Update timing NOW",
+      "Connect and store PENDING",
+      "Make and check PENDING",
+      "Package and prove PENDING",
+      "Human acceptance HUMAN"
+    ],
+    "text_route": [
+      "Direction DONE",
+      "Data boundary DONE",
+      "Case ownership DONE",
+      "Update timing NOW",
+      "Connect and store PENDING",
+      "Make and check PENDING",
+      "Package and prove PENDING",
+      "Human acceptance HUMAN"
+    ]
+  },
+  "malformed_view": {
+    "rich_route": [
+      "Direction DONE",
+      "Data boundary DONE",
+      "Case ownership DONE",
+      "Update timing NOW",
+      "Connect and store PENDING",
+      "Make and check PENDING",
+      "Package and prove PENDING",
+      "Human acceptance HUMAN"
+    ],
+    "text_route": [
+      "Direction DONE",
+      "Data boundary DONE",
+      "Case ownership DONE",
+      "Connect and store PENDING",
+      "Update timing NOW",
+      "Make and check PENDING",
+      "Package and prove PENDING",
+      "Human acceptance HUMAN"
+    ]
+  },
+  "contract": {
+    "parity": [
+      ["rich_route", "text_route"]
+    ]
+  },
+  "expected_failure": "parity:rich_route:text_route",
+  "expected_behavior": "The portable text route preserves every rich-route milestone, state, and dependency order.",
+  "prohibited_behavior": "A renderer may not introduce a decision or reorder the route relative to the text fallback."
+}

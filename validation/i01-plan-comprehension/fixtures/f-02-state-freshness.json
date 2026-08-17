@@ -1,0 +1,41 @@
+{
+  "id": "F-02",
+  "claim": "A material state change advances every visible current-state surface",
+  "source": {
+    "current": "P-019 Define failed-update behavior",
+    "next": "P-020 Define connector authorization",
+    "statuses": {
+      "P-018": "DONE",
+      "P-019": "NOW",
+      "P-020": "NEXT"
+    }
+  },
+  "valid_view": {
+    "current": "P-019 Define failed-update behavior",
+    "next": "P-020 Define connector authorization",
+    "statuses": {
+      "P-018": "DONE",
+      "P-019": "NOW",
+      "P-020": "NEXT"
+    }
+  },
+  "malformed_view": {
+    "current": "P-019 Define failed-update behavior",
+    "next": "P-020 Define connector authorization",
+    "statuses": {
+      "P-018": "NOW",
+      "P-019": "NEXT",
+      "P-020": "PENDING"
+    }
+  },
+  "contract": {
+    "equal": [
+      "current",
+      "next",
+      "statuses"
+    ]
+  },
+  "expected_failure": "equal:statuses",
+  "expected_behavior": "After P-018 completes, the route, focus lens, and next action all advance to the same canonical frontier.",
+  "prohibited_behavior": "No surface may continue showing P-018 as current after canonical state advances."
+}

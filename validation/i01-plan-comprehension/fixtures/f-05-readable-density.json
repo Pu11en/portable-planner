@@ -1,0 +1,88 @@
+{
+  "id": "F-05",
+  "claim": "The first read stays bounded without hiding essential orientation",
+  "source": {
+    "required_visible": [
+      "destination",
+      "current",
+      "next",
+      "human_role",
+      "proof",
+      "recovery"
+    ]
+  },
+  "valid_view": {
+    "route": [
+      {"label": "Direction", "state": "DONE"},
+      {"label": "Data boundary", "state": "DONE"},
+      {"label": "Case ownership", "state": "DONE"},
+      {"label": "Update timing", "state": "NOW"},
+      {"label": "Connect and store", "state": "PENDING"},
+      {"label": "Make and check", "state": "PENDING"},
+      {"label": "Package and prove", "state": "PENDING"},
+      {"label": "Human acceptance", "state": "HUMAN"}
+    ],
+    "visible_fields": [
+      "destination",
+      "current",
+      "next",
+      "human_role",
+      "proof",
+      "recovery"
+    ],
+    "safety": [
+      "No credentials",
+      "No private data in source control",
+      "One active Case",
+      "No hidden retry",
+      "No build before approval",
+      "Keep the recoverable reference"
+    ]
+  },
+  "malformed_view": {
+    "route": [
+      {"label": "Direction", "state": "DONE"},
+      {"label": "Data boundary", "state": "DONE"},
+      {"label": "First user", "state": "DONE"},
+      {"label": "Case count", "state": "DONE"},
+      {"label": "Case location", "state": "DONE"},
+      {"label": "Case protection", "state": "DONE"},
+      {"label": "Case recovery", "state": "DONE"},
+      {"label": "Update timing", "state": "NOW"},
+      {"label": "Connect and store", "state": "PENDING"},
+      {"label": "Make and check", "state": "PENDING"}
+    ],
+    "visible_fields": [
+      "destination",
+      "current",
+      "next",
+      "human_role",
+      "proof",
+      "recovery"
+    ],
+    "safety": [
+      "No credentials",
+      "No private data in source control",
+      "One active Case",
+      "No hidden retry",
+      "No build before approval",
+      "Keep the recoverable reference"
+    ]
+  },
+  "contract": {
+    "route_bounds": [5, 9],
+    "now_count": 1,
+    "visible_fields": [
+      "destination",
+      "current",
+      "next",
+      "human_role",
+      "proof",
+      "recovery"
+    ],
+    "max_safety_rules": 6
+  },
+  "expected_failure": "route_bounds",
+  "expected_behavior": "Five to nine milestones, one current step, and six essential orientation fields are visible without expansion.",
+  "prohibited_behavior": "The overview must not become a report or hide destination, current, next, ownership, proof, or recovery."
+}

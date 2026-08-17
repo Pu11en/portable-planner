@@ -1,0 +1,33 @@
+{
+  "id": "F-03",
+  "claim": "Blocked or losing work keeps its exact recovery visible",
+  "source": {
+    "state": "BLOCKED",
+    "blocked": "Candidate weakens protected approval behavior",
+    "winner": "beta 6",
+    "recovery": "Reject the candidate, restore beta 6, and preserve the failure"
+  },
+  "valid_view": {
+    "state": "BLOCKED",
+    "blocked": "Candidate weakens protected approval behavior",
+    "winner": "beta 6",
+    "recovery": "Reject the candidate, restore beta 6, and preserve the failure"
+  },
+  "malformed_view": {
+    "state": "BLOCKED",
+    "blocked": "Candidate weakens protected approval behavior",
+    "winner": "beta 6",
+    "recovery": "Continue toward release and revisit the failure later"
+  },
+  "contract": {
+    "equal": [
+      "state",
+      "blocked",
+      "winner",
+      "recovery"
+    ]
+  },
+  "expected_failure": "equal:recovery",
+  "expected_behavior": "The failed candidate and the recoverable winning reference remain obvious in the first read.",
+  "prohibited_behavior": "Visual polish must not turn a blocked or losing state into forward progress."
+}

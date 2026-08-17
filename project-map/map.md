@@ -12,6 +12,11 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - Automatically display the richest supported review surface when the agent can defend a coherent end-to-end plan. In Windows Codex Desktop backed by WSL, do not attempt file-backed inline HTML; use rendered Mermaid or native expandable Markdown, or a browser/Site when interaction is required.
 - Keep all implementation isolated in this repository; do not add MCP, a database, web app, cloud account, GitHub requirement, domain pack, or competing build workflow.
 - Human evidence must come from Drew's ordinary plans in fresh tasks. An implementation simulation or canned example cannot stand in for him.
+- Treat expert repositories and creator explanations as evidence, not product authority. Baseline the released behavior before making another instruction change.
+- Preserve Portable Planner as one original cross-domain protocol. Adapt small mechanisms from outside repositories only for named failures and only after materially different software and non-software evidence; do not vendor another planning framework.
+- Use Portable Planner as the adaptive default when project outcomes are still being shaped; keep narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds on their direct routes.
+- Mine existing Codex and ZCode sessions read-only before authoring tests. Keep raw transcripts private and untracked; publish only aggregates, redacted contracts, and minimum sanitized excerpts.
+- Inventory improvement problems before choosing solutions, then solve and prove one confirmed issue at a time. Treat Mermaid as a portability renderer, not evidence that a large plan is comprehensible.
 
 ## Decisions so far
 
@@ -23,12 +28,14 @@ A decision-complete, Drew-approved product behavior spec for Portable Planner fr
 - [Adaptive review gate](issues/01-decide-adaptive-review-gate.md) — the visual is always available, may be offered once as a useful draft, and opens automatically only when the complete route is defensible; approval, targeted revision, continued planning, and confusion each return to an explicit lifecycle path without a question-count threshold.
 - [Idea-stage possibility scan](issues/05-prove-idea-stage-possibility-scan.md) — a new no-idea or thin-idea software/AI start may opt into bounded repository-first discovery, but the result remains provisional and unproven until objective scenario checks and Drew's fresh-session use pass.
 - [Decisive planning flow](issues/06-prove-decisive-planning-flow.md) — explicit delegation removes reversible preference questions, repeated recommendation acceptance triggers an explicit delegation offer without granting authority, exhausted discussion becomes bounded evidence, direct approval starts normal execution, and validated work proactively asks Drew to test from refreshed state.
+- [Evidence-led improvement loop](issues/07-engineer-evidence-led-improvement-loop.md) — an evidence-backed problem inventory comes before solutions; I-01 now uses the recovered real in-session plan presentation as its positive control after standalone concept images failed, and each later issue receives its own minimum real evidence, correction, and regression proof before another prerelease.
 
 ## Not yet specified
 
 - Exact implementation corrections exposed by the first real plan and the first naturally complex real plan.
 - Exact corrections exposed by the idea-stage scenario matrix and Drew's first natural fresh-session scan.
-- Whether the beta-5 repairs fully resolve the decisive-flow failures in Drew's next fresh live test.
+- Whether the beta-6 repairs fully resolve the decisive-flow failures in Drew's next fresh live test.
+- Whether the approved evidence-led improvement route proves beta 6 preserved beta 5's shared behavior and then proves any candidate better than the winning reference without weakening protected or state-safety behavior.
 - Whether naturally complex use exposes a genuinely new planning behavior after the first real-use flow is clean.
 - The final wording Drew uses to judge speed, worthwhile questions, boundary clarity, usable plans, and executable handoff after both real-use proofs.
 
