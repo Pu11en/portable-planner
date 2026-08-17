@@ -25,6 +25,7 @@ How should Portable Planner improve after beta 6 so the hidden planning logic be
 - Drew selected Journey plus focus lens. Its next evidence is a four-case dynamic trial covering current multi-issue work, an early thin idea, a complex operational/creative route, and a losing-candidate recovery state.
 - Drew then kept the structure after seeing all four cases and requested polish. I-01 now has one faithful current-plan prototype with seven route milestones, one focal step, one compact lens, and one quiet issue rail.
 - Drew locked that structure with a third bare recommended selection. It is now applied read-only to GOMER's actual 144-line canonical plan and 242-line view; the human candidate decision exposes the exact delegation shortcut while preserving final authority.
+- Drew accepted the GOMER-tested result as the I-01 candidate with `A`, consuming rather than accepting the offered delegation shortcut. Six distinct failure claims now define the minimum objective proof and the candidate stays inside the existing visual contract/template/validation architecture.
 
 The full primary-source record and inference boundary are in [P-002 research evidence](../../planning/evidence/P-002-expert-engineering-evidence.md), and the exact proposed cases are in the [P-002 test inventory](../../planning/evidence/P-002-test-inventory.md).
 
@@ -33,7 +34,7 @@ The full primary-source record and inference boundary are in [P-002 research evi
 1. ✓ Use the adaptive default for unresolved project/product work and direct routes for narrow status/explanation, diagnosis-only work, and sufficiently specified approved builds.
 2. ✓ Verify the local Codex and ZCode stores and their documented access paths without changing source tasks.
 3. ✓ Create an initial evidence-backed improvement inventory before selecting solutions.
-4. ▶ I-01 requirements and pattern research are complete; preserve the rejected comparisons as failure evidence. Judge the locked candidate on GOMER's actual large plan, then define objective fidelity and regression proof before implementation.
+4. ▶ I-01 requirements, research, candidate selection, and actual-large-plan fidelity are complete. Define the smallest implementation and six-claim comparison route, obtain human plan judgment, then build away from `main` and keep only a proven winner.
 5. Repeat the same loop for each confirmed issue while preserving objectively passing behavior as regression constraints.
 6. Define one normative decision-kernel transition contract and lightweight objective validator inside the existing skill/reference architecture.
 7. Compare beta 6 and a candidate only at the minimum selected historical decision points; add repetition only for observed variance or protected high risk and restore the better recoverable reference after regression.

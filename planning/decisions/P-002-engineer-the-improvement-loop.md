@@ -43,6 +43,10 @@ After seeing all four cases, Drew selected the recommended `Keep this structure 
 
 Drew then selected bare `A. Lock this structure` on 2026-08-17, completing a three-response recommended-key streak. The locked grammar is now applied read-only to GOMER's actual 144-line canonical plan and 242-line current view. The next real reversible decision is whether that faithful large-plan output becomes the I-01 candidate or receives one targeted focus/route revision; its displayed choice set includes the option-`B` delegation shortcut without granting delegation automatically.
 
+Drew accepted the GOMER-tested output as the I-01 candidate with bare `A`. Because `B` was the offered delegation shortcut, choosing `A` consumed the shortcut, reset the streak, and granted no delegation. Six unique failure claims now define the minimum objective proof; there is no arbitrary run count. The smallest candidate remains inside the existing visual contract, template, and objective validation surface.
+
+The complete draft I-01 route is E-017 through E-020: freeze six sanitized claim-derived fixtures, implement only the accepted view contract/template/checks, run objective fidelity and beta-6 regression protection, then perform one fresh real-session acceptance with verified beta-6 restoration on failure. Passing I-01 creates a working improvement-branch candidate and returns to I-02; it does not publish a release by itself.
+
 ## Recommendation
 
 Preserve the selected evidence-led improvement direction and separate problem discovery from solution selection. Use the [improvement inventory](../evidence/P-002-improvement-issues.md) to keep current failures, unproven targets, repaired historical failures, and regression guards distinct. For each confirmed issue, use historical traces as the test-design source and run only the minimum prototype or decision-point replay needed to choose a correction.
@@ -61,8 +65,8 @@ None. Corpus indexing and redacted case discovery are agent-owned research actio
 
 ## Interaction state
 
-- Recommended-key streak: 3
-- Option-B shortcut: offered on the current large-plan candidate decision
+- Recommended-key streak: 0
+- Option-B shortcut: consumed; no delegation granted
 
 ## Evidence
 
@@ -84,6 +88,7 @@ None. Corpus indexing and redacted case discovery are agent-owned research actio
 - I-01's current baseline is the recovered in-session presentation, not a selected dashboard or renderer. Focus-first navigation, structured disclosure, and optional task-specific views remain research inputs until the real in-session candidate exposes a narrower need.
 - Three stable I-01 concept images remain as failed evidence. None was selected; their generated text drift and out-of-session presentation must not be mistaken for canonical state or human acceptance.
 - The in-session candidate must use real canonical state and show orientation, route, current/next, human gates, proof, and recovery together. A PNG, link-only handoff, generic UI screen, or Mermaid rendering by itself cannot satisfy I-01.
+- Journey plus focus lens is now the accepted I-01 candidate structure. Six claim-derived objective cases and Drew's later real-use judgment—not a fixed run count—decide whether it ships.
 - Compression may change hierarchy and initial visibility, but it may not delete or alter technical meaning. Every I-01 variant uses identical canonical plan state and is rejected if Drew must open the planning reports to recover essential context.
 - Requiring expansion for destination, current, next, route, gate, proof, or recovery is an I-01 failure. Aesthetics and hierarchy are judged as usability because a technically complete view that is visually unpleasant or hard to scan does not meet the product goal.
 - No run count may be selected before duplicate claims are collapsed and the minimum discriminating case set is visible. Repetition is justified only for observed model variance or a high-risk behavior that a single pass cannot distinguish.

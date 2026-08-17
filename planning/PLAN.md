@@ -45,6 +45,10 @@ Portable Planner reliably chooses the right next planning action with less user 
 - ✓ [E-008 — Implement the exact option-B delegation shortcut](execution/E-008-implement-exact-delegation-shortcut.md)
 - ✓ [E-009 — Validate and publish beta 6](execution/E-009-validate-publish-beta6.md)
 - ! [E-010 through E-016 — Draft improvement route](execution/E-010-lock-decision-kernel.md) — blocked by reopened P-002; former test counts are invalid
+- ○ [E-017 — Freeze the I-01 fidelity contract](execution/E-017-freeze-i01-fidelity-contract.md) — draft; depends on P-002 route review
+- ○ [E-018 — Implement the Journey plus focus lens candidate](execution/E-018-implement-focus-lens-candidate.md) — draft; depends on E-017
+- ○ [E-019 — Compare the I-01 candidate and protect beta 6](execution/E-019-compare-i01-candidate.md) — draft; depends on E-018
+- ○ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — draft; depends on E-019
 
 ## Approval
 
@@ -53,5 +57,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: HUMAN — Judge the locked Journey plus focus lens candidate applied faithfully to GOMER's actual large plan.
-- Next: Accept the I-01 candidate or make one targeted focus/route revision, then define objective fidelity and regression proof before implementation.
+- Current: HUMAN — Review the complete E-017 through E-020 I-01 implementation, comparison, restoration, and fresh-session acceptance route.
+- Next: Approve the I-01 route or identify one exact correction before any canonical skill change.

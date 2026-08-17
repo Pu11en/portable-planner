@@ -6,9 +6,9 @@
 
 **Success:** Improvement problems are listed before solutions; each problem is solved and proved separately; a large plan reveals destination, current position, next action, important gates, and relevant detail without forcing Drew through Mermaid or a report; and a worse version is never left installed.
 
-**Now:** Judge the locked Journey plus focus lens candidate on GOMER's actual large plan.
+**Now:** Review the complete four-step I-01 implementation and proof route.
 
-**Next:** Accept the I-01 candidate or make one targeted focus/route revision, then define objective proof before implementation.
+**Next:** Approve the route or identify one exact correction before the canonical skill changes.
 
 ```mermaid
 flowchart TB
@@ -16,15 +16,15 @@ flowchart TB
 
     subgraph R1["UNDERSTAND"]
         direction LR
-        E["01 · Evidence<br/>DONE"] --> I["02 · Nine issues<br/>DONE"] --> C["03 · Structure<br/>LOCKED"] --> P{{"04 · GOMER fidelity<br/>NOW"}}
+        E["01 · Evidence<br/>DONE"] --> I["02 · Nine issues<br/>DONE"] --> C["03 · Structure<br/>ACCEPTED"] --> P["04 · GOMER fidelity<br/>PASSED"]
     end
 
     subgraph R2["PROVE"]
         direction LR
-        B["05 · Objective fidelity"] --> H(["06 · HUMAN<br/>Real-plan judgment"]) --> W(["07 · Keep the winner"])
+        B["05 · Objective route<br/>DONE"] --> H(["06 · HUMAN<br/>Review route · NOW"]) --> W(["07 · Keep the winner"])
     end
 
-    L["FOCUS · ACTUAL LARGE-PLAN TEST<br/><br/>NEXT · Accept or target one fidelity revision<br/>HUMAN · Judge the GOMER first-read experience<br/>PROOF · Real goal, now, next, gate and recovery survive<br/>RECOVERY · GOMER and beta 6 remain untouched"]
+    L["FOCUS · E-017 → E-020<br/><br/>NEXT · Approve or target one correction<br/>HUMAN · Reviews the complete route before build<br/>PROOF · Six objective claims + one fresh real task<br/>RECOVERY · Failure restores beta 6 and stops I-02"]
 
     Q["ISSUE RAIL · NEXT I-02–04 · VERIFY I-05 & I-07 · PROTECT I-06 & I-08 · METHOD I-09"]
 
@@ -38,12 +38,12 @@ flowchart TB
     classDef protected stroke-width:3px,font-weight:700;
     classDef quiet stroke-width:1px,stroke-dasharray:4 3;
     class E,I,C done;
-    class P,L current;
+    class H,L current;
     class H,W protected;
     class Q quiet;
 ```
 
-**Text route:** DONE recover real-session evidence → DONE inventory nine issues → DONE lock Journey plus focus lens → NOW judge it on GOMER's actual large plan → define objective fidelity → HUMAN real-plan judgment → keep the winner
+**Text route:** DONE recover evidence → DONE accept Journey plus focus lens on GOMER → DONE define six claim-derived checks → NOW HUMAN review E-017 freeze fixtures → E-018 implement the smallest candidate → E-019 compare and protect beta 6 → E-020 fresh real-session judgment → keep the winner or restore beta 6
 
 ## Confirmed boundary and current decision
 
@@ -55,7 +55,7 @@ Example boundaries:
 
 The confirmed boundary is unresolved project/product work: planning activates when destination, scope, success, proof, or a meaningful human tradeoff is still being negotiated. Narrow facts, status, explanation, diagnosis-only work, and sufficiently specified builds remain direct.
 
-There is no current human-owned test-count or renderer decision. The [improvement inventory](evidence/P-002-improvement-issues.md) defines nine problems or regression constraints. [I-01 research](evidence/P-002-I-01-plan-comprehension.md) preserves the rejected variants, locked Journey plus focus lens structure, four-case directional pass, and read-only GOMER fidelity trial. Implementation waits for Drew's judgment of the actual large-plan output.
+There is no current human-owned test-count or renderer decision. The [improvement inventory](evidence/P-002-improvement-issues.md) defines nine problems or regression constraints. [I-01 research](evidence/P-002-I-01-plan-comprehension.md) preserves the accepted candidate, GOMER fidelity trial, six objective claims, and regression boundary. E-017 through E-020 are the complete draft route and no canonical skill change begins before human review.
 
 ## Plan-wide safety
 

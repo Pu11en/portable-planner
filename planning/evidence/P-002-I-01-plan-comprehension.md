@@ -200,7 +200,41 @@ flowchart TB
 
 Limitations: the portable Codex surface is static rather than clickable; the trial judges first-read comprehension and fidelity, not production interaction, final styling, GOMER correctness, or implementation authorization. GOMER's source files remain unchanged.
 
-Verdict: pending Drew's direct judgment. Because the recommended-key streak reached three, the real candidate decision offers the exact delegation shortcut as option `B` without inferring authority.
+Verdict: accepted by Drew as the I-01 candidate with bare `A` on 2026-08-17. The offered delegation shortcut was `B`; it was not selected. The shortcut is consumed and no delegation exists.
+
+## Minimum objective fidelity and regression proof
+
+The count follows from six distinct failure claims. Run one discriminating case per claim; add repetition only after observed output variance or a protected high-risk behavior makes one pass insufficient.
+
+| ID | Failure claim | Source or fixture | Required visible behavior | Prohibited behavior |
+|---|---|---|---|---|
+| F-01 | Compression changes canonical meaning | Current read-only GOMER plan | Destination, current P-018, recommendation, unresolved failure behavior, blocked P-010, human Karen gate, and critical safety boundaries agree with source | Inventing a confirmed update decision, hiding the blocked scope, or changing GOMER |
+| F-02 | The view becomes stale after state changes | A fixture whose current step advances once | Exactly one `NOW`; prior current becomes `DONE` or another canonical state; next action and focus lens advance together | Showing the old current step, conflicting current labels, or relying on chat memory |
+| F-03 | Blocked or failed work is beautified away | Losing-candidate recovery fixture | `BLOCKED` or failed state, exact recovery, and preserved winner are visible without expansion | Implying forward progress, shipping the loser, or hiding the recovery action |
+| F-04 | The visual steals or implies human authority | Awaiting-approval and planning fixtures | `HUMAN` gate is visible; lifecycle remains `planning` or `awaiting approval`; build begins only after explicit approval | Marking approved, delegated, or build-authorized from rendering alone |
+| F-05 | Shortness removes first-read comprehension | GOMER plus Portable Planner large-plan fixtures | Five to nine route milestones; exactly one focal current step; visible destination, next, human role, proof, recovery, and no more than six safety rules | Requiring a report, link, PNG, or expansion for basic orientation |
+| F-06 | Rich and portable surfaces disagree | The same fixture rendered as Mermaid and compact text | Ordered milestones, state, ownership, proof, and recovery are semantically identical | A renderer-only decision, missing text fallback, or a second source of truth |
+
+### Objective assertions
+
+1. Every displayed `DONE`, `NOW`, `BLOCKED`, `HUMAN`, destination, next action, proof, and recovery statement maps to canonical source text.
+2. The overview contains five to nine milestones in one dominant reading direction and exactly one focal current milestone.
+3. Destination, current state, exact next action, human ownership, proof, and recovery appear outside collapsed detail.
+4. The focus lens contains only current outcome, next action, human role, proof, and recovery; remaining issues stay subordinate.
+5. Mermaid and compact text routes preserve the same order and semantics.
+6. A material canonical-state change invalidates and regenerates the view before display or fresh-session resumption.
+7. Rendering never changes lifecycle, authority, canonical state, or build eligibility.
+
+### Regression boundary
+
+- Preserve beta 6's natural invocation, one-question flow, bare-key streak, exact option-`B` shortcut, approval, and fresh-resumption behavior.
+- Keep Markdown canonical state and generated `PLAN-VIEW.md`; add no second skill, state store, database, service, mandatory browser surface, PNG flow, or file-backed inline HTML dependency.
+- Retain a complete compact text route in every host and fall back immediately when rich presentation is unavailable.
+- Test the candidate away from `main`; a worse or inconclusive comparison leaves beta 6 installed and preserves the failure as evidence.
+
+## Candidate implementation boundary
+
+The smallest candidate changes only the existing visual presentation contract, plan-view template, and affected objective fixtures/checks. It may add a lightweight repository-local validator if static assertions cannot be expressed by existing checks. It does not implement a dashboard, web app, renderer, database, or second planning protocol.
 
 ## Comprehension jobs
 
@@ -290,4 +324,4 @@ All three stable PNG files remain preserved as failed evidence. They are not act
 
 ## Current bounded trial
 
-Show the locked prototype directly in the active session using the actual current GOMER plan. Drew judges whether to accept it as the I-01 candidate, delegate remaining reversible planning choices, revise the focus lens, or revise route/rail density. This remains planning evidence and does not authorize production implementation or modify GOMER.
+The locked prototype passed Drew's candidate-selection gate on the actual GOMER plan. Current work is to turn the six failure claims above into the smallest candidate implementation and objective comparison route; this remains planning and does not authorize implementation or modify GOMER.
