@@ -1,6 +1,6 @@
 # E-021 — Publish beta 7 for ordinary field use
 
-- Status: current — publication authorized
+- Status: complete 2026-08-17 — field evaluation active
 - Depends on: E-019
 
 ## Outcome
@@ -33,3 +33,10 @@ The objectively passing Journey plus focus-lens candidate ships as `0.1.0-beta.7
 ## If blocked or disproven
 
 - Keep beta 7 labeled public preview, preserve the first real failure, and restore beta 6 only if ordinary use demonstrates a material regression.
+
+## Result
+
+- PR #3 merged to `main`; `v0.1.0-beta.7` and its GitHub prerelease identify the reviewed field-candidate bytes.
+- Codex refreshed the public marketplace and installed `0.1.0-beta.7` at user scope.
+- ZCode's prior beta-4 user copy was replaced by the canonical beta-7 plugin; source, Codex, and ZCode skill bytes match.
+- Both global `AGENTS.md` files contain the same scoped default-planning rule. Beta 6 remains recoverable by immutable tag and verified local recovery copy.

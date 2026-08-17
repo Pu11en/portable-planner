@@ -49,7 +49,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 - ✓ [E-018 — Implement the Journey plus focus lens candidate](execution/E-018-implement-focus-lens-candidate.md)
 - ✓ [E-019 — Compare the I-01 candidate and protect beta 6](execution/E-019-compare-i01-candidate.md)
 - ~ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — superseded by Drew's field-use decision; not passed
-- ▶ [E-021 — Publish beta 7 for ordinary field use](execution/E-021-publish-beta7-field-candidate.md) — depends on E-019
+- ✓ [E-021 — Publish beta 7 for ordinary field use](execution/E-021-publish-beta7-field-candidate.md) — depends on E-019
 
 ## Approval
 
@@ -58,5 +58,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: AGENT — Publish and install the beta-7 field candidate in Codex and ZCode with adaptive default routing.
+- Current: FIELD — Beta 7 is installed with adaptive default routing in Codex and ZCode.
 - Next: HUMAN — Use both harnesses normally; later request a local session-history review so observed failures can drive the next improvement.

@@ -28,3 +28,10 @@ Drew explicitly authorized beta 7 without the coached E-020 conversation. Ordina
 ## Field proof route
 
 Codex and ZCode receive the same canonical plugin plus the same scoped global activation rule. Drew uses both normally. When he later requests review, raw histories remain local and only redacted, decision-relevant failure evidence may enter this public repository.
+
+## Publication result
+
+- PR #3 merged as `c51d0947c318d3595fc4e72f0c058784156d93a8`.
+- The annotated `v0.1.0-beta.7` tag resolves to that merge commit and the GitHub release is a prerelease.
+- Codex marketplace refresh and installation report `0.1.0-beta.7`.
+- ZCode installation reports `0.1.0-beta.7`; recursive comparisons confirm both installed plugin trees match the canonical release plugin.
