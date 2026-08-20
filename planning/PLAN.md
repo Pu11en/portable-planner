@@ -50,13 +50,18 @@ Portable Planner reliably chooses the right next planning action with less user 
 - ✓ [E-019 — Compare the I-01 candidate and protect beta 6](execution/E-019-compare-i01-candidate.md)
 - ~ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — superseded by Drew's field-use decision; not passed
 - ✓ [E-021 — Publish beta 7 for ordinary field use](execution/E-021-publish-beta7-field-candidate.md) — depends on E-019
+- ✓ [E-022 — Install beta 8 as a local field candidate](execution/E-022-install-beta8-local-candidate.md) — depends on confirmed I-10 evidence and candidate checks
+- ▶ [E-023 — Publish beta 8 for ordinary field use](execution/E-023-publish-beta8-field-candidate.md) — depends on E-022 and explicit publication authorization
 
 ## Approval
 
 - Prior beta-6 route: approved and released
 - Current improvement revision: beta 7 publication and uncoached Codex/ZCode field use explicitly authorized; production proof remains open
+- Current session: Drew selected the recommended prove-and-improve route on 2026-08-19. This authorizes one evidence-backed Portable Planner change and its validation if beta-7 attribution and a reproducible failure are established; unsupported changes remain prohibited.
+- Beta-8 disposition: Drew's immediate `yes` authorized the recommended local beta-8 version and Codex installation for ordinary field proof. It does not authorize commit, push, publication, tag, GitHub release, or other-harness installation.
+- Beta-8 publication: Drew then explicitly asked to push beta 8 as the new version used instead of beta 7. This authorizes the scoped commit, push, release PR/merge, `v0.1.0-beta.8` prerelease, public marketplace refresh, and public Codex installation. Production-proof claims and other-harness installs remain unauthorized.
 
 ## Now
 
-- Current: FIELD — Beta 7 is installed with adaptive default routing in Codex and ZCode.
-- Next: HUMAN — Use both harnesses normally; later request a local session-history review so observed failures can drive the next improvement.
+- Current: PUBLISH — Promote the validated beta-8 candidate through a reviewed public release and replace the local development install with the public beta-8 plugin.
+- Next: HUMAN PROOF — Use public beta 8 normally, then request the bounded audit after enough sessions to expose a useful pattern.

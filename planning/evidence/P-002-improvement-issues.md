@@ -95,12 +95,23 @@ Do not bundle an assumed solution into an issue statement. Do not treat an objec
 - Observable harm: time and tokens are spent on plausible-looking synthetic conversations that do not represent Drew's real usage, while regressions can still be missed.
 - Completion evidence: every implemented correction links to a real issue and real trace, objective invariant, minimum counterfactual proof where necessary, and fresh human judgment.
 
+### I-10 — A late planning mutation can bypass the final proof boundary
+
+- State: **Confirmed beta-7 problem; beta-8 correction is installed and objectively passes, field confirmation open.** One bounded field trace read the installed beta-7 skill, validated an initial planning write-through, applied a later substantive audit-driven correction, and handed off without validating the new final state.
+- Evidence: [Beta-7 final-state review](P-002-beta7-final-state-review.md). A second report candidate was rejected as a false positive because its custom final planning check was visible in the bounded raw trace.
+- Problem boundary: a passing check covers only the state that existed when it ran. Any later planning mutation invalidates that proof and must cause the cheapest relevant canonical reconciliation before handoff.
+- Observable harm: the agent can present a durable plan as ready to resume even though its final mutation has not been checked against the canonical map, view, next action, or referenced files.
+- Selected correction: a compact last-write/final-check invariant in the existing canonical skill and validation rubric. It requires final reconciliation/check after the most recent mutation for terminal planning transitions and explicitly exempts no-write replies. No dirty-state file, hook, service, second state tree, or project-specific planner script was added.
+- Objective evidence: [Final-write barrier candidate test](../../validation/FINAL-WRITE-BARRIER-TEST.md) rejects the beta-7 order in software and operational-event cases, accepts both repaired orders, preserves no-write and ordinary non-terminal behavior, and passes affected package regressions.
+- Completion evidence: after an authorized candidate installation, later ordinary field use confirms that the final relevant check follows the last planning mutation and that the added boundary is not burdensome.
+
 ## Initial order
 
 1. I-01 — plan comprehension and scalable presentation, because Drew confirmed it now and every later review depends on understanding the plan.
 2. I-02 and I-03 — conversation efficiency and correct activation, because they control whether the planner reaches a useful plan without friction.
 3. I-04 — idea-stage research usefulness, because it is a new unproven entry flow.
 4. I-05 through I-08 — verify repaired or objectively passing behaviors against real sessions and preserve them as regression constraints.
-5. I-09 applies throughout as the method for every issue rather than a separate product feature.
+5. I-10 — final-state proof ordering; its smallest candidate objectively passes, so only ordinary-use field confirmation remains before a release decision.
+6. I-09 applies throughout as the method for every issue rather than a separate product feature.
 
-This order is provisional only where later real-session evidence reveals a more damaging current failure. The next action is solution discovery for I-01, beginning with comprehension requirements and alternative information architectures rather than selecting a renderer.
+This order is provisional only where later real-session evidence reveals a more damaging current failure. The next action is ordinary-use field confirmation of the installed beta-8 candidate; make no additional behavior change until that evidence exists.
