@@ -65,6 +65,8 @@ After a targeted revision request, return to `planning`, reopen only the affecte
 
 Simulate a context reset: ignore chat memory, follow `NEXT.md`, load the named files, and verify that the current outcome and completion test are unambiguous. Compare the current ticket's unresolved decision with `PLAN.md` current/next, `PLAN-VIEW.md` now/next, and `NEXT.md` work/session/completion lines. They must name the same frontier, and none may describe the decision just settled. Fix the artifacts if the simulation requires guessing.
 
+The reconciliation and cheapest relevant final check cover a completion, final-review, testing/build transition, or handoff only when both occur after the most recent planning-file mutation. Any later planning-file mutation invalidates that proof; repeat it after the final mutation before replying. An informational or no-write reply does not create a new proof obligation.
+
 ## Before automatic task continuation
 
 All must pass:

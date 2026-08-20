@@ -10,37 +10,38 @@
 
 ```mermaid
 flowchart LR
-    M1["DONE · 1 · Recover evidence"]
-    M2["DONE · 2 · Inventory nine issues"]
-    M3["DONE · 3 · Select focus-lens route"]
-    M4["DONE · 4 · Freeze six claims"]
-    M5["DONE · 5 · Implement candidate"]
-    M6["DONE · 6 · Compare and protect"]
-    M7["DONE · 7 · Authorize field candidate"]
-    M8(["NOW · FIELD · 8 · Use normally"])
-    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8
+    M1["DONE · 1 · Define decisive behavior"]
+    M2["DONE · 2 · Ship beta 6"]
+    M3["DONE · 3 · Inventory real issues"]
+    M4["DONE · 4 · Select focus-lens route"]
+    M5["DONE · 5 · Ship beta 7 candidate"]
+    M6["DONE · FIELD · 6 · Gather ordinary use"]
+    M7["DONE · REVIEW · 7 · Attribute beta 7"]
+    M8["DONE · 8 · Repair one proven failure"]
+    M9(["NOW · PUBLISH + PROOF · 9 · Make beta 8 current"])
+    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8 --> M9
 
     classDef current stroke-width:3px,font-weight:700;
     classDef milestone stroke-width:2px;
     classDef proof stroke-width:3px,font-weight:700;
-    class M8 current;
-    class M1,M2,M3,M4,M5,M6,M7 milestone;
+    class M9 current,proof;
+    class M1,M2,M3,M4,M5,M6,M7,M8 milestone;
 ```
 
-**Text route:** DONE · 1 · Recover evidence → DONE · 2 · Inventory nine issues → DONE · 3 · Select focus-lens route → DONE · 4 · Freeze six claims → DONE · 5 · Implement candidate → DONE · 6 · Compare and protect → DONE · 7 · Authorize field candidate → NOW · FIELD · 8 · Use normally
+**Text route:** DONE · 1 · Define decisive behavior → DONE · 2 · Ship beta 6 → DONE · 3 · Inventory real issues → DONE · 4 · Select focus-lens route → DONE · 5 · Ship beta 7 candidate → DONE · FIELD · 6 · Gather ordinary use → DONE · REVIEW · 7 · Attribute beta 7 → DONE · 8 · Repair one proven failure → NOW · PUBLISH + PROOF · 9 · Make beta 8 current, then judge field behavior
 
 ## Focus lens
 
-- **Current outcome:** Beta 7 runs as the same default planning candidate in Codex and ZCode while real projects supply the missing human evidence.
-- **Next action:** Use either harness normally; no special prompt or manufactured test conversation is needed.
-- **Human role:** After enough ordinary use, ask for the local Codex and ZCode histories to be reviewed for recurring successes and failures.
-- **Proof:** Objective checks protect existing behavior now; later redacted real-session evidence decides whether the candidate improved comprehension and the broader flow.
-- **Recovery:** A material field regression restores the immutable beta-6 release; isolated failures reopen only the affected issue.
+- **Current outcome:** Beta 8 passed objective and local-install proof; Drew authorized it to replace beta 7 as the public current field candidate.
+- **Next action:** Merge, tag, prerelease, refresh the public marketplace, and verify beta 8 as the sole enabled public installation.
+- **Human role:** After publication, use Portable Planner normally and later request the bounded audit; no coached replay is required.
+- **Proof:** The real beta-7 trace establishes the defect. The post-beta-7 candidate rejects both software and event late-write orders, accepts the repaired orders, and leaves no-write and ordinary non-terminal replies alone.
+- **Recovery:** If field use still hands off after an unchecked late mutation or adds broad ceremony, restore the beta-7 wording and reopen I-10 from the new trace.
 
 ## Quiet rail
 
-- **Remaining:** ordinary field use · local history review · then I-02 through I-09 one issue at a time from observed evidence
-- **Guardrails:** Raw histories stay local · no arbitrary run count · no second state tree · no renderer or app · public preview is not production proof · beta 6 remains recoverable
+- **Remaining:** public release proof · public installation proof · ordinary-use traces · Drew's burden judgment
+- **Guardrails:** Raw histories stay local · report is not causality · no arbitrary run count · no second state tree · no unsupported change · public beta 7 remains recoverable
 
 ## Optional detail
 
@@ -55,4 +56,4 @@ flowchart LR
 
 </details>
 
-Details: [plan](PLAN.md) · [current ticket](execution/E-021-publish-beta7-field-candidate.md) · [objective evidence](../validation/I01-CANDIDATE-TEST.md)
+Details: [plan](PLAN.md) · [beta-8 publication](execution/E-023-publish-beta8-field-candidate.md) · [improvement inventory](evidence/P-002-improvement-issues.md)

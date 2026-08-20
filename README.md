@@ -4,7 +4,7 @@ Tell your AI to install it. Then plan naturally.
 
 > **Public preview:** Portable Planner is usable now, but Drew is still testing it on real plans. The planning flow and file format may change before v1.
 
-Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.7` public-preview field candidate adds a compact Journey plus focus-lens view for large plans while preserving beta 6's repository discovery, exact option-`B` delegation shortcut, protected approval gates, and normal-harness build transition. Objective checks pass; ordinary Codex and ZCode use is now the live evaluation, so the new view and the broader planning experience remain unproven until those real sessions are reviewed.
+Portable Planner turns no idea, a rough idea, or a defined project into a clear, durable plan with brief, worthwhile interaction. The `beta.8` public-preview field candidate preserves beta 7's Journey plus focus-lens view and adds a final-write barrier: a completion or handoff must be checked after the most recent planning mutation. Objective checks pass; beta 8 remains unproven until ordinary installed use confirms the boundary without adding noticeable ceremony.
 
 ## Project source of truth
 

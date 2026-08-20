@@ -1,0 +1,38 @@
+[
+  {
+    "id": "software-beta7-late-audit",
+    "domain": "software",
+    "events": ["planning_write", "reconcile", "check", "planning_write", "handoff"],
+    "expected": "reject"
+  },
+  {
+    "id": "event-late-audit",
+    "domain": "operational-event",
+    "events": ["planning_write", "reconcile", "check", "planning_write", "final_review"],
+    "expected": "reject"
+  },
+  {
+    "id": "software-repaired-order",
+    "domain": "software",
+    "events": ["planning_write", "reconcile", "check", "planning_write", "reconcile", "check", "handoff"],
+    "expected": "accept"
+  },
+  {
+    "id": "event-repaired-order",
+    "domain": "operational-event",
+    "events": ["planning_write", "reconcile", "check", "planning_write", "reconcile", "check", "final_review"],
+    "expected": "accept"
+  },
+  {
+    "id": "no-write-information-reply",
+    "domain": "personal-project",
+    "events": ["read", "reply"],
+    "expected": "accept"
+  },
+  {
+    "id": "ordinary-write-through-reply",
+    "domain": "creative-content",
+    "events": ["planning_write", "reconcile", "reply"],
+    "expected": "accept"
+  }
+]

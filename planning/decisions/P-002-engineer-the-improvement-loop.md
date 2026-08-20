@@ -65,14 +65,35 @@ Publication and user-scope installation of the objectively passing beta-7 field 
 
 ## Interaction state
 
-- Recommended-key streak: 0
-- Option-B shortcut: consumed; no delegation granted
+- Recommended-key streak: 1 — Drew selected the recommended prove-and-improve session route with bare `A` on 2026-08-19; the repeated `a` during tool work was the same answer and was not counted twice.
+- Option-B shortcut: not ready; no delegation granted
+
+## 2026-08-19 field-review decision
+
+Drew selected the recommended **Prove and improve** route after reviewing the Better Harness report. This session must first determine whether the report's bounded Hanoi sessions actually invoked Portable Planner beta 7 and whether the observed final-state handoff gap belongs to Portable Planner rather than Hanoi or generic agent behavior. If confirmed, the session may search GITBUTT for applicable mechanisms, implement the smallest justified change in the canonical skill, and run affected cross-domain regression proof. If attribution or reproduction fails, preserve the evidence boundary and make no behavior change.
+
+The Better Harness report is an investigation input, not causal proof. Its one retained finding is that two bounded planning paths reached handoff without a relevant check after the final planning change. The report explicitly does not establish that Portable Planner caused the gap.
+
+The bounded attribution pass then confirmed that both decisive paths used the installed beta-7 skill. One path was a Better Harness false positive because the raw trace contained a custom final planning-link check and canonical reread. The other is a confirmed beta-7 failure: an earlier check passed, a substantive audit-driven planning correction followed, and the agent handed off without revalidating the final state. [The sanitized failure contract](../evidence/P-002-beta7-final-state-review.md) now controls solution search and minimum replay design.
+
+## 2026-08-19 I-10 candidate result
+
+GITBUTT surfaced immutable ordered state, after-write checks, and durable workflow checkpoints. The selected adaptation keeps only the cross-domain invariant: for ticket completion, final review, handoff, or testing/build transition, reconciliation and the cheapest relevant check must follow the most recent planning-file mutation; a later mutation invalidates them. No hooks, controller, service, database, second state tree, or domain-specific rule were adopted.
+
+The canonical skill and validation rubric now express that boundary. Six software, non-software, and no-write trace cases pass, along with skill, plugin, manifest, I-01, and diff checks. At that point the candidate was objectively validated but not installed, published, or field-proven, so Drew's disposition decision remained necessary.
+
+Drew then replied `yes` to the explicit recommendation to version the candidate as beta 8 and install it locally for ordinary field testing before publication. This authorizes the local Codex marketplace and installation changes needed for that proof. Commit, push, public marketplace update, tag, release, and other-harness installation remain outside scope.
+
+E-022 completed that authorized transition. Codex now reports exactly one installed and enabled Portable Planner: `portable-planner@portable-planner-local` at `0.1.0-beta.8+codex.20260819234732`, sourced from this repository. Its cached bundle matches the source, the final-write barrier is present, and the public Git marketplace remains configured for rollback even though its duplicate beta-7 plugin installation was removed.
+
+Drew then asked to push beta 8 as the new version he will use instead of beta 7 until a later audit. That explicitly authorizes E-023's scoped commit, push, release PR and merge, annotated beta-8 tag, GitHub prerelease, public marketplace refresh, and replacement of the local development install with the public beta-8 install. Beta 7 remains immutable rollback evidence; publication still does not make beta 8 production-proven.
 
 ## Evidence
 
 - [Current repository and Channel Brains evidence](../evidence/P-002-expert-engineering-evidence.md)
 - [Historical Codex and ZCode corpus inventory](../evidence/P-002-test-inventory.md)
 - [Portable Planner improvement inventory](../evidence/P-002-improvement-issues.md)
+- [Beta-7 final-state review](../evidence/P-002-beta7-final-state-review.md)
 - [I-01 large-plan comprehension alternatives](../evidence/P-002-I-01-plan-comprehension.md)
 - [Earlier fixed-commit expert-skill pass](../../research/PORTABLE-PLANNER-EXPERT-SKILLS.md)
 - [Beta-6 objective evidence](../../validation/BETA6-RELEASE-CANDIDATE-TEST.md)
