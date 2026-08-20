@@ -1,8 +1,8 @@
 # Next
 
 Plan: `/home/drewp/main-projects/portable-planner/planning/`
-State: `planning — beta 8 publication authorized`
-Work: **E-023 — Publish beta 8 for ordinary field use**
-Read: `PLAN.md`, `execution/E-023-publish-beta8-field-candidate.md`, `../validation/FINAL-WRITE-BARRIER-TEST.md`, and `execution/E-022-install-beta8-local-candidate.md`.
-Outcome: Merge and prerelease the validated beta-8 candidate, install it from the public marketplace as the sole enabled Portable Planner, and preserve beta 7 for rollback.
-Done when: E-023's objective proof passes and canonical state points to uncoached public-beta-8 field use.
+State: `planning — public beta 8 installed; ordinary field proof open`
+Work: **HUMAN — Use beta 8 normally in fresh Codex tasks**
+Read: `PLAN.md`, `execution/E-023-publish-beta8-field-candidate.md`, and `evidence/P-002-beta7-final-state-review.md` only when reviewing this improvement.
+Outcome: Ordinary planning sessions reveal whether beta 8 checks terminal state after naturally occurring late planning mutations without burdening no-write or non-terminal turns.
+Done when: after enough normal use to expose a useful pattern, Drew requests a bounded local-history audit and records both correctness and burden judgments. No special test prompt is required.

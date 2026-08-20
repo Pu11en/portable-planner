@@ -1,6 +1,6 @@
 # E-023 — Publish beta 8 for ordinary field use
 
-- Status: current
+- Status: complete
 - Depends on: E-022 and explicit publication authorization
 
 ## Outcome
@@ -35,3 +35,13 @@ If PR, merge, tag, release, refresh, or installation fails, stop at the last ver
 ## Human review
 
 Use beta 8 normally in fresh Codex tasks. After enough natural use to expose a qualifying late-mutation path, request the same bounded local-history audit and judge both correctness and added burden.
+
+## Result
+
+- [PR #4](https://github.com/Pu11en/portable-planner/pull/4) merged to `main` as `6d2f37c46386b82cfdcd5e28bb7802b47cfeb19e`.
+- Annotated tag `v0.1.0-beta.8` resolves to that merge commit.
+- [Portable Planner 0.1.0-beta.8](https://github.com/Pu11en/portable-planner/releases/tag/v0.1.0-beta.8) is a published GitHub prerelease.
+- The public Codex marketplace refreshed without errors and installed `portable-planner@portable-planner` at `0.1.0-beta.8`.
+- The public snapshot and installed cache match the merged canonical plugin, and the installed skill contains the final-write barrier.
+- Codex reports exactly one enabled Portable Planner from the public Git marketplace. The temporary local development marketplace was removed.
+- `v0.1.0-beta.7` remains available and unchanged for rollback.

@@ -88,6 +88,8 @@ E-022 completed that authorized transition. Codex now reports exactly one instal
 
 Drew then asked to push beta 8 as the new version he will use instead of beta 7 until a later audit. That explicitly authorizes E-023's scoped commit, push, release PR and merge, annotated beta-8 tag, GitHub prerelease, public marketplace refresh, and replacement of the local development install with the public beta-8 install. Beta 7 remains immutable rollback evidence; publication still does not make beta 8 production-proven.
 
+E-023 completed through [PR #4](https://github.com/Pu11en/portable-planner/pull/4). Merge `6d2f37c46386b82cfdcd5e28bb7802b47cfeb19e`, annotated tag `v0.1.0-beta.8`, and the public prerelease identify the same candidate. Codex refreshed the public Git marketplace and now reports exactly one enabled Portable Planner at `0.1.0-beta.8`; its snapshot and installed cache match the merged source. The temporary local marketplace was removed, while beta 7 remains unchanged for rollback.
+
 ## Evidence
 
 - [Current repository and Channel Brains evidence](../evidence/P-002-expert-engineering-evidence.md)

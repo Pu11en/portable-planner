@@ -18,7 +18,7 @@ flowchart LR
     M6["DONE · FIELD · 6 · Gather ordinary use"]
     M7["DONE · REVIEW · 7 · Attribute beta 7"]
     M8["DONE · 8 · Repair one proven failure"]
-    M9(["NOW · PUBLISH + PROOF · 9 · Make beta 8 current"])
+    M9(["NOW · HUMAN · PROOF · 9 · Use beta 8 normally"])
     M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8 --> M9
 
     classDef current stroke-width:3px,font-weight:700;
@@ -28,19 +28,19 @@ flowchart LR
     class M1,M2,M3,M4,M5,M6,M7,M8 milestone;
 ```
 
-**Text route:** DONE · 1 · Define decisive behavior → DONE · 2 · Ship beta 6 → DONE · 3 · Inventory real issues → DONE · 4 · Select focus-lens route → DONE · 5 · Ship beta 7 candidate → DONE · FIELD · 6 · Gather ordinary use → DONE · REVIEW · 7 · Attribute beta 7 → DONE · 8 · Repair one proven failure → NOW · PUBLISH + PROOF · 9 · Make beta 8 current, then judge field behavior
+**Text route:** DONE · 1 · Define decisive behavior → DONE · 2 · Ship beta 6 → DONE · 3 · Inventory real issues → DONE · 4 · Select focus-lens route → DONE · 5 · Ship beta 7 candidate → DONE · FIELD · 6 · Gather ordinary use → DONE · REVIEW · 7 · Attribute beta 7 → DONE · 8 · Repair one proven failure → NOW · HUMAN · PROOF · 9 · Use public beta 8 normally, then judge field behavior
 
 ## Focus lens
 
-- **Current outcome:** Beta 8 passed objective and local-install proof; Drew authorized it to replace beta 7 as the public current field candidate.
-- **Next action:** Merge, tag, prerelease, refresh the public marketplace, and verify beta 8 as the sole enabled public installation.
-- **Human role:** After publication, use Portable Planner normally and later request the bounded audit; no coached replay is required.
+- **Current outcome:** Beta 8 is merged, tagged, published as a prerelease, and installed as the sole enabled Portable Planner from the public marketplace.
+- **Next action:** Use Portable Planner normally in fresh tasks; after enough sessions expose a useful pattern, request the bounded audit.
+- **Human role:** Judge the first qualifying late-mutation behavior and whether the final-write barrier adds noticeable burden; no coached replay is required.
 - **Proof:** The real beta-7 trace establishes the defect. The post-beta-7 candidate rejects both software and event late-write orders, accepts the repaired orders, and leaves no-write and ordinary non-terminal replies alone.
 - **Recovery:** If field use still hands off after an unchecked late mutation or adds broad ceremony, restore the beta-7 wording and reopen I-10 from the new trace.
 
 ## Quiet rail
 
-- **Remaining:** public release proof · public installation proof · ordinary-use traces · Drew's burden judgment
+- **Remaining:** ordinary-use traces · bounded audit · Drew's correctness and burden judgments
 - **Guardrails:** Raw histories stay local · report is not causality · no arbitrary run count · no second state tree · no unsupported change · public beta 7 remains recoverable
 
 ## Optional detail

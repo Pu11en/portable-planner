@@ -51,7 +51,7 @@ Portable Planner reliably chooses the right next planning action with less user 
 - ~ [E-020 — Run the I-01 fresh-session acceptance](execution/E-020-run-i01-human-acceptance.md) — superseded by Drew's field-use decision; not passed
 - ✓ [E-021 — Publish beta 7 for ordinary field use](execution/E-021-publish-beta7-field-candidate.md) — depends on E-019
 - ✓ [E-022 — Install beta 8 as a local field candidate](execution/E-022-install-beta8-local-candidate.md) — depends on confirmed I-10 evidence and candidate checks
-- ▶ [E-023 — Publish beta 8 for ordinary field use](execution/E-023-publish-beta8-field-candidate.md) — depends on E-022 and explicit publication authorization
+- ✓ [E-023 — Publish beta 8 for ordinary field use](execution/E-023-publish-beta8-field-candidate.md) — depends on E-022 and explicit publication authorization
 
 ## Approval
 
@@ -63,5 +63,5 @@ Portable Planner reliably chooses the right next planning action with less user 
 
 ## Now
 
-- Current: PUBLISH — Promote the validated beta-8 candidate through a reviewed public release and replace the local development install with the public beta-8 plugin.
-- Next: HUMAN PROOF — Use public beta 8 normally, then request the bounded audit after enough sessions to expose a useful pattern.
+- Current: FIELD — Public beta 8 is merged, prereleased, and installed as the sole enabled Portable Planner; beta 7 remains recoverable.
+- Next: HUMAN PROOF — Use beta 8 normally, then request the bounded audit after enough sessions to expose a useful pattern.
